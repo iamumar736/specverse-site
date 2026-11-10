@@ -1,9 +1,10 @@
 {
-  "lastChecked": "2026-11-10T22:49:12.306Z",
-  "deviceCount": 7211,
+  "lastChecked": "2026-11-10T22:49:42.385Z",
+  "deviceCount": 6795,
   "discoveredCount": 0,
   "feedConfigured": false,
   "importedCount": 6622,
-  "brandCount": 47,
+  "curatedLegacyCount": 54,
+  "brandCount": 50,
   "providers": []
 }
