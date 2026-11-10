@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-10T22:46:13.358Z",
-  "deviceCount": 7177,
+  "checkedAt": "2026-11-10T22:49:12.441Z",
+  "deviceCount": 7211,
   "errors": [],
   "warnings": [
     "Model has no specifications google-pixel-11-pro-fold",
@@ -104,5 +104,5 @@
     "Model has no specifications open-gionee-a1",
     "Model has no specifications open-lava-a1"
   ],
-  "warningCount": 6742
+  "warningCount": 6776
 }

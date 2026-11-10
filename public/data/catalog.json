@@ -8725,6 +8725,26 @@
     "models": "micromax a110"
   },
   {
+    "id": "open-micromax-a111",
+    "brand": "Micromax",
+    "name": "A111",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "a111"
+  },
+  {
+    "id": "open-micromax-a116",
+    "brand": "Micromax",
+    "name": "A116",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "a116"
+  },
+  {
     "id": "open-oppo-a11f",
     "brand": "OPPO",
     "name": "A11f",
@@ -23635,6 +23655,16 @@
     "models": "f100s"
   },
   {
+    "id": "open-gionee-f103",
+    "brand": "Gionee",
+    "name": "F103",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "f103"
+  },
+  {
     "id": "open-gionee-f103-pro",
     "brand": "Gionee",
     "name": "F103 Pro",
@@ -23823,6 +23853,26 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "tecno f2lte"
+  },
+  {
+    "id": "open-gionee-f301",
+    "brand": "Gionee",
+    "name": "F301",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "f301"
+  },
+  {
+    "id": "open-gionee-f303",
+    "brand": "Gionee",
+    "name": "F303",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "f303"
   },
   {
     "id": "open-oppo-f31-pro-5g",
@@ -41682,6 +41732,16 @@
     "models": "n10_eea"
   },
   {
+    "id": "open-doogee-n100",
+    "brand": "Doogee",
+    "name": "N100",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "n100"
+  },
+  {
     "id": "open-oppo-n1t",
     "brand": "OPPO",
     "name": "N1T",
@@ -41942,6 +42002,26 @@
     "models": "zte-u n720, zte_u n720"
   },
   {
+    "id": "open-zte-n721",
+    "brand": "ZTE",
+    "name": "N721",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "n721"
+  },
+  {
+    "id": "open-zte-n762",
+    "brand": "ZTE",
+    "name": "N762",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "n762"
+  },
+  {
     "id": "open-zte-n765-apt",
     "brand": "ZTE",
     "name": "N765_APT",
@@ -41992,6 +42072,16 @@
     "models": "n799d, zte n799d"
   },
   {
+    "id": "open-zte-n800",
+    "brand": "ZTE",
+    "name": "N800",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "n800"
+  },
+  {
     "id": "open-zte-n8000-usa-cricket",
     "brand": "ZTE",
     "name": "N8000_USA_Cricket",
@@ -42032,6 +42122,26 @@
     "models": "n8010_apt"
   },
   {
+    "id": "open-zte-n810",
+    "brand": "ZTE",
+    "name": "N810",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "n810"
+  },
+  {
+    "id": "open-zte-n817",
+    "brand": "ZTE",
+    "name": "N817",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "n817"
+  },
+  {
     "id": "open-zte-n818",
     "brand": "ZTE",
     "name": "N818",
@@ -42050,6 +42160,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "n8300_reliance"
+  },
+  {
+    "id": "open-zte-n850",
+    "brand": "ZTE",
+    "name": "N850",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "n850"
   },
   {
     "id": "open-zte-n850l",
@@ -42090,6 +42210,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "warp"
+  },
+  {
+    "id": "open-zte-n861",
+    "brand": "ZTE",
+    "name": "N861",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "n861"
   },
   {
     "id": "open-zte-n880g",
@@ -46462,6 +46592,16 @@
     "models": "eml-al00, eml-l09, eml-l29, eml-tl00"
   },
   {
+    "id": "open-micromax-p275",
+    "brand": "Micromax",
+    "name": "P275",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "p275"
+  },
+  {
     "id": "open-gionee-p2m",
     "brand": "Gionee",
     "name": "P2M",
@@ -46500,6 +46640,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "hw-02l, vog-al00, vog-al10, vog-l04, vog-l09, vog-l29"
+  },
+  {
+    "id": "open-micromax-p300",
+    "brand": "Micromax",
+    "name": "P300",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "p300"
   },
   {
     "id": "open-itel-p31",
@@ -49292,6 +49442,16 @@
     "models": "r809t"
   },
   {
+    "id": "open-oppo-r815",
+    "brand": "OPPO",
+    "name": "R815",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "r815"
+  },
+  {
     "id": "open-oppo-r815t",
     "brand": "OPPO",
     "name": "R815T",
@@ -49312,6 +49472,16 @@
     "models": "r815w"
   },
   {
+    "id": "open-oppo-r819",
+    "brand": "OPPO",
+    "name": "R819",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "r819"
+  },
+  {
     "id": "open-oppo-r819t",
     "brand": "OPPO",
     "name": "R819T",
@@ -49320,6 +49490,26 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "r819t"
+  },
+  {
+    "id": "open-oppo-r820",
+    "brand": "OPPO",
+    "name": "R820",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "r820"
+  },
+  {
+    "id": "open-oppo-r821",
+    "brand": "OPPO",
+    "name": "R821",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "r821"
   },
   {
     "id": "open-oppo-r821t",
@@ -49342,6 +49532,16 @@
     "models": "r823t"
   },
   {
+    "id": "open-oppo-r827",
+    "brand": "OPPO",
+    "name": "R827",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "r827"
+  },
+  {
     "id": "open-oppo-r827t",
     "brand": "OPPO",
     "name": "R827T",
@@ -49352,6 +49552,16 @@
     "models": "r827t"
   },
   {
+    "id": "open-oppo-r829",
+    "brand": "OPPO",
+    "name": "R829",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "r829"
+  },
+  {
     "id": "open-oppo-r829t",
     "brand": "OPPO",
     "name": "R829T",
@@ -49360,6 +49570,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "r829t"
+  },
+  {
+    "id": "open-oppo-r830",
+    "brand": "OPPO",
+    "name": "R830",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "r830"
   },
   {
     "id": "open-oppo-r830s",
@@ -49420,6 +49640,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "r833t"
+  },
+  {
+    "id": "open-oppo-r850",
+    "brand": "OPPO",
+    "name": "R850",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "r850"
   },
   {
     "id": "open-oppo-r9",
@@ -53422,6 +53652,16 @@
     "models": "s10_pro"
   },
   {
+    "id": "open-doogee-s100",
+    "brand": "Doogee",
+    "name": "S100",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "s100"
+  },
+  {
     "id": "open-doogee-s100pro",
     "brand": "Doogee",
     "name": "S100Pro",
@@ -53610,6 +53850,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "wp28"
+  },
+  {
+    "id": "open-doogee-s119",
+    "brand": "Doogee",
+    "name": "S119",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "s119"
   },
   {
     "id": "open-doogee-s119-pro",
@@ -53810,6 +54060,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "v2430a"
+  },
+  {
+    "id": "open-doogee-s200",
+    "brand": "Doogee",
+    "name": "S200",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "s200"
   },
   {
     "id": "open-doogee-s200-e",
@@ -59442,6 +59702,16 @@
     "models": "u7 plus"
   },
   {
+    "id": "open-oppo-u707",
+    "brand": "OPPO",
+    "name": "U707",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "u707"
+  },
+  {
     "id": "open-oppo-u707t",
     "brand": "OPPO",
     "name": "U707T",
@@ -59450,6 +59720,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "u707t"
+  },
+  {
+    "id": "open-oppo-u708",
+    "brand": "OPPO",
+    "name": "U708",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "u708"
   },
   {
     "id": "open-doogee-u8",
@@ -62002,6 +62282,16 @@
     "models": "v865m"
   },
   {
+    "id": "open-zte-v871",
+    "brand": "ZTE",
+    "name": "V871",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "v871"
+  },
+  {
     "id": "open-zte-v879",
     "brand": "ZTE",
     "name": "V879",
@@ -62010,6 +62300,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "zte v879"
+  },
+  {
+    "id": "open-zte-v880",
+    "brand": "ZTE",
+    "name": "V880",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "v880"
   },
   {
     "id": "open-zte-v880g",
@@ -62100,6 +62400,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "vivo 1851"
+  },
+  {
+    "id": "open-zte-v961",
+    "brand": "ZTE",
+    "name": "V961",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "v961"
   },
   {
     "id": "open-zte-v965",
@@ -63532,6 +63842,16 @@
     "models": "w900s"
   },
   {
+    "id": "open-gionee-w909",
+    "brand": "Gionee",
+    "name": "W909",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "w909"
+  },
+  {
     "id": "open-gionee-w919",
     "brand": "Gionee",
     "name": "W919",
@@ -64730,6 +65050,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "e10i"
+  },
+  {
+    "id": "open-cubot-x100",
+    "brand": "Cubot",
+    "name": "X100",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "x100"
   },
   {
     "id": "open-vivo-x100",
@@ -70060,6 +70390,16 @@
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "open-data-identity-category-inferred",
     "models": "z10"
+  },
+  {
+    "id": "open-lava-z100",
+    "brand": "Lava",
+    "name": "Z100",
+    "sourceName": "DeviceFarmer open device database / Google Play identifiers",
+    "sourceUrl": "https://github.com/DeviceFarmer/stf-device-db",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataQuality": "open-data-identity-category-inferred",
+    "models": "z100"
   },
   {
     "id": "open-lava-z1s",
