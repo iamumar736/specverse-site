@@ -1,6 +1,7 @@
 import React,{useMemo,useState} from 'react';
 import {Search,Smartphone} from 'lucide-react';
 import {comparePhones,searchScore} from './catalog-order.js';
+import {getPhoneImage,getPhoneRemoteFallback} from './iphone-images.js';
 
 export default function HeaderPhoneSearch({query,onQuery,catalog=[],prices={},onSelect,onSubmit}){
   const [focused,setFocused]=useState(false);
@@ -31,7 +32,7 @@ export default function HeaderPhoneSearch({query,onQuery,catalog=[],prices={},on
       {matches.length?matches.map((p,i)=><button type="button" role="option" aria-selected={active===i}
         id={'header-phone-option-'+i} className={'top-search-result '+(active===i?'highlight':'')}
         key={p.id} onMouseDown={e=>e.preventDefault()} onClick={()=>pick(p)}>
-        <span className="top-search-thumb">{p.image?<img src={p.image} alt="" loading="lazy" onError={e=>{e.currentTarget.style.display='none'}}/>:<Smartphone size={20}/>}</span>
+        <span className="top-search-thumb">{getPhoneImage(p)?<img src={getPhoneImage(p)} alt="" loading="lazy" onError={e=>{const fallback=getPhoneRemoteFallback(p);if(fallback&&!e.currentTarget.dataset.fallback){e.currentTarget.dataset.fallback='1';e.currentTarget.src=fallback}else{e.currentTarget.style.display='none'}}}/>:<Smartphone size={20}/>}</span>
         <span className="top-search-info"><strong>{p.name}</strong><small>{p.brand}{p.year?' · '+p.year:''}</small></span>
       </button>):<div className="top-search-empty">No matching phones found</div>}
       {matches.length>0&&<div className="top-search-tip">Press Enter for all results</div>}
