@@ -945,5 +945,1272 @@
     "sim": "Mini-SIM",
     "verifiedAt": "2026-11-11",
     "models": "A1203"
+  },
+  {
+    "id": "samsung-galaxy-s",
+    "brand": "Samsung",
+    "name": "Galaxy S",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s-ii",
+    "brand": "Samsung",
+    "name": "Galaxy S II",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s-iii",
+    "brand": "Samsung",
+    "name": "Galaxy S III",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s4",
+    "brand": "Samsung",
+    "name": "Galaxy S4",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s5",
+    "brand": "Samsung",
+    "name": "Galaxy S5",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s6",
+    "brand": "Samsung",
+    "name": "Galaxy S6",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s6-edge",
+    "brand": "Samsung",
+    "name": "Galaxy S6 edge",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s7",
+    "brand": "Samsung",
+    "name": "Galaxy S7",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s7-edge",
+    "brand": "Samsung",
+    "name": "Galaxy S7 edge",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s8",
+    "brand": "Samsung",
+    "name": "Galaxy S8",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s9",
+    "brand": "Samsung",
+    "name": "Galaxy S9",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s10e",
+    "brand": "Samsung",
+    "name": "Galaxy S10e",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s10",
+    "brand": "Samsung",
+    "name": "Galaxy S10",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s10-5g",
+    "brand": "Samsung",
+    "name": "Galaxy S10 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s10-lite",
+    "brand": "Samsung",
+    "name": "Galaxy S10 Lite",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s20",
+    "brand": "Samsung",
+    "name": "Galaxy S20",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s20-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S20 Ultra",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s20-fe",
+    "brand": "Samsung",
+    "name": "Galaxy S20 FE",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s21",
+    "brand": "Samsung",
+    "name": "Galaxy S21",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s21-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S21 Ultra",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s21-fe",
+    "brand": "Samsung",
+    "name": "Galaxy S21 FE",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s22",
+    "brand": "Samsung",
+    "name": "Galaxy S22",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s22-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S22 Ultra",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s23",
+    "brand": "Samsung",
+    "name": "Galaxy S23",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s23-fe",
+    "brand": "Samsung",
+    "name": "Galaxy S23 FE",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s24",
+    "brand": "Samsung",
+    "name": "Galaxy S24",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s24-fe",
+    "brand": "Samsung",
+    "name": "Galaxy S24 FE",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s25",
+    "brand": "Samsung",
+    "name": "Galaxy S25",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s25-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S25 Ultra",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s25-edge",
+    "brand": "Samsung",
+    "name": "Galaxy S25 Edge",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-s25-fe",
+    "brand": "Samsung",
+    "name": "Galaxy S25 FE",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note",
+    "brand": "Samsung",
+    "name": "Galaxy Note",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note-ii",
+    "brand": "Samsung",
+    "name": "Galaxy Note II",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note-3",
+    "brand": "Samsung",
+    "name": "Galaxy Note 3",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note-4",
+    "brand": "Samsung",
+    "name": "Galaxy Note 4",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note-edge",
+    "brand": "Samsung",
+    "name": "Galaxy Note Edge",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note5",
+    "brand": "Samsung",
+    "name": "Galaxy Note5",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note7",
+    "brand": "Samsung",
+    "name": "Galaxy Note7",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note8",
+    "brand": "Samsung",
+    "name": "Galaxy Note8",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note9",
+    "brand": "Samsung",
+    "name": "Galaxy Note9",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note10",
+    "brand": "Samsung",
+    "name": "Galaxy Note10",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note10-lite",
+    "brand": "Samsung",
+    "name": "Galaxy Note10 Lite",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note20",
+    "brand": "Samsung",
+    "name": "Galaxy Note20",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-note20-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy Note20 Ultra",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-fold",
+    "brand": "Samsung",
+    "name": "Galaxy Fold",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-flip",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-fold2",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold2",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-flip-5g",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-fold3",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold3",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-flip3",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip3",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-fold4",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold4",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-flip4",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip4",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-fold5",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold5",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-flip5",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip5",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-fold6",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold6",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-flip6",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip6",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-fold7",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold7",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-flip7",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip7",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-z-flip7-fe",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip7 FE",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a3-2015",
+    "brand": "Samsung",
+    "name": "Galaxy A3 (2015)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a5-2015",
+    "brand": "Samsung",
+    "name": "Galaxy A5 (2015)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a7-2015",
+    "brand": "Samsung",
+    "name": "Galaxy A7 (2015)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a3-2016",
+    "brand": "Samsung",
+    "name": "Galaxy A3 (2016)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a5-2016",
+    "brand": "Samsung",
+    "name": "Galaxy A5 (2016)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a7-2016",
+    "brand": "Samsung",
+    "name": "Galaxy A7 (2016)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a3-2017",
+    "brand": "Samsung",
+    "name": "Galaxy A3 (2017)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a5-2017",
+    "brand": "Samsung",
+    "name": "Galaxy A5 (2017)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a7-2017",
+    "brand": "Samsung",
+    "name": "Galaxy A7 (2017)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a8-2018",
+    "brand": "Samsung",
+    "name": "Galaxy A8 (2018)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a6",
+    "brand": "Samsung",
+    "name": "Galaxy A6",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a7-2018",
+    "brand": "Samsung",
+    "name": "Galaxy A7 (2018)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a9-2018",
+    "brand": "Samsung",
+    "name": "Galaxy A9 (2018)",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a10",
+    "brand": "Samsung",
+    "name": "Galaxy A10",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a10s",
+    "brand": "Samsung",
+    "name": "Galaxy A10s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a20",
+    "brand": "Samsung",
+    "name": "Galaxy A20",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a20e",
+    "brand": "Samsung",
+    "name": "Galaxy A20e",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a20s",
+    "brand": "Samsung",
+    "name": "Galaxy A20s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a30",
+    "brand": "Samsung",
+    "name": "Galaxy A30",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a30s",
+    "brand": "Samsung",
+    "name": "Galaxy A30s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a40",
+    "brand": "Samsung",
+    "name": "Galaxy A40",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a50",
+    "brand": "Samsung",
+    "name": "Galaxy A50",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a50s",
+    "brand": "Samsung",
+    "name": "Galaxy A50s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a60",
+    "brand": "Samsung",
+    "name": "Galaxy A60",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a70",
+    "brand": "Samsung",
+    "name": "Galaxy A70",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a70s",
+    "brand": "Samsung",
+    "name": "Galaxy A70s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a80",
+    "brand": "Samsung",
+    "name": "Galaxy A80",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a90-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A90 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a01",
+    "brand": "Samsung",
+    "name": "Galaxy A01",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a11",
+    "brand": "Samsung",
+    "name": "Galaxy A11",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a21s",
+    "brand": "Samsung",
+    "name": "Galaxy A21s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a31",
+    "brand": "Samsung",
+    "name": "Galaxy A31",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a41",
+    "brand": "Samsung",
+    "name": "Galaxy A41",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a51",
+    "brand": "Samsung",
+    "name": "Galaxy A51",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a51-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A51 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a71",
+    "brand": "Samsung",
+    "name": "Galaxy A71",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a71-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A71 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a02",
+    "brand": "Samsung",
+    "name": "Galaxy A02",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a02s",
+    "brand": "Samsung",
+    "name": "Galaxy A02s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a12",
+    "brand": "Samsung",
+    "name": "Galaxy A12",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a22",
+    "brand": "Samsung",
+    "name": "Galaxy A22",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a22-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A22 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a32",
+    "brand": "Samsung",
+    "name": "Galaxy A32",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a32-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A32 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a42-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A42 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a52",
+    "brand": "Samsung",
+    "name": "Galaxy A52",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a52-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A52 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a52s-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A52s 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a72",
+    "brand": "Samsung",
+    "name": "Galaxy A72",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a03",
+    "brand": "Samsung",
+    "name": "Galaxy A03",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a03s",
+    "brand": "Samsung",
+    "name": "Galaxy A03s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a13",
+    "brand": "Samsung",
+    "name": "Galaxy A13",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a13-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A13 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a23",
+    "brand": "Samsung",
+    "name": "Galaxy A23",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a23-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A23 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a33-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A33 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a53-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A53 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a73-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A73 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a04",
+    "brand": "Samsung",
+    "name": "Galaxy A04",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a04e",
+    "brand": "Samsung",
+    "name": "Galaxy A04e",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a04s",
+    "brand": "Samsung",
+    "name": "Galaxy A04s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a14",
+    "brand": "Samsung",
+    "name": "Galaxy A14",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a14-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A14 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a24",
+    "brand": "Samsung",
+    "name": "Galaxy A24",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a34-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A34 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a54-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A54 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a05",
+    "brand": "Samsung",
+    "name": "Galaxy A05",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a05s",
+    "brand": "Samsung",
+    "name": "Galaxy A05s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a15",
+    "brand": "Samsung",
+    "name": "Galaxy A15",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a15-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A15 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a25-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A25 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a35-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A35 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a55-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A55 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a06",
+    "brand": "Samsung",
+    "name": "Galaxy A06",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a16",
+    "brand": "Samsung",
+    "name": "Galaxy A16",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a16-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A16 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a26-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A26 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a36-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A36 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-a56-5g",
+    "brand": "Samsung",
+    "name": "Galaxy A56 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m10",
+    "brand": "Samsung",
+    "name": "Galaxy M10",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m20",
+    "brand": "Samsung",
+    "name": "Galaxy M20",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m30",
+    "brand": "Samsung",
+    "name": "Galaxy M30",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m30s",
+    "brand": "Samsung",
+    "name": "Galaxy M30s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m40",
+    "brand": "Samsung",
+    "name": "Galaxy M40",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m11",
+    "brand": "Samsung",
+    "name": "Galaxy M11",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m21",
+    "brand": "Samsung",
+    "name": "Galaxy M21",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m31",
+    "brand": "Samsung",
+    "name": "Galaxy M31",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m31s",
+    "brand": "Samsung",
+    "name": "Galaxy M31s",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m51",
+    "brand": "Samsung",
+    "name": "Galaxy M51",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m12",
+    "brand": "Samsung",
+    "name": "Galaxy M12",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m22",
+    "brand": "Samsung",
+    "name": "Galaxy M22",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m32",
+    "brand": "Samsung",
+    "name": "Galaxy M32",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m52-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M52 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m62",
+    "brand": "Samsung",
+    "name": "Galaxy M62",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m13",
+    "brand": "Samsung",
+    "name": "Galaxy M13",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m23-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M23 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m33-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M33 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m53-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M53 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m14-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M14 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m34-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M34 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m54-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M54 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m15-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M15 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m35-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M35 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-m55-5g",
+    "brand": "Samsung",
+    "name": "Galaxy M55 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-f12",
+    "brand": "Samsung",
+    "name": "Galaxy F12",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-f22",
+    "brand": "Samsung",
+    "name": "Galaxy F22",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-f23-5g",
+    "brand": "Samsung",
+    "name": "Galaxy F23 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-f34-5g",
+    "brand": "Samsung",
+    "name": "Galaxy F34 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-f54-5g",
+    "brand": "Samsung",
+    "name": "Galaxy F54 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-f15-5g",
+    "brand": "Samsung",
+    "name": "Galaxy F15 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-f55-5g",
+    "brand": "Samsung",
+    "name": "Galaxy F55 5G",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j1",
+    "brand": "Samsung",
+    "name": "Galaxy J1",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j2",
+    "brand": "Samsung",
+    "name": "Galaxy J2",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j3",
+    "brand": "Samsung",
+    "name": "Galaxy J3",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j5",
+    "brand": "Samsung",
+    "name": "Galaxy J5",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j7",
+    "brand": "Samsung",
+    "name": "Galaxy J7",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j2-prime",
+    "brand": "Samsung",
+    "name": "Galaxy J2 Prime",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j5-prime",
+    "brand": "Samsung",
+    "name": "Galaxy J5 Prime",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j7-prime",
+    "brand": "Samsung",
+    "name": "Galaxy J7 Prime",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j4",
+    "brand": "Samsung",
+    "name": "Galaxy J4",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j6",
+    "brand": "Samsung",
+    "name": "Galaxy J6",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "samsung-galaxy-j8",
+    "brand": "Samsung",
+    "name": "Galaxy J8",
+    "sourceName": "Curated model index — specifications pending verification",
+    "dataQuality": "model-name-only-unverified"
   }
 ]
