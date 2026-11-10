@@ -64,7 +64,9 @@ export function comparePhones(a,b,prices={},mode='premium',query=''){
     if(relevance)return relevance;
   }
   const pa=priceOf(a,prices),pb=priceOf(b,prices);
-  if(mode==='price'){
+  // With search results, show priced models before unpriced ones.
+  // Compare actual prices only within the SAME currency; never infer a conversion.
+  if(query || mode==='price'){
     if(pa&&!pb)return -1;
     if(pb&&!pa)return 1;
     if(pa&&pb&&pa.currency===pb.currency&&pa.amount!==pb.amount)return pb.amount-pa.amount;
