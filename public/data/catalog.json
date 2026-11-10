@@ -14,7 +14,8 @@
     "colors": "Black, White, Soft Pink",
     "verifiedAt": "2026-11-11",
     "models": "A3575, A3634, A3635",
-    "usb": "USB-C"
+    "usb": "USB-C",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-18-pro",
@@ -32,7 +33,8 @@
     "colors": "Black, Silver, Glacier, Burgundy",
     "verifiedAt": "2026-11-11",
     "models": "A3472, A3713, A3714, A3715",
-    "usb": "USB-C"
+    "usb": "USB-C",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-18-pro-max",
@@ -50,7 +52,8 @@
     "colors": "Black, Silver, Glacier, Burgundy",
     "verifiedAt": "2026-11-11",
     "models": "A3473, A3716, A3717, A3718",
-    "usb": "USB-C"
+    "usb": "USB-C",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-duo",
@@ -69,7 +72,8 @@
     "sim": "eSIM only",
     "verifiedAt": "2026-11-11",
     "models": "A3447, A3719, A3720, A3721",
-    "usb": "USB-C"
+    "usb": "USB-C",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-16e",
@@ -86,7 +90,8 @@
     "colors": "Black, White",
     "verifiedAt": "2026-11-11",
     "models": "A3212, A3408, A3409, A3410",
-    "usb": "USB-C"
+    "usb": "USB-C",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-17",
@@ -95,7 +100,8 @@
     "year": 2025,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-17-pro",
@@ -104,7 +110,8 @@
     "year": 2025,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-17-pro-max",
@@ -113,7 +120,8 @@
     "year": 2025,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-air",
@@ -131,7 +139,8 @@
     "sim": "eSIM only",
     "verifiedAt": "2026-11-11",
     "models": "A3260, A3516, A3517, A3518",
-    "usb": "USB-C"
+    "usb": "USB-C",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "galaxy-a55",
@@ -170,7 +179,8 @@
     "year": 2024,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-16-plus",
@@ -179,7 +189,8 @@
     "year": 2024,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "iphone-16-pro",
@@ -248,7 +259,8 @@
     "colors": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium",
     "verifiedAt": "2026-11-11",
     "models": "A3084, A3295, A3296, A3297",
-    "usb": "USB-C"
+    "usb": "USB-C",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "pixel-8a",
@@ -302,7 +314,8 @@
     "year": 2023,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-15-plus",
@@ -311,7 +324,8 @@
     "year": 2023,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "iphone-15-pro",
@@ -328,7 +342,8 @@
     "network": "5G",
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "usb": "USB-C"
+    "usb": "USB-C",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-15-pro-max",
@@ -337,7 +352,8 @@
     "year": 2023,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "oneplus-12",
@@ -421,7 +437,8 @@
     "year": 2022,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-14-plus",
@@ -430,7 +447,8 @@
     "year": 2022,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-14-pro",
@@ -439,7 +457,8 @@
     "year": 2022,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-14-pro-max",
@@ -448,7 +467,8 @@
     "year": 2022,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-se-3rd-generation",
@@ -457,7 +477,8 @@
     "year": 2022,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP67 (up to 1 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-13",
@@ -466,7 +487,8 @@
     "year": 2021,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-13-mini",
@@ -475,7 +497,8 @@
     "year": 2021,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-13-pro",
@@ -484,7 +507,8 @@
     "year": 2021,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-13-pro-max",
@@ -493,7 +517,8 @@
     "year": 2021,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-12",
@@ -508,7 +533,8 @@
     "storage": "64 GB / 128 GB / 256 GB",
     "network": "5G",
     "verifiedAt": "2026-11-11",
-    "models": "A2172, A2402, A2403, A2404"
+    "models": "A2172, A2402, A2403, A2404",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-12-mini",
@@ -523,7 +549,8 @@
     "storage": "64 GB / 128 GB / 256 GB",
     "network": "5G",
     "verifiedAt": "2026-11-11",
-    "models": "A2176, A2398, A2399, A2400"
+    "models": "A2176, A2398, A2399, A2400",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-12-pro",
@@ -539,7 +566,8 @@
     "network": "5G",
     "colors": "Silver, Graphite, Gold, Pacific Blue",
     "verifiedAt": "2026-11-11",
-    "models": "A2341, A2406, A2407, A2408"
+    "models": "A2341, A2406, A2407, A2408",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-12-pro-max",
@@ -555,7 +583,8 @@
     "network": "5G",
     "colors": "Silver, Graphite, Gold, Pacific Blue",
     "verifiedAt": "2026-11-11",
-    "models": "A2342, A2410, A2411, A2412"
+    "models": "A2342, A2410, A2411, A2412",
+    "ipRating": "IP68 (up to 6 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-se-2nd-generation",
@@ -564,7 +593,8 @@
     "year": 2020,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP67 (up to 1 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-11",
@@ -573,7 +603,8 @@
     "year": 2019,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 2 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-11-pro",
@@ -582,7 +613,8 @@
     "year": 2019,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 4 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-11-pro-max",
@@ -591,7 +623,8 @@
     "year": 2019,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 4 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-xr",
@@ -600,7 +633,8 @@
     "year": 2018,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP67 (up to 1 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-xs",
@@ -609,7 +643,8 @@
     "year": 2018,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 2 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-xs-max",
@@ -618,7 +653,8 @@
     "year": 2018,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP68 (up to 2 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-8",
@@ -627,7 +663,8 @@
     "year": 2017,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP67 (up to 1 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-8-plus",
@@ -641,7 +678,8 @@
     "camera": "12 MP Wide + 12 MP Telephoto",
     "storage": "64 GB / 128 GB / 256 GB",
     "verifiedAt": "2026-11-11",
-    "models": "A1864, A1897, A1898"
+    "models": "A1864, A1897, A1898",
+    "ipRating": "IP67 (up to 1 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-x",
@@ -650,7 +688,8 @@
     "year": 2017,
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "dataQuality": "model-confirmed-specifications-pending",
+    "ipRating": "IP67 (up to 1 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-7",
@@ -663,7 +702,8 @@
     "screen": "4.7-inch Retina HD LCD",
     "storage": "32 GB / 128 GB / 256 GB",
     "verifiedAt": "2026-11-11",
-    "models": "A1660, A1778, A1779"
+    "models": "A1660, A1778, A1779",
+    "ipRating": "IP67 (up to 1 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-7-plus",
@@ -677,7 +717,8 @@
     "camera": "Dual 12 MP Wide + Telephoto",
     "storage": "32 GB / 128 GB / 256 GB",
     "verifiedAt": "2026-11-11",
-    "models": "A1661, A1784, A1785"
+    "models": "A1661, A1784, A1785",
+    "ipRating": "IP67 (up to 1 m for 30 minutes)"
   },
   {
     "id": "apple-iphone-se-1st-generation",
