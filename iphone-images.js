@@ -69,9 +69,14 @@ export function getIphoneImageInfo(phone){
   const host='https://upload.wikimedia.org/wikipedia/commons/';
   const fileUrl=host+record.hash[0]+'/'+record.hash+'/'+name;
   const isVector=record.file.toLowerCase().endsWith('.svg');
-  const image=isVector?fileUrl:host+'thumb/'+record.hash[0]+'/'+record.hash+'/'+name+'/480px-'+name;
-  return {image,file:record.file,source:'https://commons.wikimedia.org/wiki/File:'+name,license:'https://creativecommons.org/licenses/by-sa/4.0/'};
+  const remoteImage=isVector?fileUrl:host+'thumb/'+record.hash[0]+'/'+record.hash+'/'+name+'/480px-'+name;
+  const extension=record.file.substring(record.file.lastIndexOf('.')).toLowerCase();
+  const image='/iphone-images/'+phone.id+extension;
+  return {image,remoteImage,file:record.file,source:'https://commons.wikimedia.org/wiki/File:'+name};
 }
 export function getPhoneImage(phone){
   return getIphoneImageInfo(phone)?.image||phone?.image||null;
+}
+export function getPhoneRemoteFallback(phone){
+  return getIphoneImageInfo(phone)?.remoteImage||null;
 }
