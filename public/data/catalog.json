@@ -4,53 +4,92 @@
     "brand": "Apple",
     "name": "iPhone 17e",
     "year": 2026,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "6.1-inch Super Retina XDR OLED",
+    "storage": "256 GB / 512 GB",
+    "charging": "USB-C",
+    "network": "5G",
+    "modelNumbers": "A3575, A3634, A3635",
+    "colors": "Black, White, Soft Pink",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-18-pro",
     "brand": "Apple",
     "name": "iPhone 18 Pro",
     "year": 2026,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "6.3-inch Super Retina XDR OLED",
+    "camera": "48 MP Fusion main (variable aperture) + 48 MP Ultra Wide + 48 MP Telephoto",
+    "storage": "256 GB / 512 GB / 1 TB / 2 TB",
+    "charging": "USB-C",
+    "network": "5G",
+    "modelNumbers": "A3472, A3713, A3714, A3715",
+    "colors": "Black, Silver, Glacier, Burgundy",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-18-pro-max",
     "brand": "Apple",
     "name": "iPhone 18 Pro Max",
     "year": 2026,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "6.9-inch Super Retina XDR OLED",
+    "camera": "48 MP Fusion main (variable aperture) + 48 MP Ultra Wide + 48 MP Telephoto",
+    "storage": "256 GB / 512 GB / 1 TB / 2 TB",
+    "charging": "USB-C",
+    "network": "5G",
+    "modelNumbers": "A3473, A3716, A3717, A3718",
+    "colors": "Black, Silver, Glacier, Burgundy",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-duo",
     "brand": "Apple",
     "name": "iPhone Duo",
     "year": 2026,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "5.4-inch outer + 7.6-inch inner Super Retina XDR OLED",
+    "camera": "48 MP Fusion main + 48 MP Ultra Wide",
+    "storage": "256 GB / 512 GB / 1 TB / 2 TB",
+    "charging": "USB-C",
+    "network": "5G",
+    "modelNumbers": "A3447, A3719, A3720, A3721",
+    "colors": "Night Sky, Star White",
+    "sim": "eSIM only",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-16e",
     "brand": "Apple",
     "name": "iPhone 16e",
     "year": 2025,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "6.1-inch Super Retina XDR OLED",
+    "storage": "128 GB / 256 GB / 512 GB",
+    "charging": "USB-C",
+    "network": "5G",
+    "modelNumbers": "A3212, A3408, A3409, A3410",
+    "colors": "Black, White",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-17",
     "brand": "Apple",
     "name": "iPhone 17",
     "year": 2025,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -58,8 +97,8 @@
     "brand": "Apple",
     "name": "iPhone 17 Pro",
     "year": 2025,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -67,8 +106,8 @@
     "brand": "Apple",
     "name": "iPhone 17 Pro Max",
     "year": 2025,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -76,9 +115,17 @@
     "brand": "Apple",
     "name": "iPhone Air",
     "year": 2025,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "6.5-inch Super Retina XDR OLED",
+    "storage": "256 GB / 512 GB / 1 TB",
+    "charging": "USB-C",
+    "network": "5G",
+    "modelNumbers": "A3260, A3516, A3517, A3518",
+    "colors": "Space Black, Cloud White, Light Gold, Sky Blue",
+    "sim": "eSIM only",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "galaxy-a55",
@@ -115,8 +162,8 @@
     "brand": "Apple",
     "name": "iPhone 16",
     "year": 2024,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -124,8 +171,8 @@
     "brand": "Apple",
     "name": "iPhone 16 Plus",
     "year": 2024,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -133,24 +180,37 @@
     "brand": "Apple",
     "name": "iPhone 16 Pro",
     "year": 2024,
-    "screen": "6.3-inch LTPO OLED",
+    "screen": "6.3-inch Super Retina XDR OLED",
     "chip": "Apple A18 Pro",
     "camera": "48 MP main",
     "charging": "USB-C",
     "ram": "8 GB",
-    "storage": "128 GB–1 TB",
+    "storage": "128 GB / 256 GB / 512 GB / 1 TB",
     "os": "iOS 18 at launch",
     "network": "5G",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/IPhone_16_Pro_Vector.svg/480px-IPhone_16_Pro_Vector.svg.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/IPhone_16_Pro_Vector.svg/480px-IPhone_16_Pro_Vector.svg.png",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "modelNumbers": "A3083, A3292, A3293, A3294",
+    "colors": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium",
+    "dataQuality": "partially-verified",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-16-pro-max",
     "brand": "Apple",
     "name": "iPhone 16 Pro Max",
     "year": 2024,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "6.9-inch Super Retina XDR OLED",
+    "storage": "256 GB / 512 GB / 1 TB",
+    "charging": "USB-C",
+    "network": "5G",
+    "modelNumbers": "A3084, A3295, A3296, A3297",
+    "colors": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "pixel-8a",
@@ -202,8 +262,8 @@
     "brand": "Apple",
     "name": "iPhone 15",
     "year": 2023,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -211,8 +271,8 @@
     "brand": "Apple",
     "name": "iPhone 15 Plus",
     "year": 2023,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -227,15 +287,17 @@
     "ram": "8 GB",
     "storage": "128 GB–1 TB",
     "os": "iOS 17 at launch",
-    "network": "5G"
+    "network": "5G",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model"
   },
   {
     "id": "apple-iphone-15-pro-max",
     "brand": "Apple",
     "name": "iPhone 15 Pro Max",
     "year": 2023,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -318,8 +380,8 @@
     "brand": "Apple",
     "name": "iPhone 14",
     "year": 2022,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -327,8 +389,8 @@
     "brand": "Apple",
     "name": "iPhone 14 Plus",
     "year": 2022,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -336,8 +398,8 @@
     "brand": "Apple",
     "name": "iPhone 14 Pro",
     "year": 2022,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -345,8 +407,8 @@
     "brand": "Apple",
     "name": "iPhone 14 Pro Max",
     "year": 2022,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -354,8 +416,8 @@
     "brand": "Apple",
     "name": "iPhone SE (3rd generation)",
     "year": 2022,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -363,8 +425,8 @@
     "brand": "Apple",
     "name": "iPhone 13",
     "year": 2021,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -372,8 +434,8 @@
     "brand": "Apple",
     "name": "iPhone 13 mini",
     "year": 2021,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -381,8 +443,8 @@
     "brand": "Apple",
     "name": "iPhone 13 Pro",
     "year": 2021,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -390,8 +452,8 @@
     "brand": "Apple",
     "name": "iPhone 13 Pro Max",
     "year": 2021,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -399,44 +461,70 @@
     "brand": "Apple",
     "name": "iPhone 12",
     "year": 2020,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "6.1-inch Super Retina XDR OLED",
+    "camera": "12 MP Wide + 12 MP Ultra Wide",
+    "storage": "64 GB / 128 GB / 256 GB",
+    "network": "5G",
+    "modelNumbers": "A2172, A2402, A2403, A2404",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-12-mini",
     "brand": "Apple",
     "name": "iPhone 12 mini",
     "year": 2020,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "5.4-inch Super Retina XDR OLED",
+    "camera": "12 MP Wide + 12 MP Ultra Wide",
+    "storage": "64 GB / 128 GB / 256 GB",
+    "network": "5G",
+    "modelNumbers": "A2176, A2398, A2399, A2400",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-12-pro",
     "brand": "Apple",
     "name": "iPhone 12 Pro",
     "year": 2020,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "6.1-inch Super Retina XDR OLED",
+    "camera": "12 MP Wide + 12 MP Ultra Wide + 12 MP Telephoto; LiDAR",
+    "storage": "128 GB / 256 GB / 512 GB",
+    "network": "5G",
+    "modelNumbers": "A2341, A2406, A2407, A2408",
+    "colors": "Silver, Graphite, Gold, Pacific Blue",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-12-pro-max",
     "brand": "Apple",
     "name": "iPhone 12 Pro Max",
     "year": 2020,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "6.7-inch Super Retina XDR OLED",
+    "camera": "12 MP Wide + 12 MP Ultra Wide + 12 MP Telephoto; LiDAR",
+    "storage": "128 GB / 256 GB / 512 GB",
+    "network": "5G",
+    "modelNumbers": "A2342, A2410, A2411, A2412",
+    "colors": "Silver, Graphite, Gold, Pacific Blue",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-se-2nd-generation",
     "brand": "Apple",
     "name": "iPhone SE (2nd generation)",
     "year": 2020,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -444,8 +532,8 @@
     "brand": "Apple",
     "name": "iPhone 11",
     "year": 2019,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -453,8 +541,8 @@
     "brand": "Apple",
     "name": "iPhone 11 Pro",
     "year": 2019,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -462,8 +550,8 @@
     "brand": "Apple",
     "name": "iPhone 11 Pro Max",
     "year": 2019,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -471,8 +559,8 @@
     "brand": "Apple",
     "name": "iPhone XR",
     "year": 2018,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -480,8 +568,8 @@
     "brand": "Apple",
     "name": "iPhone XS",
     "year": 2018,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -489,8 +577,8 @@
     "brand": "Apple",
     "name": "iPhone XS Max",
     "year": 2018,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -498,8 +586,8 @@
     "brand": "Apple",
     "name": "iPhone 8",
     "year": 2017,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -507,17 +595,22 @@
     "brand": "Apple",
     "name": "iPhone 8 Plus",
     "year": 2017,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "5.5-inch Retina HD LCD",
+    "camera": "12 MP Wide + 12 MP Telephoto",
+    "storage": "64 GB / 128 GB / 256 GB",
+    "modelNumbers": "A1864, A1897, A1898",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-x",
     "brand": "Apple",
     "name": "iPhone X",
     "year": 2017,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -525,35 +618,48 @@
     "brand": "Apple",
     "name": "iPhone 7",
     "year": 2016,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "4.7-inch Retina HD LCD",
+    "storage": "32 GB / 128 GB / 256 GB",
+    "modelNumbers": "A1660, A1778, A1779",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-7-plus",
     "brand": "Apple",
     "name": "iPhone 7 Plus",
     "year": 2016,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "5.5-inch Retina HD LCD",
+    "camera": "Dual 12 MP Wide + Telephoto",
+    "storage": "32 GB / 128 GB / 256 GB",
+    "modelNumbers": "A1661, A1784, A1785",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-se-1st-generation",
     "brand": "Apple",
     "name": "iPhone SE (1st generation)",
     "year": 2016,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "screen": "4-inch Retina LCD",
+    "storage": "16 GB / 32 GB / 64 GB / 128 GB",
+    "modelNumbers": "A1723, A1662, A1724",
+    "verifiedAt": "2026-11-11"
   },
   {
     "id": "apple-iphone-6s",
     "brand": "Apple",
     "name": "iPhone 6s",
     "year": 2015,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -561,8 +667,8 @@
     "brand": "Apple",
     "name": "iPhone 6s Plus",
     "year": 2015,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -570,8 +676,8 @@
     "brand": "Apple",
     "name": "iPhone 6",
     "year": 2014,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -579,8 +685,8 @@
     "brand": "Apple",
     "name": "iPhone 6 Plus",
     "year": 2014,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -588,8 +694,8 @@
     "brand": "Apple",
     "name": "iPhone 5c",
     "year": 2013,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -597,8 +703,8 @@
     "brand": "Apple",
     "name": "iPhone 5s",
     "year": 2013,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -606,8 +712,8 @@
     "brand": "Apple",
     "name": "iPhone 5",
     "year": 2012,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -615,8 +721,8 @@
     "brand": "Apple",
     "name": "iPhone 4S",
     "year": 2011,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -624,8 +730,8 @@
     "brand": "Apple",
     "name": "iPhone 4",
     "year": 2010,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -633,8 +739,8 @@
     "brand": "Apple",
     "name": "iPhone 3GS",
     "year": 2009,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -642,8 +748,8 @@
     "brand": "Apple",
     "name": "iPhone 3G",
     "year": 2008,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "model-confirmed-specifications-pending"
   },
   {
@@ -651,8 +757,12 @@
     "brand": "Apple",
     "name": "iPhone",
     "year": 2007,
-    "sourceUrl": "https://support.apple.com/en-gb/108044",
-    "sourceName": "Apple Support",
-    "dataQuality": "model-confirmed-specifications-pending"
+    "sourceUrl": "https://support.apple.com/en-us/108044",
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "dataQuality": "partially-verified",
+    "storage": "4 GB / 8 GB / 16 GB",
+    "modelNumbers": "A1203",
+    "sim": "Mini-SIM",
+    "verifiedAt": "2026-11-11"
   }
 ]
