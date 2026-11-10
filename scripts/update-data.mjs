@@ -3,10 +3,25 @@ import {phones as starter} from '../phones.js';
 const dir=new URL('../public/data/',import.meta.url);
 await fs.mkdir(dir,{recursive:true});
 const read=async(name,fallback)=>JSON.parse(await fs.readFile(new URL(name,dir),'utf8').catch(()=>JSON.stringify(fallback)));
-const existing=await read('catalog.json',[]),previousPrices=await read('prices.json',{}),discovered=await read('discovered.json',[]);
+const existing=await read('catalog.json',[]),previousPrices=await read('prices.json',{}),discovered=await read('discovered.json',[]),imported=await read('imported.json',[]);
 const catalog=new Map();
 const quality={discovered:0,verified:0};
-for(const d of [...discovered,...starter,...existing])if(d?.id&&d?.name&&d?.brand){const old=catalog.get(d.id)||{};catalog.set(d.id,{...old,...Object.fromEntries(Object.entries(d).filter(([,v])=>v!==null&&v!==undefined&&v!==''))});}
+const cleanValue=d=>Object.fromEntries(Object.entries(d).filter(([k,v])=>!['__proto__','constructor','prototype'].includes(k)&&v!==null&&v!==undefined&&v!==''));
+const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,'');
+const nameKey=d=>{
+ const brand=norm(d.brand);
+ const n=norm(d.name);
+ return brand+'|'+(n.startsWith(brand)&&n.length>brand.length?n.slice(brand.length):n);
+};
+// The existing curated catalog always has final precedence over imported open data.
+// Merge by marketing identity, not ID, so model-number variants do not multiply listings.
+const byName=new Map();
+for(const d of [...discovered,...imported,...starter,...existing]){
+ if(!d?.id||!d?.name||!d?.brand)continue;
+ const k=nameKey(d),old=byName.get(k)||{};
+ byName.set(k,{...old,...cleanValue(d)});
+}
+for(const d of byName.values())catalog.set(d.id,d);
 const prices={...previousPrices};const now=new Date().toISOString();
 const sources=(process.env.SPECVERSE_FEED_URLS||process.env.SPECVERSE_FEED_URL||'').split(',').map(x=>x.trim()).filter(Boolean);
 const results=[];
@@ -33,5 +48,5 @@ for(const source of sources){
 const all=[...catalog.values()].sort((a,b)=>(b.year||0)-(a.year||0)||a.name.localeCompare(b.name));
 await fs.writeFile(new URL('catalog.json',dir),JSON.stringify(all,null,2)+'\n');
 await fs.writeFile(new URL('prices.json',dir),JSON.stringify(prices,null,2)+'\n');
-await fs.writeFile(new URL('status.json',dir),JSON.stringify({lastChecked:now,deviceCount:all.length,discoveredCount:all.filter(d=>d.dataQuality==='discovered-unverified').length,feedConfigured:sources.length>0,providers:results},null,2)+'\n');
+await fs.writeFile(new URL('status.json',dir),JSON.stringify({lastChecked:now,deviceCount:all.length,discoveredCount:all.filter(d=>d.dataQuality==='discovered-unverified').length,feedConfigured:sources.length>0,importedCount:imported.length,brandCount:new Set(all.map(d=>d.brand)).size,providers:results},null,2)+'\n');
 console.log(`Catalog ${all.length} devices; ${results.filter(r=>r.ok).length}/${sources.length} feeds succeeded`);
