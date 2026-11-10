@@ -1,0 +1,28 @@
+name: Check SpecVerse website
+on:
+  push:
+    paths:
+      - 'src.jsx'
+      - 'MiniGames.jsx'
+      - 'mobile-games.js'
+      - 'catalog-order.js'
+      - 'style.css'
+      - 'tests/**'
+      - 'public/logos/**'
+      - 'package.json'
+      - '.github/workflows/verify-site.yml'
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Run game and catalog tests
+        run: npm test
+      - name: Build production site
+        run: npm run build
