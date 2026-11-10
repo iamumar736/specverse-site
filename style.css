@@ -134,3 +134,18 @@ html[data-theme=light] .games-hero p{color:#65718a}
 html[data-theme=light] .games-guide{background:#fff;border-color:#dee4f0}
 html[data-theme=light] .games-guide p,html[data-theme=light] .games-guide li{color:#596982}
 @media(max-width:700px){.top{height:auto;min-height:66px;flex-wrap:wrap;padding:10px 0;row-gap:5px}.top .theme{order:1;margin-left:auto}.top nav{order:2;flex-basis:100%;justify-content:space-around;gap:4px;border-top:1px solid #ffffff1c;padding-top:4px}.top nav button,.top nav a{font-size:12px;padding:8px 5px}.games-layout{grid-template-columns:1fr;gap:18px}.games-hero{padding:8px 0 24px}.games-guide{padding:18px}.games-page .mini-arcade{margin:0}html[data-theme=light] .top nav{border-color:#dce3ed}}
+
+/* Compact smartphone search in the global header */
+.top-search{width:190px;height:38px;display:flex;align-items:center;flex-shrink:0;border:1px solid #343d53;border-radius:10px;background:#161e2d;overflow:hidden;transition:border-color .15s}
+.top-search:focus-within{border-color:#978bff;box-shadow:0 0 0 2px #978bff33}
+.top-search input{width:100%;min-width:0;flex:1;border:0;outline:0;background:transparent;color:#edf0fa;font-size:12px;padding:0 0 0 12px}
+.top-search input::placeholder{color:#909bb1}
+.top-search input::-webkit-search-cancel-button{cursor:pointer}
+.top-search button{width:37px;height:100%;flex-shrink:0;border:0;background:transparent;color:#b9b0ff;display:grid;place-items:center}
+.top-search button:hover{background:#292645;color:#fff}
+.top-search button:focus-visible{outline:2px solid #b6a9ff;outline-offset:-3px}
+html[data-theme=light] .top-search{background:#fff;border-color:#d6deed}
+html[data-theme=light] .top-search input{color:#1c2940}
+html[data-theme=light] .top-search input::placeholder{color:#697991}
+@media(max-width:860px) and (min-width:701px){.top nav{gap:14px}.top-search{width:150px}.top nav button,.top nav a{font-size:12px}.top .logo{font-size:24px}}
+@media(max-width:700px){.top-search{order:3;width:100%;margin:4px 0 8px}.top-search input{font-size:13px}.top nav{order:2}}
