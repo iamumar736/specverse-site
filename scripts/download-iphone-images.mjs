@@ -18,11 +18,12 @@ for(const [id,{file,hash}] of Object.entries(IPHONE_IMAGE_FILES)){
   if(!['.svg','.jpg','.jpeg','.png'].includes(suffix))throw new Error('Unsupported file format: '+file);
   const encoded=encodeURIComponent(basename);
   const host='https://upload.wikimedia.org/wikipedia/commons/';
-  const url=host+(suffix==='.svg'?hash[0]+'/'+hash+'/'+encoded:'thumb/'+hash[0]+'/'+hash+'/'+encoded+'/480px-'+encoded);
+  // Direct Commons files are more reliable than on-the-fly thumbnails, which may return HTTP 400.
+  const url=host+hash[0]+'/'+hash+'/'+encoded;
   const source='https://commons.wikimedia.org/wiki/File:'+encoded;
   const destination=join(output.pathname,id+suffix);
   let success=false;
-  for(let attempt=0;attempt<3&&!success;attempt++){
+  for(let attempt=0;attempt<4&&!success;attempt++){
     try{
       const response=await fetch(url,{
         headers:{'User-Agent':'SpecVerseLicensedMedia/1.0 (https://github.com/iamumar736/specverse-site)','Accept':'image/*'},
@@ -30,7 +31,7 @@ for(const [id,{file,hash}] of Object.entries(IPHONE_IMAGE_FILES)){
       });
       if(!response.ok)throw new Error('HTTP '+response.status);
       const bytes=Buffer.from(await response.arrayBuffer());
-      if(bytes.length>10_000_000||bytes.length<200)throw new Error('Unexpected file size '+bytes.length);
+      if(bytes.length>20_000_000||bytes.length<200)throw new Error('Unexpected file size '+bytes.length);
       const start=bytes.subarray(0,4096).toString('utf8');
       const isSvg=suffix==='.svg'&&/<svg\b/i.test(start);
       const isJpg=['.jpg','.jpeg'].includes(suffix)&&bytes[0]===0xff&&bytes[1]===0xd8;
@@ -43,11 +44,11 @@ for(const [id,{file,hash}] of Object.entries(IPHONE_IMAGE_FILES)){
       success=true;
     }catch(error){
       console.warn(id+' attempt '+(attempt+1)+': '+error.message);
-      if(attempt<2)await new Promise(r=>setTimeout(r,1000*(attempt+1)));
+      if(attempt<3){const rateLimited=/HTTP 429/.test(error.message);await new Promise(r=>setTimeout(r,rateLimited?10000*(attempt+1):1500*(attempt+1)))}
     }
   }
   if(!success)errors.push(id);
-  await new Promise(r=>setTimeout(r,250));
+  await new Promise(r=>setTimeout(r,900));
 }
 await writeFile(join(output.pathname,'SOURCES.json'),JSON.stringify({description:'Licensed community imagery; not official Apple press photographs. Authors, individual licenses, and source files are listed on the linked Wikimedia Commons file pages.',images:metadata},null,2)+'\n');
 console.log('Saved '+saved+' of '+Object.keys(IPHONE_IMAGE_FILES).length+' assets. Failed: '+errors.join(', '));
