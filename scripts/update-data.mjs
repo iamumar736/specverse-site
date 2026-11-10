@@ -5,7 +5,8 @@ await fs.mkdir(dir,{recursive:true});
 const read=async(name,fallback)=>JSON.parse(await fs.readFile(new URL(name,dir),'utf8').catch(()=>JSON.stringify(fallback)));
 const existing=await read('catalog.json',[]),previousPrices=await read('prices.json',{}),discovered=await read('discovered.json',[]);
 const catalog=new Map();
-for(const d of [...starter,...existing,...discovered])if(d?.id&&d?.name&&d?.brand)catalog.set(d.id,{...catalog.get(d.id),...d});
+const quality={discovered:0,verified:0};
+for(const d of [...discovered,...starter,...existing])if(d?.id&&d?.name&&d?.brand){const old=catalog.get(d.id)||{};catalog.set(d.id,{...old,...Object.fromEntries(Object.entries(d).filter(([,v])=>v!==null&&v!==undefined&&v!==''))});}
 const prices={...previousPrices};const now=new Date().toISOString();
 const sources=(process.env.SPECVERSE_FEED_URLS||process.env.SPECVERSE_FEED_URL||'').split(',').map(x=>x.trim()).filter(Boolean);
 const results=[];
@@ -32,5 +33,5 @@ for(const source of sources){
 const all=[...catalog.values()].sort((a,b)=>(b.year||0)-(a.year||0)||a.name.localeCompare(b.name));
 await fs.writeFile(new URL('catalog.json',dir),JSON.stringify(all,null,2)+'\n');
 await fs.writeFile(new URL('prices.json',dir),JSON.stringify(prices,null,2)+'\n');
-await fs.writeFile(new URL('status.json',dir),JSON.stringify({lastChecked:now,deviceCount:all.length,feedConfigured:sources.length>0,providers:results},null,2)+'\n');
+await fs.writeFile(new URL('status.json',dir),JSON.stringify({lastChecked:now,deviceCount:all.length,discoveredCount:all.filter(d=>d.dataQuality==='discovered-unverified').length,feedConfigured:sources.length>0,providers:results},null,2)+'\n');
 console.log(`Catalog ${all.length} devices; ${results.filter(r=>r.ok).length}/${sources.length} feeds succeeded`);
