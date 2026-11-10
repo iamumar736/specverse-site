@@ -149,3 +149,20 @@ html[data-theme=light] .top-search input{color:#1c2940}
 html[data-theme=light] .top-search input::placeholder{color:#697991}
 @media(max-width:860px) and (min-width:701px){.top nav{gap:14px}.top-search{width:150px}.top nav button,.top nav a{font-size:12px}.top .logo{font-size:24px}}
 @media(max-width:700px){.top-search{order:3;width:100%;margin:4px 0 8px}.top-search input{font-size:13px}.top nav{order:2}}
+
+/* Compact autocomplete below the global search field */
+.top-search-autocomplete{position:relative;overflow:visible;z-index:30}
+.top-search-dropdown{position:absolute;top:calc(100% + 7px);right:0;width:300px;max-width:calc(100vw - 28px);background:#171f30;border:1px solid #3a4560;border-radius:12px;box-shadow:0 18px 48px #0008;padding:5px;max-height:365px;overflow-y:auto;color:#e9edfa}
+.top-search-result{width:100%;display:flex;align-items:center;gap:10px;text-align:left;border:0;border-radius:9px;background:transparent;color:inherit;padding:7px 8px;min-height:52px}
+.top-search-result:hover,.top-search-result.highlight{background:#30344f}
+.top-search-thumb{width:38px;height:42px;flex-shrink:0;border-radius:7px;background:#e8ecf4;color:#6d7190;display:grid;place-items:center;overflow:hidden}
+.top-search-thumb img{width:100%;height:100%;object-fit:contain}
+.top-search-info{display:flex;flex-direction:column;gap:3px;min-width:0}
+.top-search-info strong{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:215px}
+.top-search-info small{font-size:10px;color:#aab5c8}
+.top-search-empty,.top-search-tip{font-size:11px;padding:11px;color:#9daac0}
+.top-search-tip{border-top:1px solid #30384d;text-align:center;padding:8px}
+html[data-theme=light] .top-search-dropdown{background:#fff;color:#1e2b42;border-color:#dce2ee;box-shadow:0 15px 35px #1d2b4830}
+html[data-theme=light] .top-search-result:hover,html[data-theme=light] .top-search-result.highlight{background:#eeedff}
+html[data-theme=light] .top-search-info small{color:#61708a}
+@media(max-width:700px){.top-search-dropdown{left:0;right:0;width:100%;max-width:none}.top-search-info strong{max-width:calc(100vw - 125px)}}
