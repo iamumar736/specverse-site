@@ -141,9 +141,9 @@ html[data-theme=light] .games-guide p,html[data-theme=light] .games-guide li{col
 .top-search input{width:100%;min-width:0;flex:1;border:0;outline:0;background:transparent;color:#edf0fa;font-size:12px;padding:0 0 0 12px}
 .top-search input::placeholder{color:#909bb1}
 .top-search input::-webkit-search-cancel-button{cursor:pointer}
-.top-search button{width:37px;height:100%;flex-shrink:0;border:0;background:transparent;color:#b9b0ff;display:grid;place-items:center}
-.top-search button:hover{background:#292645;color:#fff}
-.top-search button:focus-visible{outline:2px solid #b6a9ff;outline-offset:-3px}
+.top-search > button[type="submit"]{width:37px;height:100%;flex-shrink:0;border:0;background:transparent;color:#b9b0ff;display:grid;place-items:center}
+.top-search > button[type="submit"]:hover{background:#292645;color:#fff}
+.top-search > button[type="submit"]:focus-visible{outline:2px solid #b6a9ff;outline-offset:-3px}
 html[data-theme=light] .top-search{background:#fff;border-color:#d6deed}
 html[data-theme=light] .top-search input{color:#1c2940}
 html[data-theme=light] .top-search input::placeholder{color:#697991}
@@ -166,3 +166,9 @@ html[data-theme=light] .top-search-dropdown{background:#fff;color:#1e2b42;border
 html[data-theme=light] .top-search-result:hover,html[data-theme=light] .top-search-result.highlight{background:#eeedff}
 html[data-theme=light] .top-search-info small{color:#61708a}
 @media(max-width:700px){.top-search-dropdown{left:0;right:0;width:100%;max-width:none}.top-search-info strong{max-width:calc(100vw - 125px)}}
+
+/* Prevent the search-icon button styles from shrinking suggestion rows. */
+.top-search-autocomplete .top-search-dropdown{display:block;box-sizing:border-box}
+.top-search-autocomplete .top-search-result{width:100%;height:auto;min-height:56px;display:flex;flex-direction:row;align-items:center;justify-content:flex-start;text-align:left;gap:11px;padding:8px 10px;white-space:normal}
+.top-search-autocomplete .top-search-info{flex:1;min-width:0;align-items:flex-start;text-align:left}
+.top-search-autocomplete .top-search-info strong{display:block;width:100%;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
