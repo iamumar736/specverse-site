@@ -140,6 +140,12 @@
       "local": "/iphone-images/apple-iphone-13.svg"
     },
     {
+      "id": "apple-iphone-13-mini",
+      "file": "IPhone 13 Mini Grün Freigestellt.png",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_13_Mini_Gr%C3%BCn_Freigestellt.png",
+      "local": "/iphone-images/apple-iphone-13-mini.png"
+    },
+    {
       "id": "apple-iphone-13-pro",
       "file": "IPhone 13 Pro vector.svg",
       "source": "https://commons.wikimedia.org/wiki/File:IPhone_13_Pro_vector.svg",
