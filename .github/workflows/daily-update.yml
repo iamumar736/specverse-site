@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Import open Android phone catalog
+        run: node scripts/import-open-devices.mjs || echo "Open device source unavailable; preserving last import"
       - name: Discover public phone entries (best effort)
         run: node scripts/import-wikidata.mjs || echo "Public discovery unavailable; keeping last catalog"
       - name: Enrich discovered models from Wikidata
