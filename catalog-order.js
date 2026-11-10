@@ -22,7 +22,7 @@ const priceOf=(p,prices)=>{
 const premiumTier=p=>{
   const name=squish(p?.name);
   if(/\b(?:ultra|pro max|fold|porsche|ultimate)\b/.test(name))return 5;
-  if(/\b(?:pro|edge|plus|\+)\b/.test(name))return 4;
+  if(/[+＋]/.test(String(p?.name))||/\b(?:pro|edge|plus)\b/.test(name))return 4;
   if(/\b(?:max|fe|flip|5g)\b/.test(name))return 2;
   return 1;
 };
@@ -45,13 +45,13 @@ export function searchScore(p,query){
   if(name.startsWith(q)||combined.startsWith(q))return 4;
   if(name.includes(q)||combined.includes(q))return 3;
   if(brand.includes(q))return 2;
+  if(q.split(' ').every(token=>combined.includes(token)))return 2;
   if(chip.includes(q))return 1;
   return -1;
 }
 export function comparePhones(a,b,prices={},mode='premium',query=''){
   if(mode==='az')return a.name.localeCompare(b.name);
   if(mode==='brand'){
-    const order=(orderedBrands([a,b]));
     const positions=FEATURED_BRANDS;
     const ia=positions.indexOf(a.brand),ib=positions.indexOf(b.brand);
     const diff=(ia<0?1000:ia)-(ib<0?1000:ib);
@@ -80,11 +80,11 @@ export function comparePhones(a,b,prices={},mode='premium',query=''){
   if(sameBrand&&ga!==gb)return gb-ga;
   return a.name.localeCompare(b.name);
 }
-export function brandGroups(catalog,prices={},previewSize=4){
+export function brandGroups(catalog,prices={},previewSize=4,mode='premium'){
   const list=orderedBrands(catalog),map=new Map(list.map(b=>[b,[]]));
   for(const phone of catalog){if(map.has(phone.brand))map.get(phone.brand).push(phone)}
   return list.map(brand=>({
     brand,count:map.get(brand).length,
-    phones:map.get(brand).sort((a,b)=>comparePhones(a,b,prices)).slice(0,previewSize)
+    phones:map.get(brand).sort((a,b)=>comparePhones(a,b,prices,mode)).slice(0,previewSize)
   }));
 }
