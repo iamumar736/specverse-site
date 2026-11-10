@@ -11,9 +11,10 @@
     "storage": "256 GB / 512 GB",
     "charging": "USB-C",
     "network": "5G",
-    "modelNumbers": "A3575, A3634, A3635",
     "colors": "Black, White, Soft Pink",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A3575, A3634, A3635",
+    "usb": "USB-C"
   },
   {
     "id": "apple-iphone-18-pro",
@@ -28,9 +29,10 @@
     "storage": "256 GB / 512 GB / 1 TB / 2 TB",
     "charging": "USB-C",
     "network": "5G",
-    "modelNumbers": "A3472, A3713, A3714, A3715",
     "colors": "Black, Silver, Glacier, Burgundy",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A3472, A3713, A3714, A3715",
+    "usb": "USB-C"
   },
   {
     "id": "apple-iphone-18-pro-max",
@@ -45,9 +47,10 @@
     "storage": "256 GB / 512 GB / 1 TB / 2 TB",
     "charging": "USB-C",
     "network": "5G",
-    "modelNumbers": "A3473, A3716, A3717, A3718",
     "colors": "Black, Silver, Glacier, Burgundy",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A3473, A3716, A3717, A3718",
+    "usb": "USB-C"
   },
   {
     "id": "apple-iphone-duo",
@@ -62,10 +65,11 @@
     "storage": "256 GB / 512 GB / 1 TB / 2 TB",
     "charging": "USB-C",
     "network": "5G",
-    "modelNumbers": "A3447, A3719, A3720, A3721",
     "colors": "Night Sky, Star White",
     "sim": "eSIM only",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A3447, A3719, A3720, A3721",
+    "usb": "USB-C"
   },
   {
     "id": "apple-iphone-16e",
@@ -79,9 +83,10 @@
     "storage": "128 GB / 256 GB / 512 GB",
     "charging": "USB-C",
     "network": "5G",
-    "modelNumbers": "A3212, A3408, A3409, A3410",
     "colors": "Black, White",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A3212, A3408, A3409, A3410",
+    "usb": "USB-C"
   },
   {
     "id": "apple-iphone-17",
@@ -122,10 +127,11 @@
     "storage": "256 GB / 512 GB / 1 TB",
     "charging": "USB-C",
     "network": "5G",
-    "modelNumbers": "A3260, A3516, A3517, A3518",
     "colors": "Space Black, Cloud White, Light Gold, Sky Blue",
     "sim": "eSIM only",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A3260, A3516, A3517, A3518",
+    "usb": "USB-C"
   },
   {
     "id": "galaxy-a55",
@@ -191,10 +197,11 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/IPhone_16_Pro_Vector.svg/480px-IPhone_16_Pro_Vector.svg.png",
     "sourceUrl": "https://support.apple.com/en-us/108044",
     "sourceName": "Apple Support — Identify your iPhone model",
-    "modelNumbers": "A3083, A3292, A3293, A3294",
     "colors": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium",
     "dataQuality": "partially-verified",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A3083, A3292, A3293, A3294",
+    "usb": "USB-C"
   },
   {
     "id": "apple-iphone-16-pro-max",
@@ -208,9 +215,10 @@
     "storage": "256 GB / 512 GB / 1 TB",
     "charging": "USB-C",
     "network": "5G",
-    "modelNumbers": "A3084, A3295, A3296, A3297",
     "colors": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A3084, A3295, A3296, A3297",
+    "usb": "USB-C"
   },
   {
     "id": "pixel-8a",
@@ -289,7 +297,8 @@
     "os": "iOS 17 at launch",
     "network": "5G",
     "sourceUrl": "https://support.apple.com/en-us/108044",
-    "sourceName": "Apple Support — Identify your iPhone model"
+    "sourceName": "Apple Support — Identify your iPhone model",
+    "usb": "USB-C"
   },
   {
     "id": "apple-iphone-15-pro-max",
@@ -468,8 +477,8 @@
     "camera": "12 MP Wide + 12 MP Ultra Wide",
     "storage": "64 GB / 128 GB / 256 GB",
     "network": "5G",
-    "modelNumbers": "A2172, A2402, A2403, A2404",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A2172, A2402, A2403, A2404"
   },
   {
     "id": "apple-iphone-12-mini",
@@ -483,8 +492,8 @@
     "camera": "12 MP Wide + 12 MP Ultra Wide",
     "storage": "64 GB / 128 GB / 256 GB",
     "network": "5G",
-    "modelNumbers": "A2176, A2398, A2399, A2400",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A2176, A2398, A2399, A2400"
   },
   {
     "id": "apple-iphone-12-pro",
@@ -498,9 +507,9 @@
     "camera": "12 MP Wide + 12 MP Ultra Wide + 12 MP Telephoto; LiDAR",
     "storage": "128 GB / 256 GB / 512 GB",
     "network": "5G",
-    "modelNumbers": "A2341, A2406, A2407, A2408",
     "colors": "Silver, Graphite, Gold, Pacific Blue",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A2341, A2406, A2407, A2408"
   },
   {
     "id": "apple-iphone-12-pro-max",
@@ -514,9 +523,9 @@
     "camera": "12 MP Wide + 12 MP Ultra Wide + 12 MP Telephoto; LiDAR",
     "storage": "128 GB / 256 GB / 512 GB",
     "network": "5G",
-    "modelNumbers": "A2342, A2410, A2411, A2412",
     "colors": "Silver, Graphite, Gold, Pacific Blue",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A2342, A2410, A2411, A2412"
   },
   {
     "id": "apple-iphone-se-2nd-generation",
@@ -601,8 +610,8 @@
     "screen": "5.5-inch Retina HD LCD",
     "camera": "12 MP Wide + 12 MP Telephoto",
     "storage": "64 GB / 128 GB / 256 GB",
-    "modelNumbers": "A1864, A1897, A1898",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A1864, A1897, A1898"
   },
   {
     "id": "apple-iphone-x",
@@ -623,8 +632,8 @@
     "dataQuality": "partially-verified",
     "screen": "4.7-inch Retina HD LCD",
     "storage": "32 GB / 128 GB / 256 GB",
-    "modelNumbers": "A1660, A1778, A1779",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A1660, A1778, A1779"
   },
   {
     "id": "apple-iphone-7-plus",
@@ -637,8 +646,8 @@
     "screen": "5.5-inch Retina HD LCD",
     "camera": "Dual 12 MP Wide + Telephoto",
     "storage": "32 GB / 128 GB / 256 GB",
-    "modelNumbers": "A1661, A1784, A1785",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A1661, A1784, A1785"
   },
   {
     "id": "apple-iphone-se-1st-generation",
@@ -650,8 +659,8 @@
     "dataQuality": "partially-verified",
     "screen": "4-inch Retina LCD",
     "storage": "16 GB / 32 GB / 64 GB / 128 GB",
-    "modelNumbers": "A1723, A1662, A1724",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A1723, A1662, A1724"
   },
   {
     "id": "apple-iphone-6s",
@@ -761,8 +770,8 @@
     "sourceName": "Apple Support — Identify your iPhone model",
     "dataQuality": "partially-verified",
     "storage": "4 GB / 8 GB / 16 GB",
-    "modelNumbers": "A1203",
     "sim": "Mini-SIM",
-    "verifiedAt": "2026-11-11"
+    "verifiedAt": "2026-11-11",
+    "models": "A1203"
   }
 ]
