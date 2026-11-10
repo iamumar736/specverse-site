@@ -3,8 +3,8 @@ import fs from 'node:fs/promises';
 const output=new URL('../public/data/discovered.json',import.meta.url);
 const endpoint='https://query.wikidata.org/sparql';
 const queries=[
-  'SELECT DISTINCT ?item ?itemLabel ?manufacturerLabel ?date WHERE { ?item wdt:P31 wd:Q22645; wdt:P176 ?manufacturer. OPTIONAL { ?item wdt:P577 ?date. } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 2000',
-  'SELECT DISTINCT ?item ?itemLabel ?manufacturerLabel ?date WHERE { ?item wdt:P31/wdt:P279* wd:Q22645; wdt:P176 ?manufacturer. OPTIONAL { ?item wdt:P577 ?date. } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 2000'
+  'SELECT DISTINCT ?item ?itemLabel ?manufacturerLabel ?date WHERE { ?item wdt:P31 wd:Q22645. OPTIONAL { ?item wdt:P176 ?manufacturer. } OPTIONAL { ?item wdt:P577 ?date. } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 2000',
+  'SELECT DISTINCT ?item ?itemLabel ?manufacturerLabel ?date WHERE { ?item wdt:P31/wdt:P279* wd:Q22645. OPTIONAL { ?item wdt:P176 ?manufacturer. } OPTIONAL { ?item wdt:P577 ?date. } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 2000'
 ];
 const rows=[];
 let errors=[];
@@ -26,7 +26,9 @@ for(const query of queries){
 }
 const devices=new Map();
 for(const r of rows){
-  const name=r.itemLabel?.value?.trim(),brand=r.manufacturerLabel?.value?.trim(),item=r.item?.value;
+  const name=r.itemLabel?.value?.trim(),item=r.item?.value;
+  const known=['Samsung','Apple','Google','Xiaomi','Redmi','Poco','OnePlus','Oppo','Vivo','Realme','Motorola','Nokia','Sony','Huawei','Honor','Nothing','Asus','Infinix','Tecno','ZTE','HTC','LG'];
+  const brand=r.manufacturerLabel?.value?.trim()||known.find(b=>name?.toLowerCase().startsWith(b.toLowerCase()+' '))||null;
   if(!name||!brand||!/^https:\/\/www\.wikidata\.org\/entity\/Q\d+$/.test(item||'')||/^Q\d+$/.test(name)||/^Q\d+$/.test(brand))continue;
   const year=Number((r.date?.value||'').slice(0,4))||null;
   const id='wd-'+item.split('/').pop().toLowerCase();
