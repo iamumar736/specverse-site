@@ -1,5 +1,86 @@
 [
   {
+    "id": "apple-iphone-17e",
+    "brand": "Apple",
+    "name": "iPhone 17e",
+    "year": 2026,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-18-pro",
+    "brand": "Apple",
+    "name": "iPhone 18 Pro",
+    "year": 2026,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-18-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 18 Pro Max",
+    "year": 2026,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-duo",
+    "brand": "Apple",
+    "name": "iPhone Duo",
+    "year": 2026,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-16e",
+    "brand": "Apple",
+    "name": "iPhone 16e",
+    "year": 2025,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-17",
+    "brand": "Apple",
+    "name": "iPhone 17",
+    "year": 2025,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-17-pro",
+    "brand": "Apple",
+    "name": "iPhone 17 Pro",
+    "year": 2025,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-17-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 17 Pro Max",
+    "year": 2025,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-air",
+    "brand": "Apple",
+    "name": "iPhone Air",
+    "year": 2025,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
     "id": "galaxy-a55",
     "brand": "Samsung",
     "name": "Galaxy A55",
@@ -30,6 +111,24 @@
     "network": "5G"
   },
   {
+    "id": "apple-iphone-16",
+    "brand": "Apple",
+    "name": "iPhone 16",
+    "year": 2024,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-16-plus",
+    "brand": "Apple",
+    "name": "iPhone 16 Plus",
+    "year": 2024,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
     "id": "iphone-16-pro",
     "brand": "Apple",
     "name": "iPhone 16 Pro",
@@ -43,6 +142,15 @@
     "os": "iOS 18 at launch",
     "network": "5G",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/IPhone_16_Pro_Vector.svg/480px-IPhone_16_Pro_Vector.svg.png"
+  },
+  {
+    "id": "apple-iphone-16-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 16 Pro Max",
+    "year": 2024,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
   },
   {
     "id": "pixel-8a",
@@ -90,6 +198,24 @@
     "network": "5G"
   },
   {
+    "id": "apple-iphone-15",
+    "brand": "Apple",
+    "name": "iPhone 15",
+    "year": 2023,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-15-plus",
+    "brand": "Apple",
+    "name": "iPhone 15 Plus",
+    "year": 2023,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
     "id": "iphone-15-pro",
     "brand": "Apple",
     "name": "iPhone 15 Pro",
@@ -102,6 +228,15 @@
     "storage": "128 GB–1 TB",
     "os": "iOS 17 at launch",
     "network": "5G"
+  },
+  {
+    "id": "apple-iphone-15-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 15 Pro Max",
+    "year": 2023,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
   },
   {
     "id": "oneplus-12",
@@ -177,5 +312,347 @@
     "storage": "256 GB–1 TB",
     "os": "Android 14 at launch",
     "network": "5G"
+  },
+  {
+    "id": "apple-iphone-14",
+    "brand": "Apple",
+    "name": "iPhone 14",
+    "year": 2022,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-14-plus",
+    "brand": "Apple",
+    "name": "iPhone 14 Plus",
+    "year": 2022,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-14-pro",
+    "brand": "Apple",
+    "name": "iPhone 14 Pro",
+    "year": 2022,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-14-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 14 Pro Max",
+    "year": 2022,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-se-3rd-generation",
+    "brand": "Apple",
+    "name": "iPhone SE (3rd generation)",
+    "year": 2022,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-13",
+    "brand": "Apple",
+    "name": "iPhone 13",
+    "year": 2021,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-13-mini",
+    "brand": "Apple",
+    "name": "iPhone 13 mini",
+    "year": 2021,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-13-pro",
+    "brand": "Apple",
+    "name": "iPhone 13 Pro",
+    "year": 2021,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-13-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 13 Pro Max",
+    "year": 2021,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-12",
+    "brand": "Apple",
+    "name": "iPhone 12",
+    "year": 2020,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-12-mini",
+    "brand": "Apple",
+    "name": "iPhone 12 mini",
+    "year": 2020,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-12-pro",
+    "brand": "Apple",
+    "name": "iPhone 12 Pro",
+    "year": 2020,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-12-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 12 Pro Max",
+    "year": 2020,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-se-2nd-generation",
+    "brand": "Apple",
+    "name": "iPhone SE (2nd generation)",
+    "year": 2020,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-11",
+    "brand": "Apple",
+    "name": "iPhone 11",
+    "year": 2019,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-11-pro",
+    "brand": "Apple",
+    "name": "iPhone 11 Pro",
+    "year": 2019,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-11-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 11 Pro Max",
+    "year": 2019,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-xr",
+    "brand": "Apple",
+    "name": "iPhone XR",
+    "year": 2018,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-xs",
+    "brand": "Apple",
+    "name": "iPhone XS",
+    "year": 2018,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-xs-max",
+    "brand": "Apple",
+    "name": "iPhone XS Max",
+    "year": 2018,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-8",
+    "brand": "Apple",
+    "name": "iPhone 8",
+    "year": 2017,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-8-plus",
+    "brand": "Apple",
+    "name": "iPhone 8 Plus",
+    "year": 2017,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-x",
+    "brand": "Apple",
+    "name": "iPhone X",
+    "year": 2017,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-7",
+    "brand": "Apple",
+    "name": "iPhone 7",
+    "year": 2016,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-7-plus",
+    "brand": "Apple",
+    "name": "iPhone 7 Plus",
+    "year": 2016,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-se-1st-generation",
+    "brand": "Apple",
+    "name": "iPhone SE (1st generation)",
+    "year": 2016,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-6s",
+    "brand": "Apple",
+    "name": "iPhone 6s",
+    "year": 2015,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-6s-plus",
+    "brand": "Apple",
+    "name": "iPhone 6s Plus",
+    "year": 2015,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-6",
+    "brand": "Apple",
+    "name": "iPhone 6",
+    "year": 2014,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-6-plus",
+    "brand": "Apple",
+    "name": "iPhone 6 Plus",
+    "year": 2014,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-5c",
+    "brand": "Apple",
+    "name": "iPhone 5c",
+    "year": 2013,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-5s",
+    "brand": "Apple",
+    "name": "iPhone 5s",
+    "year": 2013,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-5",
+    "brand": "Apple",
+    "name": "iPhone 5",
+    "year": 2012,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-4s",
+    "brand": "Apple",
+    "name": "iPhone 4S",
+    "year": 2011,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-4",
+    "brand": "Apple",
+    "name": "iPhone 4",
+    "year": 2010,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-3gs",
+    "brand": "Apple",
+    "name": "iPhone 3GS",
+    "year": 2009,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone-3g",
+    "brand": "Apple",
+    "name": "iPhone 3G",
+    "year": 2008,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
+  },
+  {
+    "id": "apple-iphone",
+    "brand": "Apple",
+    "name": "iPhone",
+    "year": 2007,
+    "sourceUrl": "https://support.apple.com/en-gb/108044",
+    "sourceName": "Apple Support",
+    "dataQuality": "model-confirmed-specifications-pending"
   }
 ]
