@@ -3,7 +3,7 @@ import {phones as starter} from '../phones.js';
 const dir=new URL('../public/data/',import.meta.url);
 await fs.mkdir(dir,{recursive:true});
 const read=async(name,fallback)=>JSON.parse(await fs.readFile(new URL(name,dir),'utf8').catch(()=>JSON.stringify(fallback)));
-const existing=await read('catalog.json',[]),previousPrices=await read('prices.json',{}),discovered=await read('discovered.json',[]),imported=await read('imported.json',[]);
+const existing=await read('catalog.json',[]),previousPrices=await read('prices.json',{}),discovered=await read('discovered.json',[]),imported=await read('imported.json',[]),legacy=await read('legacy-models.json',[]);
 const catalog=new Map();
 const quality={discovered:0,verified:0};
 const cleanValue=d=>Object.fromEntries(Object.entries(d).filter(([k,v])=>!['__proto__','constructor','prototype'].includes(k)&&v!==null&&v!==undefined&&v!==''));
@@ -16,7 +16,9 @@ const nameKey=d=>{
 // The existing curated catalog always has final precedence over imported open data.
 // Merge by marketing identity, not ID, so model-number variants do not multiply listings.
 const byName=new Map();
-for(const d of [...discovered,...imported,...starter,...existing]){
+const importedIDs=new Set(imported.map(d=>d.id));
+const safeExisting=existing.filter(d=>d.dataQuality!=='open-data-identity-category-inferred'||importedIDs.has(d.id));
+for(const d of [...discovered,...imported,...legacy,...starter,...safeExisting]){
  if(!d?.id||!d?.name||!d?.brand)continue;
  const k=nameKey(d),old=byName.get(k)||{};
  byName.set(k,{...old,...cleanValue(d)});
@@ -48,5 +50,5 @@ for(const source of sources){
 const all=[...catalog.values()].sort((a,b)=>(b.year||0)-(a.year||0)||a.name.localeCompare(b.name));
 await fs.writeFile(new URL('catalog.json',dir),JSON.stringify(all,null,2)+'\n');
 await fs.writeFile(new URL('prices.json',dir),JSON.stringify(prices,null,2)+'\n');
-await fs.writeFile(new URL('status.json',dir),JSON.stringify({lastChecked:now,deviceCount:all.length,discoveredCount:all.filter(d=>d.dataQuality==='discovered-unverified').length,feedConfigured:sources.length>0,importedCount:imported.length,brandCount:new Set(all.map(d=>d.brand)).size,providers:results},null,2)+'\n');
+await fs.writeFile(new URL('status.json',dir),JSON.stringify({lastChecked:now,deviceCount:all.length,discoveredCount:all.filter(d=>d.dataQuality==='discovered-unverified').length,feedConfigured:sources.length>0,importedCount:imported.length,curatedLegacyCount:legacy.length,brandCount:new Set(all.map(d=>d.brand)).size,providers:results},null,2)+'\n');
 console.log(`Catalog ${all.length} devices; ${results.filter(r=>r.ok).length}/${sources.length} feeds succeeded`);
