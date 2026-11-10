@@ -19,6 +19,8 @@ jobs:
           node-version: '22'
       - name: Discover public phone entries (best effort)
         run: node scripts/import-wikidata.mjs || echo "Public discovery unavailable; keeping last catalog"
+      - name: Enrich discovered models from Wikidata
+        run: node scripts/enrich-wikidata.mjs
       - name: Refresh verified data
         env:
           SPECVERSE_FEED_URL: ${{ secrets.SPECVERSE_FEED_URL }}
