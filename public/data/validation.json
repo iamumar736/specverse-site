@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-10T22:36:00.056Z",
-  "deviceCount": 246,
+  "checkedAt": "2026-11-10T22:45:32.404Z",
+  "deviceCount": 281,
   "errors": [],
   "warnings": [
     "Model has no specifications apple-iphone-17",
@@ -104,5 +104,5 @@
     "Model has no specifications samsung-galaxy-a6",
     "Model has no specifications samsung-galaxy-a60"
   ],
-  "warningCount": 216
+  "warningCount": 251
 }
