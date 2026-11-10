@@ -1,5 +1,6 @@
 import {createHash} from 'node:crypto';
-import {mkdir,writeFile} from 'node:fs/promises';
+import {mkdir,writeFile,stat} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
 import {join} from 'node:path';
 import {IPHONE_IMAGE_FILES} from '../iphone-images.js';
 
@@ -22,6 +23,12 @@ for(const [id,{file,hash}] of Object.entries(IPHONE_IMAGE_FILES)){
   const url=host+hash[0]+'/'+hash+'/'+encoded;
   const source='https://commons.wikimedia.org/wiki/File:'+encoded;
   const destination=join(output.pathname,id+suffix);
+  const existing=await stat(destination).then(x=>x.size>=200).catch(()=>false);
+  if(existing){
+    metadata.push({id,file,source,local:'/iphone-images/'+id+suffix});
+    saved++;
+    continue;
+  }
   let success=false;
   for(let attempt=0;attempt<4&&!success;attempt++){
     try{
@@ -31,13 +38,17 @@ for(const [id,{file,hash}] of Object.entries(IPHONE_IMAGE_FILES)){
       });
       if(!response.ok)throw new Error('HTTP '+response.status);
       const bytes=Buffer.from(await response.arrayBuffer());
-      if(bytes.length>20_000_000||bytes.length<200)throw new Error('Unexpected file size '+bytes.length);
+      if(bytes.length>30_000_000||bytes.length<200)throw new Error('Unexpected file size '+bytes.length);
       const start=bytes.subarray(0,4096).toString('utf8');
       const isSvg=suffix==='.svg'&&/<svg\b/i.test(start);
       const isJpg=['.jpg','.jpeg'].includes(suffix)&&bytes[0]===0xff&&bytes[1]===0xd8;
       const isPng=suffix==='.png'&&bytes.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]));
       if(!(isSvg||isJpg||isPng))throw new Error('File content does not match extension');
       await writeFile(destination,bytes);
+      // Large community PNG artwork is resized for fast, mobile-friendly loading.
+      if(suffix==='.png'&&bytes.length>3_000_000){
+        execFileSync('python3',['-c','from PIL import Image; import sys; p=sys.argv[1]; im=Image.open(p); im.thumbnail((720,1480)); im.save(p,optimize=True)',destination],{stdio:'inherit'});
+      }
       metadata.push({id,file,source,local:'/iphone-images/'+id+suffix});
       saved++;
       console.log('Downloaded '+id+' ('+bytes.length+' bytes)');
