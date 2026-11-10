@@ -1,0 +1,33 @@
+name: Import licensed iPhone illustrations
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'iphone-images.js'
+      - 'scripts/download-iphone-images.mjs'
+      - '.github/workflows/import-iphone-images.yml'
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download licensed Wikimedia Commons images
+        run: node scripts/download-iphone-images.mjs
+      - name: Commit licensed images to website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/iphone-images/
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish licensed iPhone images with source credits"
+            git push
+          fi
