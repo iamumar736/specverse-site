@@ -28,9 +28,10 @@ const premiumTier=p=>{
 };
 const generation=p=>{
   const n=squish(p?.name);
-  // Only infer order for unambiguous named series; this is not a release date.
-  const match=n.match(/(?:^| )(?:iphone|pixel|galaxy s|galaxy z fold|galaxy z flip|galaxy note|oneplus|redmi note|reno|mi )\s*(\d{1,2})(?:\b|\D)/);
-  return match?Number(match[1]):0;
+  // Compare generations only within the same product family.
+  // This avoids treating e.g. Galaxy S25 as newer than Galaxy Z Fold7.
+  const match=n.match(/(?:^| )(iphone|pixel|galaxy s|galaxy z fold|galaxy z flip|galaxy note|oneplus|redmi note|reno|xiaomi|nothing phone)\s*(\d{1,2})(?=\b|[a-z])/);
+  return match?{family:match[1],number:Number(match[2])}:null;
 };
 export function orderedBrands(catalog){
   const available=[...new Set(catalog.map(p=>p.brand).filter(Boolean))];
@@ -68,16 +69,17 @@ export function comparePhones(a,b,prices={},mode='premium',query=''){
     if(pb&&!pa)return 1;
     if(pa&&pb&&pa.currency===pb.currency&&pa.amount!==pb.amount)return pb.amount-pa.amount;
   }
-  const yearDiff=yearOf(b)-yearOf(a);
-  if(yearDiff)return yearDiff;
-  // Prefer higher verified price within the same release year and currency.
-  if(pa&&pb&&pa.currency===pb.currency&&pa.amount!==pb.amount)return pb.amount-pa.amount;
   const sameBrand=a.brand===b.brand;
   const ga=generation(a),gb=generation(b);
-  if(sameBrand&&ga&&gb&&ga!==gb)return gb-ga;
+  // Series numbering gives a reliable relative order even for imported
+  // records with no release year attached.
+  if(sameBrand&&ga&&gb&&ga.family===gb.family&&ga.number!==gb.number)return gb.number-ga.number;
+  const yearDiff=yearOf(b)-yearOf(a);
+  if(yearDiff)return yearDiff;
+  // Never convert currencies or invent prices for missing feeds.
+  if(pa&&pb&&pa.currency===pb.currency&&pa.amount!==pb.amount)return pb.amount-pa.amount;
   const tier=premiumTier(b)-premiumTier(a);if(tier)return tier;
   if(mode==='brand'&&!sameBrand)return a.brand.localeCompare(b.brand);
-  if(sameBrand&&ga!==gb)return gb-ga;
   return a.name.localeCompare(b.name);
 }
 export function brandGroups(catalog,prices={},previewSize=4,mode='premium'){
