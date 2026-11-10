@@ -1,0 +1,434 @@
+[
+  {
+    "id": "curated-unihertz-jelly-pro",
+    "brand": "Unihertz",
+    "name": "Jelly Pro",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-jelly-2",
+    "brand": "Unihertz",
+    "name": "Jelly 2",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-jelly-2e",
+    "brand": "Unihertz",
+    "name": "Jelly 2E",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-jelly-star",
+    "brand": "Unihertz",
+    "name": "Jelly Star",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-jelly-max",
+    "brand": "Unihertz",
+    "name": "Jelly Max",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-atom",
+    "brand": "Unihertz",
+    "name": "Atom",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-atom-l",
+    "brand": "Unihertz",
+    "name": "Atom L",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-atom-xl",
+    "brand": "Unihertz",
+    "name": "Atom XL",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-titan",
+    "brand": "Unihertz",
+    "name": "Titan",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-titan-pocket",
+    "brand": "Unihertz",
+    "name": "Titan Pocket",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-titan-slim",
+    "brand": "Unihertz",
+    "name": "Titan Slim",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-titan-2",
+    "brand": "Unihertz",
+    "name": "Titan 2",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-ticktock",
+    "brand": "Unihertz",
+    "name": "TickTock",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-ticktock-e",
+    "brand": "Unihertz",
+    "name": "TickTock E",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-ticktock-s",
+    "brand": "Unihertz",
+    "name": "TickTock S",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-tank",
+    "brand": "Unihertz",
+    "name": "Tank",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-tank-2",
+    "brand": "Unihertz",
+    "name": "Tank 2",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-tank-3-pro",
+    "brand": "Unihertz",
+    "name": "Tank 3 Pro",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-unihertz-luna",
+    "brand": "Unihertz",
+    "name": "Luna",
+    "sourceUrl": "https://www.unihertz.com/pages/business",
+    "sourceName": "Unihertz official device families",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-x7-pro",
+    "brand": "AGM",
+    "name": "AGM X7 Pro",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-x7",
+    "brand": "AGM",
+    "name": "AGM X7",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-g3-pro",
+    "brand": "AGM",
+    "name": "AGM G3 Pro",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-g3",
+    "brand": "AGM",
+    "name": "AGM G3",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-h6-pro",
+    "brand": "AGM",
+    "name": "AGM H6 Pro",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-h6",
+    "brand": "AGM",
+    "name": "AGM H6",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-h6-lite",
+    "brand": "AGM",
+    "name": "AGM H6 Lite",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-h-max",
+    "brand": "AGM",
+    "name": "AGM H Max",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-g2-guardian",
+    "brand": "AGM",
+    "name": "AGM G2 Guardian",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-glory",
+    "brand": "AGM",
+    "name": "AGM Glory",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-glory-pro",
+    "brand": "AGM",
+    "name": "AGM Glory Pro",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-glory-g1s",
+    "brand": "AGM",
+    "name": "AGM Glory G1S",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-h5",
+    "brand": "AGM",
+    "name": "AGM H5",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-h5-pro",
+    "brand": "AGM",
+    "name": "AGM H5 Pro",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-h3",
+    "brand": "AGM",
+    "name": "AGM H3",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-m8-flip",
+    "brand": "AGM",
+    "name": "AGM M8 Flip",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-m7",
+    "brand": "AGM",
+    "name": "AGM M7",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-note-n2",
+    "brand": "AGM",
+    "name": "AGM Note N2",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-x1",
+    "brand": "AGM",
+    "name": "AGM X1",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-x2",
+    "brand": "AGM",
+    "name": "AGM X2",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-x3",
+    "brand": "AGM",
+    "name": "AGM X3",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-x5",
+    "brand": "AGM",
+    "name": "AGM X5",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-agm-agm-a9-jbl",
+    "brand": "AGM",
+    "name": "AGM A9 JBL",
+    "sourceUrl": "https://www.agmmobile.com/collections/rugged-smartphones",
+    "sourceName": "AGM official rugged phone lineup and history",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-535",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 535",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-435",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 435",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-532",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 532",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-640",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 640",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-640-xl",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 640 XL",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-430",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 430",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-540",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 540",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-950",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 950",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-950-xl",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 950 XL",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-550",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 550",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-microsoft-lumia-lumia-650",
+    "brand": "Microsoft Lumia",
+    "name": "Lumia 650",
+    "sourceUrl": "https://www.ifixit.com/Device/Microsoft",
+    "sourceName": "iFixit Microsoft Lumia model list",
+    "dataQuality": "sourced-model-name-only"
+  },
+  {
+    "id": "curated-essential-essential-phone-ph-1",
+    "brand": "Essential",
+    "name": "Essential Phone PH-1",
+    "sourceUrl": "https://www.phonearena.com/phones/Essential-Phone_id10548",
+    "sourceName": "Essential PH-1 model reference",
+    "dataQuality": "sourced-model-name-only"
+  }
+]
