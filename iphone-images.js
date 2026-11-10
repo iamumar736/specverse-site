@@ -69,7 +69,7 @@ export function getIphoneImageInfo(phone){
   const host='https://upload.wikimedia.org/wikipedia/commons/';
   const fileUrl=host+record.hash[0]+'/'+record.hash+'/'+name;
   const isVector=record.file.toLowerCase().endsWith('.svg');
-  const remoteImage=isVector?fileUrl:host+'thumb/'+record.hash[0]+'/'+record.hash+'/'+name+'/480px-'+name;
+  const remoteImage=fileUrl;
   const extension=record.file.substring(record.file.lastIndexOf('.')).toLowerCase();
   const image='/iphone-images/'+phone.id+extension;
   return {image,remoteImage,file:record.file,source:'https://commons.wikimedia.org/wiki/File:'+name};
