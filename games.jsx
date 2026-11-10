@@ -2,11 +2,14 @@ import React,{useEffect,useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import {Smartphone,Sun,Moon,Gamepad2,ArrowLeft,Sparkles,ShieldCheck,Search} from 'lucide-react';
 import MiniGames from './MiniGames.jsx';
+import HeaderPhoneSearch from './HeaderPhoneSearch.jsx';
 import './style.css';
 
 function GamesPage(){
   const [dark,setDark]=useState(()=>(localStorage.getItem('specverse-theme')??localStorage.getItem('pocket-theme'))!=='light');
   const [search,setSearch]=useState('');
+  const [catalog,setCatalog]=useState([]);
+  useEffect(()=>{let live=true;fetch('/data/catalog.json').then(r=>r.ok?r.json():[]).then(data=>{if(live&&Array.isArray(data))setCatalog(data)}).catch(()=>{});return ()=>{live=false}},[]);
   useEffect(()=>{
     document.documentElement.dataset.theme=dark?'dark':'light';
     localStorage.setItem('specverse-theme',dark?'dark':'light');
@@ -20,10 +23,7 @@ function GamesPage(){
         <a href="/">Explore phones</a>
         <a href="/games/" className="active" aria-current="page"><Gamepad2 size={16}/> Games</a>
       </nav>
-      <form className="top-search" role="search" onSubmit={e=>{e.preventDefault();window.location.assign('/?q='+encodeURIComponent(search.trim())+'#catalog')}}>
-        <input type="search" aria-label="Search phones" placeholder="Search phones..." value={search} onChange={e=>setSearch(e.target.value)}/>
-        <button type="submit" aria-label="Show phone search results"><Search size={17}/></button>
-      </form>
+      <HeaderPhoneSearch query={search} onQuery={setSearch} catalog={catalog} onSelect={p=>window.location.assign('/?phone='+encodeURIComponent(p.id))} onSubmit={()=>window.location.assign('/?q='+encodeURIComponent(search.trim())+'#catalog')}/>
       <button type="button" className="theme" onClick={()=>setDark(d=>!d)} aria-label="Toggle color theme">
         {dark?<Sun size={19}/>:<Moon size={19}/>}
       </button>
