@@ -31,7 +31,7 @@ for(const [id,{file,hash}] of Object.entries(IPHONE_IMAGE_FILES)){
       if(!response.ok)throw new Error('HTTP '+response.status);
       const bytes=Buffer.from(await response.arrayBuffer());
       if(bytes.length>10_000_000||bytes.length<200)throw new Error('Unexpected file size '+bytes.length);
-      const start=bytes.subarray(0,256).toString('utf8');
+      const start=bytes.subarray(0,4096).toString('utf8');
       const isSvg=suffix==='.svg'&&/<svg\b/i.test(start);
       const isJpg=['.jpg','.jpeg'].includes(suffix)&&bytes[0]===0xff&&bytes[1]===0xd8;
       const isPng=suffix==='.png'&&bytes.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]));
