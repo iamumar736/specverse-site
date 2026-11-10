@@ -1,0 +1,40 @@
+import React,{useMemo,useState} from 'react';
+import {Search,Smartphone} from 'lucide-react';
+import {comparePhones,searchScore} from './catalog-order.js';
+
+export default function HeaderPhoneSearch({query,onQuery,catalog=[],prices={},onSelect,onSubmit}){
+  const [focused,setFocused]=useState(false);
+  const [active,setActive]=useState(-1);
+  const matches=useMemo(()=>{
+    const q=query.trim();
+    if(!q)return [];
+    return catalog.filter(p=>searchScore(p,q)>=0).sort((a,b)=>comparePhones(a,b,prices,'premium',q)).slice(0,6);
+  },[query,catalog,prices]);
+  const visible=focused&&query.trim().length>0;
+  const pick=p=>{setFocused(false);setActive(-1);onSelect(p)};
+  return <form className="top-search top-search-autocomplete" role="search"
+    onSubmit={e=>{e.preventDefault();if(visible&&active>=0&&matches[active])pick(matches[active]);else{setFocused(false);onSubmit()}}}
+    onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget)){setFocused(false);setActive(-1)}}}>
+    <input type="search" aria-label="Search phones" aria-autocomplete="list"
+      aria-expanded={Boolean(visible)} aria-controls="header-phone-suggestions"
+      aria-activedescendant={visible&&active>=0?'header-phone-option-'+active:undefined}
+      placeholder="Search phones..." value={query}
+      onFocus={()=>setFocused(true)}
+      onChange={e=>{onQuery(e.target.value);setFocused(true);setActive(-1)}}
+      onKeyDown={e=>{
+        if(e.key==='Escape'){setFocused(false);setActive(-1);e.currentTarget.blur()}
+        if(visible&&e.key==='ArrowDown'){e.preventDefault();setActive(i=>Math.min(i+1,matches.length-1))}
+        if(visible&&e.key==='ArrowUp'){e.preventDefault();setActive(i=>Math.max(i-1,-1))}
+      }}/>
+    <button type="submit" aria-label="Show phone search results"><Search size={17}/></button>
+    {visible&&<div className="top-search-dropdown" id="header-phone-suggestions" role="listbox" aria-label="Matching phones">
+      {matches.length?matches.map((p,i)=><button type="button" role="option" aria-selected={active===i}
+        id={'header-phone-option-'+i} className={'top-search-result '+(active===i?'highlight':'')}
+        key={p.id} onMouseDown={e=>e.preventDefault()} onClick={()=>pick(p)}>
+        <span className="top-search-thumb">{p.image?<img src={p.image} alt="" loading="lazy" onError={e=>{e.currentTarget.style.display='none'}}/>:<Smartphone size={20}/>}</span>
+        <span className="top-search-info"><strong>{p.name}</strong><small>{p.brand}{p.year?' · '+p.year:''}</small></span>
+      </button>):<div className="top-search-empty">No matching phones found</div>}
+      {matches.length>0&&<div className="top-search-tip">Press Enter for all results</div>}
+    </div>}
+  </form>;
+}
