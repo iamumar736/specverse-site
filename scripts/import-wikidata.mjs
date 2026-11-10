@@ -3,8 +3,8 @@ import fs from 'node:fs/promises';
 const output=new URL('../public/data/discovered.json',import.meta.url);
 const endpoint='https://query.wikidata.org/sparql';
 const queries=[
-  'SELECT DISTINCT ?item ?itemLabel ?manufacturerLabel ?date WHERE { ?item wdt:P31 wd:Q22645. OPTIONAL { ?item wdt:P176 ?manufacturer. } OPTIONAL { ?item wdt:P577 ?date. } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 2000',
-  'SELECT DISTINCT ?item ?itemLabel ?manufacturerLabel ?date WHERE { ?item wdt:P31/wdt:P279* wd:Q22645. OPTIONAL { ?item wdt:P176 ?manufacturer. } OPTIONAL { ?item wdt:P577 ?date. } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 2000'
+  'SELECT DISTINCT ?item ?itemLabel ?manufacturerLabel ?date WHERE { ?item wdt:P31 wd:Q19723451. OPTIONAL { ?item wdt:P176 ?manufacturer. } OPTIONAL { ?item wdt:P577 ?date. } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 2000',
+  'SELECT DISTINCT ?item ?itemLabel ?manufacturerLabel ?date WHERE { ?item wdt:P31/wdt:P279* wd:Q19723451. OPTIONAL { ?item wdt:P176 ?manufacturer. } OPTIONAL { ?item wdt:P577 ?date. } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 2000'
 ];
 const rows=[];
 let errors=[];
