@@ -2212,5 +2212,285 @@
     "name": "Galaxy Z Fold7",
     "sourceName": "Curated model index — specifications pending verification",
     "dataQuality": "model-name-only-unverified"
+  },
+  {
+    "id": "google-pixel",
+    "brand": "Google",
+    "name": "Pixel",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-xl",
+    "brand": "Google",
+    "name": "Pixel XL",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-2",
+    "brand": "Google",
+    "name": "Pixel 2",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-2-xl",
+    "brand": "Google",
+    "name": "Pixel 2 XL",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-3",
+    "brand": "Google",
+    "name": "Pixel 3",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-3-xl",
+    "brand": "Google",
+    "name": "Pixel 3 XL",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-3a",
+    "brand": "Google",
+    "name": "Pixel 3a",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-3a-xl",
+    "brand": "Google",
+    "name": "Pixel 3a XL",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-4",
+    "brand": "Google",
+    "name": "Pixel 4",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-4-xl",
+    "brand": "Google",
+    "name": "Pixel 4 XL",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-4a",
+    "brand": "Google",
+    "name": "Pixel 4a",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-4a-5g",
+    "brand": "Google",
+    "name": "Pixel 4a (5G)",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-5",
+    "brand": "Google",
+    "name": "Pixel 5",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-5a-5g",
+    "brand": "Google",
+    "name": "Pixel 5a (5G)",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-6",
+    "brand": "Google",
+    "name": "Pixel 6",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-6-pro",
+    "brand": "Google",
+    "name": "Pixel 6 Pro",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-6a",
+    "brand": "Google",
+    "name": "Pixel 6a",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-7",
+    "brand": "Google",
+    "name": "Pixel 7",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-7-pro",
+    "brand": "Google",
+    "name": "Pixel 7 Pro",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-7a",
+    "brand": "Google",
+    "name": "Pixel 7a",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-fold",
+    "brand": "Google",
+    "name": "Pixel Fold",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-8",
+    "brand": "Google",
+    "name": "Pixel 8",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-9",
+    "brand": "Google",
+    "name": "Pixel 9",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-9-pro-xl",
+    "brand": "Google",
+    "name": "Pixel 9 Pro XL",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-9-pro-fold",
+    "brand": "Google",
+    "name": "Pixel 9 Pro Fold",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-9a",
+    "brand": "Google",
+    "name": "Pixel 9a",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-10",
+    "brand": "Google",
+    "name": "Pixel 10",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-10-pro",
+    "brand": "Google",
+    "name": "Pixel 10 Pro",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-10-pro-xl",
+    "brand": "Google",
+    "name": "Pixel 10 Pro XL",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-10-pro-fold",
+    "brand": "Google",
+    "name": "Pixel 10 Pro Fold",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-10a",
+    "brand": "Google",
+    "name": "Pixel 10a",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-11",
+    "brand": "Google",
+    "name": "Pixel 11",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-11-pro",
+    "brand": "Google",
+    "name": "Pixel 11 Pro",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-11-pro-xl",
+    "brand": "Google",
+    "name": "Pixel 11 Pro XL",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
+  },
+  {
+    "id": "google-pixel-11-pro-fold",
+    "brand": "Google",
+    "name": "Pixel 11 Pro Fold",
+    "sourceUrl": "https://support.google.com/pixelphone/answer/4457705",
+    "sourceName": "Google Pixel Phone Help — software update device list",
+    "dataQuality": "manufacturer-confirmed-model;specifications-pending"
   }
 ]
