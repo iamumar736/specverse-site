@@ -25,6 +25,8 @@ jobs:
           SPECVERSE_FEED_URLS: ${{ secrets.SPECVERSE_FEED_URLS }}
           SPECVERSE_FEED_TOKEN: ${{ secrets.SPECVERSE_FEED_TOKEN }}
         run: node scripts/update-data.mjs
+      - name: Validate catalog and record missing specifications
+        run: node scripts/validate-catalog.mjs
       - name: Commit updated data
         run: |
           git config user.name 'specverse-updater'
