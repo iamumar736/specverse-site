@@ -44,7 +44,7 @@ const families = {
  'Itel':/^(?:itel|A\d|S\d|P\d|Vision|RS\d|POWER)/i
 };
 // Android device directories also include televisions, tablets, wearables and test hardware.
-const nonPhone = /\b(?:smart\s*tv|android\s*tv|tv|television|tablet|tab(?:let)?\b|tab\d|pad|watch|wristband|fitband|projector|chromebook|chromebox|smartbox|tvbox|set.top|tv stick|car |automotive|emulator|monitor|smart.?display|laptop|notebook|pixelbook|thinkpad|ideapad|netbook|e.reader|audio|refrigerator|toy|camera|speaker|home hub|tkee|home appliance)\b/i;
+const nonPhone = /\b(?:smart\s*tv|android\s*tv|tv|television|tablet|tab(?:let)?\b|tab\d|pad|watch|wristband|fitband|projector|chromebook|chromebox|smartbox|tvbox|set.top|tv stick|car |automotive|emulator|monitor|smart.?display|laptop|notebook|pixelbook|thinkpad|ideapad|netbook|e.reader|audio|refrigerator|toy|camera|speaker|home hub|tkee|home appliance)\b|\d+k?tv\b|\bgtv\b|\b\d+t\d{2}\b/i;
 const key = s => String(s).toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,'');
 const slug = s => String(s).toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const response = await fetch(source, {headers:{'Accept':'application/json','User-Agent':'SpecVerse/1.2 (device catalog; github.com/iamumar736/specverse-site)'},signal:AbortSignal.timeout(45000)});
@@ -64,9 +64,10 @@ for(const [modelCode, value] of Object.entries(payload.models)){
   if(!name||name.length<2||name.length>90||nonPhone.test(name)
      || /^(?:android|device|phone|unknown|default|generic|test|prototype|google)$/i.test(name)
      || /^\d+$/.test(name)||key(name)===key(brand))continue;
-  if(key(name)===key(modelCode)&&/^[a-z]{0,5}\d{3,}$/i.test(name))continue;
+  if(key(name)===key(modelCode)&&/^(?=[a-z0-9_-]{5,}$)(?=.*\d{3})[a-z0-9_-]+$/i.test(name))continue;
   if(/^(?:[a-z]{1,4}\d{5,}|[0-9a-z]{12,})$/i.test(name))continue;
   if(families[brand]&&!families[brand].test(name))continue;
+  if(brand==='Panasonic'&&!/^(?:Panasonic(?:\s|$)|ELUGA|P\d|T\d|\d{3}P$)/i.test(name))continue;
   const identity=key(brand)+'|'+key(name);
   if(!found.has(identity))found.set(identity,{
     id:'open-'+slug(brand)+'-'+slug(name),brand,name,
