@@ -20,6 +20,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Prepare image optimizer
         run: python3 -m pip install --quiet Pillow
       - name: Download licensed Wikimedia Commons images
