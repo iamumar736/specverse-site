@@ -6,3 +6,10 @@ for(const url of ['https://www.oppo.com/pk/smartphones/','https://www.oppo.com/p
 for(const url of ['https://www.oppo.com/pk/sitemap.xml','https://www.oppo.com/en/sitemap.xml','https://www.vivo.com/pk/sitemap.xml','https://www.vivo.com/en/sitemap.xml']){
  try{const r=await fetch(url),h=await r.text();console.log('SITEMAP',url,r.status,h.length,h.slice(0,800).replace(/\s+/g,' '));const links=[...h.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);console.log('SM-LINKS',links.length,JSON.stringify(links.filter(x=>/smartphones|products|sitemap/i.test(x)).slice(0,15)))}catch(e){console.log('SMERR',url,e.message)}
 }
+for(const url of ['https://www.oppo.com/pk/smartphones/series-reno/reno11/specs/','https://www.vivo.com/pk/products/param/x200-pro']){
+ const $=cheerio.load(await (await fetch(url)).text());
+ for(const sel of ['.attr-item','.attr-item-name','.attr-item-text','.item-left','.item-right','.item-right-list','.item-title','.item-name','.item-label','.item-value','.product-params','.params-item','[class*="param"]']){
+  console.log('SEL',url.includes('oppo')?'OPPO':'VIVO',sel,$(sel).length,$(sel).first().text().replace(/\s+/g,' ').slice(0,160));
+ }
+ console.log('HTML-SAMPLE',url.includes('oppo')?'OPPO':'VIVO',$('.item-right-list,.attr-item').first().parent().html()?.slice(0,1700).replace(/\s+/g,' '));
+}
