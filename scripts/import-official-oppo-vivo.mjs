@@ -86,7 +86,7 @@ function specData(page,brand){
   put('camera',rear?rear[1]:camera);if(front)put('selfie',front[1]);
  }
  put('cameraDetails',get('Aperture'));
- put('sim',get('Card Slot'));put('network',(get('5G','5G SA','5G NSA')?'5G, ':'')+'4G LTE, 3G, 2G (regional support)');
+ put('sim',get('Card Slot'));const has5g=Boolean(get('5G','5G SA','5G NSA')),has4g=Boolean(get('4G FDD-LTE','4G FDD_LTE','4G TD-LTE','4G TDD_LTE'));if(has5g)put('network','5G'+(has4g?', 4G LTE':'')+' (regional bands listed)');else if(has4g)put('network','4G LTE (regional bands listed)');
  put('bands',[get('5G','5G SA','5G NSA'),get('4G FDD-LTE','4G FDD_LTE'),get('4G TD-LTE','4G TDD_LTE')].filter(Boolean).join('; '));
  put('wifi',get('Wi-Fi'));put('bluetooth',get('Bluetooth'));put('usb',get('USB'));put('nfc',get('NFC'));
  put('gps',get('Location','GPS'));put('sensors',[get('Accelerometer'),get('Gyroscope'),get('Proximity Sensor')].filter(Boolean).join('; '));
