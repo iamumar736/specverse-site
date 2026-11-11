@@ -28,3 +28,15 @@ for(const url of [
   }
  }catch(e){console.warn('SamsungFETCHERR',url,String(e))}
 }
+
+for(const loc of ['https://www.samsung.com/uk/sitemap.xml','https://www.samsung.com/pk/sitemap.xml']){
+ try{
+  const page=await (await fetch(loc)).text();const links=[...page.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);
+  console.log('SAMSUNGSITEMAP',loc,links.length,JSON.stringify(links.slice(0,30)));
+  for(const sub of links.filter(x=>/b2c|product|smartphone|mobile/.test(x)).slice(0,3)){
+    const response=await fetch(sub);const text=await response.text();
+    const entries=[...text.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);
+    console.log('SAMSUNGSUBMAP',sub,response.status,text.length,entries.length,JSON.stringify(entries.filter(x=>/galaxy-a55|galaxy-a01|galaxy-s24-ultra/i.test(x)).slice(0,15)),JSON.stringify(entries.slice(0,4)));
+  }
+ }catch(e){console.log('SAMSUNGSMERR',loc,e.message)}
+}
