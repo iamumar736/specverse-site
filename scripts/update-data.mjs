@@ -4,7 +4,7 @@ const dir=new URL('../public/data/',import.meta.url);
 await fs.mkdir(dir,{recursive:true});
 const read=async(name,fallback)=>JSON.parse(await fs.readFile(new URL(name,dir),'utf8').catch(()=>JSON.stringify(fallback)));
 const existing=await read('catalog.json',[]),previousPrices=await read('prices.json',{}),discovered=await read('discovered.json',[]),imported=await read('imported.json',[]),legacy=await read('legacy-models.json',[]);
-const manufacturerApple=await read('official-apple.json',{}),manufacturerSamsung=await read('official-samsung.json',{});
+const manufacturerApple=await read('official-apple.json',{}),manufacturerSamsung=await read('official-samsung.json',{}),manufacturerOppo=await read('official-oppo.json',{}),manufacturerVivo=await read('official-vivo.json',{});
 const catalog=new Map();
 const quality={discovered:0,verified:0};
 const cleanValue=d=>Object.fromEntries(Object.entries(d).filter(([k,v])=>!['__proto__','constructor','prototype'].includes(k)&&v!==null&&v!==undefined&&v!==''));
@@ -24,7 +24,7 @@ for(const d of [...discovered,...imported,...legacy,...starter,...safeExisting])
  const k=nameKey(d),old=byName.get(k)||{};
  byName.set(k,{...old,...cleanValue(d)});
 }
-for(const d of byName.values()){const verified=d.brand==='Apple'?manufacturerApple[d.id]:d.brand==='Samsung'?manufacturerSamsung[d.id]:null;catalog.set(d.id,verified?{...d,...verified,id:d.id,name:d.name,brand:d.brand,image:d.image}:d)}
+for(const d of byName.values()){const verified=d.brand==='Apple'?manufacturerApple[d.id]:d.brand==='Samsung'?manufacturerSamsung[d.id]:d.brand==='OPPO'?manufacturerOppo[d.id]:d.brand==='Vivo'?manufacturerVivo[d.id]:null;catalog.set(d.id,verified?{...d,...verified,id:d.id,name:d.name,brand:d.brand,image:d.image}:d)}
 const prices={...previousPrices};const now=new Date().toISOString();
 const sources=(process.env.SPECVERSE_FEED_URLS||process.env.SPECVERSE_FEED_URL||'').split(',').map(x=>x.trim()).filter(Boolean);
 const results=[];
