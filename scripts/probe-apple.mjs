@@ -40,3 +40,11 @@ for(const loc of ['https://www.samsung.com/uk/sitemap.xml','https://www.samsung.
   }
  }catch(e){console.log('SAMSUNGSMERR',loc,e.message)}
 }
+
+for(const loc of ['https://www.samsung.com/pk/im-sitemap.xml','https://www.samsung.com/uk/im-sitemap.xml']){
+ try{
+  const response=await fetch(loc);const html=await response.text();
+  const urls=[...html.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);
+  console.log('SAMSUNGIM',loc,response.status,html.length,urls.length,JSON.stringify(urls.slice(0,15)),JSON.stringify(urls.filter(x=>/galaxy-a55|galaxy-a01|galaxy-s24-ultra|galaxy-s25-ultra/.test(x)).slice(0,25)));
+ }catch(e){console.log('SAMSUNGIMERR',loc,e.message)}
+}
