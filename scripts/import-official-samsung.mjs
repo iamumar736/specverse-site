@@ -38,6 +38,9 @@ function eligible(p,url){
  if(!path.includes(exact))return false;
  const suffix=path.slice(path.indexOf(exact)+exact.length);
  if(suffix&&!/^[-/]/.test(suffix))return false;
+ // A base Galaxy S24 must never inherit specs from S24 Ultra, FE or Plus.
+ const variantSuffix=suffix.match(/^-(ultra|plus|fe|edge|lite|max|pro|5g)(?:[-/]|$)/);
+ if(variantSuffix&&!(variantSuffix[1]==='5g'&&/^Galaxy A(?:35|36|55|56)$/i.test(p.name)))return false;
  if(!/\b5g\b/i.test(p.name)&&/^-5g(?:[-/]|$)/.test(suffix)&&!/\b(?:a55|a56|a35|a36)\b/i.test(p.name))return false;
  if(p.name==='Galaxy S'&&!/galaxy-s[-/]/.test(path))return false;
  return true;
