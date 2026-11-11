@@ -1,11 +1,6 @@
 name: Import official OPPO and vivo specifications
 on:
   workflow_dispatch:
-  push:
-    branches: [feature/official-oppo-vivo-specs]
-    paths:
-      - 'scripts/import-official-oppo-vivo.mjs'
-      - '.github/workflows/import-official-oppo-vivo.yml'
 permissions:
   contents: write
 jobs:
