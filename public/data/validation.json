@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T00:33:30.858Z",
+  "checkedAt": "2026-11-11T00:50:34.223Z",
   "deviceCount": 6795,
   "errors": [],
   "warnings": [
@@ -104,5 +104,5 @@
     "Model has no specifications open-lenovo-a2105",
     "Model has no specifications open-lenovo-a218t"
   ],
-  "warningCount": 6325
+  "warningCount": 6255
 }
