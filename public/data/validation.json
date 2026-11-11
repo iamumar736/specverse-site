@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T01:18:50.550Z",
+  "checkedAt": "2026-11-11T01:22:15.116Z",
   "deviceCount": 6795,
   "errors": [],
   "warnings": [
@@ -78,9 +78,6 @@
     "Model has no specifications open-oppo-a1601",
     "Model has no specifications open-oppo-a16k",
     "Model has no specifications open-itel-a17",
-    "Model has no specifications open-oppo-a17",
-    "Model has no specifications open-oppo-a17k",
-    "Model has no specifications open-oppo-a18",
     "Model has no specifications open-lenovo-a1900",
     "Model has no specifications open-oppo-a1k",
     "Model has no specifications open-zte-a1p",
@@ -102,7 +99,10 @@
     "Model has no specifications open-lenovo-a208t",
     "Model has no specifications open-itel-a21",
     "Model has no specifications open-lenovo-a2105",
-    "Model has no specifications open-lenovo-a218t"
+    "Model has no specifications open-lenovo-a218t",
+    "Model has no specifications open-zte-a21plus",
+    "Model has no specifications open-itel-a22",
+    "Model has no specifications open-itel-a22-pro"
   ],
-  "warningCount": 6255
+  "warningCount": 6139
 }
