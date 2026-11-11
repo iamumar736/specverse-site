@@ -15,7 +15,7 @@ async function fetchText(url,attempts=3){
   }catch(e){if(i===attempts-1)throw e;await wait((i+1)*1200)}
  }
 }
-const sites=['pk','sg','uk','in'];
+const sites=['pk','sg','uk','in','my','ph','id','au','ae','th','vn','za'];
 const candidates=[];
 for(const site of sites){
  try{
@@ -50,7 +50,7 @@ for(const p of devices){
  const choices=candidates.filter(c=>eligible(p,c.url)).sort((a,b)=>{
   const rank=c=>sites.indexOf(c.site)*10+(c.url.includes('-sm-')?0:4)+(!c.url.endsWith('/')?1:0);
   return rank(a)-rank(b)||a.url.length-b.url.length;
- }).slice(0,3);
+ }).filter((c,i,all)=>all.findIndex(x=>x.site===c.site)===i).slice(0,8);
  available.set(p.id,choices);
 }
 console.log('Samsung exact name-URL matches',devices.filter(p=>available.get(p.id).length>0).length,'of',devices.length);
