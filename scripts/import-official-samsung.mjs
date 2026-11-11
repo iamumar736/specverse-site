@@ -18,18 +18,29 @@ async function fetchText(url,attempts=3){
 const sites=['pk','sg','uk','in','my','ph','id','au','ae','th','vn','za'];
 const candidates=[];
 for(const site of sites){
- try{
-  const xml=(await fetchText('https://www.samsung.com/'+site+'/im-sitemap.xml')).text;
-  const urls=[...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1].replace(/&amp;/g,'&'));
-  const phones=urls.filter(url=>{
-   const u=new URL(url);
-   return u.pathname.includes('/smartphones/')&&/\/galaxy-(?:[a-z0-9-]+)\//i.test(u.pathname)
-     &&!/\/(?:buy|reviews|compare|accessories|upgrade|features|how-to|business|trade-in)\//i.test(u.pathname)
-     &&!/\.(?:jpg|png|svg|webp)$/i.test(u.pathname);
-  });
-  candidates.push(...phones.map(url=>({url,site})));
-  console.log('Samsung sitemap',site,urls.length,'smartphone pages',phones.length);
- }catch(e){console.warn('Sitemap unavailable',site,e.message)}
+ const maps=['https://www.samsung.com/'+site+'/im-sitemap.xml'];
+ if(['pk','in','uk','sg','my','ae','au'].includes(site))maps.push('https://www.samsung.com/'+site+'/business/b2b-sitemap.xml');
+ for(const location of maps){
+  try{
+   const xml=(await fetchText(location)).text;
+   let urls=[...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1].replace(/&amp;/g,'&'));
+   const submaps=urls.filter(u=>/sitemap\.xml(?:\?|$)/.test(u));
+   if(submaps.length&&submaps.length<20){
+    for(const sub of submaps){
+     try{const next=(await fetchText(sub,2)).text;urls.push(...[...next.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1].replace(/&amp;/g,'&')))}
+     catch(e){console.warn('Samsung submap unavailable',sub,e.message)}
+    }
+   }
+   const phones=urls.filter(url=>{
+    const u=new URL(url);
+    return u.pathname.includes('/smartphones/')&&/\/galaxy-(?:[a-z0-9-]+)\//i.test(u.pathname)
+      &&!/\/(?:buy|reviews|compare|accessories|upgrade|features|how-to|trade-in)\//i.test(u.pathname)
+      &&!/\.(?:jpg|png|svg|webp)$/i.test(u.pathname);
+   });
+   candidates.push(...phones.map(url=>({url,site})));
+   console.log('Samsung sitemap',site,location,urls.length,'smartphone pages',phones.length);
+  }catch(e){console.warn('Sitemap unavailable',location,e.message)}
+ }
 }
 const available=new Map();
 function eligible(p,url){
