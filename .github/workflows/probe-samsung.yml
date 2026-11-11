@@ -1,0 +1,14 @@
+name: Probe Samsung official markup (temporary)
+on:
+  push:
+    branches: [feature/official-samsung-specs]
+    paths: ['scripts/probe-samsung.mjs','.github/workflows/probe-samsung.yml']
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - run: npm install --no-save --no-audit --no-fund cheerio
+      - run: node scripts/probe-samsung.mjs
