@@ -37,7 +37,7 @@ function parsePage(page,name){
  const weight=first(sizes,/^Weight:/i)?.match(/\(([\d,.]+)\s*grams?\)/i)?.[1];if(weight)add('weight',weight+' g');
  const displayType=first(dis,/Super Retina|Liquid Retina|Retina display|Multi-Touch display/i)||'display';
  const inches=dis.filter(x=>/inch/i.test(x)&&/display|screen|OLED/i.test(x)).map(x=>x.match(/(\d+(?:\.\d+)?)\s*[‑\-]?\s*inch/i)?.[1]).filter(Boolean);
- if(inches.length)add('screen',(name==='iPhone Duo'?inches.slice(0,2).join(' + '):inches[0])+'-inch '+displayType.replace(/ display$/i,'')+(dis.some(x=>/\bOLED\b/i.test(x))?' OLED':''));
+ if(inches.length){const label=displayType.replace(/ display$/i,'').replace(/^\d+(?:\.\d+)?\s*[‑-]?\s*inch\s*(?:\(diagonal\)\s*)?/i,'').trim();add('screen',(name==='iPhone Duo'?inches.slice(0,2).join(' + '):inches[0])+'-inch '+(label||'display')+(dis.some(x=>/\bOLED\b/i.test(x))?' OLED':''));}
  const res=first(dis,/pixel resolution|resolution at \d+\s*ppi/i);if(res)add('resolution',res.replace(/[‑\u2010-\u2015]/g,'-').replace(/-by-/i,' × '));
  const hz=first(dis,/\bProMotion|refresh rate/i)?.match(/(\d+)\s*Hz/i)?.[1];if(hz)add('refreshRate','Up to '+hz+' Hz');
  add('brightness',first(dis,/\bnits?\b/i));add('protection',first(dis,/fingerprint-resistant|anti-reflective|ceramic shield/i)||first(finish,/ceramic shield/i));
@@ -58,13 +58,16 @@ function parsePage(page,name){
  add('usb',[port,first(connector,/USB [23]|USB-C.+Gb\/s/i)].filter(Boolean).join('; '));
  add('charging',[port,first(power,/50%.+minutes?|fast.charge/i)].filter(Boolean).join('; '));
  const radio=section('cellular and wireless','cellular');
- add('network',radio.filter(x=>/(5G|LTE|GSM\/EDGE|UMTS)/i.test(x)&&!/(Bands? n?\d|Model A\d)/i.test(x)).slice(0,4).join('; '));
+ const generations=[radio.some(x=>/5G NR|\b5G\b/i.test(x))?'5G':null,radio.some(x=>/\bLTE\b/i.test(x))?'4G LTE':null,radio.some(x=>/UMTS|HSPA/i.test(x))?'3G UMTS/HSPA':null,radio.some(x=>/GSM|EDGE/i.test(x))?'2G GSM/EDGE':null].filter(Boolean);
+ add('network',generations.length?generations.join(', ')+' (band support depends on region)':null);
  add('bands',radio.filter(x=>/(?:5G NR|FDD.LTE|TD.LTE|GSM.+MHz|UMTS.+MHz).*Bands?/i.test(x)).slice(0,4).map(x=>x.slice(0,235)).join('; '));
  add('wifi',first(radio,/Wi[\s-]*Fi\s*[4567]|802\.11/i));add('bluetooth',first(radio,/Bluetooth/i));add('nfc',first(radio,/\bNFC\b/i));
  add('gps',first(section('location','gps'),/\bGPS\b|GLONASS|Galileo/i));
  const sensors=section('sensors');add('sensors',sensors.filter(x=>/sensor|gyro|accelerometer|barometer|compass|LiDAR|Face ID|Touch ID/i.test(x)).slice(0,9).join('; '));
  const face=section('face id'),touch=section('touch id');if(face.length)add('biometrics','Face ID');else if(touch.length)add('biometrics','Touch ID'+(touch.some(x=>/side button/i.test(x))?' (side button)':''));
- add('sim',section('sim card').filter(x=>/\b(?:SIM|eSIM)\b/i.test(x)&&!/^Learn more/i.test(x)).slice(0,2).map(x=>x.slice(0,190)).join('; '));
+ const simLines=section('sim card').filter(x=>/\b(?:SIM|eSIM)\b/i.test(x)&&!/^Learn more/i.test(x)).slice(0,2);
+ const simInfo=simLines.map(x=>x.slice(0,190)).join('; ');
+ add('sim',/not compatible with physical SIM cards/i.test(simInfo)?'US variant: '+simLines[0]+'; physical SIM support differs by country and model number.':simInfo);
  const audio=section('audio playback','audio'),buttons=section('external buttons and connectors');
  add('speakers',[first(buttons,/stereo speaker/i),first(audio,/spatial audio/i)].filter(Boolean).join('; '));add('jack',first(buttons,/headphone jack|3\.5.?mm/i));
  if(Object.keys(result).length<5)throw Error('Too few technical fields in source');
