@@ -1,11 +1,6 @@
 name: Import official Samsung model specifications
 on:
   workflow_dispatch:
-  push:
-    branches: [main, feature/official-samsung-specs]
-    paths:
-      - 'scripts/import-official-samsung.mjs'
-      - '.github/workflows/import-official-samsung.yml'
 permissions:
   contents: write
 jobs:
@@ -31,8 +26,17 @@ jobs:
             git commit -m "Publish source-verified regional Samsung specifications"
             for attempt in 1 2 3 4; do
               git fetch origin "$GITHUB_REF_NAME"
-              git rebase "origin/$GITHUB_REF_NAME"
-              if git push origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi
+              if git rebase "origin/$GITHUB_REF_NAME"; then
+                if git push origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi
+              else
+                # Another job already wrote the same source files: preserve remote safely.
+                git rebase --abort
+                git reset --hard "origin/$GITHUB_REF_NAME"
+                node scripts/import-official-samsung.mjs
+                git add public/data/official-samsung.json public/data/samsung-verification-coverage.json
+                if git diff --cached --quiet; then exit 0; fi
+                git commit -m "Publish source-verified regional Samsung specifications"
+              fi
               sleep $((attempt*3))
             done
             exit 1
