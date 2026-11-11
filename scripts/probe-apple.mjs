@@ -2,7 +2,7 @@ import * as cheerio from 'cheerio';
 const base='https://support.apple.com/en-us/108044';
 const html=await (await fetch(base)).text();const $=cheerio.load(html);
 const specLinks=[];
-$('a').each((_,el)=>{const label=$(el).text().replace(/\s+/g,' ').trim();if(/See the tech specs for iPhone /i.test(label)){specLinks.push({label,href:$(el).attr('href')})}});
+$('a').each((_,el)=>{const label=$(el).text().replace(/\s+/g,' ').trim();if(/tech specs for iPhone/i.test(label)){specLinks.push({label,href:$(el).attr('href')})}});
 console.log('Spec-links total',specLinks.length);
 console.log('Links',JSON.stringify(specLinks.slice(0,65)));
 for(const url of ['https://support.apple.com/en-us/111831','https://support.apple.com/en-us/125090','https://support.apple.com/en-us/148588']){
