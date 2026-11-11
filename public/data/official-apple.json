@@ -30,12 +30,12 @@
     "gps": "GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)12; physical SIM support differs by country and model number.",
     "speakers": "Built‑in stereo speaker; Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/126470",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:27:55.248Z"
+    "verifiedAt": "2026-11-11T00:33:30.170Z"
   },
   "apple-iphone-18-pro": {
     "storage": "256 GB / 512 GB / 1 TB / 2 TB",
@@ -69,12 +69,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; LiDAR Scanner; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)17; physical SIM support differs by country and model number.",
     "speakers": "Built‑in stereo speaker; Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/148590",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:27:57.081Z"
+    "verifiedAt": "2026-11-11T00:33:31.736Z"
   },
   "apple-iphone-18-pro-max": {
     "storage": "256 GB / 512 GB / 1 TB / 2 TB",
@@ -108,12 +108,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; LiDAR Scanner; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)17; physical SIM support differs by country and model number.",
     "speakers": "Built‑in stereo speaker; Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/148591",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:27:58.601Z"
+    "verifiedAt": "2026-11-11T00:33:33.201Z"
   },
   "apple-iphone-duo": {
     "storage": "256 GB / 512 GB / 1 TB / 2 TB",
@@ -147,12 +147,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Touch ID fingerprint sensor; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Four ambient light sensors",
     "biometrics": "Touch ID (side button)",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)15; physical SIM support differs by country and model number.",
     "speakers": "Built‑in stereo speaker; Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/148588",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:00.186Z"
+    "verifiedAt": "2026-11-11T00:33:34.646Z"
   },
   "apple-iphone-16e": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -185,12 +185,12 @@
     "gps": "GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)12; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/122208",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:01.868Z"
+    "verifiedAt": "2026-11-11T00:33:36.035Z"
   },
   "apple-iphone-17": {
     "storage": "256 GB / 512 GB",
@@ -224,12 +224,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)13; physical SIM support differs by country and model number.",
     "speakers": "Built‑in stereo speaker; Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/125089",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:03.264Z"
+    "verifiedAt": "2026-11-11T00:33:37.499Z"
   },
   "apple-iphone-17-pro": {
     "storage": "256 GB / 512 GB / 1 TB",
@@ -263,12 +263,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; LiDAR Scanner; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)16; physical SIM support differs by country and model number.",
     "speakers": "Built‑in stereo speaker; Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/125090",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:04.769Z"
+    "verifiedAt": "2026-11-11T00:33:38.410Z"
   },
   "apple-iphone-17-pro-max": {
     "storage": "256 GB / 512 GB / 1 TB / 2 TB",
@@ -302,12 +302,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; LiDAR Scanner; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)16; physical SIM support differs by country and model number.",
     "speakers": "Built‑in stereo speaker; Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/125091",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:06.531Z"
+    "verifiedAt": "2026-11-11T00:33:39.842Z"
   },
   "apple-iphone-air": {
     "storage": "256 GB / 512 GB / 1 TB",
@@ -341,12 +341,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)15; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback with compatible AirPods",
     "sourceUrl": "https://support.apple.com/en-us/125092",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:08.265Z"
+    "verifiedAt": "2026-11-11T00:33:41.246Z"
   },
   "apple-iphone-16": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -379,12 +379,12 @@
     "gps": "GPS, GLONASS, Galileo, QZSS, and BeiDou",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)13; physical SIM support differs by country and model number.",
     "speakers": "Built‑in stereo speaker; Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/121029",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:10.078Z"
+    "verifiedAt": "2026-11-11T00:33:42.834Z"
   },
   "apple-iphone-16-plus": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -417,12 +417,12 @@
     "gps": "GPS, GLONASS, Galileo, QZSS, and BeiDou",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)13; physical SIM support differs by country and model number.",
     "speakers": "Built‑in stereo speaker; Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/121030",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:12.010Z"
+    "verifiedAt": "2026-11-11T00:33:44.439Z"
   },
   "iphone-16-pro": {
     "storage": "128 GB / 256 GB / 512 GB / 1 TB",
@@ -456,12 +456,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; LiDAR Scanner; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)19; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/121031",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:13.526Z"
+    "verifiedAt": "2026-11-11T00:33:45.872Z"
   },
   "apple-iphone-16-pro-max": {
     "storage": "256 GB / 512 GB / 1 TB",
@@ -495,12 +495,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; LiDAR Scanner; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)19; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/121032",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:15.164Z"
+    "verifiedAt": "2026-11-11T00:33:47.659Z"
   },
   "apple-iphone-15": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -533,12 +533,12 @@
     "gps": "GPS, GLONASS, Galileo, QZSS, and BeiDou",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)16; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/111831",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:16.982Z"
+    "verifiedAt": "2026-11-11T00:33:48.924Z"
   },
   "apple-iphone-15-plus": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -571,12 +571,12 @@
     "gps": "GPS, GLONASS, Galileo, QZSS, and BeiDou",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)16; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/111830",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:18.448Z"
+    "verifiedAt": "2026-11-11T00:33:50.505Z"
   },
   "iphone-15-pro": {
     "storage": "128 GB / 256 GB / 512 GB / 1 TB",
@@ -610,12 +610,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; LiDAR Scanner; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)20; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/111829",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:19.569Z"
+    "verifiedAt": "2026-11-11T00:33:52.156Z"
   },
   "apple-iphone-15-pro-max": {
     "storage": "256 GB / 512 GB / 1 TB",
@@ -649,12 +649,12 @@
     "gps": "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
     "sensors": "Face ID; LiDAR Scanner; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)20; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/111828",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:21.325Z"
+    "verifiedAt": "2026-11-11T00:33:53.632Z"
   },
   "apple-iphone-14": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -687,12 +687,12 @@
     "gps": "GPS, GLONASS, Galileo, QZSS, and BeiDou",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)16; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/111850",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:22.760Z"
+    "verifiedAt": "2026-11-11T00:33:55.100Z"
   },
   "apple-iphone-14-plus": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -725,12 +725,12 @@
     "gps": "GPS, GLONASS, Galileo, QZSS, and BeiDou",
     "sensors": "Face ID; Barometer; High dynamic range gyro; High-g accelerometer; Proximity sensor; Dual ambient light sensors",
     "biometrics": "Face ID",
-    "sim": "US variant: Dual eSIM (two active eSIMs; physical SIM support differs by country and model number.",
+    "sim": "US variant: Dual eSIM (two active eSIMs; stores eight or more eSIMs)16; physical SIM support differs by country and model number.",
     "speakers": "Spatial Audio playback",
     "sourceUrl": "https://support.apple.com/en-us/111854",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:24.862Z"
+    "verifiedAt": "2026-11-11T00:33:56.722Z"
   },
   "apple-iphone-14-pro": {
     "storage": "128 GB / 256 GB / 512 GB / 1 TB",
@@ -769,7 +769,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111849",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:26.876Z"
+    "verifiedAt": "2026-11-11T00:33:58.455Z"
   },
   "apple-iphone-14-pro-max": {
     "storage": "128 GB / 256 GB / 512 GB / 1 TB",
@@ -808,7 +808,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111846",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:28.716Z"
+    "verifiedAt": "2026-11-11T00:33:59.978Z"
   },
   "apple-iphone-se-3rd-generation": {
     "storage": "64 GB / 128 GB / 256 GB",
@@ -843,7 +843,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111866",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:30.859Z"
+    "verifiedAt": "2026-11-11T00:34:01.491Z"
   },
   "apple-iphone-13": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -880,7 +880,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111872",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:31.706Z"
+    "verifiedAt": "2026-11-11T00:34:02.881Z"
   },
   "apple-iphone-13-mini": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -917,7 +917,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111873",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:33.319Z"
+    "verifiedAt": "2026-11-11T00:34:04.207Z"
   },
   "apple-iphone-13-pro": {
     "storage": "128 GB / 256 GB / 512 GB / 1 TB",
@@ -954,7 +954,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111871",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:34.894Z"
+    "verifiedAt": "2026-11-11T00:34:05.627Z"
   },
   "apple-iphone-13-pro-max": {
     "storage": "128 GB / 256 GB / 512 GB / 1 TB",
@@ -991,7 +991,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111870",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:36.273Z"
+    "verifiedAt": "2026-11-11T00:34:07.043Z"
   },
   "apple-iphone-12": {
     "storage": "64 GB / 128 GB / 256 GB",
@@ -1028,7 +1028,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111876",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:37.980Z"
+    "verifiedAt": "2026-11-11T00:34:08.417Z"
   },
   "apple-iphone-12-mini": {
     "storage": "64 GB / 128 GB / 256 GB",
@@ -1065,7 +1065,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111877",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:39.003Z"
+    "verifiedAt": "2026-11-11T00:34:10.067Z"
   },
   "apple-iphone-12-pro": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -1100,7 +1100,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111875",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:40.772Z"
+    "verifiedAt": "2026-11-11T00:34:11.373Z"
   },
   "apple-iphone-12-pro-max": {
     "storage": "128 GB / 256 GB / 512 GB",
@@ -1135,7 +1135,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111874",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:42.494Z"
+    "verifiedAt": "2026-11-11T00:34:13.332Z"
   },
   "apple-iphone-se-2nd-generation": {
     "storage": "64 GB / 128 GB / 256 GB",
@@ -1171,7 +1171,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111882",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:44.031Z"
+    "verifiedAt": "2026-11-11T00:34:14.934Z"
   },
   "apple-iphone-11": {
     "storage": "64 GB / 128 GB / 256 GB",
@@ -1207,7 +1207,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111865",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:45.713Z"
+    "verifiedAt": "2026-11-11T00:34:16.678Z"
   },
   "apple-iphone-11-pro": {
     "storage": "64 GB / 256 GB / 512 GB",
@@ -1241,7 +1241,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111879",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:47.365Z"
+    "verifiedAt": "2026-11-11T00:34:17.938Z"
   },
   "apple-iphone-11-pro-max": {
     "storage": "64 GB / 256 GB / 512 GB",
@@ -1275,7 +1275,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111878",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:49.064Z"
+    "verifiedAt": "2026-11-11T00:34:19.552Z"
   },
   "apple-iphone-xr": {
     "storage": "64 GB / 128 GB / 256 GB",
@@ -1308,7 +1308,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111868",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:50.690Z"
+    "verifiedAt": "2026-11-11T00:34:20.872Z"
   },
   "apple-iphone-xs": {
     "storage": "64 GB / 256 GB / 512 GB",
@@ -1341,7 +1341,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111881",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:52.531Z"
+    "verifiedAt": "2026-11-11T00:34:22.520Z"
   },
   "apple-iphone-xs-max": {
     "storage": "64 GB / 256 GB / 512 GB",
@@ -1374,14 +1374,14 @@
     "sourceUrl": "https://support.apple.com/en-us/111880",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:54.167Z"
+    "verifiedAt": "2026-11-11T00:34:24.352Z"
   },
   "apple-iphone-8": {
     "storage": "64 GB / 128 GB / 256 GB",
     "colors": "Gold, Silver, Space Gray, (PRODUCT)RED™",
     "dimensions": "138.4 × 67.3 × 7.3 mm",
     "weight": "148 g",
-    "screen": "4.7-inch (diagonal) widescreen LCD Multi-Touch display with IPS technology",
+    "screen": "4.7-inch widescreen LCD Multi-Touch display with IPS technology",
     "resolution": "1334 × 750-pixel resolution at 326 ppi",
     "brightness": "625 nits max brightness (typical)",
     "protection": "Fingerprint-resistant oleophobic coating",
@@ -1406,14 +1406,14 @@
     "sourceUrl": "https://support.apple.com/en-us/111976",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:55.465Z"
+    "verifiedAt": "2026-11-11T00:34:25.982Z"
   },
   "apple-iphone-8-plus": {
     "storage": "64 GB / 128 GB / 256 GB",
     "colors": "Gold, Silver, Space Gray, (PRODUCT)RED™",
     "dimensions": "158.4 × 78.1 × 7.5 mm",
     "weight": "202 g",
-    "screen": "5.5-inch (diagonal) widescreen LCD Multi-Touch display with IPS technology",
+    "screen": "5.5-inch widescreen LCD Multi-Touch display with IPS technology",
     "resolution": "1920 × 1080-pixel resolution at 401 ppi",
     "brightness": "625 nits max brightness (typical)",
     "protection": "Fingerprint-resistant oleophobic coating",
@@ -1438,7 +1438,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111950",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:57.061Z"
+    "verifiedAt": "2026-11-11T00:34:27.410Z"
   },
   "apple-iphone-x": {
     "storage": "64 GB / 256 GB",
@@ -1470,7 +1470,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111864",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:58.525Z"
+    "verifiedAt": "2026-11-11T00:34:28.817Z"
   },
   "apple-iphone-7": {
     "storage": "32 GB / 128 GB / 256 GB",
@@ -1499,7 +1499,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111943",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:28:59.812Z"
+    "verifiedAt": "2026-11-11T00:34:30.299Z"
   },
   "apple-iphone-7-plus": {
     "storage": "32 GB / 128 GB / 256 GB",
@@ -1528,7 +1528,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111953",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:01.554Z"
+    "verifiedAt": "2026-11-11T00:34:31.695Z"
   },
   "apple-iphone-se-1st-generation": {
     "storage": "16 GB / 32 GB / 64 GB / 128 GB",
@@ -1555,14 +1555,14 @@
     "sourceUrl": "https://support.apple.com/en-us/112005",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:02.922Z"
+    "verifiedAt": "2026-11-11T00:34:33.240Z"
   },
   "apple-iphone-6s": {
     "storage": "16 GB / 32 GB / 64 GB / 128 GB",
     "colors": "Rose Gold, Gold, Silver, Space Gray",
     "dimensions": "138.3 × 67.1 × 7.1 mm",
     "weight": "143 g",
-    "screen": "4.7-inch (diagonal) widescreen LCD Multi-Touch display with IPS technology",
+    "screen": "4.7-inch widescreen LCD Multi-Touch display with IPS technology",
     "resolution": "1334 × 750-pixel resolution at 326 ppi",
     "protection": "Fingerprint-resistant oleophobic coating on front",
     "chip": "A9 chip with 64-bit architecture",
@@ -1583,14 +1583,14 @@
     "sourceUrl": "https://support.apple.com/en-us/111952",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:04.109Z"
+    "verifiedAt": "2026-11-11T00:34:34.887Z"
   },
   "apple-iphone-6s-plus": {
     "storage": "16 GB / 32 GB / 64 GB / 128 GB",
     "colors": "Rose Gold, Gold, Silver, Space Gray",
     "dimensions": "158.2 × 77.9 × 7.3 mm",
     "weight": "192 g",
-    "screen": "5.5-inch (diagonal) widescreen LCD Multi-Touch display with IPS technology",
+    "screen": "5.5-inch widescreen LCD Multi-Touch display with IPS technology",
     "resolution": "1920 × 1080-pixel resolution at 401 ppi",
     "protection": "Fingerprint-resistant oleophobic coating on front",
     "chip": "A9 chip with 64-bit architecture",
@@ -1611,7 +1611,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111996",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:05.813Z"
+    "verifiedAt": "2026-11-11T00:34:36.507Z"
   },
   "apple-iphone-6": {
     "storage": "16 GB / 32 GB / 64 GB / 128 GB",
@@ -1636,7 +1636,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111954",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:07.183Z"
+    "verifiedAt": "2026-11-11T00:34:38.096Z"
   },
   "apple-iphone-6-plus": {
     "storage": "16 GB / 64 GB / 128 GB",
@@ -1661,7 +1661,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111940",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:08.730Z"
+    "verifiedAt": "2026-11-11T00:34:39.566Z"
   },
   "apple-iphone-5c": {
     "storage": "16 GB / 32 GB",
@@ -1674,7 +1674,7 @@
     "battery": "Built-in rechargeable lithium-ion battery; Talk time: Up to 10 hours on 3G; Standby time: Up to 250 hours; Internet use: Up to 8 hours on 3G, up to 10 hours on LTE, up to 10 hours on Wi-Fi; Video playback: Up to 10 hours; Audio playback: Up to 40 hours",
     "usb": "Lightning connector",
     "charging": "Lightning connector",
-    "network": "4G LTE (band support depends on region)",
+    "network": "4G LTE, 3G UMTS/HSPA, 2G GSM/EDGE (band support depends on region)",
     "bands": "Model A1532 (GSM)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 19, 20, 25); Model A1532 (CDMA)*: CDMA EV-DO Rev. A and Rev. B (800, 1700/2100, 1900, 2100 MHz); UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 19, 20, 25); Model A1456*: CDMA EV-DO Rev. A and Rev B. (800, 1700/2100, 1900, 2100 MHz); UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 18, 19, 20, 25, 26); Model A1507*: UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 5, 7, 8, 20)",
     "wifi": "802.11a/b/g/n Wi-Fi (802.11n 2.4GHz and 5GHz)",
     "bluetooth": "Bluetooth 4.0 wireless technology",
@@ -1685,7 +1685,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111917",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:10.550Z"
+    "verifiedAt": "2026-11-11T00:34:40.989Z"
   },
   "apple-iphone-5s": {
     "storage": "16 GB / 32 GB / 64 GB",
@@ -1698,7 +1698,7 @@
     "battery": "Built-in rechargeable lithium-ion battery; Talk time: Up to 10 hours on 3G; Internet use: Up to 8 hours on 3G, up to 10 hours on LTE, up to 10 hours on Wi-Fi; Video playback: Up to 10 hours; Audio playback: Up to 40 hours",
     "usb": "Lightning connector",
     "charging": "Lightning connector",
-    "network": "4G LTE (band support depends on region)",
+    "network": "4G LTE, 3G UMTS/HSPA, 2G GSM/EDGE (band support depends on region)",
     "bands": "Model A1533 (GSM)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 19, 20, 25); Model A1533 (CDMA)*: CDMA EV-DO Rev. A and Rev. B (800, 1700/2100, 1900, 2100 MHz); UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 19, 20, 25); Model A1453*: CDMA EV-DO Rev. A and Rev. B (800, 1700/2100, 1900, 2100 MHz); UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 18, 19, 20, 25, 26); Model A1457*: UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 2, 3, 5, 7, 8, 20)",
     "wifi": "802.11a/b/g/n Wi-Fi (802.11n 2.4GHz and 5GHz)",
     "bluetooth": "Bluetooth 4.0 wireless technology",
@@ -1710,7 +1710,7 @@
     "sourceUrl": "https://support.apple.com/en-us/111973",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:12.473Z"
+    "verifiedAt": "2026-11-11T00:34:42.394Z"
   },
   "apple-iphone-5": {
     "storage": "16 GB / 32 GB / 64 GB",
@@ -1720,7 +1720,7 @@
     "resolution": "1136 × 640-pixel resolution at 326 ppi",
     "protection": "Fingerprint-resistant oleophobic coating on front",
     "battery": "Built-in rechargeable lithium-ion battery; Talk time: Up to 8 hours on 3G; Standby time: Up to 225 hours; Internet use: Up to 8 hours on 3G, up to 8 hours on LTE, up to 10 hours on Wi-Fi; Video playback: Up to 10 hours; Audio playback: Up to 40 hours",
-    "network": "4G LTE (band support depends on region)",
+    "network": "4G LTE, 3G UMTS/HSPA, 2G GSM/EDGE (band support depends on region)",
     "bands": "GSM model A1428*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 4 and 17); CDMA model A1429*: CDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz); UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 3, 5, 13, 25); GSM model A1429*: UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz); LTE (Bands 1, 3, 5)",
     "wifi": "802.11a/b/g/n Wi-Fi (802.11n 2.4GHz and 5GHz)",
     "bluetooth": "Bluetooth 4.0 wireless technology",
@@ -1729,7 +1729,7 @@
     "sourceUrl": "https://support.apple.com/en-us/112016",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:13.970Z"
+    "verifiedAt": "2026-11-11T00:34:43.920Z"
   },
   "apple-iphone-4s": {
     "storage": "16 GB / 32 GB / 64 GB",
@@ -1747,7 +1747,7 @@
     "sourceUrl": "https://support.apple.com/en-us/112004",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:15.588Z"
+    "verifiedAt": "2026-11-11T00:34:45.246Z"
   },
   "apple-iphone-4": {
     "dimensions": "115.2 × 58.6 × 9.3 mm",
@@ -1764,12 +1764,12 @@
     "sourceUrl": "https://support.apple.com/en-us/112562",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:17.484Z"
+    "verifiedAt": "2026-11-11T00:34:46.514Z"
   },
   "apple-iphone-3gs": {
     "dimensions": "115.5 × 62.1 × 12.3 mm",
     "weight": "135 g",
-    "screen": "3.5-inch (diagonal) widescreen Multi-Touch",
+    "screen": "3.5-inch widescreen Multi-Touch",
     "resolution": "480 × 320-pixel resolution at 163 ppi",
     "protection": "Fingerprint-resistant oleophobic coating",
     "battery": "Built-in rechargeable lithium-ion battery; Up to 5 hours on 3G; Up to 12 hours on 2G; Standby time: Up to 300 hours; Up to 5 hours on 3G; Up to 9 hours on Wi-Fi",
@@ -1781,12 +1781,12 @@
     "sourceUrl": "https://support.apple.com/en-us/112307",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:18.918Z"
+    "verifiedAt": "2026-11-11T00:34:47.866Z"
   },
   "apple-iphone-3g": {
     "dimensions": "115.5 × 62.1 × 12.3 mm",
     "weight": "133 g",
-    "screen": "3.5-inch (diagonal) widescreen Multi-Touch",
+    "screen": "3.5-inch widescreen Multi-Touch",
     "resolution": "480 × 320-pixel resolution at 163 ppi",
     "battery": "Built-in rechargeable lithium-ion battery3; Up to 5 hours on 3G; Up to 10 hours on 2G; Standby time: Up to 300 hours5; Up to 5 hours on 3G6; Up to 6 hours on Wi-Fi7",
     "network": "3G UMTS/HSPA, 2G GSM/EDGE (band support depends on region)",
@@ -1797,17 +1797,17 @@
     "sourceUrl": "https://support.apple.com/en-us/112496",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:20.320Z"
+    "verifiedAt": "2026-11-11T00:34:49.489Z"
   },
   "apple-iphone": {
     "dimensions": "115 × 61 × 11.6 mm",
     "weight": "135 g",
-    "screen": "3.5-inch (diagonal) widescreen Multi-Touch",
+    "screen": "3.5-inch widescreen Multi-Touch",
     "resolution": "480 × 320-pixel resolution at 163 ppi",
     "battery": "Built-in rechargeable lithium ion battery; Talk time: Up to 8 hours2; Standby time: Up to 250 hours3; Internet use: Up to 6 hours4; Video playback: Up to 7 hours5; Audio playback: Up to 24 hours6",
     "sourceUrl": "https://support.apple.com/en-us/112445",
     "dataQuality": "official-specifications",
     "verifiedSource": "Apple Support",
-    "verifiedAt": "2026-11-11T00:29:22.180Z"
+    "verifiedAt": "2026-11-11T00:34:51.113Z"
   }
 }
