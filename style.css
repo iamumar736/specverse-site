@@ -225,3 +225,28 @@ html[data-theme=light] .compare-picker-actions button:hover{background:#d9d1ff}
 html[data-theme=light] .compare-picker-hint,html[data-theme=light] .compare-picker-no-results{color:#697791}
 @media(max-width:900px){.compare-picker-grid{grid-template-columns:1fr;gap:12px}.compare-picker-slot{min-height:112px}.compare-picker-results{min-width:0}.compare-picker-section-head h2{font-size:21px}}
 @media(max-width:500px){.compare-picker-section-head{align-items:flex-start}.compare-picker-count{font-size:11px}.compare-picker-slot{padding:13px}.compare-picker-selected-info strong{font-size:12px}.compare-picker-actions button{padding:8px 7px}}
+
+/* Relative spec strengths in Compare; clear visual and text labels. */
+.compare-spec-legend{display:flex;align-items:center;flex-wrap:wrap;column-gap:17px;row-gap:9px;margin:22px 0 -10px;font-size:12px;font-weight:750}
+.compare-spec-legend>span{display:inline-flex;align-items:center;gap:7px;white-space:nowrap}
+.compare-spec-legend i{display:inline-block;width:10px;height:10px;border-radius:3px}
+.compare-legend-good{color:#67e8b2}
+.compare-legend-good i{background:#30b879}
+.compare-legend-low{color:#ff9ca2}
+.compare-legend-low i{background:#e46470}
+.compare-spec-legend small{flex-basis:100%;font-size:11px;font-weight:500;color:#8c9bb3;line-height:1.65}
+.comparison td.spec-compare-cell{position:relative;font-weight:650;vertical-align:middle}
+.comparison td.spec-advantage{background:rgba(40,171,115,.12);box-shadow:inset 3px 0 0 #3dd69b;color:#86edbc}
+.comparison td.spec-disadvantage{background:rgba(218,73,87,.11);box-shadow:inset 3px 0 0 #ed7082;color:#ffadb8}
+.spec-compare-cell>span:first-child{display:block;overflow-wrap:anywhere}
+.spec-compare-tag{display:inline-flex;align-items:center;border-radius:6px;padding:4px 7px;margin-top:8px;font-size:10px;line-height:1.2;font-weight:850;letter-spacing:.12px;white-space:nowrap}
+.spec-advantage .spec-compare-tag{background:#16764f40;color:#7aebba;border:1px solid #3aab7b6e}
+.spec-disadvantage .spec-compare-tag{background:#8a334340;color:#ffb4be;border:1px solid #d363726e}
+html[data-theme=light] .compare-legend-good{color:#177650}
+html[data-theme=light] .compare-legend-low{color:#ad3146}
+html[data-theme=light] .compare-spec-legend small{color:#60738b}
+html[data-theme=light] .comparison td.spec-advantage{background:#e7f8ef;color:#155f41;box-shadow:inset 3px 0 0 #1f9a6a}
+html[data-theme=light] .comparison td.spec-disadvantage{background:#ffedf0;color:#a42c3e;box-shadow:inset 3px 0 0 #d8586b}
+html[data-theme=light] .spec-advantage .spec-compare-tag{background:#d0f1df;color:#155f41;border-color:#a7dec0}
+html[data-theme=light] .spec-disadvantage .spec-compare-tag{background:#ffdae1;color:#9d263d;border-color:#f2b1bf}
+@media(max-width:700px){.compare-spec-legend{margin:20px 0 2px}.comparison{margin-top:16px}.comparison th,.comparison td{padding:13px 10px}.spec-compare-tag{font-size:9px}}
