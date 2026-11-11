@@ -93,7 +93,7 @@ function parseSamsung(page,p,site){
  put('cpu',[get(data,'CPU Type'),get(data,'CPU Speed')].filter(Boolean).join('; '));
  const rear=get(data,'Rear Camera - Resolution (Multiple)','Rear Camera - Resolution','Rear Camera Resolution');
  put('camera',rear);
- put('cameraDetails',[get(data,'Rear Camera - F Number (Multiple)'),get(data,'Rear Camera - OIS'),get(data,'Rear Camera Zoom')].filter(Boolean).join('; '));
+ put('cameraDetails',[get(data,'Rear Camera - F Number (Multiple)')?'Apertures: '+get(data,'Rear Camera - F Number (Multiple)'):null,get(data,'Rear Camera - OIS')?'OIS: '+get(data,'Rear Camera - OIS'):null,get(data,'Rear Camera Zoom')?'Zoom: '+get(data,'Rear Camera Zoom'):null].filter(Boolean).join('; '));
  put('cameraVideo',get(data,'Video Recording Resolution','Video Recording'));
  put('selfie',get(data,'Front Camera - Resolution','Front Camera Resolution'));
  put('selfieVideo',get(data,'Front Camera - Video Recording','Front Camera Video'));
@@ -113,15 +113,15 @@ function parseSamsung(page,p,site){
  put('nfc',get(data,'NFC','NFC Support'));
  put('gps',get(data,'Location Technology','GPS'));
  put('usb',[get(data,'USB Interface'),get(data,'USB Version')].filter(Boolean).join('; '));
- put('jack',get(data,'Earjack','Earjack Interface'));
+ const earjack=get(data,'Earjack','Earjack Interface');put('jack',/usb\s*(?:type[- ]?c|-c)/i.test(earjack||'')?'USB-C headset port (no dedicated 3.5 mm jack)':earjack);
  put('sensors',get(data,'Sensors'));
  if(/fingerprint/i.test(output.sensors||''))put('biometrics','Fingerprint sensor (see sensor list)');
  put('os',get(data,'OS','Operating System'));
  put('ipRating',get(data,'Water and Dust Resistance (IP Rating)','IP Rating'));
- put('speakers',get(data,'Stereo Support','Stereo Speakers'));
+ const stereo=get(data,'Stereo Support','Stereo Speakers');if(stereo)put('speakers','Stereo support: '+stereo);
  if(Object.keys(output).length<8)throw Error('Insufficient Samsung numeric specifications');
  const code=page.url.match(/sm-[a-z0-9]+/i)?.[0].toUpperCase()||null;
- if(code)output.variantDetails=site.toUpperCase()+' product configuration '+code+'; storage, RAM, chipset and network bands can vary by region.';
+ if(code){output.models=code;output.variantDetails=site.toUpperCase()+' product configuration '+code+'; storage, RAM, chipset and network bands can vary by region.';}
  output.sourceUrl=page.url;
  output.dataQuality='official-specifications-regional-variant';
  output.verifiedSource='Samsung '+site.toUpperCase();
