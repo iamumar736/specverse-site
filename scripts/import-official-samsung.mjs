@@ -73,18 +73,20 @@ function parseSamsung(page,p,site){
  const $=cheerio.load(page.text);const title=clean($('title').first().text());
  if(!/galaxy/i.test(title)||!/samsung/i.test(title))throw Error('Nonproduct Samsung response');
  const data=new Map();
- $('.pdd32-product-spec__content-item').each((_,item)=>{
+ $('.pdd32-product-spec__content-item, .spec-highlight__item').each((_,item)=>{
   const el=$(item);
-  const label=clean(el.find('.pdd32-product-spec__content-item-title').first().text());
-  const value=clean(el.find('.pdd32-product-spec__content-item-desc').first().text());
+  const label=clean(el.find('.pdd32-product-spec__content-item-title, .spec-highlight__title').first().text());
+  const value=clean(el.find('.pdd32-product-spec__content-item-desc, .spec-highlight__value').first().text());
   if(label&&value&&!data.has(label.toLowerCase()))data.set(label.toLowerCase(),value);
  });
  if(data.size<9)throw Error('No embedded Samsung specification table');
  const output={};const put=(k,value)=>{if(value!==null&&value!==undefined&&String(value).trim())output[k]=clean(value).slice(0,850)};
  const displaySize=get(data,'Size (Main_Display)','Size (Main Display)');
  const displayTech=get(data,'Technology (Main Display)','Technology (Main_Display)');
- const inch=displaySize?.match(/(\d+(?:\.\d+)?)\s*["″]/)?.[1];
- if(inch)put('screen',inch+'-inch '+(displayTech||'display'));
+ const inches=displaySize?.match(/(\d+(?:\.\d+)?)\s*["″]/)?.[1];
+ const cm=displaySize?.match(/(\d+(?:\.\d+)?)\s*cm\b/i)?.[1];
+ const inch=inches||(cm?(Number(cm)/2.54).toFixed(1):null);
+ if(inch)put('screen',inch+'-inch '+(displayTech||'display')+(cm&&!inches?' (from official cm measurement)':''));
  put('resolution',get(data,'Resolution (Main Display)','Resolution (Main_Display)'));
  put('refreshRate',get(data,'Max Refresh Rate (Main Display)','Max Refresh Rate (Main_Display)'));
  put('brightness',get(data,'Peak Brightness (Main Display)','Brightness (Main Display)'));
