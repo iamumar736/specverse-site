@@ -1,0 +1,14 @@
+name: Inspect Apple support specs markup (temporary)
+on:
+  push:
+    branches: [feature/official-iphone-specs-55-models]
+    paths: ['scripts/probe-apple.mjs', '.github/workflows/probe-apple.yml']
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/probe-apple.mjs
