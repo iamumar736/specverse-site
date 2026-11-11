@@ -77,7 +77,7 @@ function specData(page,brand){
  put('battery',get('Battery'));put('charging',get('Charging Power','Fast Charging'));put('wirelessCharging',/wireless/i.test(get('Charging Power')||'')?get('Charging Power'):null);
  put('dimensions',get('Dimensions'));put('weight',get('Weight'));put('build',get('Back Cover Material'));
  put('biometrics',get('Fingerprint Sensor Type'));
- const sz=get('Size','Screen','Screen Size'),type=get('Type');if(sz&&/^\d/.test(sz))put('screen',sz.slice(0,100)+(type?' '+type:''));
+ const sz=get('Size','Screen','Screen Size'),type=get('Type');if(sz&&/^\d/.test(sz)){const size=sz.match(/\d+(?:\.\d+)?\s*(?:[″\"]|[- ]inch)/i)?.[0]||sz.slice(0,45).split('*')[0].trim();put('screen',size+(type?' '+type:''));}
  put('resolution',get('Resolution'));put('refreshRate',get('Refresh Rate'));
  put('brightness',get('Local Peak Brightness','Peak Brightness'));
  put('pixelDensity',get('Pixel Density'));
