@@ -34,9 +34,10 @@ for(const site of sites){
 const available=new Map();
 function eligible(p,url){
  const path=new URL(url).pathname.toLowerCase();
+ const productSlug=path.split('/').filter(Boolean).at(-1)||'';
  const exact=slug(p.name);
- if(!path.includes(exact))return false;
- const suffix=path.slice(path.indexOf(exact)+exact.length);
+ if(!productSlug.startsWith(exact))return false;
+ const suffix=productSlug.slice(exact.length);
  if(suffix&&!/^[-/]/.test(suffix))return false;
  // A base Galaxy S24 must never inherit specs from S24 Ultra, FE or Plus.
  const variantSuffix=suffix.match(/^-(ultra|plus|fe|edge|lite|max|pro|5g)(?:[-/]|$)/);
