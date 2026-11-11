@@ -64,18 +64,20 @@ function specData(page,brand){
  }
  const name=clean($('.product-name,h1').first().text())||clean($('title').first().text()).replace(/^vivo\s+/i,'').split(/[-|]/)[0].trim();
  put('colors',get('Color','Colour'));put('ipRating',get('Ingress Protection Rating'));
+ put('build',get('Material','Back Cover Material'));
  put('os',[get('Operating System'),get('Android Version')].filter(Boolean).join('; '));
  put('chip',get('Processor'));put('cpu',[get('CPU Core Count'),get('CPU Clock Speed')].filter(Boolean).join('; '));
- const mem=get('RAM & ROM','RAM+ROM');if(mem){
+ const mem=get('RAM & ROM','RAM+ROM','RAM&ROM');if(mem){
   put('storage',mem);
   const pairs=[...mem.matchAll(/(\d+)\s*GB\s*\+\s*(\d+)\s*GB/gi)];
   if(pairs.length){put('ram',[...new Set(pairs.map(m=>m[1]+' GB'))].join(' / ')+' (regional configurations)');put('storage',[...new Set(pairs.map(m=>m[2]+' GB'))].join(' / ')+' (regional configurations)')}
  }
+ put('ram',out.ram||get('RAM'));put('storage',out.storage||get('Storage'));
  put('ramType',get('RAM Type'));put('storageType',get('ROM Type'));put('cardSlot',get('Expandable ROM Capacity'));
- put('battery',get('Battery'));put('charging',get('Charging Power'));put('wirelessCharging',/wireless/i.test(get('Charging Power')||'')?get('Charging Power'):null);
+ put('battery',get('Battery'));put('charging',get('Charging Power','Fast Charging'));put('wirelessCharging',/wireless/i.test(get('Charging Power')||'')?get('Charging Power'):null);
  put('dimensions',get('Dimensions'));put('weight',get('Weight'));put('build',get('Back Cover Material'));
  put('biometrics',get('Fingerprint Sensor Type'));
- const sz=get('Size'),type=get('Type');if(sz&&/^\d/.test(sz))put('screen',sz+(type?' '+type:''));
+ const sz=get('Size','Screen','Screen Size'),type=get('Type');if(sz&&/^\d/.test(sz))put('screen',sz.slice(0,100)+(type?' '+type:''));
  put('resolution',get('Resolution'));put('refreshRate',get('Refresh Rate'));
  put('brightness',get('Local Peak Brightness','Peak Brightness'));
  put('pixelDensity',get('Pixel Density'));
@@ -84,8 +86,8 @@ function specData(page,brand){
   put('camera',rear?rear[1]:camera);if(front)put('selfie',front[1]);
  }
  put('cameraDetails',get('Aperture'));
- put('sim',get('Card Slot'));put('network',get('5G')?'5G, 4G LTE, 3G, 2G (regional support)':null);
- put('bands',[get('5G'),get('4G FDD-LTE'),get('4G TD-LTE')].filter(Boolean).join('; '));
+ put('sim',get('Card Slot'));put('network',(get('5G','5G SA','5G NSA')?'5G, ':'')+'4G LTE, 3G, 2G (regional support)');
+ put('bands',[get('5G','5G SA','5G NSA'),get('4G FDD-LTE','4G FDD_LTE'),get('4G TD-LTE','4G TDD_LTE')].filter(Boolean).join('; '));
  put('wifi',get('Wi-Fi'));put('bluetooth',get('Bluetooth'));put('usb',get('USB'));put('nfc',get('NFC'));
  put('gps',get('Location','GPS'));put('sensors',[get('Accelerometer'),get('Gyroscope'),get('Proximity Sensor')].filter(Boolean).join('; '));
  return {name,values,out};
