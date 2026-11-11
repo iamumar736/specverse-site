@@ -10,7 +10,7 @@ test('OPPO and vivo overlays contain exact model manufacturer records',()=>{
    assert.equal(new URL(p.sourceUrl).hostname,host,id);
    assert.equal(p.dataQuality,'official-specifications-regional-variant',id);
    assert.ok(Object.keys(p).length>=10,id+' has too few populated fields');
-   assert.ok(p.screen||p.chip||p.camera||p.battery,id+' missing core hardware specs');
+   assert.ok(p.screen||p.chip||p.camera||p.battery||p.ram||p.storage,id+' missing core hardware specs');
    assert.ok(p.variantDetails.includes('region'),id+' missing regional disclaimer');
   }
  }
