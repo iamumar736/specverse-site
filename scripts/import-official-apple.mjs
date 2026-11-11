@@ -79,8 +79,8 @@ for(let i=0;i<known.length;i++){
  const phone=known[i],url=links.get(norm(phone.name));if(!url){failed.push(phone.name+' (no link)');continue;}
  try{
   const page=await fetchApple(url),doc=cheerio.load(page.html),title=clean(doc('title').first().text());
-  if(!/tech specs/i.test(title))throw Error('Unexpected page title '+title);
-  const pageModel=title.split(/\s*[-–]\s*Tech Specs/i)[0].trim();
+  if(!/(?:tech specs|technical specifications)/i.test(title))throw Error('Unexpected page title '+title);
+  const pageModel=title.split(/\s*[-–]\s*(?:Tech Specs|Technical Specifications)/i)[0].trim();
   if(norm(pageModel)!==norm(phone.name)&&!(phone.name==='iPhone SE (1st generation)'&&norm(pageModel)==='iphonese'))throw Error('Model mismatch '+title);
   output[phone.id]=parsePage(page,phone.name);
   console.log('Apple',i+1+'/'+known.length,phone.name,'fields',Object.keys(output[phone.id]).length);
