@@ -2,3 +2,7 @@ import * as cheerio from 'cheerio';
 for(const url of ['https://www.oppo.com/pk/smartphones/','https://www.oppo.com/pk/smartphones/series-reno/reno11/specs/','https://www.vivo.com/pk/products','https://www.vivo.com/pk/products/param/x200-pro']){
  try{const r=await fetch(url);const h=await r.text(),$=cheerio.load(h);console.log('URL',url,'status',r.status,'bytes',h.length,'title',$('title').text().slice(0,150));console.log('LINKS',$('a[href]').map((_,a)=>$(a).attr('href')).get().filter(x=>/specs|param|series-|products/.test(x)).slice(0,25));for(const x of ['RAM and ROM Capacities','Chips','Parameter','Processor','pdd32-product-spec','specification','specs-item','param-list','product-parameter']){const i=h.indexOf(x);console.log('TOKEN',x,i,h.slice(Math.max(0,i-180),i+270).replace(/\s+/g,' ').slice(0,430))}console.log('HEADINGS',$('h2,h3,h4').map((_,x)=>$(x).text().trim().replace(/\s+/g,' ').slice(0,70)).get().filter(Boolean).slice(0,35))}catch(e){console.log('ERR',url,e.message)}
 }
+
+for(const url of ['https://www.oppo.com/pk/sitemap.xml','https://www.oppo.com/en/sitemap.xml','https://www.vivo.com/pk/sitemap.xml','https://www.vivo.com/en/sitemap.xml']){
+ try{const r=await fetch(url),h=await r.text();console.log('SITEMAP',url,r.status,h.length,h.slice(0,800).replace(/\s+/g,' '));const links=[...h.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);console.log('SM-LINKS',links.length,JSON.stringify(links.filter(x=>/smartphones|products|sitemap/i.test(x)).slice(0,15)))}catch(e){console.log('SMERR',url,e.message)}
+}
