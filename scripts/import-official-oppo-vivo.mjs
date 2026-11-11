@@ -92,7 +92,7 @@ function specData(page,brand){
  put('gps',get('Location','GPS'));put('sensors',[get('Accelerometer'),get('Gyroscope'),get('Proximity Sensor')].filter(Boolean).join('; '));
  return {name,values,out};
 }
-const locations={OPPO:['https://www.oppo.com/pk/sitemap.xml','https://www.oppo.com/en/sitemap.xml'],Vivo:['https://www.vivo.com/pk/sitemap.xml','https://www.vivo.com/en/sitemap.xml']};
+const locations={OPPO:['https://www.oppo.com/pk/sitemap.xml','https://www.oppo.com/en/sitemap.xml','https://www.oppo.com/in/sitemap.xml','https://www.oppo.com/id/sitemap.xml'],Vivo:['https://www.vivo.com/pk/sitemap.xml','https://www.vivo.com/en/sitemap.xml','https://www.vivo.com/in/sitemap.xml','https://www.vivo.com/id/sitemap.xml']};
 const results={OPPO:{},Vivo:{}},unverified={};
 for(const brand of ['OPPO','Vivo']){
  const candidates=[];
