@@ -49,7 +49,7 @@ test('only the homepage uses deterministic animated device silhouettes and brand
   const floating=read('FloatingTechBackground.jsx');
   const app=read('src.jsx');
   const css=read('style.css');
-  assert.match(app,/<AmbientBackground floating=\{!page&&!showCompare\}\/>/);
+  assert.match(app,/<AmbientBackground floating=\{!page&&!showCompare\} motion=\{orbitMotion\}\/>/);
   assert.match(ambient,/floating&&<FloatingTechBackground\/>/);
   assert.match(floating,/aria-hidden="true"/);
   assert.match(floating,/ambient-tech__item--/);

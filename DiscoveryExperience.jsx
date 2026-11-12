@@ -1,7 +1,7 @@
 import React,{useMemo} from 'react';
 import {
   ArrowRight,ArrowUpRight,CheckCircle2,Compass,GitCompareArrows,
-  Search,ShieldCheck,Sparkles,Smartphone,Zap
+  Search,ShieldCheck,Sparkles,Smartphone,Zap,Orbit,Pause,Play
 } from 'lucide-react';
 import HeroExperience from './HeroExperience.jsx';
 
@@ -17,7 +17,7 @@ const format=n=>new Intl.NumberFormat('en-US').format(n);
  * An editorial, source-conscious discovery experience that only displays real
  * catalog counts. Brand cards are functional navigation, not decoration.
  */
-export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompare}){
+export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompare,motion=true,onMotionToggle}){
   const counts=useMemo(()=>{
     const brands=new Map();
     for(const device of catalog){
@@ -33,12 +33,23 @@ export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompa
     <section className="hero studio-hero" aria-labelledby="studio-hero-title">
       <div className="studio-hero__light" aria-hidden="true"/>
       <div className="hero-copy studio-hero__copy">
-        <span className="studio-hero__eyebrow"><span className="studio-live-dot" aria-hidden="true"/> YOUR PHONE DISCOVERY STUDIO <Sparkles size={15} aria-hidden="true"/></span>
-        <h1 id="studio-hero-title">Find the phone<br/>that <span className="studio-gradient">feels like you.</span></h1>
-        <p>One place to explore real devices, understand the details and compare what matters. Less searching. Better choosing.</p>
+        <span className="studio-hero__eyebrow"><span className="studio-live-dot" aria-hidden="true"/> THE SPECVERSE EXPLORATION STATION <Sparkles size={15} aria-hidden="true"/></span>
+        <h1 id="studio-hero-title">Discover a universe<br/>of <span className="studio-gradient">extraordinary phones.</span></h1>
+        <p>Your mission: explore thousands of devices, decode their specifications and land on the one that fits. Let the discovery begin.</p>
         <div className="studio-hero__actions">
           <button type="button" className="primary studio-primary" onClick={onBrowse}>Explore all phones <ArrowRight size={18} aria-hidden="true"/></button>
           <button type="button" className="studio-secondary" onClick={onCompare}><GitCompareArrows size={18} aria-hidden="true"/> Compare phones</button>
+        </div>
+        <div className="studio-orbit-control">
+          <button type="button" className="studio-orbit-toggle"
+            onClick={onMotionToggle} aria-pressed={motion}
+            aria-label={motion?'Pause animated orbital background':'Resume animated orbital background'}>
+            <Orbit size={17} aria-hidden="true"/>
+            <span>ORBIT MODE</span>
+            <strong>{motion?'LIVE':'PAUSED'}</strong>
+            {motion?<Pause size={14} aria-hidden="true"/>:<Play size={14} aria-hidden="true"/>}
+          </button>
+          <span className="studio-orbit-control__hint">Floating tech across the cosmos</span>
         </div>
         <div className="studio-hero__stats" aria-label="Catalog at a glance">
           <div><strong>{format(total)}</strong><span>phone models</span></div>

@@ -1,5 +1,6 @@
 import React,{createContext,useContext,useEffect,useState} from 'react';
 import {isSafeLocalImage} from './device-image-verification.js';
+import {isUsablePhonePhoto} from './photo-source-policy.js';
 
 // The manifest is published by a daily GitHub Action after online source checks.
 // No entry means use the existing, unchanged phone photo / illustration.
@@ -29,7 +30,7 @@ export function useVerifiedDeviceVisual(phone){
 }
 export function DeviceVisualCredit({phone}){
   const visual=useVerifiedDeviceVisual(phone);
-  if(!visual)return null;
+  if(!visual||!isUsablePhonePhoto(visual.image))return null;
   return <p className="muted image-credit">
     Device image is from a model-matched licensed source, shown with subtle 2D
     motion (not a true 3D model).{' '}
