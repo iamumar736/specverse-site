@@ -27,11 +27,14 @@ jobs:
         with:
           node-version: '22'
       - name: Import new public Android model identities
-        run: node scripts/import-open-devices.mjs || echo "::warning::Open phone source unavailable: preserving old catalog"
+        run: |
+          node scripts/import-open-devices.mjs || echo "::warning::Open phone source unavailable: preserving old catalog"
       - name: Discover newly registered models from Wikidata
-        run: node scripts/import-wikidata.mjs || echo "::warning::Wikidata unavailable: preserving previous discoveries"
+        run: |
+          node scripts/import-wikidata.mjs || echo "::warning::Wikidata unavailable: preserving previous discoveries"
       - name: Enrich discovered models (best effort)
-        run: node scripts/enrich-wikidata.mjs || echo "::warning::Wikidata enrichment unavailable"
+        run: |
+          node scripts/enrich-wikidata.mjs || echo "::warning::Wikidata enrichment unavailable"
       - name: Refresh and merge source-checked catalog
         env:
           SPECVERSE_FEED_URL: ${{ secrets.SPECVERSE_FEED_URL }}
