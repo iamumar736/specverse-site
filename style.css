@@ -1269,3 +1269,153 @@ html[data-theme=light] .top-search-shortcut{background:#f1edff;border-color:#d1c
 @media(min-width:821px) and (hover:hover) and (prefers-reduced-motion:no-preference){
   .studio-path.studio-visible:hover{transform:translateY(-7px)}
 }
+
+
+/* ===== Top 40 discoverable phone grid + 40-per-page catalog results ===== */
+.top-models-section{
+  min-width:0;
+  margin:14px 0 38px;
+  scroll-margin-top:122px;
+}
+.top-models-section__head{
+  display:flex;
+  align-items:end;
+  justify-content:space-between;
+  gap:20px;
+  margin:0 0 23px;
+}
+.top-models-section__head h3{
+  font:700 clamp(25px,2.9vw,37px)/1.15 'Space Grotesk',sans-serif;
+  letter-spacing:-1.25px;
+  margin:11px 0 9px;
+}
+.top-models-section__head p{
+  font-size:13px;
+  line-height:1.7;
+  max-width:740px;
+  margin:0;
+}
+.top-models-section__count{
+  white-space:nowrap;
+  padding:10px 13px;
+  border-radius:11px;
+  font-size:12px;
+  font-weight:800;
+  color:#c6b8ff;
+  background:rgba(158,123,255,.11);
+  border:1px solid rgba(163,143,247,.28);
+}
+.top-models-grid.cards{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  grid-auto-flow:row;
+  gap:18px;
+  overflow:visible;
+  padding:0;
+  scroll-snap-type:none;
+}
+.top-models-grid>.phone-card{
+  min-width:0;
+  content-visibility:auto;
+  contain-intrinsic-size:auto 435px;
+}
+.top-models-grid .phone-card .card-image{
+  height:218px;
+}
+.top-grid-pagination{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  margin:28px 0 20px;
+  padding:17px 19px;
+  background:rgba(24,29,53,.85);
+  border:1px solid rgba(167,149,240,.24);
+  border-radius:18px;
+}
+.top-grid-pagination>button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  min-height:44px;
+  min-width:116px;
+  background:rgba(126,99,242,.17);
+  color:#e1d7ff;
+  border:1px solid rgba(167,149,240,.4);
+  border-radius:11px;
+  padding:10px 13px;
+  font-size:13px;
+  font-weight:800;
+}
+.top-grid-pagination>button:not(:disabled):hover{
+  background:rgba(126,99,242,.35);
+}
+.top-grid-pagination>button:disabled{opacity:.38;cursor:not-allowed}
+.top-grid-pagination__middle{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:7px;
+  color:#b4bdd5;
+  font-size:12px;
+  font-variant-numeric:tabular-nums;
+}
+.top-grid-pagination__jump{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  font-size:12px;
+}
+.top-grid-pagination__jump select{
+  color:#f1efff;
+  background:#252943;
+  border:1px solid rgba(167,149,240,.3);
+  border-radius:9px;
+  padding:7px 9px;
+  min-height:37px;
+}
+.top-grid-pagination__jump option{color:#161b2e;background:#fff}
+html[data-theme=light] .top-models-section__count{
+  color:#654ab6;
+  background:#f2efff;
+  border-color:#dad0fc;
+}
+html[data-theme=light] .top-grid-pagination{
+  background:#fff;
+  border-color:#dce2ed;
+}
+html[data-theme=light] .top-grid-pagination>button{
+  background:#f0edff;
+  color:#4e3ca5;
+  border-color:#d9d0f7;
+}
+html[data-theme=light] .top-grid-pagination__middle{color:#5b6781}
+html[data-theme=light] .top-grid-pagination__jump select{
+  color:#323854;
+  background:#f8f8ff;
+  border-color:#ced4e5;
+}
+@media(max-width:1080px){
+  .top-models-grid.cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+}
+@media(max-width:700px){
+  .top-models-grid.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .top-models-grid .phone-card .card-image{height:184px}
+  .top-models-section__head{align-items:flex-start}
+  .top-models-section__head h3{font-size:27px}
+  .top-models-section__count{font-size:11px;padding:7px 9px}
+  .top-grid-pagination{gap:9px;padding:12px}
+  .top-grid-pagination>button{min-width:44px;padding:8px 10px;font-size:12px}
+}
+@media(max-width:430px){
+  .top-models-grid.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .top-models-grid .phone-card .card-image{height:167px;padding:13px}
+  .top-grid-pagination{flex-wrap:wrap;justify-content:space-between}
+  .top-grid-pagination__middle{order:-1;flex-basis:100%;align-items:center}
+  .top-grid-pagination>button{flex:1}
+}
+@media(prefers-reduced-motion:reduce){
+  .top-models-grid>.phone-card{transition:none!important}
+  .top-grid-pagination>button{transition:none!important}
+}
