@@ -46,21 +46,23 @@ export function retailerPriceFromHtml(html,model){
 export function appleShopPriceFromHtml(html,model){
   if(typeof html!=='string'||html.length<100)return null;
   // Apple storefront cards include the model heading followed by 'from $X'.
-  const textContent=text(html);
-  const wanted=normal(model.shopName);
-  const normalized=normal(textContent);
-  const index=normalized.indexOf(wanted);
+  const textContent=text(html).toLowerCase().replace(/[\u00a0\u202f]/g,' ');
+  const wanted=String(model.shopName).toLowerCase().replace(/[\u00a0\u202f]/g,' ');
+  const index=textContent.indexOf(wanted);
   if(index<0)return null;
-  // Apple may show a model name in navigation; find a second match if needed.
+  // Ignore mentions of a base model as a substring of Pro/Max variants.
   let cursor=index;
-  for(let tries=0;tries<8&&cursor>=0;tries++){
-    const context=normalized.slice(cursor+wanted.length,cursor+wanted.length+240);
-    const match=context.match(/\b(?:buy\s+)?from\s*\$\s*([\d,]+)/i);
+  for(let tries=0;tries<12&&cursor>=0;tries++){
+    const next=textContent.slice(cursor+wanted.length).trimStart();
+    const invalidVariant=/^(?:pro|max|plus|air|mini|e)\b/i.test(next)&&
+      !/(?:pro|pro max|air|17e)$/i.test(wanted);
+    const context=textContent.slice(cursor+wanted.length,cursor+wanted.length+160);
+    const match=!invalidVariant&&context.match(/\b(?:buy\s+)?from\s*\$\s*([\d,]+)/i);
     if(match){
       const amount=Number(match[1].replace(/,/g,''));
       if(amount>=model.minUSD&&amount<=model.maxUSD)return amount;
     }
-    cursor=normalized.indexOf(wanted,cursor+1);
+    cursor=textContent.indexOf(wanted,cursor+1);
   }
   return null;
 }
