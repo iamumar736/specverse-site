@@ -1,7 +1,7 @@
 name: Import official Samsung model specifications
 on:
   schedule:
-    - cron: '20 4 * * 0'
+    - cron: '40 4 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -25,7 +25,7 @@ jobs:
           node-version: '22'
       - run: npm install --no-save --no-audit --no-fund cheerio
       - name: Fetch official Samsung product specification tables
-        run: node scripts/import-official-samsung.mjs --max=18 --regions=3
+        run: node scripts/import-official-samsung.mjs --max=24 --regions=3
       - name: Publish source-verified Samsung models
         run: |
           git config user.name "github-actions[bot]"
@@ -41,7 +41,7 @@ jobs:
                 # Another job already wrote the same source files: preserve remote safely.
                 git rebase --abort
                 git reset --hard origin/main
-                node scripts/import-official-samsung.mjs --max=18 --regions=3
+                node scripts/import-official-samsung.mjs --max=24 --regions=3
                 git add public/data/official-samsung.json public/data/samsung-verification-coverage.json public/data/samsung-import-state.json
                 if git diff --cached --quiet; then exit 0; fi
                 git commit -m "Publish source-verified regional Samsung specifications"
