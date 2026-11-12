@@ -116,3 +116,39 @@ Actual speed depends on Render caching, internet quality and phone hardware.
 Use PageSpeed Insights / Chrome DevTools on `specverse.it.com` after deploy
 for field measurements; passing a build budget is not a guarantee of a
 particular mobile Lighthouse score.
+
+
+## Samsung specifications — official model coverage
+
+The Samsung catalog currently has **184 tracked Samsung model identities**. At
+the last reviewed update, **94 of 184** have Samsung-sourced technical profiles:
+73 original Samsung regional product configurations and 21 additional, distinct
+historical launch models from Samsung Newsroom. The remaining 90 must not be
+presented as fully verified. Exact counts appear in
+`public/data/samsung-verification-coverage.json` and are updated by automation.
+
+Source-checked specifications include screen, camera, RAM, storage, battery,
+charging, dimensions, weight, software, connectivity and other fields **only
+when Samsung provided the information for that model**. Unknown fields remain
+unavailable rather than inferred from similar models.
+
+Run `node scripts/import-official-samsung.mjs --max=24 --regions=3` after
+installing the parser (`npm install --no-save cheerio`) to check a rotating
+batch of missing Samsung entries against official country-level product pages.
+The workflow `.github/workflows/import-official-samsung.yml` runs once daily
+at 04:40 UTC, or through Actions > "Import official Samsung model
+specifications" > Run workflow. It remembers its region/model cursor, merges
+newly verified fields without deleting existing accepted Samsung records, and
+publishes an updated coverage report. A weekly/manual exhaustive one-shot
+import is not assumed.
+
+`samsung-archive-specs.js` contains documented *individual models* that
+Samsung no longer features in current product sitemaps. Every record includes
+a Samsung Newsroom source URL, reference market and a regional-variant caveat.
+The importer **never** copies values to a similarly named Pro/FE/Ultra/5G
+variant or substitutes a newer model for an older device.
+
+An official source for every historical Samsung model is not guaranteed to be
+available. Do not claim 100% complete Samsung specifications without actual
+evidence, and do not use generic AI guesses or unsourced retailer numbers to
+populate missing fields.
