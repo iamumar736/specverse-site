@@ -1,6 +1,15 @@
 name: Import official Samsung model specifications
 on:
+  schedule:
+    - cron: '20 4 * * 0'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'samsung-archive-specs.js'
+      - 'samsung-spec-coverage.js'
+      - 'scripts/import-official-samsung.mjs'
+      - '.github/workflows/import-official-samsung.yml'
 permissions:
   contents: write
 jobs:
@@ -16,22 +25,22 @@ jobs:
           node-version: '22'
       - run: npm install --no-save --no-audit --no-fund cheerio
       - name: Fetch official Samsung product specification tables
-        run: node scripts/import-official-samsung.mjs
+        run: node scripts/import-official-samsung.mjs --max=18 --regions=3
       - name: Publish source-verified Samsung models
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/official-samsung.json public/data/samsung-verification-coverage.json
+          git add public/data/official-samsung.json public/data/samsung-verification-coverage.json public/data/samsung-import-state.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish source-verified regional Samsung specifications"
             for attempt in 1 2 3 4; do
-              git fetch origin "$GITHUB_REF_NAME"
-              if git rebase "origin/$GITHUB_REF_NAME"; then
-                if git push origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi
+              git fetch origin main
+              if git rebase origin/main; then
+                if git push origin HEAD:main; then exit 0; fi
               else
                 # Another job already wrote the same source files: preserve remote safely.
                 git rebase --abort
-                git reset --hard "origin/$GITHUB_REF_NAME"
+                git reset --hard origin/main
                 node scripts/import-official-samsung.mjs
                 git add public/data/official-samsung.json public/data/samsung-verification-coverage.json
                 if git diff --cached --quiet; then exit 0; fi
