@@ -37,5 +37,23 @@
     "verifiedSource": "Infinix official product specification page",
     "dataQuality": "official-specifications-launch-reference",
     "variantDetails": "Reference information from Infinix launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  },
+  "open-infinix-gt-20-pro": {
+    "screen": "6.78-inch AMOLED",
+    "refreshRate": "144 Hz",
+    "chip": "MediaTek Dimensity 8200 Ultimate",
+    "ram": "12 GB LPDDR5X (marketing reference)",
+    "storageType": "UFS 3.1",
+    "camera": "108 MP OIS main",
+    "selfie": "32 MP",
+    "battery": "5000 mAh",
+    "charging": "45 W fast charge",
+    "os": "XOS 14 at launch",
+    "network": "5G",
+    "speakers": "Dual speakers tuned by JBL",
+    "sourceUrl": "https://wap.pk.infinixmobility.com/gt-20-pro",
+    "verifiedSource": "Infinix official product specification page",
+    "dataQuality": "official-specifications-launch-reference",
+    "variantDetails": "Reference information from Infinix launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
   }
 }

@@ -1,12 +1,11 @@
 {
   "Xiaomi": {
     "total": 391,
-    "verified": 2,
+    "verified": 4,
     "checkedThisRun": 8,
     "addedThisRun": 0,
     "failedRequests": 0,
     "missing": [
-      "POCO F6",
       "POCO F6 Pro",
       "Redmi K70",
       "Redmi Turbo 3",
@@ -19,7 +18,6 @@
       "Redmi Note 12 Turbo",
       "Redmi Note 13 Pro+",
       "Redmi Note 13 Pro+ 5G",
-      "Xiaomi 14",
       "POCO F4",
       "POCO X4 GT",
       "Redmi K40S",
@@ -400,13 +398,12 @@
   },
   "Infinix": {
     "total": 174,
-    "verified": 2,
+    "verified": 3,
     "checkedThisRun": 8,
     "addedThisRun": 0,
     "failedRequests": 0,
     "missing": [
       "GT 10 Pro",
-      "GT 20 Pro",
       "GT 30",
       "GT 30 Pro",
       "GT 50 Pro",
@@ -582,7 +579,7 @@
   },
   "Tecno": {
     "total": 227,
-    "verified": 2,
+    "verified": 4,
     "checkedThisRun": 8,
     "addedThisRun": 0,
     "failedRequests": 0,
@@ -690,8 +687,6 @@
       "TECNO CAMON 20",
       "TECNO CAMON 20 Premier 5G",
       "TECNO CAMON 20s Pro 5G",
-      "TECNO CAMON 30",
-      "TECNO CAMON 30 5G",
       "TECNO CAMON 30 Premier 5G",
       "TECNO CAMON 30 Pro 5G",
       "TECNO CAMON 30S",
@@ -817,7 +812,7 @@
   },
   "Itel": {
     "total": 180,
-    "verified": 2,
+    "verified": 4,
     "checkedThisRun": 8,
     "addedThisRun": 0,
     "failedRequests": 8,
@@ -889,8 +884,6 @@
       "itel A47",
       "itel A48",
       "itel A49 Play",
-      "itel A50",
-      "itel A50C",
       "itel A510W",
       "itel A52",
       "itel A52 Lite",

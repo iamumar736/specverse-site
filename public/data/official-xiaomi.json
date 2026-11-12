@@ -33,5 +33,39 @@
     "verifiedSource": "Xiaomi official product specification page",
     "dataQuality": "official-specifications-launch-reference",
     "variantDetails": "Reference information from Xiaomi launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  },
+  "open-poco-poco-f6": {
+    "screen": "6.67-inch CrystalRes Flow AMOLED",
+    "resolution": "2712 × 1220",
+    "refreshRate": "Up to 120 Hz",
+    "chip": "Snapdragon 8s Gen 3",
+    "ram": "8 / 12 GB (global variants)",
+    "storage": "256 / 512 GB (global variants)",
+    "camera": "50 MP Sony IMX882 main + 8 MP ultra-wide",
+    "selfie": "20 MP",
+    "battery": "5000 mAh (typical)",
+    "charging": "90 W turbo charging",
+    "os": "Xiaomi HyperOS at launch",
+    "sourceUrl": "https://www.mi.com/global/product/poco-f6/specs/",
+    "verifiedSource": "Xiaomi official product specification page",
+    "dataQuality": "official-specifications-launch-reference",
+    "variantDetails": "Reference information from Xiaomi launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  },
+  "xiaomi-14": {
+    "screen": "6.36-inch LTPO AMOLED",
+    "resolution": "2670 × 1200",
+    "refreshRate": "Adaptive 1–120 Hz",
+    "chip": "Snapdragon 8 Gen 3",
+    "ram": "12 GB (global launch)",
+    "storage": "256 / 512 GB (global launch)",
+    "battery": "4610 mAh (typical)",
+    "charging": "90 W wired HyperCharge",
+    "wirelessCharging": "50 W wireless HyperCharge",
+    "dimensions": "152.8 × 71.5 × 8.20 mm",
+    "weight": "193 g",
+    "sourceUrl": "https://www.mi.com/global/product/xiaomi-14/specs/",
+    "verifiedSource": "Xiaomi official product specification page",
+    "dataQuality": "official-specifications-launch-reference",
+    "variantDetails": "Reference information from Xiaomi launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
   }
 }
