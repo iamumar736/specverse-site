@@ -14,7 +14,9 @@ export function isUsablePhonePhoto(source){
   let pathname=src.split(/[?#]/)[0];
   try{if(/^https:\/\//i.test(src))pathname=new URL(src).pathname;}catch{return false}
   // Do not trust placeholder thumbnails or vector-only stand-ins as a real pic.
-  if(/(?:^|[\/_.-])(?:generic|default|placeholder|fallback|mockup|mock|dummy|concept|render|vector|stock|no-image|coming-soon)(?:[\/_.-]|$)/i.test(decodeURIComponent(pathname)))return false;
+  let decoded;
+  try{decoded=decodeURIComponent(pathname)}catch{return false}
+  if(/(?:^|[\/_.-])(?:generic|default|placeholder|fallback|mockup|mock|dummy|concept|render|vector|stock|no-image|coming-soon)(?:[\/_.-]|$)/i.test(decoded))return false;
   if(!/\.(?:jpe?g|png|webp|avif)$/i.test(pathname))return false;
   return true;
 }
