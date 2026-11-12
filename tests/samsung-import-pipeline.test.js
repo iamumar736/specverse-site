@@ -20,7 +20,8 @@ test('Samsung importer scans missing models in rotating regional batches',()=>{
 test('automatic Samsung catalog enrichment starts on main and rotates daily',()=>{
  const workflow=read('.github/workflows/import-official-samsung.yml');
  assert.match(workflow,/cron: '40 4 \* \* \*'/);
- assert.match(workflow,/branches: \[main\]/);
+ assert.match(workflow,/workflow_dispatch:/);
+ assert.match(workflow,/group: specverse-data-publication/);
  assert.match(workflow,/--max=24 --regions=3/);
  assert.match(workflow,/public\/data\/samsung-import-state\.json/);
  const daily=read('.github/workflows/daily-update.yml');
