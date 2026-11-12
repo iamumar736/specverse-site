@@ -1828,3 +1828,317 @@ html[data-theme=light] .detail-art .modern-phone-art{
 @media(prefers-reduced-motion:reduce){
   .modern-phone-art__front,.modern-phone-art__halo{animation:none!important}
 }
+
+
+/* =================================================================
+   SPECVERSE ORBITAL — visibly animated deep-space side galleries
+   CSS-only. No full-screen videos, expensive particle engines or
+   additional runtime dependencies. Motion stays behind content.
+   ================================================================= */
+#root{isolation:isolate;position:relative}
+#root>.ambient-backdrop{z-index:0;background:#070a19}
+#root>header{z-index:20}
+#root>main{position:relative;z-index:1}
+.ambient-backdrop__vignette{z-index:1;opacity:.6}
+.ambient-backdrop .ambient-tech{z-index:3;overflow:hidden}
+.ambient-tech__item{
+  opacity:.31;
+  filter:drop-shadow(0 0 12px rgba(150,136,255,.24));
+}
+.ambient-tech__item:nth-child(4n){opacity:.24}
+.ambient-tech__item:nth-child(5n){opacity:.27}
+.ambient-tech__wordmark{
+  border-color:rgba(196,185,255,.67);
+  background:rgba(120,96,218,.19);
+  color:#efeaff;
+  text-shadow:0 0 17px rgba(187,173,255,.78);
+  box-shadow:0 0 21px rgba(143,123,244,.19),inset 0 1px 0 rgba(255,255,255,.12);
+}
+.ambient-tech__device{border-color:rgba(197,186,255,.79)}
+.cosmic-side{
+  position:absolute;top:0;bottom:0;
+  width:clamp(65px,8vw,140px);
+  z-index:5;
+  overflow:hidden;
+  pointer-events:none;
+  opacity:.98;
+  background:linear-gradient(90deg,rgba(105,67,201,.075),transparent 62%);
+}
+.cosmic-side--left{left:0;border-right:1px solid rgba(161,151,255,.075)}
+.cosmic-side--right{right:0;transform:scaleX(-1);border-right:1px solid rgba(161,151,255,.075)}
+.cosmic-side__orbit{
+  position:absolute;
+  left:-51%;top:10%;
+  width:157%;
+  height:88%;
+  border:1px dashed rgba(153,164,255,.34);
+  border-radius:50%;
+  transform:rotate(12deg);
+  filter:drop-shadow(0 0 10px rgba(137,107,255,.25));
+  animation:cosmic-orbit-pulse 19s ease-in-out infinite alternate;
+}
+.cosmic-side__orbit--b{
+  left:-74%;top:32%;height:46%;width:170%;
+  border-color:rgba(109,230,214,.32);
+  animation-delay:-9s;animation-duration:23s;
+}
+.cosmic-side__text{
+  position:absolute;left:7px;top:7%;
+  writing-mode:vertical-rl;
+  font:800 8px/1.2 'Space Grotesk',sans-serif;
+  letter-spacing:2.3px;color:rgba(175,201,255,.73);
+  text-shadow:0 0 10px rgba(110,166,255,.45);
+}
+.cosmic-side--right .cosmic-side__text{transform:scaleX(-1)}
+.cosmic-side__phone{
+  position:absolute;
+  display:block;
+  width:59px;height:111px;
+  left:30%;
+  top:19%;
+  overflow:hidden;
+  border:3px solid rgba(207,220,255,.72);
+  border-right:7px solid rgba(126,151,196,.79);
+  border-radius:17px;
+  background:
+    linear-gradient(117deg,rgba(255,255,255,.65) 0 4%,transparent 20% 62%,rgba(236,230,255,.38) 72%,transparent 85%),
+    radial-gradient(circle at 70% 72%,rgba(111,250,221,.53),transparent 67%),
+    linear-gradient(155deg,#494b86,#25294d 66%,#10152a);
+  box-shadow:9px 18px 27px rgba(3,4,18,.47),0 0 24px rgba(158,151,255,.32),inset 2px 0 7px rgba(255,255,255,.34);
+  animation:cosmic-phone-flight 10s ease-in-out infinite alternate;
+}
+.cosmic-side__phone--two{
+  top:58%;
+  left:20%;
+  width:56px;height:105px;
+  background:
+    linear-gradient(120deg,rgba(255,255,255,.6),transparent 24%,rgba(255,255,255,.24) 61%,transparent 90%),
+    radial-gradient(circle at 20% 60%,rgba(120,198,255,.48),transparent 64%),
+    linear-gradient(150deg,#42618d,#293556 66%,#11172e);
+  animation-duration:13s;animation-delay:-5s;animation-direction:alternate-reverse;
+}
+.cosmic-side__glass{
+  position:absolute;display:block;inset:4px;
+  border-radius:11px;
+  border:1px solid rgba(241,241,255,.35);
+  background:linear-gradient(130deg,rgba(208,219,255,.05),rgba(130,104,234,.09) 55%,transparent);
+}
+.cosmic-side__lens{
+  position:absolute;width:12px;height:12px;
+  left:9px;top:12px;border:2px solid rgba(226,232,255,.78);
+  border-radius:50%;
+  background:radial-gradient(circle at 35% 28%,#9ab3dc 0 8%,#101a32 22%,#070b18 65%,#4d5e88 85%);
+  box-shadow:0 0 0 2px rgba(17,31,55,.35),0 2px 4px #060b1a;
+}
+.cosmic-side__lens:nth-of-type(3){top:29px}
+.cosmic-side__lens:nth-of-type(4){top:46px}
+.cosmic-side__word{
+  position:absolute;left:10px;top:44%;
+  color:#fff;
+  padding:7px 10px;
+  font:800 10px/1 'Space Grotesk',sans-serif;
+  letter-spacing:1px;
+  border:1px solid rgba(170,161,255,.53);
+  border-radius:999px;
+  background:rgba(41,34,84,.91);
+  text-shadow:0 0 9px rgba(208,197,255,.63);
+  box-shadow:0 6px 26px rgba(10,8,37,.44);
+  animation:cosmic-logo-hover 7.3s ease-in-out infinite alternate;
+}
+.cosmic-side__word--two{
+  top:83%;left:23%;
+  color:#a7f3e8;
+  animation-delay:-3.7s;
+}
+.cosmic-side__spark{
+  position:absolute;left:38%;top:9%;
+  display:block;width:4px;height:4px;
+  border-radius:50%;background:#e7e5ff;
+  box-shadow:0 0 0 4px rgba(169,151,255,.12),0 0 25px 7px rgba(180,163,255,.45);
+  animation:cosmic-spark-blink 4.5s ease-in-out infinite;
+}
+.cosmic-side__spark--two{top:89%;left:67%;animation-delay:-2.5s;background:#9df6df}
+.cosmic-meteor{
+  position:absolute;
+  display:block;
+  width:125px;height:2px;
+  background:linear-gradient(90deg,transparent,rgba(148,204,255,.2),rgba(231,248,255,.81));
+  border-radius:99px;
+  filter:drop-shadow(0 0 7px rgba(122,166,255,.7));
+  opacity:0;
+  transform:translate3d(0,0,0) rotate(-28deg);
+  animation:cosmic-meteor-shoot 13s ease-out infinite;
+}
+.cosmic-meteor--one{left:11%;top:19%;animation-delay:-4s}
+.cosmic-meteor--two{left:75%;top:51%;animation-delay:-9s;animation-duration:17s}
+.cosmic-meteor--three{left:48%;top:77%;animation-delay:-12s;animation-duration:22s}
+@keyframes cosmic-phone-flight{
+  from{transform:translate3d(-5px,30px,0) rotateZ(-16deg) perspective(240px) rotateY(-22deg)}
+  to{transform:translate3d(12px,-43px,0) rotateZ(-7deg) perspective(240px) rotateY(12deg)}
+}
+@keyframes cosmic-logo-hover{
+  from{transform:translate3d(-3px,15px,0) rotate(-7deg)}
+  to{transform:translate3d(10px,-21px,0) rotate(9deg)}
+}
+@keyframes cosmic-orbit-pulse{
+  from{opacity:.28;transform:rotate(7deg) scale(.94)}
+  to{opacity:1;transform:rotate(20deg) scale(1.1)}
+}
+@keyframes cosmic-spark-blink{
+  0%,100%{opacity:.35;transform:scale(.65)}
+  50%{opacity:1;transform:scale(1.45)}
+}
+@keyframes cosmic-meteor-shoot{
+  0%,78%{opacity:0;transform:translate3d(-65px,48px,0) rotate(-28deg)}
+  80%{opacity:.9}
+  87%{opacity:0;transform:translate3d(380px,-170px,0) rotate(-28deg)}
+  100%{opacity:0}
+}
+/* The control belongs to the hero, not an obstructive floating overlay. */
+.studio-orbit-control{
+  display:flex;align-items:center;gap:11px;flex-wrap:wrap;
+  margin-top:20px;
+}
+.studio-orbit-toggle{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:43px;padding:9px 13px;
+  border:1px solid rgba(146,238,211,.4);
+  border-radius:12px;
+  color:#c2ffec;
+  background:rgba(21,92,92,.22);
+  font:800 11px/1.2 'Space Grotesk',sans-serif;
+  letter-spacing:.5px;
+  transition:border-color .22s,background .22s,transform .22s;
+}
+.studio-orbit-toggle:hover{background:rgba(21,123,119,.35);transform:translateY(-2px);border-color:#a1fae1}
+.studio-orbit-toggle:focus-visible{outline:3px solid #e3dcff;outline-offset:3px}
+.studio-orbit-toggle strong{
+  color:#102724;background:#91f5d4;border-radius:7px;padding:5px 8px;letter-spacing:.65px;
+}
+.studio-orbit-toggle[aria-pressed=false]{color:#c4c9da;border-color:rgba(168,176,202,.38);background:rgba(40,48,70,.28)}
+.studio-orbit-toggle[aria-pressed=false] strong{background:#818ba8;color:#fff}
+.studio-orbit-control__hint{font-size:11px;color:#b8bed8;letter-spacing:.1px}
+.ambient-backdrop--paused *,
+.ambient-backdrop--paused *::before,
+.ambient-backdrop--paused *::after{animation-play-state:paused!important}
+@media(min-width:1260px){
+  .shell{width:min(1200px,calc(100% - 152px))}
+}
+@media(max-width:1259px){
+  .cosmic-side{display:none}
+  .ambient-tech__item{opacity:.23}
+}
+@media(max-width:820px){
+  .ambient-tech{display:none!important}
+  .studio-orbit-control__hint{display:none}
+  .studio-orbit-toggle{min-height:44px;padding:10px 13px}
+}
+@media(prefers-reduced-motion:reduce){
+  .ambient-tech,.cosmic-side,.cosmic-meteor{display:none!important}
+  .studio-orbit-toggle{transition:none!important;transform:none!important}
+}
+/* Larger, high-end looking 3D device art rather than a flat silhouette. */
+.modern-phone-art{
+  perspective:770px;
+  transform-style:preserve-3d;
+  background:
+    radial-gradient(circle at 48% 39%,color-mix(in srgb,var(--phone-accent) 44%,transparent),transparent 68%),
+    linear-gradient(145deg,color-mix(in srgb,var(--phone-panel) 78%,#293353),#0d1326);
+}
+.modern-phone-art__halo{
+  top:7%;left:9%;width:82%;height:86%;
+  background:radial-gradient(ellipse,color-mix(in srgb,var(--phone-accent) 50%,transparent),transparent 70%);
+  filter:blur(17px);
+}
+.modern-phone-art__ring--one{
+  border-color:color-mix(in srgb,var(--phone-accent) 38%,transparent);
+  box-shadow:0 0 0 26px color-mix(in srgb,var(--phone-accent) 3%,transparent),0 0 28px color-mix(in srgb,var(--phone-accent) 17%,transparent);
+}
+.modern-phone-art__device{
+  border-top-color:color-mix(in srgb,var(--phone-accent) 50%,white);
+  border-left-color:color-mix(in srgb,var(--phone-accent) 60%,white);
+  border-right-color:color-mix(in srgb,var(--phone-secondary) 52%,#323b58);
+  border-bottom-color:#25334e;
+  box-shadow:
+    13px 21px 25px rgba(1,5,19,.58),
+    7px 5px 0 color-mix(in srgb,var(--phone-secondary) 72%,#1c243a),
+    9px 7px 2px rgba(6,11,25,.4),
+    0 0 28px color-mix(in srgb,var(--phone-accent) 16%,transparent),
+    inset 2px 0 5px rgba(255,255,255,.65),
+    inset -6px 0 10px rgba(9,20,48,.42);
+}
+.modern-phone-art__device::before{
+  content:"";position:absolute;
+  inset:0;pointer-events:none;
+  border-radius:inherit;
+  background:
+    linear-gradient(112deg,rgba(255,255,255,.49) 0%,transparent 11%,rgba(255,255,255,.04) 34%,rgba(255,255,255,.35) 46%,transparent 60%),
+    radial-gradient(ellipse at 82% 12%,rgba(255,255,255,.36),transparent 29%);
+  opacity:.75;
+}
+.modern-phone-art__front{
+  box-shadow:
+    10px 18px 28px rgba(0,3,15,.6),3px 3px 0 rgba(154,166,196,.95),
+    inset 0 0 0 1px rgba(237,247,255,.6);
+}
+.modern-phone-art__front-screen{
+  background:
+    radial-gradient(ellipse at 65% 14%,color-mix(in srgb,var(--phone-accent) 92%,transparent),transparent 53%),
+    radial-gradient(ellipse at 17% 80%,color-mix(in srgb,var(--phone-secondary) 85%,transparent),transparent 60%),
+    conic-gradient(from 21deg at 67% 60%,#0b1834,#354472,#14162c,#0b1834);
+}
+.modern-phone-art__lens{
+  background:radial-gradient(circle at 38% 31%,#b4d7ff 0 7%,#2d527e 14%,#0a1730 25%,#030711 57%,#34496d 77%,#070b1c 100%);
+  box-shadow:inset 1px 1px 3px rgba(202,228,255,.58),0 1px 5px rgba(0,0,0,.7);
+}
+.modern-phone-art__model{
+  max-width:calc(100% - 14px);
+  white-space:normal;
+  overflow:hidden;
+  text-overflow:clip;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  border-color:color-mix(in srgb,var(--phone-accent) 65%,transparent);
+  background:rgba(11,14,31,.94);
+  box-shadow:0 8px 28px rgba(0,0,0,.62);
+  line-height:1.2;
+}
+.modern-phone-art__concept{background:rgba(12,16,32,.84);border-color:rgba(220,224,250,.29)}
+.phone-card .phone-name{
+  font-size:clamp(18px,1.7vw,23px);
+  line-height:1.18;
+  letter-spacing:-.6px;
+  color:#fff;
+}
+.phone-card .phone-card__brand{font-size:11px;letter-spacing:.45px}
+.phone-card:hover .card-image{
+  box-shadow:inset 0 0 35px color-mix(in srgb,var(--phone-accent) 16%,transparent);
+}
+@media(hover:hover) and (min-width:821px) and (prefers-reduced-motion:no-preference){
+  .phone-card:hover .modern-phone-art__device{
+    animation:cosmic-phone-reveal 3.8s ease-in-out infinite alternate;
+  }
+  .phone-card:hover .modern-phone-art__halo{
+    animation:cosmic-placeholder-glow 3.8s ease-in-out infinite alternate;
+  }
+}
+@keyframes cosmic-phone-reveal{
+  from{transform:translate(-76%,-54%) rotate(-12deg) perspective(280px) rotateY(-9deg)}
+  to{transform:translate(-74%,-59%) rotate(-6deg) perspective(280px) rotateY(6deg)}
+}
+@keyframes cosmic-placeholder-glow{
+  from{opacity:.7;transform:scale(.93)}
+  to{opacity:1;transform:scale(1.1)}
+}
+html[data-theme=light] .cosmic-side{background:linear-gradient(90deg,rgba(149,123,255,.08),transparent)}
+html[data-theme=light] .cosmic-side__text{color:#625e9b}
+html[data-theme=light] .cosmic-side__orbit{border-color:rgba(95,92,172,.3)}
+html[data-theme=light] .cosmic-side__word{background:rgba(246,242,255,.91);color:#5b4c9c}
+html[data-theme=light] .ambient-tech__wordmark{color:#494089;border-color:#9186c7;background:rgba(242,238,255,.8)}
+html[data-theme=light] .studio-orbit-toggle{color:#356d65;background:#e2fcf3;border-color:#8bd7c4}
+html[data-theme=light] .studio-orbit-control__hint{color:#66708a}
+html[data-theme=light] .modern-phone-art{
+  background:radial-gradient(circle at 49% 39%,color-mix(in srgb,var(--phone-accent) 48%,transparent),transparent 70%),
+    linear-gradient(145deg,#f1f5ff,#e1e7f3);
+}
