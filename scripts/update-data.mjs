@@ -49,6 +49,11 @@ for(const source of sources){
  }catch(err){results.push({source,ok:false,error:String(err.message).slice(0,180)});console.error(`Feed failed: ${source}: ${err.message}`)}
 }
 const all=[...catalog.values()].sort((a,b)=>(b.year||0)-(a.year||0)||a.name.localeCompare(b.name));
+if(existing.length>=200&&all.length<Math.floor(existing.length*.9)){
+  throw Error('Catalog shrank from '+existing.length+' to '+all.length+
+    ' (>10% decrease). Refusing automatic overwrite until data source is investigated.');
+}
+
 await fs.writeFile(new URL('catalog.json',dir),JSON.stringify(all,null,2)+'\n');
 await fs.writeFile(new URL('prices.json',dir),JSON.stringify(prices,null,2)+'\n');
 await fs.writeFile(new URL('status.json',dir),JSON.stringify({lastChecked:now,deviceCount:all.length,discoveredCount:all.filter(d=>d.dataQuality==='discovered-unverified').length,feedConfigured:sources.length>0,importedCount:imported.length,curatedLegacyCount:legacy.length,brandCount:new Set(all.map(d=>d.brand)).size,providers:results},null,2)+'\n');
