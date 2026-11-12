@@ -85,21 +85,21 @@ function ConceptPhone(){
   </group>;
 }
 
-export default function PhoneShowcase3D({onReady}){
+export default function PhoneShowcase3D({onReady,active=true,reducedMotion=false}){
   return <div className="hero-3d-stage" aria-hidden="true">
-    <Canvas camera={{position:[0,0,7.5],fov:35}} dpr={[1,1.5]}
+    <Canvas camera={{position:[0,0,7.5],fov:35}} dpr={[1,1.25]} frameloop={active&&!reducedMotion?'always':'demand'}
       gl={{alpha:true,antialias:true,powerPreference:'low-power'}}
       onCreated={onReady} style={{background:'transparent'}} fallback={null}>
       <ambientLight intensity={1.35}/>
       <directionalLight position={[-3,5,7]} intensity={2.5} color="#ffffff"/>
       <directionalLight position={[4,-1,-5]} intensity={1.9} color="#ad9cff"/>
       <pointLight position={[0,-3,4]} intensity={32} color="#9f75ff" distance={8}/>
-      <Float speed={1.45} rotationIntensity={.16} floatIntensity={.44}>
+      <Float speed={active&&!reducedMotion?1.1:0} rotationIntensity={active&&!reducedMotion?.12:0} floatIntensity={active&&!reducedMotion?.28:0}>
         <ConceptPhone/>
       </Float>
       <OrbitControls enableZoom={false} enablePan={false}
         enableDamping dampingFactor={.06}
-        autoRotate autoRotateSpeed={.52}
+        autoRotate={active&&!reducedMotion} autoRotateSpeed={.42}
         minPolarAngle={.35} maxPolarAngle={2.8}/>
     </Canvas>
   </div>;
