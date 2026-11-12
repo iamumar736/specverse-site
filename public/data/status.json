@@ -1,10 +1,17 @@
 {
-  "lastChecked": "2026-11-12T19:58:21.510Z",
+  "lastChecked": "2026-11-12T20:13:25.957Z",
   "deviceCount": 6795,
   "discoveredCount": 0,
   "feedConfigured": false,
   "importedCount": 6622,
   "curatedLegacyCount": 54,
   "brandCount": 50,
-  "providers": []
+  "providers": [],
+  "automation": {
+    "mode": "scheduled",
+    "lastReport": "2026-11-12T20:13:26.169Z",
+    "verifiedModels": 319,
+    "incompleteModels": 6064,
+    "pricesAutoUpdated": false
+  }
 }

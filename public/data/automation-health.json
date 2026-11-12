@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-11-12T20:13:26.169Z",
+  "mode": "automatic",
+  "catalog": {
+    "total": 6795,
+    "brands": 50,
+    "withManufacturerSources": 319,
+    "withoutKnownTechnicalFields": 6064
+  },
+  "officialCoverage": {
+    "Apple": {
+      "tracked": 55,
+      "sourceVerified": 55
+    },
+    "Samsung": {
+      "tracked": 184,
+      "sourceVerified": 94
+    },
+    "OPPO": {
+      "tracked": 331,
+      "sourceVerified": 92
+    },
+    "Vivo": {
+      "tracked": 362,
+      "sourceVerified": 78
+    }
+  },
+  "manufacturerChecks": {
+    "samsungMissing": 90,
+    "oppoMissing": 239,
+    "vivoMissing": 284
+  },
+  "lastCatalogCheck": "2026-11-12T20:13:25.957Z",
+  "verifiedFeedConfigured": false,
+  "priceNote": "Current market prices require separately licensed retailer sources; no auto-generated exchange-rate prices.",
+  "sourceNote": "Manufacturer verified entries and publicly discovered identities have different confidence levels. Missing specs remain unavailable.",
+  "catalogValidationErrors": 0
+}
