@@ -27,7 +27,8 @@ test('mobile navigation uses real handlers and maintains destinations',()=>{
   assert.match(dock,/onClick=\{onHome\}/);
   assert.match(dock,/onClick=\{onBrowse\}/);
   assert.match(dock,/onClick=\{onCompare\}/);
-  assert.match(dock,/href="\/games\/"/);
+  assert.doesNotMatch(dock,/href="\/games\/"/);
+  assert.match(app,/<footer>[\s\S]*href="\/games\/"/);
   assert.match(dock,/aria-current=\{view==='compare'\?'page':undefined\}/);
   assert.match(app,/<MobileDock /);
 });
