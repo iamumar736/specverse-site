@@ -204,3 +204,39 @@ retain existing data and are flagged, rather than silently guessing.
 To audit updates, visit GitHub **Actions** and the **Issues** tab. A future
 change to the hosting provider, repository permissions or third-party data
 licenses can still require human intervention.
+
+
+## SpecVerse Orbital — cinematic product previews
+
+The homepage now uses an astronaut-inspired orbit theme with visible,
+CSS-animated phone silhouettes and brand-name transmissions along the desktop
+side margins. This avoids image downloads, unlicensed trademarks, canvas
+particle loops and large extra runtime packages. Users can pause the scene via
+**Orbit Mode**; the preference is remembered in the browser. System
+`prefers-reduced-motion` disables the background movement, and mobile
+screens keep the lightweight nonanimated background for battery life.
+
+### When does a phone show a realistic-looking fallback?
+`photo-source-policy.js` makes the display decision:
+
+- Use a suitable JPG, PNG, WebP or AVIF photograph/raster image when provided.
+- Treat stock/generic/default placeholder paths and vector-only SVG files
+  (including vector thumbnails saved as SVG.png) as illustrations rather than
+  actual phone photography. The card then uses SpecVerse's richer, **original
+  CSS 3D-style concept** treatment with brand accents.
+- If a candidate photo fails to load, try the next acceptable candidate;
+  otherwise show the illustrated placeholder. This fixes missing images that
+  previously fell back to the same old vector file.
+- Source URLs alone are not proof that every external image matches a
+  particular device. Strict image identity checks are handled separately by
+  the licensed image automation.
+
+On a device detail page, **Inspect 3D concept** loads a real WebGL procedural
+model via React Three Fiber only when clicked. Visitors can drag to rotate and
+inspect the original metallic concept phone. Its colors and basic fold/flip
+family hints are editorial choices, **not precise manufacturer geometry**,
+and the controls label it clearly. Only one viewer can be opened at a time,
+so 40 visible product cards do not create 40 WebGL canvases.
+
+The verified manufacturer technical specs, prices, comparisons, original
+product photographs and automatic imports are not modified by the theme.
