@@ -5,10 +5,11 @@ import {readFileSync} from 'node:fs';
 const source=readFileSync(new URL('../src.jsx',import.meta.url),'utf8');
 const packageJson=JSON.parse(readFileSync(new URL('../package.json',import.meta.url),'utf8'));
 
-test('manual refresh captures all seven data feed responses',()=>{
+test('manual refresh captures catalog, prices, status and eight manufacturer data feeds',()=>{
   const refresh=source.slice(source.indexOf('const refresh=async()=>'),source.indexOf('const directory=useMemo'));
-  assert.match(refresh,/const \[a,b,c,d,e,f,g\]=await Promise\.all\(/);
-  assert.match(refresh,/mergeOfficialSpecs\(data,apple,samsung,oppo,vivo\)/);
+  assert.match(refresh,/const \[a,b,c,\.\.\.manufacturerResponses\]=await Promise\.all\(/);
+  assert.match(refresh,/mergeOfficialSpecs\(data,\.\.\.overlays\)/);
+  for(const file of ['official-apple','official-samsung','official-oppo','official-vivo','official-xiaomi','official-infinix','official-tecno','official-itel'])assert.ok(refresh.includes(file+'.json'),file);
 });
 
 test('homepage animation respects reduced motion and cleans up GSAP context',()=>{
