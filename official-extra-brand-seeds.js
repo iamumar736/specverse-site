@@ -157,6 +157,129 @@ export const EXTRA_BRAND_SEEDS=Object.freeze([
       "network": "4G / 3G / 2G",
       "biometrics": "Side fingerprint"
     }
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "POCO F6",
+    "url": "https://www.mi.com/global/product/poco-f6/specs/",
+    "specs": {
+      "screen": "6.67-inch CrystalRes Flow AMOLED",
+      "resolution": "2712 × 1220",
+      "refreshRate": "Up to 120 Hz",
+      "chip": "Snapdragon 8s Gen 3",
+      "ram": "8 / 12 GB (global variants)",
+      "storage": "256 / 512 GB (global variants)",
+      "camera": "50 MP Sony IMX882 main + 8 MP ultra-wide",
+      "selfie": "20 MP",
+      "battery": "5000 mAh (typical)",
+      "charging": "90 W turbo charging",
+      "os": "Xiaomi HyperOS at launch"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Xiaomi 14",
+    "url": "https://www.mi.com/global/product/xiaomi-14/specs/",
+    "specs": {
+      "screen": "6.36-inch LTPO AMOLED",
+      "resolution": "2670 × 1200",
+      "refreshRate": "Adaptive 1–120 Hz",
+      "chip": "Snapdragon 8 Gen 3",
+      "ram": "12 GB (global launch)",
+      "storage": "256 / 512 GB (global launch)",
+      "battery": "4610 mAh (typical)",
+      "charging": "90 W wired HyperCharge",
+      "wirelessCharging": "50 W wireless HyperCharge",
+      "dimensions": "152.8 × 71.5 × 8.20 mm",
+      "weight": "193 g"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "name": "CAMON 30",
+    "url": "https://www.tecno-mobile.com/phones/tech-specs/techspecs/camon-30/",
+    "specs": {
+      "screen": "6.78-inch AMOLED",
+      "resolution": "1080 × 2436",
+      "refreshRate": "120 Hz",
+      "chip": "MediaTek Helio G99 Ultimate",
+      "camera": "50 MP main (OIS) + 2 MP depth + light sensor",
+      "selfie": "50 MP autofocus",
+      "battery": "5000 mAh",
+      "charging": "70 W Ultra Charge (global reference)",
+      "ram": "8 / 12 GB physical + extended RAM (global variants)",
+      "storage": "256 GB (global reference)",
+      "os": "Android 14 at launch"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "name": "CAMON 30 5G",
+    "url": "https://www.tecno-mobile.com/phones/tech-specs/techspecs/camon-30-5g/",
+    "specs": {
+      "screen": "6.78-inch AMOLED",
+      "resolution": "1080 × 2436",
+      "refreshRate": "120 Hz",
+      "chip": "MediaTek Dimensity 7020 5G",
+      "camera": "50 MP main (OIS) + 2 MP depth + light sensor",
+      "selfie": "50 MP autofocus",
+      "battery": "5000 mAh",
+      "charging": "70 W Ultra Charge",
+      "ram": "8 / 12 GB physical + extended RAM (global variants)",
+      "storage": "256 / 512 GB (global variants)",
+      "os": "Android 14 at launch",
+      "network": "5G / 4G / 3G / 2G"
+    }
+  },
+  {
+    "brand": "Itel",
+    "name": "A50",
+    "url": "https://www.itel-life.com/products/phone/a-series/a50/spec",
+    "specs": {
+      "screen": "6.6-inch display",
+      "resolution": "720 × 1612",
+      "chip": "Unisoc T603 octa-core",
+      "camera": "8 MP rear",
+      "selfie": "5 MP",
+      "battery": "5000 mAh",
+      "charging": "USB Type-C (wattage unspecified)",
+      "ram": "2 / 3 / 4 GB physical (regional configurations; extended RAM advertised separately)",
+      "storage": "64 / 128 / 256 GB (regional configurations)",
+      "os": "Android 14 Go at launch",
+      "network": "4G / 3G / 2G"
+    }
+  },
+  {
+    "brand": "Itel",
+    "name": "A50C",
+    "url": "https://www.itel-life.com/products/phone/a-series/a50c",
+    "specs": {
+      "screen": "6.6-inch display",
+      "chip": "Octa-core processor (specific chipset not stated on this product page)",
+      "camera": "8 MP rear",
+      "battery": "4000 mAh",
+      "charging": "USB Type-C (wattage unspecified)",
+      "biometrics": "Fingerprint and face unlock"
+    }
+  },
+  {
+    "brand": "Infinix",
+    "name": "GT 20 Pro",
+    "url": "https://wap.pk.infinixmobility.com/gt-20-pro",
+    "specs": {
+      "screen": "6.78-inch AMOLED",
+      "refreshRate": "144 Hz",
+      "chip": "MediaTek Dimensity 8200 Ultimate",
+      "ram": "12 GB LPDDR5X (marketing reference)",
+      "storageType": "UFS 3.1",
+      "camera": "108 MP OIS main",
+      "selfie": "32 MP",
+      "battery": "5000 mAh",
+      "charging": "45 W fast charge",
+      "os": "XOS 14 at launch",
+      "network": "5G",
+      "speakers": "Dual speakers tuned by JBL"
+    }
   }
 ]);
 export const EXTRA_BRAND_FILES=Object.freeze({Xiaomi:'official-xiaomi.json',Infinix:'official-infinix.json',Tecno:'official-tecno.json',Itel:'official-itel.json'});
