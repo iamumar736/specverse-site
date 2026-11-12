@@ -595,3 +595,32 @@ html[data-theme=light] .all-models-btn[aria-pressed=true]{
   .phone-rail__arrow{transition:none!important}
   .phone-rail__track.cards{scroll-behavior:auto}
 }
+
+
+/* Verified-source image animation: preserves actual photo/illustration geometry.
+   Never fabricate a camera array or housing from the model's text specs. */
+.phone-art--motion{perspective:750px}
+.phone-art--motion img{
+  transform-origin:50% 55%;
+  animation:specverse-device-float 5.8s ease-in-out infinite;
+  backface-visibility:hidden;
+  will-change:transform;
+}
+@keyframes specverse-device-float{
+  0%,100%{transform:translate3d(0,1px,0) rotateY(-1deg) rotateZ(-.6deg)}
+  48%{transform:translate3d(0,-7px,0) rotateY(2deg) rotateZ(.5deg)}
+}
+.phone-card:hover .phone-art--motion img,
+.card-image:focus-visible .phone-art--motion img{
+  animation-play-state:paused;
+}
+@media(max-width:700px){
+  .phone-art--motion img{animation-duration:7.2s}
+}
+@media(prefers-reduced-motion:reduce){
+  .phone-art--motion img{
+    animation:none!important;
+    transform:none!important;
+    will-change:auto!important;
+  }
+}

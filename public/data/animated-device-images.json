@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "updatedAt": null,
+  "nextOffset": 0,
+  "devices": {},
+  "statistics": {
+    "eligible": 0,
+    "checked": 0,
+    "accepted": 0,
+    "skipped": 0
+  }
+}

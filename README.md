@@ -49,3 +49,41 @@ Other supported specification fields: `network`, `bands`, `sim`, `announced`, `r
 - The catalog displays 24 phones at a time with a Load more button for larger datasets.
 - Wikidata discovery is best effort and its entries are not automatically verified for completeness; do not present them as fully reviewed specifications.
 - Actual live pricing requires providers; the current ZIP contains **no active price feeds** and therefore no real-time prices.
+
+
+## Verified-source animated device images (automatic)
+The workflow `.github/workflows/device-visuals.yml` runs once per day at 05:40 UTC and can
+also be run manually. It checks a bounded batch of model entries per run
+(default 12), updates `public/data/animated-device-images.json`, and adds
+any validated licensed photos to `public/device-visuals/`. GitHub Actions
+commits the manifest, source credits and new licensed images to `main`,
+which can cause Render to redeploy if automatic deployments are enabled.
+
+A phone enters the automated animation manifest **only** if:
+1. There is an independently imported **manufacturer-backed** specification record
+   for its exact catalog ID with a verified source URL.
+2. Wikimedia Commons provides a photo/illustration with a conservative exact
+   model-name match. Concept art, mockups and cases are excluded.
+3. The Commons image metadata declares a compatible CC BY, CC BY-SA or
+   public-domain license suitable for reuse and image transformations.
+4. The picture is accessible as an existing local curated file or as a valid
+   size-limited JPG/PNG/WebP raster file. New untrusted SVGs are never imported.
+
+The original product image is animated using a gentle **2D CSS float/parallax**
+effect. This retains the image's pictured phone shape rather than generating
+a synthetic body or inventing camera layout, fold mechanics or product colors.
+**A model-name match is not a scientific verification of its precise geometry.**
+Manufacturer asset catalogs and actual 3D models would be required for that.
+Unverified images stay as they are. Errors and network outages do not replace
+pictures with guesses. Image author, license and modification credits are
+published at `/device-image-credits.html`.
+
+This is an incremental workflow, **not** an instant source of accurate 3D models
+for every brand. Most models will lack sufficient image/licensing evidence and
+will remain unchanged. The job is bounded to avoid scraping at scale.
+To force a cycle, open GitHub → Actions → "Verify and animate real phone images"
+→ "Run workflow"; then check its logs and the manifest.
+
+**Do not substitute AI-generated renders for source-verified product photos**;
+AI renders can be used as explicitly labeled artistic concepts, not as proof
+of a phone's true design.
