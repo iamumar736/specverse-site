@@ -23,6 +23,43 @@ const FLOATERS=[
 
 export default function FloatingTechBackground(){
   return <div className="ambient-tech" aria-hidden="true">
+    <div className="cosmic-side cosmic-side--left">
+      <span className="cosmic-side__orbit cosmic-side__orbit--a"/>
+      <span className="cosmic-side__orbit cosmic-side__orbit--b"/>
+      <span className="cosmic-side__text">TRANSMISSION • SPECVERSE</span>
+      <span className="cosmic-side__phone cosmic-side__phone--one">
+        <i className="cosmic-side__glass"/><i className="cosmic-side__lens"/>
+        <i className="cosmic-side__lens"/><i className="cosmic-side__lens"/>
+      </span>
+      <span className="cosmic-side__word cosmic-side__word--one">APPLE</span>
+      <span className="cosmic-side__phone cosmic-side__phone--two">
+        <i className="cosmic-side__glass"/><i className="cosmic-side__lens"/>
+        <i className="cosmic-side__lens"/><i className="cosmic-side__lens"/>
+      </span>
+      <span className="cosmic-side__word cosmic-side__word--two">PIXEL</span>
+      <span className="cosmic-side__spark cosmic-side__spark--one"/>
+      <span className="cosmic-side__spark cosmic-side__spark--two"/>
+    </div>
+    <div className="cosmic-side cosmic-side--right">
+      <span className="cosmic-side__orbit cosmic-side__orbit--a"/>
+      <span className="cosmic-side__orbit cosmic-side__orbit--b"/>
+      <span className="cosmic-side__text">EXPLORE • THE GALAXY</span>
+      <span className="cosmic-side__phone cosmic-side__phone--one">
+        <i className="cosmic-side__glass"/><i className="cosmic-side__lens"/>
+        <i className="cosmic-side__lens"/><i className="cosmic-side__lens"/>
+      </span>
+      <span className="cosmic-side__word cosmic-side__word--one">GALAXY</span>
+      <span className="cosmic-side__phone cosmic-side__phone--two">
+        <i className="cosmic-side__glass"/><i className="cosmic-side__lens"/>
+        <i className="cosmic-side__lens"/><i className="cosmic-side__lens"/>
+      </span>
+      <span className="cosmic-side__word cosmic-side__word--two">XIAOMI</span>
+      <span className="cosmic-side__spark cosmic-side__spark--one"/>
+      <span className="cosmic-side__spark cosmic-side__spark--two"/>
+    </div>
+    <span className="cosmic-meteor cosmic-meteor--one"/>
+    <span className="cosmic-meteor cosmic-meteor--two"/>
+    <span className="cosmic-meteor cosmic-meteor--three"/>
     {FLOATERS.map((part,index)=>
       <span key={index} className={'ambient-tech__item ambient-tech__item--'+part.kind}
         style={{
