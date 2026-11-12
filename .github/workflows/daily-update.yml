@@ -4,6 +4,7 @@ on:
     - cron: '15 3 * * *'
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - 'scripts/**'
       - '.github/workflows/daily-update.yml'

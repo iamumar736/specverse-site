@@ -1,8 +1,14 @@
 import fs from 'node:fs/promises';
 import * as cheerio from 'cheerio';
+import {mergeSamsungVerifiedRecords,samsungCoverageReport,validSamsungRecord} from '../samsung-spec-coverage.js';
 const root=new URL('../public/data/',import.meta.url);
 const catalog=JSON.parse(await fs.readFile(new URL('catalog.json',root),'utf8'));
 const devices=catalog.filter(p=>p.brand==='Samsung');
+const previous=JSON.parse(await fs.readFile(new URL('official-samsung.json',root),'utf8').catch(()=>'{}'));
+const previousState=JSON.parse(await fs.readFile(new URL('samsung-import-state.json',root),'utf8').catch(()=>'{}'));
+const getNumber=(name,fallback,max)=>Math.min(max,Math.max(1,Number(process.argv.find(v=>v.startsWith('--'+name+'='))?.split('=')[1])||fallback));
+const maxPerRun=getNumber('max',18,80);
+const regionsPerRun=getNumber('regions',3,12);
 const clean=x=>String(x||'').replace(/[\u00a0\u200b]/g,' ').replace(/\s+/g,' ').trim();
 const slug=x=>String(x||'').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
@@ -15,7 +21,15 @@ async function fetchText(url,attempts=3){
   }catch(e){if(i===attempts-1)throw e;await wait((i+1)*1200)}
  }
 }
-const sites=['pk','sg','uk','in','my','ph','id','au','ae','th','vn','za'];
+const allSites=['pk','sg','uk','in','my','ph','id','au','ae','th','vn','za'];
+const regionOffset=Math.max(0,Number(previousState.regionOffset)||0)%allSites.length;
+const sites=Array.from({length:regionsPerRun},(_,i)=>allSites[(regionOffset+i)%allSites.length]);
+// Prefer missing records: do not repeatedly download already authoritative data.
+const incomplete=devices.filter(p=>!validSamsungRecord(previous[p.id]));
+const offset=Math.max(0,Number(previousState.offset)||0)%Math.max(1,incomplete.length);
+const selected=Array.from({length:Math.min(maxPerRun,incomplete.length)},(_,i)=>incomplete[(offset+i)%incomplete.length]);
+console.log('Samsung catalog',devices.length,'existing official records',devices.length-incomplete.length,
+ 'target models',selected.length,'regions',sites.join(', '));
 const candidates=[];
 for(const site of sites){
  const maps=['https://www.samsung.com/'+site+'/im-sitemap.xml'];
@@ -57,7 +71,7 @@ function eligible(p,url){
  if(p.name==='Galaxy S'&&!/galaxy-s[-/]/.test(path))return false;
  return true;
 }
-for(const p of devices){
+for(const p of selected){
  const choices=candidates.filter(c=>eligible(p,c.url)).sort((a,b)=>{
   const rank=c=>sites.indexOf(c.site)*10+(c.url.includes('-sm-')?0:4)+(!c.url.endsWith('/')?1:0);
   return rank(a)-rank(b)||a.url.length-b.url.length;
@@ -119,6 +133,9 @@ function parseSamsung(page,p,site){
  put('os',get(data,'OS','Operating System'));
  put('ipRating',get(data,'Water and Dust Resistance (IP Rating)','IP Rating'));
  const stereo=get(data,'Stereo Support','Stereo Speakers');if(stereo)put('speakers','Stereo support: '+stereo);
+ put('charging',get(data,'Fast Charging','Super Fast Charging','Wired Charging'));
+ put('wirelessCharging',get(data,'Wireless Charging','Wireless PowerShare'));
+ put('colors',get(data,'Color','Colour','Colors','Colours'));
  if(Object.keys(output).length<8)throw Error('Insufficient Samsung numeric specifications');
  const code=page.url.match(/sm-[a-z0-9]+/i)?.[0].toUpperCase()||null;
  if(code){output.models=code;output.variantDetails=site.toUpperCase()+' product configuration '+code+'; storage, RAM, chipset and network bands can vary by region.';}
@@ -129,15 +146,15 @@ function parseSamsung(page,p,site){
  return output;
 }
 const verified={},failed=[];
-for(let i=0;i<devices.length;i++){
- const p=devices[i],urls=available.get(p.id);
+for(let i=0;i<selected.length;i++){
+ const p=selected[i],urls=available.get(p.id);
  if(!urls.length){failed.push(p.name+': no matching official product URL');continue}
  let saved=false;
  for(const candidate of urls){
   try{
    const html=await fetchText(candidate.url,2);
    verified[p.id]=parseSamsung(html,p,candidate.site);
-   console.log('Samsung',i+1+'/'+devices.length,p.name,'fields',Object.keys(verified[p.id]).length,'from',candidate.site);
+   console.log('Samsung',i+1+'/'+selected.length,p.name,'fields',Object.keys(verified[p.id]).length,'from',candidate.site);
    saved=true;break;
   }catch(e){console.warn('Samsung source skipped',p.name,candidate.site,e.message)}
   await wait(250);
@@ -145,7 +162,23 @@ for(let i=0;i<devices.length;i++){
  if(!saved)failed.push(p.name+': source pages do not expose verified specs');
  await wait(320);
 }
-await fs.writeFile(new URL('official-samsung.json',root),JSON.stringify(verified,null,2)+'\n');
-await fs.writeFile(new URL('samsung-verification-coverage.json',root),JSON.stringify({total:devices.length,verified:Object.keys(verified).length,unverified:failed,source:'Official Samsung country-level product pages',notes:'Market and SKU-specific specs are not universal for every region.'},null,2)+'\n');
-console.log('Samsung verified',Object.keys(verified).length,'of',devices.length,'unverified',failed.length);
-if(Object.keys(verified).length<5)throw Error('Fewer than five Samsung models verified; refusing to publish');
+const merged=mergeSamsungVerifiedRecords(devices,previous,verified);
+const coverage=samsungCoverageReport(devices,merged,{
+  checkedThisRun:selected.length,
+  newlyVerified:Object.keys(merged).filter(id=>!validSamsungRecord(previous[id])).length,
+  regionsScanned:sites,
+  source:'Exact-model Samsung country product pages and Samsung Newsroom archive'
+});
+const state={
+  offset:incomplete.length?(offset+selected.length)%incomplete.length:0,
+  regionOffset:(regionOffset+regionsPerRun)%allSites.length,
+  lastChecked:new Date().toISOString(),
+  checkedThisRun:selected.length
+};
+await fs.writeFile(new URL('official-samsung.json',root),JSON.stringify(merged,null,2)+'\n');
+await fs.writeFile(new URL('samsung-verification-coverage.json',root),JSON.stringify(coverage,null,2)+'\n');
+await fs.writeFile(new URL('samsung-import-state.json',root),JSON.stringify(state,null,2)+'\n');
+console.log('Samsung verified',coverage.verified,'of',coverage.total,
+  'new',coverage.newlyVerified,'unverified',coverage.missing);
+// Missing or blocked upstream sources do NOT erase previously verified specs.
+if(coverage.verified<5)throw Error('Insufficient Samsung official coverage; refusing to publish');
