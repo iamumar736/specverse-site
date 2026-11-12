@@ -73,5 +73,5 @@ test('automation checks Commons online and only publishes safe downloaded images
   assert.match(worker,/await fs\.writeFile\(rootFile\(manifestPath\)/);
   assert.match(workflow,/cron: '40 5 \* \* \*'/);
   assert.match(workflow,/npm test/);
-  assert.match(workflow,/git add public\/data\/animated-device-images\.json/);
+  assert.match(workflow,/git add -A -- public\/data\/animated-device-images\.json/);
 });
