@@ -36,34 +36,34 @@ test('cards respect the source policy, handle image errors and show a richer fal
   assert.match(fallback,/actual device appearance not verified/);
   assert.match(fallback,/modern-phone-art__camera-group/);
 });
-test('orbital side-rails are visible above the atmospheric backdrop but below the content',()=>{
+test('minimal device outlines appear as subtle background decoration',()=>{
   const background=read('FloatingTechBackground.jsx');
-  const css=read('style.css');
-  assert.match(background,/cosmic-side--left/);
-  assert.match(background,/cosmic-side--right/);
-  assert.match(background,/cosmic-side__phone--two/);
-  assert.match(background,/cosmic-meteor--three/);
-  assert.match(css,/#root>\.ambient-backdrop\{z-index:0/);
-  assert.match(css,/#root>main\{position:relative;z-index:1\}/);
-  assert.match(css,/@keyframes cosmic-phone-flight/);
-  assert.match(css,/@keyframes cosmic-meteor-shoot/);
-  assert.match(css,/\.cosmic-side__word/);
+  const css=read('elegance.css');
+  const base=read('style.css');
+  assert.match(background,/ambient-tech--refined/);
+  assert.match(background,/refined-ambience__phone/);
+  assert.doesNotMatch(background,/cosmic-side|cosmic-meteor|brand.*wordmark/);
+  assert.match(base,/#root>\.ambient-backdrop\{z-index:0/);
+  assert.match(base,/#root>main\{position:relative;z-index:1\}/);
+  assert.match(css,/@keyframes refined-outline-drift/);
+  assert.match(css,/\.refined-ambience__phone/);
 });
-test('Orbit Mode is functional, remembers pause state, and allows reduced motion',()=>{
+test('subtle motion is optional and remembers user preference',()=>{
   const app=read('src.jsx');
   const hero=read('DiscoveryExperience.jsx');
   const ambient=read('AmbientBackground.jsx');
-  const css=read('style.css');
+  const oldCss=read('style.css');
+  const css=read('elegance.css');
   assert.match(app,/const\[orbitMotion,setOrbitMotion\]/);
   assert.match(app,/localStorage\.setItem\('specverse-orbit-motion'/);
   assert.match(app,/onMotionToggle=\{\(\)=>setOrbitMotion/);
   assert.match(hero,/aria-pressed=\{motion\}/);
   assert.match(hero,/onClick=\{onMotionToggle\}/);
-  assert.match(hero,/Pause animated orbital background/);
+  assert.match(hero,/Pause ambient animation/);
   assert.match(ambient,/ambient-backdrop--paused/);
-  assert.match(css,/\.ambient-backdrop--paused \*/);
+  assert.match(oldCss,/\.ambient-backdrop--paused \*/);
   assert.match(css,/@media\(prefers-reduced-motion:reduce\)/);
-  assert.match(css,/\.ambient-tech,\.cosmic-side,\.cosmic-meteor\{display:none!important\}/);
+  assert.match(css,/\.ambient-tech--refined\{display:none!important\}/);
 });
 
 test('interactive 3D inspection is optional, lazy-loaded and labeled as concept geometry',()=>{
