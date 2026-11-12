@@ -29,6 +29,6 @@ export default function PhonePlaceholderArt({phone}){
       <span className="modern-phone-art__device-mark">{phone.brand}</span>
     </div>
     <span className="modern-phone-art__model" aria-hidden="true">{phone.name}</span>
-    <span className="modern-phone-art__concept" aria-hidden="true">Concept visual</span>
+    <span className="modern-phone-art__concept" aria-hidden="true">Illustration</span>
   </div>;
 }
