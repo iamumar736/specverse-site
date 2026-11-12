@@ -1,5 +1,5 @@
 import React from 'react';
-import {Compass,GitCompareArrows,Grid2X2,Gamepad2} from 'lucide-react';
+import {Compass,GitCompareArrows,Grid2X2} from 'lucide-react';
 
 /** An always-reachable, thumb-friendly alternative to desktop navigation. */
 export default function MobileDock({view,onHome,onBrowse,onCompare,compareCount=0}){
@@ -15,6 +15,5 @@ export default function MobileDock({view,onHome,onBrowse,onCompare,compareCount=
         {compareCount>0&&<i aria-label={compareCount+' selected'}>{compareCount}</i>}
       </span><span>Compare</span>
     </button>
-    <a href="/games/"><Gamepad2 size={20} aria-hidden="true"/><span>Games</span></a>
   </nav>;
 }

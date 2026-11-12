@@ -81,6 +81,6 @@ export default function HeroExperience(){
     {unsupported&&<span className="hero-3d-unavailable" role="status">
       3D is unavailable on this device
     </span>}
-    <div className="floating-chip">{ready?'✦ Drag to rotate':'✦ Find your fit'}</div>
+    <div className="floating-chip">{ready?'Drag to rotate':'Device concept'}</div>
   </div>;
 }
