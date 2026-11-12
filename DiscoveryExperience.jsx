@@ -1,22 +1,19 @@
 import React,{useMemo} from 'react';
 import {
-  ArrowRight,ArrowUpRight,CheckCircle2,Compass,GitCompareArrows,
-  Search,ShieldCheck,Sparkles,Smartphone,Zap,Orbit,Pause,Play
+  ArrowRight,ArrowUpRight,Compass,GitCompareArrows,Pause,
+  Play,Search,ShieldCheck,Smartphone
 } from 'lucide-react';
 import HeroExperience from './HeroExperience.jsx';
 
 const PICKS=[
-  {name:'Apple',className:'apple',description:'Explore the iPhone lineup'},
-  {name:'Samsung',className:'samsung',description:'Discover Galaxy devices'},
-  {name:'Xiaomi',className:'xiaomi',description:'Find your next Xiaomi'},
-  {name:'OPPO',className:'oppo',description:'Browse OPPO smartphones'}
+  {name:'Apple',className:'apple',description:'iPhone'},
+  {name:'Samsung',className:'samsung',description:'Galaxy'},
+  {name:'Xiaomi',className:'xiaomi',description:'Xiaomi and Redmi'},
+  {name:'OPPO',className:'oppo',description:'OPPO'}
 ];
-const format=n=>new Intl.NumberFormat('en-US').format(n);
+const format=value=>new Intl.NumberFormat('en-US').format(value);
 
-/**
- * An editorial, source-conscious discovery experience that only displays real
- * catalog counts. Brand cards are functional navigation, not decoration.
- */
+/** Clear editorial discovery; every count comes from the real phone catalog. */
 export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompare,motion=true,onMotionToggle}){
   const counts=useMemo(()=>{
     const brands=new Map();
@@ -26,98 +23,101 @@ export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompa
     return brands;
   },[catalog]);
 
-  const brands=counts.size;
-  const total=catalog.length;
-
   return <>
     <section className="hero studio-hero" aria-labelledby="studio-hero-title">
-      <div className="studio-hero__light" aria-hidden="true"/>
       <div className="hero-copy studio-hero__copy">
-        <span className="studio-hero__eyebrow"><span className="studio-live-dot" aria-hidden="true"/> THE SPECVERSE EXPLORATION STATION <Sparkles size={15} aria-hidden="true"/></span>
-        <h1 id="studio-hero-title">Discover a universe<br/>of <span className="studio-gradient">extraordinary phones.</span></h1>
-        <p>Your mission: explore thousands of devices, decode their specifications and land on the one that fits. Let the discovery begin.</p>
+        <span className="studio-hero__eyebrow">A BETTER WAY TO CHOOSE</span>
+        <h1 id="studio-hero-title">The right phone.<br/><span className="studio-gradient">A clearer decision.</span></h1>
+        <p>Explore the details that matter, compare models side by side, and find a device that fits your needs.</p>
         <div className="studio-hero__actions">
-          <button type="button" className="primary studio-primary" onClick={onBrowse}>Explore all phones <ArrowRight size={18} aria-hidden="true"/></button>
-          <button type="button" className="studio-secondary" onClick={onCompare}><GitCompareArrows size={18} aria-hidden="true"/> Compare phones</button>
-        </div>
-        <div className="studio-orbit-control">
-          <button type="button" className="studio-orbit-toggle"
-            onClick={onMotionToggle} aria-pressed={motion}
-            aria-label={motion?'Pause animated orbital background':'Resume animated orbital background'}>
-            <Orbit size={17} aria-hidden="true"/>
-            <span>ORBIT MODE</span>
-            <strong>{motion?'LIVE':'PAUSED'}</strong>
-            {motion?<Pause size={14} aria-hidden="true"/>:<Play size={14} aria-hidden="true"/>}
+          <button type="button" className="primary studio-primary" onClick={onBrowse}>
+            Browse smartphones <ArrowRight size={18} aria-hidden="true"/>
           </button>
-          <span className="studio-orbit-control__hint">Floating tech across the cosmos</span>
+          <button type="button" className="studio-secondary" onClick={onCompare}>
+            <GitCompareArrows size={18} aria-hidden="true"/> Compare models
+          </button>
         </div>
         <div className="studio-hero__stats" aria-label="Catalog at a glance">
-          <div><strong>{format(total)}</strong><span>phone models</span></div>
+          <div><strong>{format(catalog.length)}</strong><span>Devices listed</span></div>
           <div className="studio-stat-separator" aria-hidden="true"/>
-          <div><strong>{format(brands)}</strong><span>brands to explore</span></div>
+          <div><strong>{format(counts.size)}</strong><span>Brands covered</span></div>
           <div className="studio-stat-separator" aria-hidden="true"/>
-          <div className="studio-proof"><ShieldCheck size={19} aria-hidden="true"/><span>Source-linked<br/>specifications</span></div>
+          <div className="studio-proof"><ShieldCheck size={17} aria-hidden="true"/>
+            <span>Sources linked<br/>where available</span>
+          </div>
         </div>
       </div>
       <div className="studio-hero__stage">
-        <div className="studio-orbit studio-orbit--outer" aria-hidden="true"/>
-        <div className="studio-orbit studio-orbit--inner" aria-hidden="true"/>
         <HeroExperience/>
-        <div className="studio-stage-pill studio-stage-pill--top" aria-hidden="true"><Zap size={15}/> Explore your options</div>
-        <div className="studio-stage-pill studio-stage-pill--bottom" aria-hidden="true"><CheckCircle2 size={15}/> Designed to compare</div>
+        <div className="studio-stage-footer">
+          <span>Interactive concept illustration</span>
+          <button type="button" className="studio-orbit-toggle"
+            onClick={onMotionToggle} aria-pressed={motion}
+            aria-label={motion?'Pause ambient animation':'Resume ambient animation'}>
+            {motion?<Pause size={12} aria-hidden="true"/>:<Play size={12} aria-hidden="true"/>}
+            {motion?'Pause motion':'Enable motion'}
+          </button>
+        </div>
       </div>
     </section>
 
-    <div className="studio-ribbon" aria-hidden="true">
-      <div className="studio-ribbon__track">
-        {Array.from({length:2},(_,index)=><span key={index}>
-          <b>DISCOVER</b><i/> FIND YOUR FIT <i/> <b>COMPARE</b><i/> ALL YOUR OPTIONS <i/>
-          <b>EXPLORE</b><i/> SMARTER CHOICES <i/>
-        </span>)}
-      </div>
-    </div>
-
     <section className="studio-start studio-reveal" aria-labelledby="studio-start-heading">
       <div className="studio-start__head">
-        <div><span className="eyebrow"><Compass size={15} aria-hidden="true"/> START HERE</span>
-          <h2 id="studio-start-heading">Your next phone is <em>just a click away.</em></h2>
-          <p>Choose a brand or jump straight into the complete collection.</p>
+        <div>
+          <span className="eyebrow">CURATED DISCOVERY</span>
+          <h2 id="studio-start-heading">Explore by brand</h2>
+          <p>Start with a manufacturer, or browse the complete catalog.</p>
         </div>
         <button type="button" className="studio-view-all" onClick={onBrowse}>
-          Browse the full catalog <ArrowUpRight size={18} aria-hidden="true"/>
+          View all devices <ArrowUpRight size={17} aria-hidden="true"/>
         </button>
       </div>
       <div className="studio-path-grid">
         {PICKS.filter(pick=>counts.has(pick.name)).map((pick,index)=>
           <button key={pick.name} type="button"
             className={'studio-path studio-path--'+pick.className+' studio-reveal'}
-            style={{'--studio-delay':index*75+'ms'}}
+            style={{'--studio-delay':index*55+'ms'}}
             onClick={()=>onBrand(pick.name)}
             aria-label={'Browse '+format(counts.get(pick.name))+' '+pick.name+' phone models'}>
-            <span className="studio-path__shine" aria-hidden="true"/>
-            <span className="studio-path__top"><span className="studio-path__brand">{pick.name}</span><ArrowUpRight size={19} aria-hidden="true"/></span>
-            <span className="studio-path__bottom"><strong>{pick.description}</strong>
-              <small>{format(counts.get(pick.name))} models</small></span>
+            <span className="studio-path__top">
+              <span className="studio-path__brand">{pick.name}</span>
+              <ArrowUpRight size={18} aria-hidden="true"/>
+            </span>
+            <span className="studio-path__bottom">
+              <strong>{pick.description}</strong>
+              <small>{format(counts.get(pick.name))} models</small>
+            </span>
           </button>
         )}
         <button type="button" className="studio-path studio-path--compare studio-reveal"
-          style={{'--studio-delay':'300ms'}} onClick={onCompare}>
-          <span className="studio-path__shine" aria-hidden="true"/>
-          <span className="studio-path__top"><GitCompareArrows size={23} aria-hidden="true"/><ArrowUpRight size={19} aria-hidden="true"/></span>
-          <span className="studio-path__bottom"><strong>Compare side by side</strong><small>Pick up to three phones</small></span>
+          style={{'--studio-delay':'220ms'}} onClick={onCompare}>
+          <span className="studio-path__top">
+            <GitCompareArrows size={21} aria-hidden="true"/>
+            <ArrowUpRight size={18} aria-hidden="true"/>
+          </span>
+          <span className="studio-path__bottom">
+            <strong>Side-by-side comparison</strong>
+            <small>Compare up to three</small>
+          </span>
         </button>
       </div>
     </section>
 
     <section className="studio-how studio-reveal" aria-label="How SpecVerse works">
-      <div className="studio-how__step"><span className="studio-how__number">01</span><Search size={20} aria-hidden="true"/>
-        <div><strong>Find it</strong><small>Search by brand or model</small></div></div>
+      <div className="studio-how__step">
+        <span className="studio-how__number">01</span><Search size={18} aria-hidden="true"/>
+        <div><strong>Discover</strong><small>Search the catalog</small></div>
+      </div>
       <span className="studio-how__divider" aria-hidden="true"/>
-      <div className="studio-how__step"><span className="studio-how__number">02</span><Smartphone size={20} aria-hidden="true"/>
-        <div><strong>Explore it</strong><small>See specs and sources</small></div></div>
+      <div className="studio-how__step">
+        <span className="studio-how__number">02</span><Smartphone size={18} aria-hidden="true"/>
+        <div><strong>Review</strong><small>Examine specifications</small></div>
+      </div>
       <span className="studio-how__divider" aria-hidden="true"/>
-      <div className="studio-how__step"><span className="studio-how__number">03</span><GitCompareArrows size={20} aria-hidden="true"/>
-        <div><strong>Compare it</strong><small>Make the choice yours</small></div></div>
+      <div className="studio-how__step">
+        <span className="studio-how__number">03</span><GitCompareArrows size={18} aria-hidden="true"/>
+        <div><strong>Compare</strong><small>Choose with confidence</small></div>
+      </div>
     </section>
   </>;
 }
