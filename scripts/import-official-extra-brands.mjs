@@ -19,7 +19,7 @@ const REGION_SOURCES={
 };
 const clean=value=>String(value??'').replace(/\s+/g,' ').trim();
 const slug=value=>clean(value).toLowerCase().normalize('NFKD')
-  .replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  .replace(/\+/g,'-plus-').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const escapeRegExp=s=>s.replace(/[.*+?^\x24{}()|[\]\\]/g,'\\$&');
 const labels=[
