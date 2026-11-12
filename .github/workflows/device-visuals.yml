@@ -34,7 +34,8 @@ jobs:
         run: |
           git config user.name 'specverse-device-visuals[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/data/animated-device-images.json public/device-image-credits.html public/device-visuals/ || true
+          git add -A -- public/data/animated-device-images.json public/device-image-credits.html
+          git add -A -- public/device-visuals/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo 'No visual updates to publish'
             exit 0
