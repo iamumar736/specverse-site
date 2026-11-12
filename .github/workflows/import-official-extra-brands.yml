@@ -30,8 +30,6 @@ jobs:
         run: npm install --no-save --no-audit --no-fund cheerio
       - name: Add reference profiles and verify remaining models
         run: node scripts/import-official-extra-brands.mjs --max=8
-      - name: Refresh manufacturer coverage status
-        run: node scripts/report-catalog-health.mjs
       - name: Publish source-linked specs and next import cursor
         run: |
           bash scripts/publish-data.sh 'Refresh Xiaomi Infinix Tecno and itel specifications' \
@@ -40,6 +38,4 @@ jobs:
             public/data/official-tecno.json \
             public/data/official-itel.json \
             public/data/extra-brands-import-state.json \
-            public/data/extra-brands-verification-coverage.json \
-            public/data/status.json \
-            public/data/automation-health.json
+            public/data/extra-brands-verification-coverage.json
