@@ -258,3 +258,28 @@ html[data-theme=light] .spec-disadvantage .spec-compare-tag{background:#ffdae1;c
 .hero-copy .primary:hover{transform:translateY(-2px);box-shadow:0 12px 32px #7668f640}
 .hero-copy .primary:focus-visible{outline:3px solid #b9b1ff;outline-offset:4px}
 @media (prefers-reduced-motion:reduce){.hero-copy .primary,.phone-card{transition:none!important}.hero-copy .primary:hover{transform:none}}
+
+/* Interactive concept hero: GPU scene is optional and loaded near the viewport. */
+.hero-visual--interactive{cursor:grab}
+.hero-visual--interactive:active{cursor:grabbing}
+.hero-3d-stage{position:absolute;inset:-12px;z-index:2;opacity:0;transition:opacity .65s ease;touch-action:pan-y}
+.hero-3d-stage canvas{display:block;outline:0;touch-action:pan-y}
+.hero-visual--3d-ready .hero-3d-stage{opacity:1}
+.hero-visual--3d-ready .hero-device{opacity:0;pointer-events:none}
+.hero-visual .hero-device{transition:opacity .5s ease}
+.hero-visual .floating-chip{z-index:3;pointer-events:none;user-select:none}
+.hero-visual .glow{z-index:0}
+.phone-card{position:relative;isolation:isolate;transition:transform .3s cubic-bezier(.2,.8,.25,1),border-color .3s,box-shadow .3s}
+.phone-card:hover{box-shadow:0 18px 55px rgba(20,13,60,.22)}
+.phone-card .phone-art img{transition:transform .45s cubic-bezier(.2,.8,.25,1)}
+.phone-card:hover .phone-art img{transform:translateY(-5px) scale(1.045)}
+.phone-card:focus-within{outline:2px solid #a99dff;outline-offset:2px}
+@media(max-width:700px){
+  .hero-visual--interactive{transform:none;margin:0;height:325px}
+  .hero-visual--interactive .hero-3d-stage{inset:-8px}
+  .phone-card:hover .phone-art img{transform:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero-3d-stage,.hero-visual .hero-device,.phone-card,.phone-card .phone-art img{transition:none!important}
+  .phone-card:hover .phone-art img{transform:none}
+}
