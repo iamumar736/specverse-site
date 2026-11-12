@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-12T20:13:25.957Z",
+  "lastChecked": "2026-11-12T21:29:33.658Z",
   "deviceCount": 6795,
   "discoveredCount": 0,
   "feedConfigured": false,
@@ -9,9 +9,9 @@
   "providers": [],
   "automation": {
     "mode": "scheduled",
-    "lastReport": "2026-11-12T21:25:04.678Z",
+    "lastReport": "2026-11-12T21:29:33.896Z",
     "verifiedModels": 327,
-    "incompleteModels": 6064,
+    "incompleteModels": 6051,
     "pricesAutoUpdated": false
   }
 }

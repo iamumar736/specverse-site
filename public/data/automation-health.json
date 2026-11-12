@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-12T21:25:04.678Z",
+  "generatedAt": "2026-11-12T21:29:33.896Z",
   "mode": "automatic",
   "catalog": {
     "total": 6795,
     "brands": 50,
     "withManufacturerSources": 327,
-    "withoutKnownTechnicalFields": 6064
+    "withoutKnownTechnicalFields": 6051
   },
   "officialCoverage": {
     "Apple": {
@@ -50,7 +50,7 @@
     "tecnoMissing": 225,
     "itelMissing": 178
   },
-  "lastCatalogCheck": "2026-11-12T20:13:25.957Z",
+  "lastCatalogCheck": "2026-11-12T21:29:33.658Z",
   "verifiedFeedConfigured": false,
   "priceNote": "Current market prices require separately licensed retailer sources; no auto-generated exchange-rate prices.",
   "sourceNote": "Manufacturer verified entries and publicly discovered identities have different confidence levels. Missing specs remain unavailable.",
