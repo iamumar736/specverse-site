@@ -19,9 +19,12 @@ test('brand sections expose every model instead of four previews',()=>{
   assert.match(app,/phones=\{group\.phones\}/);
 });
 
-test('main page and All models use the same arrow carousel',()=>{
+test('brand lists keep arrow carousels while main page and All models show 40 visible cards',()=>{
   assert.match(app,/import PhoneCarousel from '\.\/PhoneCarousel\.jsx'/);
-  assert.match(app,/phones=\{filtered\}/);
+  assert.match(app,/phones=\{group\.phones\}/);
+  assert.match(app,/import PhoneGrid from '\.\/PhoneGrid\.jsx'/);
+  assert.match(app,/title="Top 40 phones to explore"/);
+  assert.match(app,/phones=\{browseResults\} paginate/);
   assert.match(app,/All models <span/);
   assert.match(app,/showAllModels/);
   assert.match(app,/setShowAllModels\(true\)/);
