@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import {sourceIsOfficial} from '../official-spec-preservation.js';
 
 // Read-only reporting of the data that was actually published. Do not count a
 // discovered model identity as a verified specification profile.
@@ -10,11 +11,16 @@ const status=await read('status.json',{});
 const validation=await read('validation.json',{});
 const samsungCoverage=await read('samsung-verification-coverage.json',{});
 const oppoVivoCoverage=await read('oppo-vivo-verification-coverage.json',{});
+const extraCoverage=await read('extra-brands-verification-coverage.json',{});
 const sources={
   Apple:await read('official-apple.json',{}),
   Samsung:await read('official-samsung.json',{}),
   OPPO:await read('official-oppo.json',{}),
-  Vivo:await read('official-vivo.json',{})
+  Vivo:await read('official-vivo.json',{}),
+  Xiaomi:await read('official-xiaomi.json',{}),
+  Infinix:await read('official-infinix.json',{}),
+  Tecno:await read('official-tecno.json',{}),
+  Itel:await read('official-itel.json',{})
 };
 const specKeys=['screen','resolution','chip','cpu','camera','selfie','battery','charging','ram','storage','dimensions','weight','network','wifi','bluetooth'];
 const catalogIds=new Set(catalog.map(p=>p.id));
@@ -26,13 +32,7 @@ for(const [brand,records] of Object.entries(sources)){
   const ids=Object.keys(records).filter(id=>{
     const row=records[id];
     if(!catalogIds.has(id)||!row?.dataQuality?.startsWith('official-specifications')||!row.sourceUrl)return false;
-    try{
-      const host=new URL(row.sourceUrl).hostname;
-      return brand==='Apple'?host==='support.apple.com':
-        brand==='Samsung'?['news.samsung.com','www.samsung.com'].includes(host):
-        brand==='OPPO'?['www.oppo.com','oppo.com'].includes(host):
-        ['www.vivo.com','vivo.com'].includes(host);
-    }catch{return false}
+    return sourceIsOfficial(row,brand);
   });
   ids.forEach(id=>verifiedUnique.add(id));
   officialCoverage[brand]={tracked:modelCounts[brand]||0,sourceVerified:ids.length};
@@ -49,7 +49,11 @@ const health={
   manufacturerChecks:{
     samsungMissing:samsungCoverage.missing??samsungCoverage.unverified?.length??null,
     oppoMissing:oppoVivoCoverage.OPPO?.unverified?.length??null,
-    vivoMissing:oppoVivoCoverage.Vivo?.unverified?.length??null
+    vivoMissing:oppoVivoCoverage.Vivo?.unverified?.length??null,
+    xiaomiMissing:extraCoverage.Xiaomi?.missing?.length??null,
+    infinixMissing:extraCoverage.Infinix?.missing?.length??null,
+    tecnoMissing:extraCoverage.Tecno?.missing?.length??null,
+    itelMissing:extraCoverage.Itel?.missing?.length??null
   },
   lastCatalogCheck:status.lastChecked||null,
   verifiedFeedConfigured:Boolean(status.feedConfigured),
