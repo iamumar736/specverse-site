@@ -1263,3 +1263,9 @@ html[data-theme=light] .top-search-shortcut{background:#f1edff;border-color:#d1c
   .studio-hero__eyebrow,.studio-dock{border:2px solid currentColor}
   .studio-path__bottom small,.studio-hero__stats span{color:inherit}
 }
+
+
+/* Hover lifts remain perceptible after the reveal intersection animation. */
+@media(min-width:821px) and (hover:hover) and (prefers-reduced-motion:no-preference){
+  .studio-path.studio-visible:hover{transform:translateY(-7px)}
+}
