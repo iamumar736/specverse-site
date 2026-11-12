@@ -624,3 +624,13 @@ html[data-theme=light] .all-models-btn[aria-pressed=true]{
     will-change:auto!important;
   }
 }
+
+
+/* Clear provenance and readable unavailable states for iPhone market prices */
+.price-item{gap:8px}
+.price-item strong{font-variant-numeric:tabular-nums}
+.price-item small{line-height:1.55}
+.price-item a{text-decoration:underline;text-underline-offset:3px}
+.price-item--unavailable{opacity:.77}
+.price-item--unavailable strong{font-size:clamp(16px,1.75vw,21px)}
+.card-price{font-variant-numeric:tabular-nums}
