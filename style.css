@@ -1792,3 +1792,39 @@ html[data-theme=light] .ambient-tech__item:nth-child(4n){color:#4081aa;opacity:.
 @media(prefers-reduced-data:reduce){
   .ambient-tech{display:none!important}
 }
+
+
+/* Carry the illustration treatment into full device detail pages. */
+.phone-card::before{
+  content:"";pointer-events:none;position:absolute;left:16px;right:16px;top:0;
+  z-index:5;height:2px;opacity:.52;border-radius:0 0 99px 99px;
+  background:linear-gradient(90deg,transparent,var(--phone-accent),transparent);
+}
+.detail-art .modern-phone-art{
+  border-radius:20px;
+  background:radial-gradient(ellipse at 53% 42%,color-mix(in srgb,var(--phone-accent) 20%,transparent),transparent 63%),
+    linear-gradient(135deg,#181f34,#111725);
+}
+.detail-art .modern-phone-art__device{
+  scale:1.65;
+}
+.detail-art .modern-phone-art__front{scale:1.65}
+.detail-art .modern-phone-art__ring{scale:1.7}
+.detail-art .modern-phone-art__model{
+  bottom:24px;font-size:18px;padding:9px 20px;
+  max-width:calc(100% - 30px);
+}
+.detail-art .modern-phone-art__concept{top:18px;right:18px;font-size:10px}
+html[data-theme=light] .detail-art .modern-phone-art{
+  background:radial-gradient(ellipse at 53% 42%,color-mix(in srgb,var(--phone-accent) 24%,transparent),transparent 65%),
+    linear-gradient(135deg,#eff2fa,#e2e8f4);
+}
+@media(max-width:700px){
+  .detail-art .modern-phone-art__device{scale:1.2}
+  .detail-art .modern-phone-art__front{scale:1.2}
+  .detail-art .modern-phone-art__ring{scale:1.15}
+  .detail-art .modern-phone-art__model{font-size:15px;bottom:14px}
+}
+@media(prefers-reduced-motion:reduce){
+  .modern-phone-art__front,.modern-phone-art__halo{animation:none!important}
+}
