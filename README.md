@@ -240,3 +240,39 @@ so 40 visible product cards do not create 40 WebGL canvases.
 
 The verified manufacturer technical specs, prices, comparisons, original
 product photographs and automatic imports are not modified by the theme.
+
+
+## Six-brand source-backed device specifications
+
+SpecVerse has existing verified OPPO and Vivo model specification datasets.
+A new importer extends manufacturer-source coverage to **Xiaomi** (including
+REDMI and POCO families), **Infinix**, **Tecno** and **itel**.
+
+The initial curated model references and their exact source URLs are in
+`official-extra-brand-seeds.js`; each contains hardware details retrieved from
+that manufacturer's product page and is only applied when the catalog has one
+unique exact marketing-model match. Model name and 4G/5G, Pro/Plus/Ultra and
+other SKU suffixes are not treated as interchangeable. The website uses these
+reference specs even before the next scheduled scrape.
+
+Every day at **07:10 UTC**, GitHub Actions runs
+`.github/workflows/import-official-extra-brands.yml`:
+
+- Checks a bounded rotating sample of missing Xiaomi, Infinix, Tecno and
+  itel models against manufacturer-owned specification URLs.
+- Accepts new technical fields only for an exact product identity with enough
+  source evidence; does not infer missing specifications or scrape generic
+  commercial retailer pages.
+- Keeps existing verified records if manufacturer pages are unavailable,
+  ambiguous, or the response contains fewer reliable technical fields.
+- Publishes `/data/official-{xiaomi,infinix,tecno,itel}.json` and
+  `/data/extra-brands-verification-coverage.json` with verified and missing
+  counts. The master catalog importer overlays these data files, and the
+  browser also loads them directly, so the latest source-backed facts are
+  available between daily master catalog refreshes.
+
+The existing OPPO/Vivo official importer continues twice weekly. Brand
+specification variants can differ by Pakistan/international market. **Not all
+models have full verified specifications**, and hardware information missing
+from manufacturer sources is never fabricated. The workflow requires GitHub
+Actions to remain enabled and permission to push verified data to `main`.
