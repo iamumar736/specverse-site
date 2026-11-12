@@ -3,6 +3,13 @@ on:
   schedule:
     - cron: '15 3 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update-data.mjs'
+      - 'scripts/report-catalog-health.mjs'
+      - 'scripts/publish-data.sh'
+      - '.github/workflows/daily-update.yml'
 permissions:
   contents: write
 concurrency:
