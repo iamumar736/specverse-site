@@ -130,7 +130,9 @@ for(const brand of Object.keys(EXTRA_BRAND_FILES)){
   const old=await read(filename,{});
   const base=preserveOfficialSpecs(boot[brand],old,brand);
   const tracked=catalog.filter(p=>isCatalogBrand(p,brand)&&p.id&&p.name);
-  const missing=tracked.filter(p=>!hasUsableOfficialRecord(base[p.id],brand));
+  const missing=tracked.filter(p=>!hasUsableOfficialRecord(base[p.id],brand))
+    .sort((a,b)=>(Number(b.year)||0)-(Number(a.year)||0)||
+      String(a.name).localeCompare(String(b.name)));
   const offset=Math.max(0,Number(state[brand]?.offset)||0)%Math.max(1,missing.length);
   const selected=Array.from({length:Math.min(maxPerBrand,missing.length)},(_,i)=>missing[(offset+i)%missing.length]);
   const fresh={};

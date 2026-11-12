@@ -9,6 +9,8 @@ on:
       - 'scripts/update-data.mjs'
       - 'scripts/report-catalog-health.mjs'
       - 'scripts/publish-data.sh'
+      - 'official-extra-brand-seeds.js'
+      - '.github/workflows/import-official-extra-brands.yml'
       - '.github/workflows/daily-update.yml'
 permissions:
   contents: write

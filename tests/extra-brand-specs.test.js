@@ -8,8 +8,8 @@ import {sourceIsOfficial,hasUsableOfficialRecord,preserveOfficialSpecs} from '..
 import {mergeOfficialSpecs} from '../manufacturer-specs.js';
 const read=path=>readFileSync(new URL('../'+path,import.meta.url),'utf8');
 
-test('eight manufacturer-confirmed reference profiles across four brands are source-linked',()=>{
- assert.equal(EXTRA_BRAND_SEEDS.length,8);
+test('fifteen manufacturer-confirmed reference profiles across four brands are source-linked',()=>{
+ assert.equal(EXTRA_BRAND_SEEDS.length,15);
  for(const brand of ['Xiaomi','Infinix','Tecno','Itel']){
   assert.ok(EXTRA_BRAND_SEEDS.filter(seed=>seed.brand===brand).length>=2,brand);
   assert.match(EXTRA_BRAND_FILES[brand],/^official-[a-z]+\.json$/);
@@ -71,6 +71,7 @@ test('source checker is daily, bounded, non-destructive and publishes coverage',
  const script=read('scripts/import-official-extra-brands.mjs');
  const workflow=read('.github/workflows/import-official-extra-brands.yml');
  assert.match(script,/materializeManufacturerSeeds\(catalog\)/);
+ assert.match(script,/\.sort\(\(a,b\)=>\(Number\(b\.year\)\|\|0\)/);
  assert.match(script,/preserveOfficialSpecs\(base,fresh,brand\)/);
  assert.match(script,/exactBrandModelName\(brand,parsed\.name\)/);
  assert.match(script,/Object\.keys\(parsed\.out\)\.length<5/);
@@ -79,7 +80,9 @@ test('source checker is daily, bounded, non-destructive and publishes coverage',
  assert.match(workflow,/workflow_dispatch:/);
  assert.match(workflow,/group: specverse-data-publication/);
  assert.match(workflow,/--max=8/);
- assert.match(workflow,/report-catalog-health\.mjs/);
+ assert.doesNotMatch(workflow,/public\/data\/status\.json/);
+ assert.doesNotMatch(workflow,/public\/data\/automation-health\.json/);
+ assert.match(read('.github/workflows/daily-update.yml'),/report-catalog-health\.mjs/);
  const target=fileURLToPath(new URL('../scripts/import-official-extra-brands.mjs',import.meta.url));
  const run=spawnSync(process.execPath,['--check',target],{encoding:'utf8'});
  assert.equal(run.status,0,run.stderr);
