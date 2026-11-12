@@ -2142,3 +2142,5 @@ html[data-theme=light] .modern-phone-art{
   background:radial-gradient(circle at 49% 39%,color-mix(in srgb,var(--phone-accent) 48%,transparent),transparent 70%),
     linear-gradient(145deg,#f1f5ff,#e1e7f3);
 }
+
+@media(max-width:820px){.studio-orbit-control{display:none}}
