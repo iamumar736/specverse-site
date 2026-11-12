@@ -250,3 +250,11 @@ html[data-theme=light] .comparison td.spec-disadvantage{background:#ffedf0;color
 html[data-theme=light] .spec-advantage .spec-compare-tag{background:#d0f1df;color:#155f41;border-color:#a7dec0}
 html[data-theme=light] .spec-disadvantage .spec-compare-tag{background:#ffdae1;color:#9d263d;border-color:#f2b1bf}
 @media(max-width:700px){.compare-spec-legend{margin:20px 0 2px}.comparison{margin-top:16px}.comparison th,.comparison td{padding:13px 10px}.spec-compare-tag{font-size:9px}}
+
+/* Phase 1: subtle cinematic polish; keep motion optional and GPU-friendly. */
+.hero-visual{isolation:isolate;will-change:transform}
+.hero-visual .glow{pointer-events:none}
+.hero-copy .primary{transition:background-color .2s ease,box-shadow .25s ease,transform .25s ease}
+.hero-copy .primary:hover{transform:translateY(-2px);box-shadow:0 12px 32px #7668f640}
+.hero-copy .primary:focus-visible{outline:3px solid #b9b1ff;outline-offset:4px}
+@media (prefers-reduced-motion:reduce){.hero-copy .primary,.phone-card{transition:none!important}.hero-copy .primary:hover{transform:none}}
