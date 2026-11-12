@@ -1,11 +1,19 @@
 import fs from 'node:fs/promises';
 import * as cheerio from 'cheerio';
+import {preserveOfficialSpecs} from '../official-spec-preservation.js';
 const dir=new URL('../public/data/',import.meta.url);
 const catalog=JSON.parse(await fs.readFile(new URL('catalog.json',dir),'utf8'));
 const clean=s=>String(s??'').replace(/[\u00a0\u200b]/g,' ').replace(/\s+/g,' ').trim();
 const norm=s=>clean(s).toLowerCase().normalize('NFKD').replace(/^(?:oppo|vivo)\s+/i,'').replace(/[^a-z0-9]/g,'');
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const models={OPPO:catalog.filter(p=>p.brand==='OPPO'),Vivo:catalog.filter(p=>p.brand==='Vivo')};
+const previous={
+ OPPO:JSON.parse(await fs.readFile(new URL('official-oppo.json',dir),'utf8').catch(()=>'{}')),
+ Vivo:JSON.parse(await fs.readFile(new URL('official-vivo.json',dir),'utf8').catch(()=>'{}'))
+};
+const cursorFile=new URL('oppo-vivo-import-state.json',dir);
+const priorState=JSON.parse(await fs.readFile(cursorFile,'utf8').catch(()=>'{}'));
+const maxPerBrand=Math.max(1,Math.min(250,Number(process.argv.find(a=>a.startsWith('--max='))?.split('=')[1])||120));
 const index={};
 for(const brand of Object.keys(models)){
  index[brand]=new Map();
@@ -93,7 +101,7 @@ function specData(page,brand){
  return {name,values,out};
 }
 const locations={OPPO:['https://www.oppo.com/pk/sitemap.xml','https://www.oppo.com/en/sitemap.xml','https://www.oppo.com/in/sitemap.xml','https://www.oppo.com/id/sitemap.xml'],Vivo:['https://www.vivo.com/pk/sitemap.xml','https://www.vivo.com/en/sitemap.xml','https://www.vivo.com/in/sitemap.xml','https://www.vivo.com/id/sitemap.xml']};
-const results={OPPO:{},Vivo:{}},unverified={};
+const results={OPPO:{},Vivo:{}},unverified={},state={};
 for(const brand of ['OPPO','Vivo']){
  const candidates=[];
  for(const site of locations[brand]){
@@ -105,11 +113,14 @@ for(const brand of ['OPPO','Vivo']){
    console.log(brand,'sitemap',site,'spec URLs',filtered.length);
   }catch(e){console.warn('Sitemap error',site,e.message)}
  }
- const urls=[...new Set(candidates)];
- console.log(brand,'unique source pages',urls.length,'catalog models',models[brand].length);
+ const urls=[...new Set(candidates)].sort();
+ const startAt=Math.max(0,Number(priorState[brand]?.offset)||0)%Math.max(1,urls.length);
+ const selected=Array.from({length:Math.min(maxPerBrand,urls.length)},(_,i)=>urls[(startAt+i)%urls.length]);
+ state[brand]={offset:urls.length?(startAt+selected.length)%urls.length:0,lastChecked:new Date().toISOString(),scanned:selected.length};
+ console.log(brand,'unique source pages',urls.length,'scan this run',selected.length,'catalog models',models[brand].length);
  let matched=0,failed=0;
- for(let start=0;start<urls.length;start+=5){
-  const batch=urls.slice(start,start+5);
+ for(let start=0;start<selected.length;start+=5){
+  const batch=selected.slice(start,start+5);
   await Promise.all(batch.map(async url=>{
    try{
     const page=await request(url);
@@ -129,14 +140,20 @@ for(const brand of ['OPPO','Vivo']){
     if(!prior||Object.keys(item).length>Object.keys(prior).length){results[brand][p.id]=item;matched++}
    }catch(e){failed++;console.warn('SOURCE ERROR',brand,url,e.message)}
   }));
-  if(start%50===0)console.log(brand,'scanned',start+batch.length,'of',urls.length,'matched',Object.keys(results[brand]).length,'failed',failed);
+  if(start%50===0)console.log(brand,'scanned',start+batch.length,'of',selected.length,'matched',Object.keys(results[brand]).length,'failed',failed);
   await sleep(200);
  }
+ results[brand]=preserveOfficialSpecs(previous[brand],results[brand],brand);
  const found=Object.keys(results[brand]);
- unverified[brand]={total:models[brand].length,verified:found.length,unverified:models[brand].filter(p=>!results[brand][p.id]).map(p=>p.name),sources:locations[brand]};
+ unverified[brand]={total:models[brand].length,verified:found.length,
+   unverified:models[brand].filter(p=>!results[brand][p.id]).map(p=>p.name),
+   sources:locations[brand],checkedThisRun:state[brand].scanned,
+   notes:'Regional variants; only source-verified fields are shown.'};
  console.log('FINAL',brand,found.length,'of',models[brand].length);
 }
+if(Object.keys(results.OPPO).length<10||Object.keys(results.Vivo).length<10)
+ throw Error('Manufacturer match coverage too low; preserving previous files');
 await fs.writeFile(new URL('official-oppo.json',dir),JSON.stringify(results.OPPO,null,2)+'\n');
 await fs.writeFile(new URL('official-vivo.json',dir),JSON.stringify(results.Vivo,null,2)+'\n');
 await fs.writeFile(new URL('oppo-vivo-verification-coverage.json',dir),JSON.stringify(unverified,null,2)+'\n');
-if(Object.keys(results.OPPO).length<10||Object.keys(results.Vivo).length<10)throw Error('Manufacturer match coverage too low: OPPO '+Object.keys(results.OPPO).length+' Vivo '+Object.keys(results.Vivo).length);
+await fs.writeFile(cursorFile,JSON.stringify(state,null,2)+'\n');
