@@ -6,6 +6,7 @@ on:
       - Import verified Apple iPhone technical specs
       - Import official Samsung model specifications
       - Import official OPPO and vivo specifications
+      - Import official Xiaomi Infinix Tecno itel specifications
       - Verify and animate real phone images
     types: [completed]
 permissions:

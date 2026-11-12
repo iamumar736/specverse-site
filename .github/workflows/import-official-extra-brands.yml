@@ -1,0 +1,45 @@
+name: Import official Xiaomi Infinix Tecno itel specifications
+on:
+  schedule:
+    - cron: '10 7 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/import-official-extra-brands.mjs'
+      - 'official-extra-brand-seeds.js'
+      - 'official-spec-preservation.js'
+      - '.github/workflows/import-official-extra-brands.yml'
+permissions:
+  contents: write
+concurrency:
+  group: specverse-data-publication
+  cancel-in-progress: false
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install official product parser
+        run: npm install --no-save --no-audit --no-fund cheerio
+      - name: Add reference profiles and verify remaining models
+        run: node scripts/import-official-extra-brands.mjs --max=8
+      - name: Refresh manufacturer coverage status
+        run: node scripts/report-catalog-health.mjs
+      - name: Publish source-linked specs and next import cursor
+        run: |
+          bash scripts/publish-data.sh 'Refresh Xiaomi Infinix Tecno and itel specifications' \
+            public/data/official-xiaomi.json \
+            public/data/official-infinix.json \
+            public/data/official-tecno.json \
+            public/data/official-itel.json \
+            public/data/extra-brands-import-state.json \
+            public/data/extra-brands-verification-coverage.json \
+            public/data/status.json \
+            public/data/automation-health.json
