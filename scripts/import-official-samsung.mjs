@@ -78,7 +78,7 @@ for(const p of selected){
  }).filter((c,i,all)=>all.findIndex(x=>x.site===c.site)===i).slice(0,8);
  available.set(p.id,choices);
 }
-console.log('Samsung exact name-URL matches',devices.filter(p=>available.get(p.id).length>0).length,'of',devices.length);
+console.log('Samsung exact name-URL matches',selected.filter(p=>available.get(p.id)?.length>0).length,'of',selected.length);
 const get=(data,...keys)=>{
  for(const key of keys){const found=data.get(key.toLowerCase());if(found)return found}
  return null;

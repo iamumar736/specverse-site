@@ -9,6 +9,7 @@ test('Samsung importer scans missing models in rotating regional batches',()=>{
  assert.match(source,/const previous=JSON\.parse\(await fs\.readFile/);
  assert.match(source,/const incomplete=devices\.filter\(p=>!validSamsungRecord\(previous\[p\.id\]\)\)/);
  assert.match(source,/const selected=Array\.from/);
+ assert.match(source,/selected\.filter\(p=>available\.get\(p\.id\)\?\.length>0\)/);
  assert.match(source,/const sites=Array\.from/);
  assert.match(source,/mergeSamsungVerifiedRecords\(devices,previous,verified\)/);
  assert.match(source,/samsungCoverageReport\(devices,merged/);
