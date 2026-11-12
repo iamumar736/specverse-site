@@ -2144,3 +2144,65 @@ html[data-theme=light] .modern-phone-art{
 }
 
 @media(max-width:820px){.studio-orbit-control{display:none}}
+
+
+/* Real WebGL orbit inspection is loaded only after an explicit click in detail. */
+.detail-art{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  box-shadow:inset 0 1px 0 rgba(220,216,255,.13),0 20px 60px rgba(5,7,24,.15);
+}
+.detail-concept-viewport{
+  position:absolute;inset:0;z-index:3;
+  background:radial-gradient(circle at 50% 39%,rgba(106,84,189,.35),#10172b 75%);
+}
+.detail-concept-caption{
+  position:absolute;top:16px;left:50%;z-index:5;pointer-events:none;
+  transform:translateX(-50%);
+  white-space:normal;text-align:center;max-width:calc(100% - 30px);
+  color:#e6dfff;
+  font:800 10px/1.35 'Space Grotesk',sans-serif;
+  letter-spacing:.8px;
+  border:1px solid rgba(190,172,255,.29);
+  border-radius:12px;padding:10px 12px;
+  background:rgba(13,16,35,.74);
+}
+.detail-concept-loading{
+  position:absolute;inset:0;display:grid;place-items:center;
+  color:#e2d5ff;font-weight:800;font-size:14px;
+}
+.detail-concept-control{
+  position:absolute;left:15px;right:15px;bottom:15px;
+  z-index:6;display:flex;align-items:center;justify-content:center;
+  flex-wrap:wrap;gap:12px;pointer-events:none;
+}
+.detail-concept-button{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:46px;padding:12px 17px;border-radius:13px;
+  background:linear-gradient(120deg,#7657dd,#3c85a4);
+  border:1px solid rgba(222,217,255,.44);
+  color:#fff;font-size:13px;font-weight:800;
+  box-shadow:0 11px 27px rgba(8,11,32,.45);
+  pointer-events:auto;transition:transform .2s ease,filter .2s ease;
+}
+.detail-concept-button:hover{transform:translateY(-2px);filter:brightness(1.12)}
+.detail-concept-button:focus-visible{outline:3px solid #c0ebff;outline-offset:3px}
+.detail-concept-hint,.detail-concept-unavailable{
+  display:inline-flex;align-items:center;gap:5px;
+  font-size:11px;line-height:1.35;color:#e5e9ff;
+  background:rgba(10,15,32,.84);
+  padding:8px 10px;border:1px solid rgba(170,176,226,.2);
+  border-radius:10px;pointer-events:none;
+}
+html[data-theme=light] .detail-concept-viewport{
+  background:radial-gradient(circle at center,#b9b6ea,#556d96 76%);
+}
+@media(max-width:700px){
+  .detail-concept-control{bottom:12px;left:9px;right:9px}
+  .detail-concept-caption{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){
+  .detail-concept-button{transition:none!important}
+  .detail-concept-button:hover{transform:none}
+}
