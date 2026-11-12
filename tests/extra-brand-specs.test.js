@@ -80,7 +80,9 @@ test('source checker is daily, bounded, non-destructive and publishes coverage',
  assert.match(workflow,/workflow_dispatch:/);
  assert.match(workflow,/group: specverse-data-publication/);
  assert.match(workflow,/--max=8/);
- assert.match(workflow,/report-catalog-health\.mjs/);
+ assert.doesNotMatch(workflow,/public\/data\/status\.json/);
+ assert.doesNotMatch(workflow,/public\/data\/automation-health\.json/);
+ assert.match(read('.github/workflows/daily-update.yml'),/report-catalog-health\.mjs/);
  const target=fileURLToPath(new URL('../scripts/import-official-extra-brands.mjs',import.meta.url));
  const run=spawnSync(process.execPath,['--check',target],{encoding:'utf8'});
  assert.equal(run.status,0,run.stderr);
