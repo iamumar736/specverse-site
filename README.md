@@ -152,3 +152,55 @@ An official source for every historical Samsung model is not guaranteed to be
 available. Do not claim 100% complete Samsung specifications without actual
 evidence, and do not use generic AI guesses or unsourced retailer numbers to
 populate missing fields.
+
+
+## Hands-off catalog updates
+
+SpecVerse now uses **GitHub Actions + the existing Render auto-deployment** to
+refresh phone identities and source-verified technical specifications without
+asking an operator to request a new edit each time.
+
+| Job | UTC schedule | Purpose |
+| --- | --- | --- |
+| Daily catalog | 03:15 daily | Import open Android identities, try Wikidata, merge licensed feeds, validate, publish health |
+| Samsung | 04:40 daily | Check 24 missing Samsung models across rotating official regions |
+| Licensed device images | 05:40 daily | Check up to 12 model-matched, reusable images |
+| Apple | 06:20 Mondays | Refresh Apple Support technical specs and add **newly confirmed iPhone model identities** |
+| OPPO/vivo | 06:15 Tuesdays and Fridays | Inspect 120 verified-source pages per brand, rotating cursors |
+
+The GitHub workflow schedules remain active only while GitHub Actions is
+enabled and the repository remains active. GitHub cron can be delayed or
+occasionally skipped. There is a **Run workflow** button as a manual fallback,
+but manual use is not required for routine updates.
+
+### Reliability controls
+- Each manufacturer importer **preserves existing verified records** on
+  upstream failures instead of replacing data with empty JSON.
+- A shared GitHub Actions concurrency group serializes automated data
+  publishing. Changes are committed to `main` with a safe rebase and **never
+  force-pushed**, so Render can deploy after an accepted update.
+- The main catalog refuses an unexpected drop of more than 10% of models.
+  Validation failures stop publication.
+- A single GitHub issue named **SpecVerse automated catalog updater needs
+  attention** is automatically created or updated if a source job fails,
+  including links to the failed GitHub Actions run.
+- `/data/automation-health.json` reports source coverage,
+  manufacturer-verified model counts, missing technical fields, and whether a
+  paid/licensed price feed is configured. The homepage links to the report.
+
+### What is / is not guaranteed
+**Automatic discovery** of Android marketing model names comes from
+DeviceFarmer and Wikidata; new iPhones can be discovered through Apple's
+actual technical specification directory. Samsung and OPPO/vivo existing
+catalog models get incremental source checks. This does not mean the system
+can invent missing specifications for every new release.
+
+Market prices require your own **licensed live retailer price source** via
+`SPECVERSE_FEED_URL(S)` secrets. If none is configured, the site does *not*
+manufacture or currency-convert live prices. An official page can disappear,
+and source providers can throttle or block automated requests. Those cases
+retain existing data and are flagged, rather than silently guessing.
+
+To audit updates, visit GitHub **Actions** and the **Issues** tab. A future
+change to the hosting provider, repository permissions or third-party data
+licenses can still require human intervention.
