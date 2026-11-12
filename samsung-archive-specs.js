@@ -15,7 +15,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Chile launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A01"
   },
   "samsung-galaxy-a11": {
@@ -31,7 +31,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Chile launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A11"
   },
   "samsung-galaxy-a21s": {
@@ -51,7 +51,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "UK launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A21s"
   },
   "samsung-galaxy-a30": {
@@ -70,7 +70,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A30"
   },
   "samsung-galaxy-a50": {
@@ -89,7 +89,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A50"
   },
   "samsung-galaxy-a30s": {
@@ -109,7 +109,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A30s"
   },
   "samsung-galaxy-a50s": {
@@ -129,7 +129,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A50s"
   },
   "samsung-galaxy-a31": {
@@ -150,7 +150,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "India launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A31"
   },
   "samsung-galaxy-a51": {
@@ -169,7 +169,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A51"
   },
   "samsung-galaxy-a71": {
@@ -188,7 +188,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A71"
   },
   "samsung-galaxy-a70s": {
@@ -207,7 +207,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "India launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy A70s"
   },
   "samsung-galaxy-s10e": {
@@ -225,7 +225,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy S10e"
   },
   "samsung-galaxy-s10": {
@@ -243,7 +243,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy S10"
   },
   "samsung-galaxy-s20": {
@@ -265,7 +265,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy S20"
   },
   "samsung-galaxy-s20-ultra": {
@@ -287,7 +287,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy S20 Ultra"
   },
   "samsung-galaxy-s20-fe": {
@@ -309,7 +309,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "US launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy S20 FE"
   },
   "samsung-galaxy-s21": {
@@ -328,7 +328,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "UK launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy S21"
   },
   "samsung-galaxy-s21-ultra": {
@@ -347,7 +347,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy S21 Ultra"
   },
   "samsung-galaxy-note20": {
@@ -368,7 +368,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy Note20"
   },
   "samsung-galaxy-note20-ultra": {
@@ -390,7 +390,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy Note20 Ultra"
   },
   "samsung-galaxy-z-fold2": {
@@ -409,7 +409,7 @@ export const SAMSUNG_ARCHIVE_SPECS=Object.freeze({
     "dataQuality": "official-specifications-samsung-newsroom",
     "sourceKind": "launch-reference",
     "variantDetails": "Global launch/reference model; RAM, storage, chipset, radios and other specifications may differ by country or carrier.",
-    "verifiedAt": "2026-11-13T00:00:00.000Z",
+    "verifiedAt": "2026-11-12T19:27:00.000Z",
     "_modelName": "Galaxy Z Fold2"
   }
 });
