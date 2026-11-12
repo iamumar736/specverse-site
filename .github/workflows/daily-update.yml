@@ -3,28 +3,29 @@ on:
   schedule:
     - cron: '15 3 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/**'
-      - '.github/workflows/daily-update.yml'
 permissions:
   contents: write
+concurrency:
+  group: specverse-data-publication
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Import open Android phone catalog
-        run: node scripts/import-open-devices.mjs || echo "Open device source unavailable; preserving last import"
-      - name: Discover public phone entries (best effort)
-        run: node scripts/import-wikidata.mjs || echo "Public discovery unavailable; keeping last catalog"
-      - name: Enrich discovered models from Wikidata
-        run: node scripts/enrich-wikidata.mjs
-      - name: Refresh verified data
+      - name: Import new public Android model identities
+        run: node scripts/import-open-devices.mjs || echo "::warning::Open phone source unavailable: preserving old catalog"
+      - name: Discover newly registered models from Wikidata
+        run: node scripts/import-wikidata.mjs || echo "::warning::Wikidata unavailable: preserving previous discoveries"
+      - name: Enrich discovered models (best effort)
+        run: node scripts/enrich-wikidata.mjs || echo "::warning::Wikidata enrichment unavailable"
+      - name: Refresh and merge source-checked catalog
         env:
           SPECVERSE_FEED_URL: ${{ secrets.SPECVERSE_FEED_URL }}
           SPECVERSE_FEED_URLS: ${{ secrets.SPECVERSE_FEED_URLS }}
@@ -32,9 +33,9 @@ jobs:
         run: node scripts/update-data.mjs
       - name: Validate catalog and record missing specifications
         run: node scripts/validate-catalog.mjs
-      - name: Commit updated data
-        run: |
-          git config user.name 'specverse-updater'
-          git config user.email 'specverse-updater@users.noreply.github.com'
-          git add public/data/
-          git diff --cached --quiet || (git commit -m 'Refresh SpecVerse catalog and prices' && git push)
+      - name: Generate public automation status and coverage report
+        run: node scripts/report-catalog-health.mjs
+      - name: Run regression tests
+        run: npm test
+      - name: Publish verified data with concurrency safety
+        run: bash scripts/publish-data.sh 'Refresh automated SpecVerse phone catalog' public/data/
