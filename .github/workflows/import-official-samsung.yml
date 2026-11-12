@@ -3,15 +3,11 @@ on:
   schedule:
     - cron: '40 4 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'samsung-archive-specs.js'
-      - 'samsung-spec-coverage.js'
-      - 'scripts/import-official-samsung.mjs'
-      - '.github/workflows/import-official-samsung.yml'
 permissions:
   contents: write
+concurrency:
+  group: specverse-data-publication
+  cancel-in-progress: false
 jobs:
   enrich:
     runs-on: ubuntu-latest
@@ -23,30 +19,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm install --no-save --no-audit --no-fund cheerio
-      - name: Fetch official Samsung product specification tables
+      - name: Install official spec page parser
+        run: npm install --no-save --no-audit --no-fund cheerio
+      - name: Verify missing models against Samsung regional spec pages
         run: node scripts/import-official-samsung.mjs --max=24 --regions=3
-      - name: Publish source-verified Samsung models
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/official-samsung.json public/data/samsung-verification-coverage.json public/data/samsung-import-state.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Publish source-verified regional Samsung specifications"
-            for attempt in 1 2 3 4; do
-              git fetch origin main
-              if git rebase origin/main; then
-                if git push origin HEAD:main; then exit 0; fi
-              else
-                # Another job already wrote the same source files: preserve remote safely.
-                git rebase --abort
-                git reset --hard origin/main
-                node scripts/import-official-samsung.mjs --max=24 --regions=3
-                git add public/data/official-samsung.json public/data/samsung-verification-coverage.json public/data/samsung-import-state.json
-                if git diff --cached --quiet; then exit 0; fi
-                git commit -m "Publish source-verified regional Samsung specifications"
-              fi
-              sleep $((attempt*3))
-            done
-            exit 1
-          fi
+      - name: Publish verified records and next lookup cursor
+        run: bash scripts/publish-data.sh 'Refresh Samsung regional spec coverage' public/data/official-samsung.json public/data/samsung-verification-coverage.json public/data/samsung-import-state.json
