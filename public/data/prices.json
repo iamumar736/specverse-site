@@ -1,1 +1,207 @@
-{}
+{
+  "apple-iphone-duo": {
+    "USD": {
+      "currency": "USD",
+      "amount": 1999,
+      "sourceUrl": "https://www.apple.com/shop/buy-iphone",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "apple-us-starting",
+      "storage": "Base configuration",
+      "market": "US",
+      "sourceName": "Apple",
+      "availability": "Current Apple list at last verification"
+    }
+  },
+  "apple-iphone-18-pro": {
+    "USD": {
+      "currency": "USD",
+      "amount": 1199,
+      "sourceUrl": "https://www.apple.com/shop/buy-iphone",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "apple-us-starting",
+      "storage": "Base configuration",
+      "market": "US",
+      "sourceName": "Apple",
+      "availability": "Current Apple list at last verification"
+    },
+    "PKR": {
+      "currency": "PKR",
+      "amount": 552795,
+      "sourceUrl": "https://priceoye.pk/mobiles/apple/apple-iphone-18-pro",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "retailer-from",
+      "storage": "Variant unspecified (check retailer)",
+      "market": "Pakistan",
+      "sourceName": "PriceOye",
+      "ptaStatus": "Not independently confirmed",
+      "availability": "Retailer listing snapshot"
+    }
+  },
+  "apple-iphone-18-pro-max": {
+    "USD": {
+      "currency": "USD",
+      "amount": 1299,
+      "sourceUrl": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "apple-us-starting",
+      "storage": "Base configuration",
+      "market": "US",
+      "sourceName": "Apple",
+      "availability": "Current Apple list at last verification"
+    },
+    "PKR": {
+      "currency": "PKR",
+      "amount": 592995,
+      "sourceUrl": "https://priceoye.pk/mobiles/apple/apple-iphone-18-pro-max",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "retailer-from",
+      "storage": "Variant unspecified (check retailer)",
+      "market": "Pakistan",
+      "sourceName": "PriceOye",
+      "ptaStatus": "Not independently confirmed",
+      "availability": "Retailer listing snapshot"
+    }
+  },
+  "apple-iphone-air": {
+    "USD": {
+      "currency": "USD",
+      "amount": 1099,
+      "sourceUrl": "https://www.apple.com/shop/buy-iphone",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "apple-us-starting",
+      "storage": "Base configuration",
+      "market": "US",
+      "sourceName": "Apple",
+      "availability": "Current Apple list at last verification"
+    },
+    "PKR": {
+      "currency": "PKR",
+      "amount": 412499,
+      "sourceUrl": "https://priceoye.pk/mobiles/apple/apple-iphone-17-air",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "retailer-from",
+      "storage": "Variant unspecified (check retailer)",
+      "market": "Pakistan",
+      "sourceName": "PriceOye",
+      "ptaStatus": "Not independently confirmed",
+      "availability": "Retailer listing snapshot"
+    }
+  },
+  "apple-iphone-17": {
+    "USD": {
+      "currency": "USD",
+      "amount": 899,
+      "sourceUrl": "https://www.apple.com/shop/buy-iphone",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "apple-us-starting",
+      "storage": "Base configuration",
+      "market": "US",
+      "sourceName": "Apple",
+      "availability": "Current Apple list at last verification"
+    },
+    "PKR": {
+      "currency": "PKR",
+      "amount": 391995,
+      "sourceUrl": "https://priceoye.pk/mobiles/apple/apple-iphone-17",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "retailer-from",
+      "storage": "Variant unspecified (check retailer)",
+      "market": "Pakistan",
+      "sourceName": "PriceOye",
+      "ptaStatus": "Not independently confirmed",
+      "availability": "Retailer listing snapshot"
+    }
+  },
+  "apple-iphone-17e": {
+    "USD": {
+      "currency": "USD",
+      "amount": 699,
+      "sourceUrl": "https://www.apple.com/shop/buy-iphone",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "apple-us-starting",
+      "storage": "Base configuration",
+      "market": "US",
+      "sourceName": "Apple",
+      "availability": "Current Apple list at last verification"
+    },
+    "PKR": {
+      "currency": "PKR",
+      "amount": 284999,
+      "sourceUrl": "https://priceoye.pk/mobiles/apple/apple-iphone-17e",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "retailer-from",
+      "storage": "Variant unspecified (check retailer)",
+      "market": "Pakistan",
+      "sourceName": "PriceOye",
+      "ptaStatus": "Not independently confirmed",
+      "availability": "Retailer listing snapshot"
+    }
+  },
+  "apple-iphone-16": {
+    "USD": {
+      "currency": "USD",
+      "amount": 799,
+      "sourceUrl": "https://www.apple.com/shop/buy-iphone",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "apple-us-starting",
+      "storage": "Base configuration",
+      "market": "US",
+      "sourceName": "Apple",
+      "availability": "Current Apple list at last verification"
+    },
+    "PKR": {
+      "currency": "PKR",
+      "amount": 319595,
+      "sourceUrl": "https://priceoye.pk/mobiles/apple/apple-iphone-16",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "retailer-from",
+      "storage": "Variant unspecified (check retailer)",
+      "market": "Pakistan",
+      "sourceName": "PriceOye",
+      "ptaStatus": "Not independently confirmed",
+      "availability": "Retailer listing snapshot"
+    }
+  },
+  "apple-iphone-17-pro": {
+    "PKR": {
+      "currency": "PKR",
+      "amount": 442245,
+      "sourceUrl": "https://priceoye.pk/mobiles/apple/apple-iphone-17-pro",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "retailer-from",
+      "storage": "Variant unspecified (check retailer)",
+      "market": "Pakistan",
+      "sourceName": "PriceOye",
+      "ptaStatus": "Not independently confirmed",
+      "availability": "Retailer listing snapshot"
+    }
+  },
+  "apple-iphone-17-pro-max": {
+    "PKR": {
+      "currency": "PKR",
+      "amount": 504999,
+      "sourceUrl": "https://priceoye.pk/mobiles/apple/apple-iphone-17-pro-max",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "retailer-from",
+      "storage": "Variant unspecified (check retailer)",
+      "market": "Pakistan",
+      "sourceName": "PriceOye",
+      "ptaStatus": "Not independently confirmed",
+      "availability": "Retailer listing snapshot"
+    }
+  },
+  "apple-iphone-15": {
+    "PKR": {
+      "currency": "PKR",
+      "amount": 264999,
+      "sourceUrl": "https://priceoye.pk/mobiles/apple/apple-iphone-15",
+      "updatedAt": "2026-11-12T19:27:00.000Z",
+      "priceType": "retailer-from",
+      "storage": "Variant unspecified (check retailer)",
+      "market": "Pakistan",
+      "sourceName": "PriceOye",
+      "ptaStatus": "Not independently confirmed",
+      "availability": "Retailer listing snapshot"
+    }
+  }
+}
