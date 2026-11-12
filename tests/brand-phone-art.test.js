@@ -44,19 +44,19 @@ test('unavailable product photos render original modern art with model label and
   assert.match(app,/className="phone-name" title=\{p\.name\}/);
 });
 
-test('only the homepage uses deterministic animated device silhouettes and brand chips',()=>{
+test('homepage uses quiet, decorative, deterministic device outlines',()=>{
   const ambient=read('AmbientBackground.jsx');
   const floating=read('FloatingTechBackground.jsx');
   const app=read('src.jsx');
-  const css=read('style.css');
+  const refined=read('elegance.css');
   assert.match(app,/<AmbientBackground floating=\{!page&&!showCompare\} motion=\{orbitMotion\}\/>/);
   assert.match(ambient,/floating&&<FloatingTechBackground\/>/);
   assert.match(floating,/aria-hidden="true"/);
-  assert.match(floating,/ambient-tech__item--/);
-  assert.match(floating,/ambient-tech__wordmark/);
-  assert.doesNotMatch(floating,/Math\.random|setInterval|setTimeout|<img|<canvas|<video/i);
-  assert.match(css,/@keyframes ambient-tech-drift/);
-  assert.match(css,/\.ambient-tech\{display:none\}/);
+  assert.match(floating,/ambient-tech--refined/);
+  assert.match(floating,/refined-ambience__phone/);
+  assert.doesNotMatch(floating,/cosmic-meteor|cosmic-side|ambient-tech__wordmark|Math\.random|setInterval|setTimeout|<img|<canvas|<video/i);
+  assert.match(refined,/@keyframes refined-outline-drift/);
+  assert.match(refined,/ambient-tech--refined\{display:none!important\}/);
 });
 
 test('colors, text, hover animation, accessibility and reduced-motion behavior are styled',()=>{
