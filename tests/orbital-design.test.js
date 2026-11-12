@@ -28,7 +28,7 @@ test('good photos stay ahead of generic/vector stand-ins',()=>{
 test('cards respect the source policy, handle image errors and show a richer fallback',()=>{
   const app=read('src.jsx');
   const fallback=read('PhonePlaceholderArt.jsx');
-  assert.match(app,/import \{selectUsablePhonePhoto\} from '\.\/photo-source-policy\.js'/);
+  assert.match(app,/import \{selectUsablePhonePhoto,isUsablePhonePhoto\} from '\.\/photo-source-policy\.js'/);
   assert.match(app,/const preferred=selectUsablePhonePhoto\(candidates\)/);
   assert.match(app,/getPhoneImage\(p\),p\.image,getPhoneRemoteFallback\(p\)/);
   assert.match(app,/handleImageError/);
@@ -64,4 +64,22 @@ test('Orbit Mode is functional, remembers pause state, and allows reduced motion
   assert.match(css,/\.ambient-backdrop--paused \*/);
   assert.match(css,/@media\(prefers-reduced-motion:reduce\)/);
   assert.match(css,/\.ambient-tech,\.cosmic-side,\.cosmic-meteor\{display:none!important\}/);
+});
+
+test('interactive 3D inspection is optional, lazy-loaded and labeled as concept geometry',()=>{
+  const details=read('DetailConceptExperience.jsx');
+  const viewer=read('DeviceConcept3D.jsx');
+  const app=read('src.jsx');
+  const css=read('style.css');
+  assert.match(app,/<DetailConceptExperience phone=\{page\}\/>/);
+  assert.match(details,/lazy\(\(\)=>import\('\.\/DeviceConcept3D\.jsx'\)\)/);
+  assert.match(details,/onClick=\{open\?\(\)=>setOpen\(false\):launch\}/);
+  assert.match(details,/NOT EXACT DEVICE GEOMETRY/);
+  assert.match(details,/hasWebGL\(\)/);
+  assert.match(viewer,/Canvas camera=\{\{position:/);
+  assert.match(viewer,/useMemo\(\(\)=>/);
+  assert.match(viewer,/OrbitControls enablePan=\{false\}/);
+  assert.match(viewer,/placeholderKind\(phone\)/);
+  assert.match(css,/\.detail-concept-viewport\{/);
+  assert.match(css,/@media\(prefers-reduced-motion:reduce\)/);
 });
