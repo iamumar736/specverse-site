@@ -14,7 +14,13 @@ export function sourceIsOfficial(record,brand){
       Apple:['support.apple.com'],
       Samsung:['www.samsung.com','news.samsung.com'],
       OPPO:['www.oppo.com','oppo.com'],
-      Vivo:['www.vivo.com','vivo.com']
+      Vivo:['www.vivo.com','vivo.com'],
+      Xiaomi:['www.mi.com','mi.com'],
+      Infinix:['wap.az.infinixmobility.com','wap.iq.infinixmobility.com',
+        'wap.ru.infinixmobility.com','pk.infinixmobility.com','www.infinixmobility.com',
+        'wap.pk.infinixmobility.com','wap.infinixmobility.com'],
+      Tecno:['www.tecno-mobile.com','tecno-mobile.com'],
+      Itel:['www.itel-life.com','itel-life.com']
     };
     return (hosts[brand]||[]).includes(u.hostname);
   }catch{return false}
