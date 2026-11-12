@@ -1,10 +1,22 @@
-import React,{useMemo,useState} from 'react';
+import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {Search,Smartphone} from 'lucide-react';
 import {comparePhones,searchScore} from './catalog-order.js';
 import {getPhoneImage,getPhoneRemoteFallback} from './iphone-images.js';
 
 export default function HeaderPhoneSearch({query,onQuery,catalog=[],prices={},onSelect,onSubmit}){
+  const inputRef=useRef(null);
   const [focused,setFocused]=useState(false);
+  useEffect(()=>{
+    const handleShortcut=event=>{
+      if(event.key!=='/'||event.altKey||event.ctrlKey||event.metaKey)return;
+      const target=event.target;
+      if(target?.isContentEditable||/^(input|textarea|select)$/i.test(target?.tagName||''))return;
+      event.preventDefault();
+      inputRef.current?.focus();
+    };
+    document.addEventListener('keydown',handleShortcut);
+    return()=>document.removeEventListener('keydown',handleShortcut);
+  },[]);
   const [active,setActive]=useState(-1);
   const matches=useMemo(()=>{
     const q=query.trim();
@@ -16,7 +28,7 @@ export default function HeaderPhoneSearch({query,onQuery,catalog=[],prices={},on
   return <form className="top-search top-search-autocomplete" role="search"
     onSubmit={e=>{e.preventDefault();if(visible&&active>=0&&matches[active])pick(matches[active]);else{setFocused(false);onSubmit()}}}
     onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget)){setFocused(false);setActive(-1)}}}>
-    <input type="search" aria-label="Search phones" aria-autocomplete="list"
+    <input ref={inputRef} type="search" role="combobox" aria-keyshortcuts="/" aria-label="Search phones" aria-autocomplete="list"
       aria-expanded={Boolean(visible)} aria-controls="header-phone-suggestions"
       aria-activedescendant={visible&&active>=0?'header-phone-option-'+active:undefined}
       placeholder="Search phones..." value={query}
@@ -27,6 +39,7 @@ export default function HeaderPhoneSearch({query,onQuery,catalog=[],prices={},on
         if(visible&&e.key==='ArrowDown'){e.preventDefault();setActive(i=>Math.min(i+1,matches.length-1))}
         if(visible&&e.key==='ArrowUp'){e.preventDefault();setActive(i=>Math.max(i-1,-1))}
       }}/>
+    <kbd className="top-search-shortcut" aria-hidden="true">/</kbd>
     <button type="submit" aria-label="Show phone search results"><Search size={17}/></button>
     {visible&&<div className="top-search-dropdown" id="header-phone-suggestions" role="listbox" aria-label="Matching phones">
       {matches.length?matches.map((p,i)=><button type="button" role="option" aria-selected={active===i}

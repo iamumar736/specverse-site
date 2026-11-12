@@ -12,7 +12,8 @@ const styles=read('style.css');
 const pkg=JSON.parse(read('package.json'));
 
 test('interactive hero is integrated and 3D libraries match React 19',()=>{
-  assert.match(app,/<HeroExperience\/>/);
+  assert.match(read('DiscoveryExperience.jsx'),/<HeroExperience\/>/);
+  assert.match(app,/<DiscoveryExperience /);
   assert.match(hero,/lazy\(\(\)=>import\('\.\/PhoneShowcase3D\.jsx'\)\)/);
   assert.match(scene,/import \{Canvas\} from '@react-three\/fiber'/);
   assert.match(scene,/OrbitControls/);
