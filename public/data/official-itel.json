@@ -1,1 +1,39 @@
-{}
+{
+  "open-itel-itel-a80": {
+    "screen": "6.7-inch HD+ display",
+    "resolution": "720 × 1600",
+    "refreshRate": "Up to 120 Hz",
+    "chip": "Unisoc T603 (octa-core LTE)",
+    "camera": "13 MP main; premium storage variant lists 50 MP",
+    "selfie": "8 MP",
+    "battery": "5000 mAh",
+    "charging": "USB Type-C (wattage unspecified)",
+    "ram": "3 / 4 GB physical; advertised extended RAM varies by market",
+    "storage": "64 / 128 GB (regional)",
+    "os": "itel OS 14 at launch",
+    "biometrics": "Side fingerprint and face unlock",
+    "dimensions": "8.54 mm thick",
+    "sourceUrl": "https://www.itel-life.com/products/phone/a-series/a80/spec",
+    "verifiedSource": "Itel official product specification page",
+    "dataQuality": "official-specifications-launch-reference",
+    "variantDetails": "Reference information from Itel launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  },
+  "open-itel-a70": {
+    "screen": "6.6-inch display",
+    "resolution": "720 × 1612",
+    "chip": "Unisoc T603 (octa-core)",
+    "camera": "13 MP AI dual rear",
+    "selfie": "8 MP",
+    "battery": "5000 mAh",
+    "charging": "USB Type-C (wattage unspecified)",
+    "ram": "3 / 4 GB physical; RAM expansion separately advertised",
+    "storage": "128 / 256 GB (regional)",
+    "os": "Android 13 Go / itel OS 13 at launch",
+    "network": "4G / 3G / 2G",
+    "biometrics": "Side fingerprint",
+    "sourceUrl": "https://www.itel-life.com/products/phone/a-series/a70/spec",
+    "verifiedSource": "Itel official product specification page",
+    "dataQuality": "official-specifications-launch-reference",
+    "variantDetails": "Reference information from Itel launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  }
+}

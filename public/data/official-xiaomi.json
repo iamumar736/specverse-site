@@ -1,1 +1,37 @@
-{}
+{
+  "open-redmi-redmi-note-14-pro-5g": {
+    "screen": "6.67-inch CrystalRes AMOLED",
+    "resolution": "2712 × 1220",
+    "refreshRate": "Up to 120 Hz",
+    "chip": "MediaTek Dimensity 7300-Ultra",
+    "ram": "8 / 12 GB (regional configurations)",
+    "storage": "256 / 512 GB (regional configurations)",
+    "camera": "200 MP main (OIS) + 8 MP ultra-wide + 2 MP macro",
+    "selfie": "20 MP",
+    "battery": "5110 mAh (typical)",
+    "charging": "45 W turbo charging",
+    "ipRating": "IP68",
+    "os": "Xiaomi HyperOS (global launch)",
+    "sourceUrl": "https://www.mi.com/global/product/redmi-note-14-pro-5g/specs/",
+    "verifiedSource": "Xiaomi official product specification page",
+    "dataQuality": "official-specifications-launch-reference",
+    "variantDetails": "Reference information from Xiaomi launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  },
+  "open-poco-poco-f7": {
+    "screen": "6.83-inch 1.5K display",
+    "resolution": "2772 × 1280",
+    "refreshRate": "Up to 120 Hz",
+    "chip": "Snapdragon 8s Gen 4",
+    "ram": "12 GB (global launch)",
+    "storage": "256 / 512 GB (global launch)",
+    "camera": "50 MP Sony IMX882 main + 8 MP ultra-wide",
+    "selfie": "20 MP",
+    "battery": "6500 mAh (typical)",
+    "charging": "90 W HyperCharge",
+    "os": "Xiaomi HyperOS 2 at launch",
+    "sourceUrl": "https://www.mi.com/global/product/poco-f7/specs/",
+    "verifiedSource": "Xiaomi official product specification page",
+    "dataQuality": "official-specifications-launch-reference",
+    "variantDetails": "Reference information from Xiaomi launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  }
+}

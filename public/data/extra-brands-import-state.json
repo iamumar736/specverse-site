@@ -1,1 +1,22 @@
-{}
+{
+  "Xiaomi": {
+    "offset": 8,
+    "lastChecked": "2026-11-12T21:24:42.941Z",
+    "attempted": 8
+  },
+  "Infinix": {
+    "offset": 8,
+    "lastChecked": "2026-11-12T21:24:54.670Z",
+    "attempted": 8
+  },
+  "Tecno": {
+    "offset": 8,
+    "lastChecked": "2026-11-12T21:25:00.640Z",
+    "attempted": 8
+  },
+  "Itel": {
+    "offset": 8,
+    "lastChecked": "2026-11-12T21:25:04.608Z",
+    "attempted": 8
+  }
+}

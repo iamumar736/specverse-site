@@ -9,8 +9,8 @@
   "providers": [],
   "automation": {
     "mode": "scheduled",
-    "lastReport": "2026-11-12T20:13:26.169Z",
-    "verifiedModels": 319,
+    "lastReport": "2026-11-12T21:25:04.678Z",
+    "verifiedModels": 327,
     "incompleteModels": 6064,
     "pricesAutoUpdated": false
   }

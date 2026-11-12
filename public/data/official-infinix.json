@@ -1,1 +1,41 @@
-{}
+{
+  "open-infinix-infinix-hot-50": {
+    "screen": "6.78-inch IPS LCD",
+    "resolution": "1080 × 2460",
+    "refreshRate": "60 / 90 / 120 Hz",
+    "chip": "MediaTek Helio G100",
+    "ram": "6 / 8 GB (regional launch variants)",
+    "storage": "128 / 256 GB (regional launch variants)",
+    "camera": "50 MP main",
+    "selfie": "8 MP",
+    "battery": "5000 mAh (typical)",
+    "charging": "18 W",
+    "dimensions": "167.88 × 75.63 × 7.70 mm",
+    "weight": "187 g",
+    "os": "XOS 14.5, Android 14 at launch",
+    "sourceUrl": "https://wap.az.infinixmobility.com/specs/hot-50",
+    "verifiedSource": "Infinix official product specification page",
+    "dataQuality": "official-specifications-launch-reference",
+    "variantDetails": "Reference information from Infinix launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  },
+  "open-infinix-note-50": {
+    "screen": "6.78-inch AMOLED",
+    "resolution": "1080 × 2436",
+    "refreshRate": "Up to 144 Hz",
+    "chip": "MediaTek Helio G100 Ultimate",
+    "ram": "8 GB physical + 8 GB extended (regional)",
+    "storage": "256 GB (regional)",
+    "camera": "50 MP main OIS + 2 MP + light sensor",
+    "selfie": "13 MP",
+    "battery": "5200 mAh (typical)",
+    "charging": "Up to 45 W",
+    "weight": "199 g",
+    "dimensions": "163.26 × 74.43 × 7.55 mm",
+    "os": "XOS 15 at launch",
+    "ipRating": "IP64",
+    "sourceUrl": "https://wap.iq.infinixmobility.com/specs/note-50",
+    "verifiedSource": "Infinix official product specification page",
+    "dataQuality": "official-specifications-launch-reference",
+    "variantDetails": "Reference information from Infinix launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  }
+}

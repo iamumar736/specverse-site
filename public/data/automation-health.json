@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T20:13:26.169Z",
+  "generatedAt": "2026-11-12T21:25:04.678Z",
   "mode": "automatic",
   "catalog": {
     "total": 6795,
     "brands": 50,
-    "withManufacturerSources": 319,
+    "withManufacturerSources": 327,
     "withoutKnownTechnicalFields": 6064
   },
   "officialCoverage": {
@@ -23,12 +23,32 @@
     "Vivo": {
       "tracked": 362,
       "sourceVerified": 78
+    },
+    "Xiaomi": {
+      "tracked": 140,
+      "sourceVerified": 2
+    },
+    "Infinix": {
+      "tracked": 174,
+      "sourceVerified": 2
+    },
+    "Tecno": {
+      "tracked": 227,
+      "sourceVerified": 2
+    },
+    "Itel": {
+      "tracked": 180,
+      "sourceVerified": 2
     }
   },
   "manufacturerChecks": {
     "samsungMissing": 90,
     "oppoMissing": 239,
-    "vivoMissing": 284
+    "vivoMissing": 284,
+    "xiaomiMissing": 389,
+    "infinixMissing": 172,
+    "tecnoMissing": 225,
+    "itelMissing": 178
   },
   "lastCatalogCheck": "2026-11-12T20:13:25.957Z",
   "verifiedFeedConfigured": false,
