@@ -1,102 +1,469 @@
 {
+  "checkedAt": "2026-11-12T19:58:27.315Z",
   "total": 184,
   "verified": 94,
-  "unverified": [
-    "Galaxy A02: no matching official product URL",
-    "Galaxy A02s: no matching official product URL",
-    "Galaxy A10: no matching official product URL",
-    "Galaxy A10s: no matching official product URL",
-    "Galaxy A20: no matching official product URL",
-    "Galaxy A20e: no matching official product URL",
-    "Galaxy A20s: no matching official product URL",
-    "Galaxy A3 (2015): no matching official product URL",
-    "Galaxy A3 (2016): no matching official product URL",
-    "Galaxy A3 (2017): no matching official product URL",
-    "Galaxy A40: no matching official product URL",
-    "Galaxy A41: no matching official product URL",
-    "Galaxy A5 (2015): no matching official product URL",
-    "Galaxy A5 (2016): no matching official product URL",
-    "Galaxy A5 (2017): no matching official product URL",
-    "Galaxy A51 5G: no matching official product URL",
-    "Galaxy A6: no matching official product URL",
-    "Galaxy A60: no matching official product URL",
-    "Galaxy A7 (2015): no matching official product URL",
-    "Galaxy A7 (2016): no matching official product URL",
-    "Galaxy A7 (2017): no matching official product URL",
-    "Galaxy A7 (2018): no matching official product URL",
-    "Galaxy A70: no matching official product URL",
-    "Galaxy A71 5G: no matching official product URL",
-    "Galaxy A72: no matching official product URL",
-    "Galaxy A8 (2018): no matching official product URL",
-    "Galaxy A80: no matching official product URL",
-    "Galaxy A9 (2018): no matching official product URL",
-    "Galaxy A90 5G: no matching official product URL",
-    "Galaxy F12: no matching official product URL",
-    "Galaxy F22: no matching official product URL",
-    "Galaxy F23 5G: no matching official product URL",
-    "Galaxy F34 5G: no matching official product URL",
-    "Galaxy F54 5G: no matching official product URL",
-    "Galaxy F55 5G: no matching official product URL",
-    "Galaxy Fold: no matching official product URL",
-    "Galaxy J1: no matching official product URL",
-    "Galaxy J2: no matching official product URL",
-    "Galaxy J2 Prime: no matching official product URL",
-    "Galaxy J3: no matching official product URL",
-    "Galaxy J4: no matching official product URL",
-    "Galaxy J5: no matching official product URL",
-    "Galaxy J5 Prime: no matching official product URL",
-    "Galaxy J6: no matching official product URL",
-    "Galaxy J7: no matching official product URL",
-    "Galaxy J7 Prime: no matching official product URL",
-    "Galaxy J8: no matching official product URL",
-    "Galaxy M10: no matching official product URL",
-    "Galaxy M11: no matching official product URL",
-    "Galaxy M13: no matching official product URL",
-    "Galaxy M14 5G: no matching official product URL",
-    "Galaxy M20: source pages do not expose verified specs",
-    "Galaxy M21: no matching official product URL",
-    "Galaxy M22: no matching official product URL",
-    "Galaxy M23 5G: source pages do not expose verified specs",
-    "Galaxy M30: no matching official product URL",
-    "Galaxy M30s: no matching official product URL",
-    "Galaxy M31: no matching official product URL",
-    "Galaxy M31s: no matching official product URL",
-    "Galaxy M40: no matching official product URL",
-    "Galaxy M51: no matching official product URL",
-    "Galaxy M52 5G: no matching official product URL",
-    "Galaxy M62: no matching official product URL",
-    "Galaxy Note: no matching official product URL",
-    "Galaxy Note 3: no matching official product URL",
-    "Galaxy Note 4: no matching official product URL",
-    "Galaxy Note Edge: no matching official product URL",
-    "Galaxy Note II: no matching official product URL",
-    "Galaxy Note10: no matching official product URL",
-    "Galaxy Note10 Lite: no matching official product URL",
-    "Galaxy Note5: no matching official product URL",
-    "Galaxy Note7: no matching official product URL",
-    "Galaxy Note8: no matching official product URL",
-    "Galaxy Note9: no matching official product URL",
-    "Galaxy S: no matching official product URL",
-    "Galaxy S II: no matching official product URL",
-    "Galaxy S III: no matching official product URL",
-    "Galaxy S10 5G: no matching official product URL",
-    "Galaxy S10 Lite: no matching official product URL",
-    "Galaxy S21 FE: no matching official product URL",
-    "Galaxy S4: no matching official product URL",
-    "Galaxy S5: no matching official product URL",
-    "Galaxy S6: no matching official product URL",
-    "Galaxy S6 edge: no matching official product URL",
-    "Galaxy S7: no matching official product URL",
-    "Galaxy S7 edge: no matching official product URL",
-    "Galaxy S8: no matching official product URL",
-    "Galaxy S9: no matching official product URL",
-    "Galaxy Z Flip: source pages do not expose verified specs",
-    "Galaxy Z Flip 5G: no matching official product URL"
-  ],
-  "source": "Official Samsung country product pages and Samsung Newsroom",
-  "notes": "Source-specific regional/reference launch data. Coverage is incomplete; unknown fields are not fabricated.",
-  "checkedAt": "2026-11-13T00:00:00.000Z",
   "regionalOfficial": 73,
   "newsroomOfficial": 21,
-  "missing": 90
+  "missing": 90,
+  "unverified": [
+    {
+      "id": "samsung-galaxy-a02",
+      "name": "Galaxy A02",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a02s",
+      "name": "Galaxy A02s",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a10",
+      "name": "Galaxy A10",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a10s",
+      "name": "Galaxy A10s",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a20",
+      "name": "Galaxy A20",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a20e",
+      "name": "Galaxy A20e",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a20s",
+      "name": "Galaxy A20s",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a3-2015",
+      "name": "Galaxy A3 (2015)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a3-2016",
+      "name": "Galaxy A3 (2016)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a3-2017",
+      "name": "Galaxy A3 (2017)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a40",
+      "name": "Galaxy A40",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a41",
+      "name": "Galaxy A41",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a5-2015",
+      "name": "Galaxy A5 (2015)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a5-2016",
+      "name": "Galaxy A5 (2016)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a5-2017",
+      "name": "Galaxy A5 (2017)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a51-5g",
+      "name": "Galaxy A51 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a6",
+      "name": "Galaxy A6",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a60",
+      "name": "Galaxy A60",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a7-2015",
+      "name": "Galaxy A7 (2015)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a7-2016",
+      "name": "Galaxy A7 (2016)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a7-2017",
+      "name": "Galaxy A7 (2017)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a7-2018",
+      "name": "Galaxy A7 (2018)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a70",
+      "name": "Galaxy A70",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a71-5g",
+      "name": "Galaxy A71 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a72",
+      "name": "Galaxy A72",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a8-2018",
+      "name": "Galaxy A8 (2018)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a80",
+      "name": "Galaxy A80",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a9-2018",
+      "name": "Galaxy A9 (2018)",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-a90-5g",
+      "name": "Galaxy A90 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-f12",
+      "name": "Galaxy F12",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-f22",
+      "name": "Galaxy F22",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-f23-5g",
+      "name": "Galaxy F23 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-f34-5g",
+      "name": "Galaxy F34 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-f54-5g",
+      "name": "Galaxy F54 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-f55-5g",
+      "name": "Galaxy F55 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-fold",
+      "name": "Galaxy Fold",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j1",
+      "name": "Galaxy J1",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j2",
+      "name": "Galaxy J2",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j2-prime",
+      "name": "Galaxy J2 Prime",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j3",
+      "name": "Galaxy J3",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j4",
+      "name": "Galaxy J4",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j5",
+      "name": "Galaxy J5",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j5-prime",
+      "name": "Galaxy J5 Prime",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j6",
+      "name": "Galaxy J6",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j7",
+      "name": "Galaxy J7",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j7-prime",
+      "name": "Galaxy J7 Prime",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-j8",
+      "name": "Galaxy J8",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m10",
+      "name": "Galaxy M10",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m11",
+      "name": "Galaxy M11",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m13",
+      "name": "Galaxy M13",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m14-5g",
+      "name": "Galaxy M14 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m20",
+      "name": "Galaxy M20",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m21",
+      "name": "Galaxy M21",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m22",
+      "name": "Galaxy M22",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m23-5g",
+      "name": "Galaxy M23 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m30",
+      "name": "Galaxy M30",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m30s",
+      "name": "Galaxy M30s",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m31",
+      "name": "Galaxy M31",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m31s",
+      "name": "Galaxy M31s",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m40",
+      "name": "Galaxy M40",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m51",
+      "name": "Galaxy M51",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m52-5g",
+      "name": "Galaxy M52 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-m62",
+      "name": "Galaxy M62",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note",
+      "name": "Galaxy Note",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note-3",
+      "name": "Galaxy Note 3",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note-4",
+      "name": "Galaxy Note 4",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note-edge",
+      "name": "Galaxy Note Edge",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note-ii",
+      "name": "Galaxy Note II",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note10",
+      "name": "Galaxy Note10",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note10-lite",
+      "name": "Galaxy Note10 Lite",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note5",
+      "name": "Galaxy Note5",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note7",
+      "name": "Galaxy Note7",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note8",
+      "name": "Galaxy Note8",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-note9",
+      "name": "Galaxy Note9",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s",
+      "name": "Galaxy S",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s-ii",
+      "name": "Galaxy S II",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s-iii",
+      "name": "Galaxy S III",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s10-5g",
+      "name": "Galaxy S10 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s10-lite",
+      "name": "Galaxy S10 Lite",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s21-fe",
+      "name": "Galaxy S21 FE",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s4",
+      "name": "Galaxy S4",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s5",
+      "name": "Galaxy S5",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s6",
+      "name": "Galaxy S6",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s6-edge",
+      "name": "Galaxy S6 edge",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s7",
+      "name": "Galaxy S7",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s7-edge",
+      "name": "Galaxy S7 edge",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s8",
+      "name": "Galaxy S8",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-s9",
+      "name": "Galaxy S9",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-z-flip",
+      "name": "Galaxy Z Flip",
+      "reason": "No matching Samsung source with adequate technical fields"
+    },
+    {
+      "id": "samsung-galaxy-z-flip-5g",
+      "name": "Galaxy Z Flip 5G",
+      "reason": "No matching Samsung source with adequate technical fields"
+    }
+  ],
+  "source": "Exact-model Samsung country product pages and Samsung Newsroom archive",
+  "notes": "Full historical Samsung coverage is not guaranteed; unknown fields remain unavailable. Markets and SKU variants differ.",
+  "checkedThisRun": 24,
+  "newlyVerified": 0,
+  "regionsScanned": [
+    "pk",
+    "sg",
+    "uk"
+  ]
 }
