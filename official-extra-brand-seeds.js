@@ -181,7 +181,7 @@ export function materializeManufacturerSeeds(catalog){
   const out=Object.fromEntries(Object.keys(EXTRA_BRAND_FILES).map(b=>[b,{}]));
   for(const seed of EXTRA_BRAND_SEEDS){
     const matches=(catalog||[]).filter(p=>
-      p.brand?.toLowerCase()===seed.brand.toLowerCase()&&
+      (p.brand?.toLowerCase()===seed.brand.toLowerCase()||(seed.brand==='Xiaomi'&&['poco','redmi'].includes(p.brand?.toLowerCase())))&&
       exactBrandModelName(seed.brand,p.name)===exactBrandModelName(seed.brand,seed.name));
     // Exact one-model identity only: if catalog has ambiguous duplicate names,
     // do not guess which ID represents this launch reference.
