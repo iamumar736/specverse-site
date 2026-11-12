@@ -1,0 +1,32 @@
+name: Mobile Lighthouse performance audit
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Build app
+        run: npm run build
+      - name: Check startup transfer budget
+        run: npm run check:mobile-bundle
+      - name: Install Lighthouse CI auditing tool
+        run: npm install -g @lhci/cli@0.16.x
+      - name: Audit mobile homepage and games page
+        run: lhci autorun
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mobile-lighthouse-reports
+          path: lhci-results/
+          if-no-files-found: ignore

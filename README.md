@@ -87,3 +87,32 @@ To force a cycle, open GitHub → Actions → "Verify and animate real phone ima
 **Do not substitute AI-generated renders for source-verified product photos**;
 AI renders can be used as explicitly labeled artistic concepts, not as proof
 of a phone's true design.
+
+
+## Mobile performance and automatic audits
+
+SpecVerse now treats the optional Three.js hero as a progressive enhancement:
+- Low-bandwidth, save-data, low-memory, touch, and narrow-screen visitors get
+  the instant CSS device preview. They can explicitly press **View 3D** to load
+  the full interactive renderer, without blocking browsing or comparisons.
+- Three.js stops continuous rendering when the preview is offscreen, the browser
+  tab is hidden or reduced motion is requested.
+- GSAP entrance/ScrollTrigger animation modules are skipped on screens <=820px,
+  and mobile device imagery/ambient gradients avoid continuous animation.
+- Mobile touch targets are at least 44px and below-the-fold brand sections use
+  content visibility to avoid painting unseen cards.
+
+**Performance tooling** (development/CI only; adds no production JavaScript):
+- `npm run build && npm run check:mobile-bundle` checks the initial homepage
+  JavaScript/CSS gzip budget (180 KB) and confirms the 3D viewer stays
+  code-split. This is a transfer-size guardrail, not an observed network metric.
+- `.github/workflows/mobile-audit.yml` uses Google Lighthouse CI to measure
+  emulated mobile performance, accessibility, LCP and layout shifts for the
+  homepage and games page. Reports are uploaded to the GitHub Actions run.
+  Initial Lighthouse thresholds are advisory, not blockers, until a stable
+  baseline is established on real devices.
+
+Actual speed depends on Render caching, internet quality and phone hardware.
+Use PageSpeed Insights / Chrome DevTools on `specverse.it.com` after deploy
+for field measurements; passing a build budget is not a guarantee of a
+particular mobile Lighthouse score.

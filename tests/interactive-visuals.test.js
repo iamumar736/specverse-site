@@ -7,6 +7,7 @@ const app=read('src.jsx');
 const hero=read('HeroExperience.jsx');
 const scene=read('PhoneShowcase3D.jsx');
 const motion=read('CatalogMotion.jsx');
+const mobile=read('mobile-performance.js');
 const styles=read('style.css');
 const pkg=JSON.parse(read('package.json'));
 
@@ -21,8 +22,8 @@ test('interactive hero is integrated and 3D libraries match React 19',()=>{
 });
 
 test('3D animation preserves fallback and reduced-motion access',()=>{
-  assert.match(hero,/prefers-reduced-motion: reduce/);
-  assert.match(hero,/navigator\.connection\?\.saveData/);
+  assert.match(mobile,/prefers-reduced-motion: reduce/);
+  assert.match(mobile,/connection\?\.saveData/);
   assert.match(hero,/supportsWebGL\(\)/);
   assert.match(hero,/IntersectionObserver/);
   assert.match(hero,/hero-device rear/);
@@ -33,5 +34,5 @@ test('catalog scroll animations clean up and respect reduced-motion preferences'
   assert.match(app,/<CatalogMotion /);
   assert.match(motion,/ScrollTrigger/);
   assert.match(motion,/context\?\.revert\(\)/);
-  assert.match(motion,/prefers-reduced-motion: reduce/);
+  assert.match(motion,/shouldSkipScrollEffects\(getMobileCapabilities\(\)\)/);
 });

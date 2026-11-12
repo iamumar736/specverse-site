@@ -1,10 +1,11 @@
 import {useEffect} from 'react';
+import {getMobileCapabilities,shouldSkipScrollEffects} from './mobile-performance.js';
 
 // ScrollTrigger ships with GSAP. All animations are reverted when the catalog
 // changes or the user navigates, so no transforms linger on recycled cards.
 export default function CatalogMotion({active,revision}){
   useEffect(()=>{
-    if(!active||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+    if(!active||shouldSkipScrollEffects(getMobileCapabilities()))return;
     const container=document.getElementById('catalog');
     if(!container)return;
     let disposed=false;
