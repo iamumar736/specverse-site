@@ -10,6 +10,11 @@ on:
       - 'tests/**'
       - 'public/logos/**'
       - 'package.json'
+      - 'mobile-performance.js'
+      - 'HeroExperience.jsx'
+      - 'PhoneShowcase3D.jsx'
+      - 'CatalogMotion.jsx'
+      - 'scripts/check-mobile-bundle.mjs'
       - '.github/workflows/verify-site.yml'
   pull_request:
 jobs:
@@ -26,3 +31,5 @@ jobs:
         run: npm test
       - name: Build production site
         run: npm run build
+      - name: Guard mobile startup size
+        run: npm run check:mobile-bundle
