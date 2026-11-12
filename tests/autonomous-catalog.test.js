@@ -1,6 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
 import {hasUsableOfficialRecord,preserveOfficialSpecs,
   sourceIsOfficial,compareCoverage} from '../official-spec-preservation.js';
 
@@ -71,4 +73,17 @@ test('catalog loss safety and source quality monitoring are present on the homep
   assert.match(read('scripts/report-catalog-health.mjs'),/automation-health\.json/);
   assert.match(read('src.jsx'),/automatic-update-note/);
   assert.match(read('.github/workflows/daily-update.yml'),/report-catalog-health\.mjs/);
+});
+
+test('scheduled importer entrypoints all parse as valid JavaScript',()=>{
+  for(const file of [
+    'scripts/import-official-apple.mjs',
+    'scripts/import-official-oppo-vivo.mjs',
+    'scripts/report-catalog-health.mjs',
+    'scripts/update-data.mjs'
+  ]){
+    const target=fileURLToPath(new URL('../'+file,import.meta.url));
+    const run=spawnSync(process.execPath,['--check',target],{encoding:'utf8'});
+    assert.equal(run.status,0,file+': '+run.stderr);
+  }
 });
