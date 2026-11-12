@@ -10,7 +10,7 @@ const css=read('style.css');
 test('ambient background mounts behind the app and cannot intercept clicks',()=>{
   assert.match(app,/import AmbientBackground from '\.\/AmbientBackground\.jsx'/);
   assert.match(app,/className="skip-link"/);
-  assert.match(app,/<AmbientBackground floating=\{!page&&!showCompare\}\/><header>/);
+  assert.match(app,/<AmbientBackground floating=\{!page&&!showCompare\} motion=\{orbitMotion\}\/><header>/);
   assert.match(background,/aria-hidden="true"/);
   assert.match(css,/\.ambient-backdrop\s*\{[^}]*pointer-events:none/s);
   assert.match(css,/#root\s*\{[^}]*isolation:isolate/s);
