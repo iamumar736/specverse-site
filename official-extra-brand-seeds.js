@@ -166,7 +166,7 @@ export function exactBrandModelName(brand,name){
   const prefix=String(brand||'').toLowerCase();
   const trimmed=raw.startsWith(prefix+' ')?raw.slice(prefix.length+1):raw;
   // Keep REDMI, POCO, 4G/5G, Plus/Pro/Ultra tokens; variants cannot merge.
-  return trimmed.replace(/[^a-z0-9]+/g,'');
+  return trimmed.replace(/\+/g,'plus').replace(/[^a-z0-9]+/g,'');
 }
 export function manufacturerSeedRecord(seed){
   return {
