@@ -32,7 +32,7 @@ export default function HeroExperience(){
     return()=>observer.disconnect();
   },[]);
 
-  return <div ref={root} className={'hero-visual'+(ready?' hero-visual--3d-ready':'')}
+  return <div ref={root} className={'hero-visual'+(enabled?' hero-visual--interactive':'')+(ready?' hero-visual--3d-ready':'')}
     aria-label="Decorative 3D concept smartphone; drag to rotate when supported">
     <div className="glow"/>
     <div className="hero-device rear"><div className="lenses"><i/><i/><i/></div></div>
