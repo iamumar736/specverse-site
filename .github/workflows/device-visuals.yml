@@ -3,17 +3,10 @@ on:
   schedule:
     - cron: '40 5 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'device-image-verification.js'
-      - 'scripts/update-animated-device-visuals.mjs'
-      - 'DeviceVisuals.jsx'
-      - '.github/workflows/device-visuals.yml'
 permissions:
   contents: write
 concurrency:
-  group: specverse-device-visuals-main
+  group: specverse-data-publication
   cancel-in-progress: false
 jobs:
   verify-device-images:

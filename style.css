@@ -707,3 +707,10 @@ html[data-theme=light] .hero-3d-toggle{
 @media(prefers-reduced-motion:reduce){
   .hero-3d-toggle{transition:none!important}
 }
+
+
+/* Update health: compact and readable, not an exaggerated "live" indicator. */
+.automatic-update-note{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:12px;margin-top:8px}
+.automatic-update-note>a{color:#bcaeff;text-decoration:underline;text-underline-offset:2px}
+html[data-theme=light] .automatic-update-note>a{color:#5b46bf}
+.automatic-update-note>span{font-size:16px;line-height:1}

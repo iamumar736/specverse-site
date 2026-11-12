@@ -1,8 +1,10 @@
 import fs from 'node:fs/promises';
 import * as cheerio from 'cheerio';
+import {preserveOfficialSpecs} from '../official-spec-preservation.js';
 const root=new URL('../public/data/',import.meta.url);
 const catalog=JSON.parse(await fs.readFile(new URL('catalog.json',root),'utf8'));
 const known=catalog.filter(p=>p.brand==='Apple');
+const previous=JSON.parse(await fs.readFile(new URL('official-apple.json',root),'utf8').catch(()=>'{}'));
 const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]/g,'');
 const clean=s=>String(s||'').replace(/[\u200b\u00a0]/g,' ').replace(/\s+/g,' ').trim();
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
@@ -75,21 +77,42 @@ function parsePage(page,name){
 }
 const directory=await fetchApple('https://support.apple.com/en-us/108044');const $=cheerio.load(directory.html);const links=new Map();
 $('a').each((_,a)=>{const m=clean($(a).text()).match(/tech specs for\s+(iPhone.*)$/i);const href=$(a).attr('href');if(!m||!href)return;
- let name=m[1];if(/^iPhone SE$/i.test(name))name='iPhone SE (1st generation)';links.set(norm(name),new URL(href,'https://support.apple.com').toString());});
-const output={},failed=[];
-console.log('Catalog iPhones',known.length,'Apple tech-spec links',links.size);
-for(let i=0;i<known.length;i++){
- const phone=known[i],url=links.get(norm(phone.name));if(!url){failed.push(phone.name+' (no link)');continue;}
+ let name=m[1];if(/^iPhone SE$/i.test(name))name='iPhone SE (1st generation)';links.set(norm(name),{url:new URL(href,'https://support.apple.com').toString(),name});});
+const output={},failed=[],discoveredNew=[];
+const slug=s=>String(s).toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const named=new Set(known.map(p=>norm(p.name)));
+const newPhones=[...links.values()].filter(link=>!named.has(norm(link.name)))
+  .map(link=>({id:'apple-'+slug(link.name),name:link.name,brand:'Apple',newIdentity:true}));
+const selected=[...known,...newPhones];
+console.log('Catalog iPhones',known.length,'new official link candidates',newPhones.length,'Apple tech-spec links',links.size);
+for(let i=0;i<selected.length;i++){
+ const phone=selected[i],url=links.get(norm(phone.name))?.url;if(!url){failed.push(phone.name+' (no link)');continue;}
  try{
   const page=await fetchApple(url),doc=cheerio.load(page.html),title=clean(doc('title').first().text());
   if(!/(?:tech specs|technical specifications)/i.test(title))throw Error('Unexpected page title '+title);
   const pageModel=title.split(/\s*[-–]\s*(?:Tech Specs|Technical Specifications)/i)[0].trim();
   if(norm(pageModel)!==norm(phone.name)&&!(phone.name==='iPhone SE (1st generation)'&&norm(pageModel)==='iphonese'))throw Error('Model mismatch '+title);
   output[phone.id]=parsePage(page,phone.name);
-  console.log('Apple',i+1+'/'+known.length,phone.name,'fields',Object.keys(output[phone.id]).length);
+  if(phone.newIdentity)discoveredNew.push({
+    id:phone.id,name:phone.name,brand:'Apple',
+    ...output[phone.id],sourceName:'Apple Support',dataQuality:'official-specifications'
+  });
+  console.log('Apple',i+1+'/'+selected.length,phone.name,'fields',Object.keys(output[phone.id]).length);
  }catch(e){failed.push(phone.name+': '+e.message);console.warn('ERROR',phone.name,e.message)}
  await delay(750);
 }
-await fs.writeFile(new URL('official-apple.json',root),JSON.stringify(output,null,2)+'\n');
-console.log('Apple verified',Object.keys(output).length,'out of',known.length,'failures',JSON.stringify(failed));
-if(Object.keys(output).length<35)throw Error('Apple sources did not provide enough verified entries');
+const merged=preserveOfficialSpecs(previous,output,'Apple');
+if(Object.keys(merged).length<35)throw Error('Apple sources did not provide enough verified entries; preserving previous records');
+await fs.writeFile(new URL('official-apple.json',root),JSON.stringify(merged,null,2)+'\n');
+if(discoveredNew.length){
+  const discoveryFile=new URL('discovered.json',root);
+  const oldDiscovery=JSON.parse(await fs.readFile(discoveryFile,'utf8').catch(()=>'[]'));
+  const found=new Map(oldDiscovery.map(p=>[norm(p.brand)+'|'+norm(p.name),p]));
+  for(const p of discoveredNew){
+    const key=norm(p.brand)+'|'+norm(p.name);
+    if(!found.has(key))found.set(key,p);
+  }
+  await fs.writeFile(discoveryFile,JSON.stringify([...found.values()],null,2)+'\n');
+}
+console.log('Apple verified',Object.keys(merged).length,'of',known.length,
+  'new source-verified iPhone identities',discoveredNew.length,'failures',JSON.stringify(failed));

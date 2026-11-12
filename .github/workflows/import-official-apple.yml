@@ -1,17 +1,17 @@
 name: Import verified Apple iPhone technical specs
 on:
+  schedule:
+    - cron: '20 6 * * 1'
   workflow_dispatch:
-  push:
-    branches: [main, feature/official-iphone-specs-55-models]
-    paths:
-      - 'scripts/import-official-apple.mjs'
-      - '.github/workflows/import-official-apple.yml'
 permissions:
   contents: write
+concurrency:
+  group: specverse-data-publication
+  cancel-in-progress: false
 jobs:
   enrich:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 24
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,20 +21,9 @@ jobs:
           node-version: '22'
       - name: Install source parser
         run: npm install --no-save --no-audit --no-fund cheerio
-      - name: Fetch official iPhone technical specifications
+      - name: Import manufacturer specs and discover newly listed iPhones
         run: node scripts/import-official-apple.mjs
-      - name: Commit verified iPhone data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/official-apple.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Publish verified Apple specifications"
-            for attempt in 1 2 3 4; do
-              git fetch origin "$GITHUB_REF_NAME"
-              git rebase "origin/$GITHUB_REF_NAME"
-              if git push origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi
-              sleep $((attempt*3))
-            done
-            exit 1
-          fi
+      - name: Validate accepted model identities and provenance
+        run: node scripts/validate-catalog.mjs
+      - name: Publish source-verified iPhone updates
+        run: bash scripts/publish-data.sh 'Refresh Apple iPhone specifications and models' public/data/official-apple.json public/data/discovered.json
