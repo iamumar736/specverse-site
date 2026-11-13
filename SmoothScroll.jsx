@@ -12,7 +12,7 @@ export default function SmoothScroll({active}){
     let disposed=false;
     let lenis=null;
     let onScroll=null;
-    Promise.all([import('lenis'),import('gsap/ScrollTrigger')])
+    Promise.all([import('lenis'),import('gsap/ScrollTrigger'),import('lenis/dist/lenis.css')])
       .then(([lenisModule,{ScrollTrigger}])=>{
         if(disposed)return;
         const Lenis=lenisModule.default;
