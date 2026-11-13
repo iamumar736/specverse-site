@@ -4,6 +4,8 @@ import {
   Play,Search,ShieldCheck,Smartphone
 } from 'lucide-react';
 import HeroExperience from './HeroExperience.jsx';
+import SignalField from './SignalField.jsx';
+import DecisionFlow from './DecisionFlow.jsx';
 
 const PICKS=[
   {name:'Apple',className:'apple',description:'iPhone'},
@@ -14,7 +16,7 @@ const PICKS=[
 const format=value=>new Intl.NumberFormat('en-US').format(value);
 
 /** Clear editorial discovery; every count comes from the real phone catalog. */
-export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompare,motion=true,onMotionToggle}){
+export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompare,onComparePair,motion=true,onMotionToggle}){
   const counts=useMemo(()=>{
     const brands=new Map();
     for(const device of catalog){
@@ -26,7 +28,7 @@ export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompa
   return <>
     <section className="hero studio-hero" aria-labelledby="studio-hero-title">
       <div className="hero-copy studio-hero__copy">
-        <span className="studio-hero__eyebrow">A BETTER WAY TO CHOOSE</span>
+        <span className="studio-hero__eyebrow">A BETTER WAY TO CHOOSE <span className="relay-hero-live"><i aria-hidden="true"/> INTERACTIVE DISCOVERY</span></span>
         <h1 id="studio-hero-title">The right phone.<br/><span className="studio-gradient">A clearer decision.</span></h1>
         <p>Explore the details that matter, compare models side by side, and find a device that fits your needs.</p>
         <div className="studio-hero__actions">
@@ -48,6 +50,7 @@ export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompa
         </div>
       </div>
       <div className="studio-hero__stage">
+        <SignalField active={motion}/>
         <HeroExperience/>
         <div className="studio-stage-footer">
           <span>Interactive concept illustration</span>
@@ -60,6 +63,8 @@ export default function DiscoveryExperience({catalog=[],onBrowse,onBrand,onCompa
         </div>
       </div>
     </section>
+
+    <DecisionFlow catalog={catalog} onComparePair={onComparePair} onBrowse={onBrowse}/>
 
     <section className="studio-start studio-reveal" aria-labelledby="studio-start-heading">
       <div className="studio-start__head">

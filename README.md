@@ -355,3 +355,39 @@ crawlable, server-rendered product URLs. The sitemap lists only genuine HTML
 routes instead of inventing thousands of model URLs. To rank individual
 smartphone models on Google, add stable per-model URLs and crawlable product
 content first, then extend the sitemap with those real URLs.
+
+## Signal Edition — cinematic interactive phone discovery
+
+The homepage uses the **Relay-style motion/storytelling principles** from
+the user's reference video without copying that site's branding, source code
+or paid component assets. SpecVerse remains its own graphite-and-sage
+smartphone discovery platform.
+
+- **Original animated SVG signal lines** live inside the hero and workflow
+  overview. All decorative artwork is `aria-hidden`, `pointer-events:none`
+  and respects user settings and `prefers-reduced-motion`.
+- **The Decision Engine** lets visitors choose two actual catalog models,
+  shows their listed display, chipset and battery, flags missing data as
+  "Not listed", then opens the existing side-by-side comparison with those
+  exact model IDs selected.
+- **GSAP + ScrollTrigger** choreograph the hero and section entrances on
+  capable desktop devices. Both are dynamically imported, all effects are
+  restored/cleaned up on navigation, and content is visible when JavaScript
+  motion fails.
+- **Lenis** is dynamically imported on eligible desktop devices only,
+  with its recommended CSS, smooth wheel scrolling and ScrollTrigger
+  synchronization. It never replaces native touch scrolling, and is skipped
+  for reduced-motion/data-saving mobile scenarios.
+- Design composition draws on the modern animated component patterns seen
+  in **React Bits** and **21st.dev**. All layout and effect code here is
+  original and owned by the SpecVerse project; no marketplace component,
+  trademark or proprietary graphic is copied. The coding work is applied
+  through the GitHub integration rather than claiming to run a separate
+  Claude Code process.
+- Color contrast, keyboard focus, native `select` controls, a manually
+  pausable motion toggle, and small-screen single-column layouts are kept.
+
+The original product photo pipeline, device details, pricing source links,
+40-phone grid, daily imports, games and Google Search verification files
+remain intact. The homepage design is decorative; it does not imply any
+specific benchmark results or automatically guarantee a phone is "better".
