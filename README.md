@@ -306,3 +306,52 @@ interactive WebGL detail concept remains on demand.
 
 To add more variants, add an image to `public/concept-renders/` and update the
 variant logic in `concept-renders.js` with corresponding tests.
+
+
+## Google Search launch checklist
+
+The Google search-ready website has two public HTML entry points: the main
+smartphone catalog (`/`) and the optional mini games page (`/games/`).
+Their titles, descriptions, canonical URLs, Open Graph metadata and structured
+data are kept in `index.html` and `games/index.html`. Vite copies these
+crawler-facing files from `public/` into production:
+
+- `https://specverse.it.com/robots.txt`
+- `https://specverse.it.com/sitemap.xml`
+
+**First:** confirm your Render deployment serves `https://specverse.it.com/`
+publicly over HTTPS and that the sitemap and robots URLs above load with HTTP
+200, with no login, 404 or forwarding to an unrelated domain. The GitHub
+build succeeding is not proof that the live Render/DNS configuration works.
+
+**Then use Google Search Console:**
+
+1. Open <https://search.google.com/search-console> with the Google account
+   that should own this site.
+2. Add a **URL-prefix** property: `https://specverse.it.com/`. Using a
+   URL-prefix property allows a Google HTML tag or HTML file verification
+   method even if DNS editing is unavailable.
+3. Choose **HTML tag** under Google ownership verification and copy the
+   complete Google-generated `google-site-verification` meta tag. Insert
+   that exact tag into the `<head>` of `index.html` and deploy it. (You
+   can provide the generated tag to the repository maintainer to add it.)
+   Alternatively choose Google's file-upload method and put its *exact*
+   generated filename and contents into `public/`, then deploy.
+   Do **not** invent a token or use a token belonging to another account.
+4. In Search Console select **Verify**, then open **Sitemaps** and submit
+   `sitemap.xml` (full URL: `https://specverse.it.com/sitemap.xml`).
+5. Use **URL inspection** on `https://specverse.it.com/` and choose
+   **Request indexing** if Google reports it is not indexed. Check the Pages
+   and Sitemaps reports to monitor Googlebot's crawl status.
+
+A sitemap is a hint to Google and **does not guarantee indexing**, search
+ranking, immediate discovery or display. This repository cannot claim that
+Google verification or sitemap submission has happened until the site owner
+completes those authenticated Search Console steps.
+
+**Current scope:** SpecVerse currently runs a React SPA for phone details,
+filters and comparisons. Those screens do **not** yet have independent,
+crawlable, server-rendered product URLs. The sitemap lists only genuine HTML
+routes instead of inventing thousands of model URLs. To rank individual
+smartphone models on Google, add stable per-model URLs and crawlable product
+content first, then extend the sitemap with those real URLs.
