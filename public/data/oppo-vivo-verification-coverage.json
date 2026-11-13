@@ -248,7 +248,9 @@
       "https://www.oppo.com/en/sitemap.xml",
       "https://www.oppo.com/in/sitemap.xml",
       "https://www.oppo.com/id/sitemap.xml"
-    ]
+    ],
+    "checkedThisRun": 120,
+    "notes": "Regional variants; only source-verified fields are shown."
   },
   "Vivo": {
     "total": 362,
@@ -544,6 +546,8 @@
       "https://www.vivo.com/en/sitemap.xml",
       "https://www.vivo.com/in/sitemap.xml",
       "https://www.vivo.com/id/sitemap.xml"
-    ]
+    ],
+    "checkedThisRun": 120,
+    "notes": "Regional variants; only source-verified fields are shown."
   }
 }
