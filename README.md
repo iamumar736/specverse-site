@@ -276,3 +276,33 @@ specification variants can differ by Pakistan/international market. **Not all
 models have full verified specifications**, and hardware information missing
 from manufacturer sources is never fabricated. The workflow requires GitHub
 Actions to remain enabled and permission to push verified data to `main`.
+
+
+## Premium model-family concept renders
+
+When SpecVerse has no usable manufacturer or other source-attributed
+product photo for a device, it shows one of five **original AI-generated studio
+concept illustrations** stored in `public/concept-renders/`. The images are
+highly compressed WebP assets; the device information and actual sourced
+photographs are not modified.
+
+`concept-renders.js` chooses the illustration by general family rather than
+repeating the same purple phone for every model:
+
+- `island.webp` — a raised square/rectangular camera island
+- `rings.webp` — separated camera rings, such as Galaxy-style concepts
+- `visor.webp` — a horizontal camera bar, such as Pixel-style concepts
+- `fold.webp` — a book-style folding-device concept
+- `dual.webp` — a slim two-camera concept for entry and midrange families
+
+These are **editorial placeholders, not verified images of the exact device**.
+Actual colors, camera counts, camera positions, frames, and physical dimensions
+can differ from a model's illustration. The model name remains clearly visible
+and the card displays `Studio illustration`; the fallback also has an
+accessible description. Source-backed photos are still displayed first. If a
+studio illustration fails to load, the previous CSS-rendered fallback remains
+available. No 3D engine is loaded for the 40-card grid; the separate optional
+interactive WebGL detail concept remains on demand.
+
+To add more variants, add an image to `public/concept-renders/` and update the
+variant logic in `concept-renders.js` with corresponding tests.

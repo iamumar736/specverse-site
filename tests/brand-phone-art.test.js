@@ -34,7 +34,8 @@ test('unavailable product photos render original modern art with model label and
   const app=read('src.jsx');
   assert.match(card,/role="img"/);
   assert.match(card,/actual device appearance not verified/);
-  assert.match(card,/Illustration/);
+  assert.match(card,/Studio illustration/);
+  assert.match(card,/studio-concept-art__image/);
   assert.match(card,/modern-phone-art__model/);
   assert.match(card,/modern-phone-art__camera-group/);
   assert.match(app,/import PhonePlaceholderArt from '\.\/PhonePlaceholderArt\.jsx'/);
