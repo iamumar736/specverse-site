@@ -17,7 +17,7 @@ test('AdSense owner-provided code is correctly installed once in each real HTML 
     assert.ok(!html.includes('data-ad-slot="0000000"'),'Do not publish fake ad units');
   }
 });
-test('public ads.txt lists only the user's AdSense seller account',()=>{
+test('public ads.txt lists only the owner AdSense seller account',()=>{
   assert.equal(read('public/ads.txt'),
     'google.com, pub-1196332171109259, DIRECT, f08c47fec0942fa0\n');
 });
