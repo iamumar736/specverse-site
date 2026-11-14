@@ -10125,7 +10125,7 @@
     "jack": "3.5mm",
     "gps": "Built-in GPS, A-GPS, BeiDou, GLONASS, and Galileo positioning systems",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.002Z",
+    "verifiedAt": "2026-11-13T07:19:50.378Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -10164,7 +10164,7 @@
     "jack": "3.5mm",
     "gps": "Built-in GPS, A-GPS, BeiDou, GLONASS, and Galileo positioning systems",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.230Z",
+    "verifiedAt": "2026-11-13T07:19:50.833Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -10202,7 +10202,7 @@
     "jack": "3.5mm",
     "gps": "Beidou: B11; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.559Z",
+    "verifiedAt": "2026-11-13T07:19:52.480Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -10600,14 +10600,14 @@
     "brand": "OPPO",
     "name": "A3",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a3/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a3/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph1837, cph2669, padm00, padt00",
     "dimensions": "about 165.77mm × about 76.08mm × about 7.68mm",
     "weight": "about 186g",
     "storage": "128 GB (regional configuration)",
-    "ram": "6 GB (regional configuration)",
+    "ram": "4 GB (regional configuration)",
     "ramType": "LPDDR4X@2133MHz, 2 × 16 bits",
     "storageType": "eMMC 5.1",
     "cardSlot": "Supported",
@@ -10620,21 +10620,21 @@
     "cpu": "8 cores",
     "gpu": "Adreno 610@1050MHz",
     "battery": "Typical value: 5100mAh/19.95WhRated value: 4970mAh/19.44Wh",
-    "charging": "SUPERVOOCTM 2.0, 45W (11V/4.1A)",
+    "charging": "SUPERVOOCTM 2.0, 45W (11V/4.1A), PPS, 45W (11V/4.1A) (only supported for EU)",
     "camera": "Main camera: 50MP; f/1.8; FOV 76°; 5P lens; AF; open-loop focus motor",
     "selfie": "5MP; f/2.2, FOV 78°; 3P lens; FF",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM Card/Nano-USIM Card",
-    "bands": "GSM: 850/900/1800MHzWCDMA: Bands 1/5/8LTE FDD: Bands 1/3/5/7/8/20/28LTE TDD: Bands 38/40/41",
+    "bands": "[Version 1]GSM: 850/900/1800MHzWCDMA: Bands 1/5/8LTE FDD: Bands 1/3/5/7/8/20/28LTE TDD: Bands 38/40/41[Version 2]GSM: 900/1800MHzWCDMA: Bands 1/8LTE FDD: Bands 1/3/7/8/20/28LTE TDD: Bands 38/40/41[Version 3]GSM: 900/1800MHzWCDMA: 900/2100MHzLTE FDD: 700/900/1800/2100/2600MHzLTE TDD: 2570-2620/2500-2690MHz[Version 4]GSM: 850/900/1800/1900MHzWCDMA: Bands 1/5/8LTE FDD: Bands 1/3/5/7/8/20/28LTE TDD: Bands 38/40/41[Version 5]GSM: 900/1800MHzWCDMA: 900/2100MHzLTE FDD: Bands 1/3/5/8LTE TDD: Band 40[Version 6]GSM: 850/900/1800/1900MHzWCDMA: Bands 1/2/4/5/6/8/19LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/26/28/66LTE TDD: Bands 38/40/41",
     "wifi": "Wi-Fi 5 (802.11ac), 802.11a/b/g/nWLAN 2.4G/WLAN 5GWLAN DisplayWLAN network tetheringWi-Fi 5GHz 80MHz",
     "bluetooth": "Bluetooth® 5.0, BLE",
     "usb": "USB Type-C",
     "jack": "3.5mm",
-    "nfc": "Not supported",
+    "nfc": "Supported",
     "gps": "BeiDou, GPS, GLONASS, Galileo, and QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:26.041Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:19:50.903Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-alcatel-a3-10",
@@ -10684,7 +10684,7 @@
     "nfc": "Supported",
     "gps": "BeiDou: B1I; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.311Z",
+    "verifiedAt": "2026-11-13T07:19:50.931Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -10745,7 +10745,7 @@
     "nfc": "Supported",
     "gps": "BeiDou: B1I; GPS: L1; GLONASS: G1; Galileo: E1 ; QZSS: L1",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.576Z",
+    "verifiedAt": "2026-11-13T07:19:50.876Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -11335,7 +11335,7 @@
     "nfc": "Supported",
     "gps": "Beidou: B11; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.647Z",
+    "verifiedAt": "2026-11-13T07:19:52.789Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -11543,7 +11543,7 @@
     "brand": "OPPO",
     "name": "A3x",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a3x/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a3x/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2641",
@@ -11563,20 +11563,20 @@
     "cpu": "8 cores",
     "gpu": "Adreno 610@1050MHz",
     "battery": "Typical value: 5100mAh/19.95WhRated value: 4970mAh/19.44Wh",
-    "charging": "SUPERVOOCTM 2.0, 45W(11V/4.1A)",
+    "charging": "SUPERVOOCTM 2.0, 45W(11V/4.1A), PPS, 45W(11V/4.1A) (only supported for EU)",
     "camera": "Main camera: 8MP; f/2; FOV 78°; 4P lens; AF; open-loop focus motor",
     "selfie": "5MP; f/2.2, FOV 78°; 3P lens; FF",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM Card/Nano-USIM Card",
-    "bands": "GSM: 850/900/1800MHzWCDMA: Bands 1/5/8LTE FDD: Bands 1/3/5/8LTE TDD: Bands 38/40/41",
+    "bands": "[Version 1]GSM: 850/900/1800MHzWCDMA: Bands 1/5/8LTE FDD: Bands 1/3/5/8LTE TDD: Bands 38/40/41[Version 2]GSM: 900/1800MHzWCDMA: 900/2100MHzLTE FDD: Bands 1/3/5/8LTE TDD: Band 40[Version 3]GSM: 850/900/1800MHzWCDMA: Bands 1/5/8LTE FDD: Bands 1/3/5/7/8/20/28LTE TDD: Bands 38/40/41[Version 4]GSM: 900/1800MHzWCDMA: Bands 1/8LTE FDD: Bands 1/3/7/8/20/28LTE TDD: Bands 38/40/41[Version 5]GSM: 900/1800MHzWCDMA: 900/2100MHzLTE FDD: 700/900/1800/2100/2600MHzLTE TDD: 2570-2620/2500-2690MHz[Version 6]GSM: 850/900/1800/1900MHzWCDMA: Bands 1/2/4/5/6/8/19LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/26/28/66LTE TDD: Bands 38/40/41",
     "wifi": "Wi-Fi 5 (802.11ac), 802.11a/b/g/nWLAN 2.4G/WLAN 5GWLAN DisplayWLAN network tetheringWi-Fi 5GHz 80MHz",
     "bluetooth": "Bluetooth® 5.0, BLE",
     "usb": "USB Type-C",
     "jack": "3.5mm",
     "gps": "BeiDou, GPS, GLONASS, Galileo, and QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:26.021Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:19:53.806Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a3x-5g",
@@ -11743,7 +11743,7 @@
     "brand": "OPPO",
     "name": "A5",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a5/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a5/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph1809, pbam00, pbat00, pbbm30, pbbt30",
@@ -11768,16 +11768,16 @@
     "selfie": "5MP, f/2.2, FOV 77°, 3P lens",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card",
-    "bands": "GSM: 850/900/1800/1900MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41",
+    "bands": "[Version 1]GSM: 850/900/1800/1900MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41[Version 2]2G GSM: 900/1800MHz3G WCDMA: 900/2100MHz4G LTE FDD: Band 1/3/5/84G LTE TDD: Band 40 [Version 3] GSM: 850/900/1800MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/7/8/20/28 LTE TDD: Band 38/40/41 [Version 4] GSM: 900/1800MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/7/8/20/28 LTE TDD: Band 38/40/41 [Version 5] GSM: 850/900/1800/1900MHz WCDMA: Band 1/2/4/5/6/8/19 LTE FDD: Band 1/2/3/4/5/7/8/12/13/17/18/19/26/28/66 LTE TDD: Band 38/40/41",
     "wifi": "Wi-Fi 2.4G, Wi-Fi 5G, Wi-Fi 5 (802.11ac), 802.11b/g/a/nWLAN 2.4G, WLAN 5G, WLAN Display, WLAN tetheringWi-Fi 2.4GHz 20M, Wi-Fi 2.4GHz 40MWi-Fi 5GHz 20M, Wi-Fi 5GHz 40M, Wi-Fi 5GHz 80M1 x 1 SISO",
     "bluetooth": "Bluetooth® 5.0, Low Energy",
     "usb": "USB Type-C",
     "jack": "3.5mm jack",
     "nfc": "supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.753Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:19:54.295Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a5-2020",
@@ -11794,13 +11794,13 @@
     "brand": "OPPO",
     "name": "A5 Pro",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a5-pro/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a5-pro/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2711",
     "dimensions": "about 164.82mm × about 75.53mm × about 7.76mm (Mocha Brown)about 7.86mm (Olive Green)",
     "weight": "about 194g (Mocha Brown)about 195g (Olive Green)",
-    "storage": "256 GB (regional configuration)",
+    "storage": "128 GB (regional configuration)",
     "ram": "8 GB (regional configuration)",
     "ramType": "LPDDR4X",
     "storageType": "UFS 2.1",
@@ -11819,16 +11819,16 @@
     "selfie": "8 MP, f/2.0, FOV 80°; 4P lens",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card",
-    "bands": "2G GSM: 850/900/1800MHz3G WCDMA: Bands 1/5/84G LTE FDD: Bands 1/3/5/7/8/20/284G LTE TDD: Bands 38/40/41",
+    "bands": "[Version 1]2G GSM: 850/900/1800/1900MHz3G WCDMA: Bands 1/5/84G LTE FDD: Bands 1/3/5/7/8/20/284G LTE TDD: Bands 38/40/41[Version 2]2G GSM: 900/18003G WCDMA: Bands 1/5/84G LTE FDD: Bands 1/3/5/7/8/20/284G LTE TDD: Bands 38/40/41[Version 3]2G GSM: 900/1800MHz3G WCDMA: 900/2100MHz4G LTE FDD: Bands 1/3/5/84G LTE TDD: Band 40",
     "wifi": "Wi-Fi 2.4G, Wi-Fi 5G, Wi-Fi 5 (802.11ac), 802.11b/g/a/n WLAN Display, WLAN tethering Wi-Fi 2.4GHz 20M, Wi-Fi 2.4GHz 40M Wi-Fi 5GHz 20M, Wi-Fi 5GHz 40M, Wi-Fi 5GHz 80M",
     "bluetooth": "Bluetooth® 5.0, Low Energy",
     "usb": "USB Type-C",
     "jack": "Type-C",
-    "nfc": "Not supported",
+    "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.305Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:19:54.152Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a5-pro-5g",
@@ -11868,7 +11868,7 @@
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:32.851Z",
+    "verifiedAt": "2026-11-13T07:19:52.919Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -12329,7 +12329,7 @@
     "nfc": "Supports HCE and UICCMulti-function NFC: HCE and NFC-SIM",
     "gps": "GPS, BDS, GLONASS, Galileo, and QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:30.867Z",
+    "verifiedAt": "2026-11-13T07:19:55.633Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -12389,7 +12389,7 @@
     "nfc": "Supported",
     "gps": "Beidou: B11; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.253Z",
+    "verifiedAt": "2026-11-13T07:19:55.881Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -12520,7 +12520,7 @@
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:33.445Z",
+    "verifiedAt": "2026-11-13T07:19:55.914Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -12561,7 +12561,7 @@
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:33.402Z",
+    "verifiedAt": "2026-11-13T07:19:57.123Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -12579,7 +12579,7 @@
     "brand": "OPPO",
     "name": "A5x",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a5x/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a5x/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2725",
@@ -12604,30 +12604,30 @@
     "selfie": "5MP, f/2.2, FOV 77°, 3P lens",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card",
-    "bands": "GSM: 850/900/1800MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41",
+    "bands": "[Version 1]GSM: 850/900/1800MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41[Version 2]GSM: 900/1800MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41 [Version 3] GSM: 850/900/1800/1900MHz WCDMA: Band 1/2/4/5/6/8/19 LTE FDD: Band 1/2/3/4/5/7/8/12/13/17/18/19/26/28/66 LTE TDD: Band 38/40/41 [Version 4] GSM: 850/900/1800/1900MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/7/8/20/28 LTE TDD: Band 38/40/41 [Version 5] GSM: 850/900/1800MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/8 LTE TDD: Band 38/40/41 [Version 6] 2G GSM: 900/1800MHz 3G WCDMA: 900/2100MHz 4G LTE FDD: Band 1/3/5/8 4G LTE TDD: Band 40",
     "wifi": "Wi-Fi 2.4G, Wi-Fi 5G, Wi-Fi 5 (802.11ac), 802.11b/g/a/n WLAN 2.4G, WLAN 5G, WLAN Display, WLAN tethering Wi-Fi 2.4GHz 20M, Wi-Fi 2.4GHz 40M Wi-Fi 5GHz 20M, Wi-Fi 5GHz 40M, Wi-Fi 5GHz 80M 1 x 1 SISO",
     "bluetooth": "Bluetooth® 5.0, Low Energy",
     "usb": "USB Type-C",
     "jack": "3.5mm jack",
     "nfc": "Unsupported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.731Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:19:55.941Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a6",
     "brand": "OPPO",
     "name": "A6",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a6/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a6/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2817",
     "dimensions": "about 166.61mm × about 78.51mm × about 8.61mm",
     "weight": "about 215g",
-    "storage": "128 GB (regional configuration)",
-    "ram": "8 GB (regional configuration)",
+    "storage": "256 GB (regional configuration)",
+    "ram": "4 GB (regional configuration)",
     "ramType": "LPDDR4X",
     "storageType": "UFS 2.2",
     "cardSlot": "Supported",
@@ -12640,21 +12640,21 @@
     "cpu": "8 cores",
     "gpu": "Adreno™ 610@1.26GHz",
     "battery": "7000mAh/27.44Wh (Typical) 6830mAh/26.78Wh (Rated)",
-    "charging": "Supports (Max): 45W SUPERVOOCTMCompatible with: 33W and below SUPERVOOCTM, 33W PPS, 15W VOOCTM, 13.5W PD, 13.5W QC",
+    "charging": "Supports (Max): 45W SUPERVOOCTMCompatible with: 33W and below SUPERVOOCTM, 33W PPS, 15W VOOCTM, 13.5W PD",
     "camera": "Wide angle: 50MP; f/1.8; FOV 76°; 5P lens; AF supported Monochrome: 2MP; f/2.4; FOV 89°; 3P lens",
     "selfie": "8MP; f/2.0; FOV 80°; 4P lens",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card, Nano-USIM card",
-    "bands": "GSM: 850/900/1800MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41",
+    "bands": "[Version 1] GSM: 850/900/1800/1900MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/7/8/20/28 LTE TDD: Band 38/40/41 [Version 2] GSM: 900/1800MHz WCDMA: 900/2100MHz LTE FDD: Band 1/3/5/8 LTE TDD: Band 40",
     "wifi": "Wi-Fi 5 (802.11ac) supported 802.11a/b/g/n supported Wi-Fi Display supported WLAN Tethering supported",
     "bluetooth": "Bluetooth® 5.0, Low Energy",
     "usb": "Type-C",
     "jack": "Type-C",
-    "nfc": "Unsupported",
+    "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:28.118Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:19:57.443Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a6-5g",
@@ -12694,7 +12694,7 @@
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:34.102Z",
+    "verifiedAt": "2026-11-13T07:19:58.698Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -12702,7 +12702,7 @@
     "brand": "OPPO",
     "name": "A6 Pro",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a6-pro/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a6-pro/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2799",
@@ -12727,16 +12727,16 @@
     "selfie": "16MP; f/2.4; FOV 85°; 4P lens",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card",
-    "bands": "GSM: 850/900/1800/1900MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41",
+    "bands": "[Version 1] GSM: 850/900/1800/1900MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/7/8/20/28 LTE TDD: Band 38/40/41 [Version 2] GSM: 900/1800MHz WCDMA: 900/2100MHz LTE FDD: Band 1/3/5/8 LTE TDD: Band 40",
     "wifi": "Wi-Fi 5 (802.11ac) Supported 802.11a/b/g/n Supported Wi-Fi Display Supported WLAN Tethering Supported 1 × 1 SISO Supported",
     "bluetooth": "Bluetooth® 5.4, Low Energy",
     "usb": "USB Type-C",
     "jack": "Type-C headphones: supported Type-C digital headphones & Type-C analog headphones",
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.711Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:19:57.498Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a60",
@@ -12776,7 +12776,7 @@
     "nfc": "Supported",
     "gps": "BeiDou: B1I; GPS: L1; GLONASS: G1; Galileo: E1a ; QZSS: L1",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:28.695Z",
+    "verifiedAt": "2026-11-13T07:19:57.409Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -13034,7 +13034,7 @@
     "brand": "OPPO",
     "name": "A6c",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a6c/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a6c/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2895, pmc110",
@@ -13059,30 +13059,30 @@
     "selfie": "5MP; f/2.2; FOV 77°; 3P lens",
     "biometrics": "Side fingerprint; Supported",
     "sim": "Nano-SIM card, Nano-USIM card",
-    "bands": "GSM: 850/900/1800MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41",
+    "bands": "[Version 1] GSM: 850/900/1800MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/7/8/20/28 LTE TDD: Band 38/40/41 [Version 2] GSM: 900/1800MHz WCDMA: Band 900/2100MHz LTE FDD: Band 1/3/5/8 LTE TDD: Band 40",
     "wifi": "Wi-Fi 5 (802.11ac) supported 802.11a/b/g/n supported Wi-Fi Display supported WLAN Tethering supported",
     "bluetooth": "Bluetooth® 5.2, Low Energy",
     "usb": "USB Type-C",
     "jack": "3.5 mm jack",
     "nfc": "Unsupported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:28.399Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:19:59.375Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a6k",
     "brand": "OPPO",
     "name": "A6k",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a6k/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a6k/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2891",
     "dimensions": "about 166.61mm × about 78.51mm × about 8.61mm",
     "weight": "about 210g",
     "storage": "128 GB (regional configuration)",
-    "ram": "6 GB (regional configuration)",
+    "ram": "4 GB (regional configuration)",
     "ramType": "LPDDR4X",
     "storageType": "UFS 2.2",
     "cardSlot": "Supported",
@@ -13106,22 +13106,22 @@
     "jack": "3.5mm jack",
     "nfc": "Unsupported",
     "gps": "GPS, GLONASS, BDS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:28.383Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:00.336Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a6s",
     "brand": "OPPO",
     "name": "A6s",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a6s/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a6s/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2815",
     "dimensions": "about 166.61mm × about 78.51mm × about 8.61mm",
     "weight": "about 215g",
-    "storage": "256 GB (regional configuration)",
+    "storage": "128 GB (regional configuration)",
     "ram": "8 GB (regional configuration)",
     "ramType": "LPDDR4X",
     "storageType": "UFS 2.2",
@@ -13140,16 +13140,16 @@
     "selfie": "16MP; f/2.4; FOV 85°; 4P lens",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card, Nano-USIM card",
-    "bands": "GSM: 850/900/1800/1900MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41",
+    "bands": "[Version 1] GSM: 850/900/1800/1900MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/7/8/20/28 LTE TDD: Band 38/40/41 [Version 2] GSM: 900/1800MHz WCDMA: 900/2100MHz LTE FDD: Band 1/3/5/8 LTE TDD: Band 40",
     "wifi": "Wi-Fi 5 (802.11ac) supported 802.11a/b/g/n supported Wi-Fi Display supported WLAN Tethering supported",
     "bluetooth": "Bluetooth® 5.0, Low Energy",
     "usb": "Type-C",
     "jack": "Type-C",
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:28.344Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:00.228Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a6s-5g",
@@ -13189,7 +13189,7 @@
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:34.710Z",
+    "verifiedAt": "2026-11-13T07:19:59.175Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -13239,7 +13239,7 @@
     "nfc": "Unsupported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:34.143Z",
+    "verifiedAt": "2026-11-13T07:20:00.819Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -13280,7 +13280,7 @@
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:34.414Z",
+    "verifiedAt": "2026-11-13T07:20:00.535Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -13321,7 +13321,7 @@
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:34.126Z",
+    "verifiedAt": "2026-11-13T07:20:02.075Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -13362,7 +13362,7 @@
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:34.438Z",
+    "verifiedAt": "2026-11-13T07:20:01.242Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -13370,7 +13370,7 @@
     "brand": "OPPO",
     "name": "A6x",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a6x/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a6x/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2819",
@@ -13395,16 +13395,16 @@
     "selfie": "5MP; f/2.2; FOV 77°; 3P lens",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card, Nano-USIM card",
-    "bands": "GSM: 850/900/1800MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/8LTE TDD: Band 38/40/41",
+    "bands": "GSM: 850/900/1800MHzWCDMA: Band 1/5/8LTE FDD: Band 1/3/5/7/8/20/28LTE TDD: Band 38/40/41",
     "wifi": "Wi-Fi 5 (802.11ac) supported 802.11a/b/g/n supported Wi-Fi Display supported WLAN Tethering supported",
     "bluetooth": "Bluetooth® 5.0, Low Energy",
     "usb": "Type-C",
     "jack": "3.5mm jack",
     "nfc": "Unsupported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:28.037Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:01.148Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-a6x-5g",
@@ -13444,7 +13444,7 @@
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:34.061Z",
+    "verifiedAt": "2026-11-13T07:20:00.854Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -13515,7 +13515,7 @@
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:35.025Z",
+    "verifiedAt": "2026-11-13T07:20:02.328Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -13556,7 +13556,7 @@
     "nfc": "Supported",
     "gps": "GPS, GLONASS, BDS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:35.401Z",
+    "verifiedAt": "2026-11-13T07:20:02.451Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -13951,7 +13951,7 @@
     "nfc": "Multi-functional NFC: HCE, NFC-SIM",
     "gps": "GPS, A-GPS, BeiDou, GLONASS, GALILEO and QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:30.215Z",
+    "verifiedAt": "2026-11-13T07:20:02.352Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -14022,7 +14022,7 @@
     "nfc": "Supported",
     "gps": "Beidou: B1I + B1C + B2a; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.924Z",
+    "verifiedAt": "2026-11-13T07:20:03.016Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -14063,7 +14063,7 @@
     "nfc": "Supported",
     "gps": "Built-in GPS, A-GPS, BeiDou, GLONASS, GALILEO and QZSS positioning systems",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.295Z",
+    "verifiedAt": "2026-11-13T07:20:02.955Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -14144,7 +14144,7 @@
     "nfc": "Supported",
     "gps": "Beidou: B11; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:31.475Z",
+    "verifiedAt": "2026-11-13T07:20:02.926Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -14765,7 +14765,7 @@
     "nfc": "Supported",
     "gps": "Beidou: B1I; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1 are supported",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.274Z",
+    "verifiedAt": "2026-11-13T07:20:03.803Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -25503,7 +25503,7 @@
     "nfc": "Supported",
     "gps": "BeiDou, GPS, GLONASS, Galileo, QZSS, NavIC",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:29.537Z",
+    "verifiedAt": "2026-11-13T07:20:03.995Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -25542,7 +25542,7 @@
     "nfc": "Supported",
     "gps": "Beidou: B1I + B1C + B2a; GPS: L1 + L5; GLONASS: G1; Galileo: E1 + E5a; QZSS: L1 + L5",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:31.746Z",
+    "verifiedAt": "2026-11-13T07:20:03.753Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -25581,7 +25581,7 @@
     "nfc": "Supported",
     "gps": "GPS: L1 + L5, GLONASS: L1, BDS: B1I + B1C + B2a + B2b, Galileo: E1 + E5a + E5b, QZSS: L1 + L5",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:31.402Z",
+    "verifiedAt": "2026-11-13T07:20:03.724Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -25589,7 +25589,7 @@
     "brand": "OPPO",
     "name": "Find N5",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-find-n/find-n5/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-find-n/find-n5/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2671, pkh110, pkh120",
@@ -25603,7 +25603,7 @@
     "refreshRate": "Maximum: 120Hz",
     "brightness": "Inner screen: Normal brightness: 600nits (Typical)Peak brightness: 2100nits (Typical, 1% APL) HBM: 1400nits (Typical) Cover screen: Normal brightness: 600nits (Typical) Peak brightness: 2450nits (Typical, 1% APL) HBM: 1600nits (Typical)",
     "pixelDensity": "Inner screen: 412 PPI Cover screen: 431 PPI",
-    "chip": "Qualcomm Snapdragon®️ 8 Elite Mobile Platform",
+    "chip": "Qualcomm Snapdragon® 8 Elite Mobile Platform",
     "cpu": "7 cores",
     "gpu": "Adreno™ 830@1100MHz",
     "battery": "5600mAh (Typical) 5475mAh (Rated)",
@@ -25611,17 +25611,17 @@
     "camera": "Wide angle: 50MP; f/1.8; FOV 89°; 7P lens; AF supported; EIS supported; 2-axis OIS supported Telephoto: 50MP; f/2.7; 4P lens; AF supported; 2-axis OIS supported; Ultra-wide angle: 8MP; f/2.2; FOV 116°; 5P lens; AF supported; 2-axis OIS supported",
     "selfie": "Inner screen: 8MP; f/2.4; FOV 91°; 4P lens Cover screen: 8MP; f/2.4; FOV 91°; 4P lens",
     "biometrics": "Supported; Supported",
-    "sim": "Nano-SIM card/Nano-USIM card + eSIM",
-    "bands": "GSM: 850/900/1800/1900MHz WCDMA: Bands 1/2/4/5/6/8/19 LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/66 LTE TDD: Bands 38/39/40/41/42 5G: n1/n2/n3/n5/n7/n8/n12/n20/n25/n26/n28/n38/n40/n41/n66/n77/n78",
+    "sim": "Nano-SIM card/Nano-USIM card",
+    "bands": "[Version 1]GSM: 850/900/1800/1900MHzWCDMA: Bands 1/2/4/5/6/8/19LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/25/26/28/66LTE TDD: Bands 38/39/40/41/425G: n1/n2/n3/n5/n7/n8/n12/n20/n25/n26/n28/n38/n40/n41/n66/n77/n78[Version 2]2G GSM: 900/1800MHz3G WCDMA: 900/2100MHz4G LTE FDD: Bands 1/3/5/84G LTE TDD: Band 405G NR: n1/n3/n5/n8/n40",
     "wifi": "Wi-Fi 7 (802.11be), Wi-Fi 6 (802.11ax), Wi-Fi 5 (802.11ac), 802.11a/b/g/n WLAN display supported; WLAN network sharing supported Wi-Fi 2.4GHz 2 x 2 + Wi-Fi 5GHz 2 x 2 supported Wi-Fi 5GHz 160MHz, Wi-Fi 6GHz 320MHz supported 2 × 2 MIMO supported, MU-MIMO",
     "bluetooth": "Bluetooth® 5.4, Low Energy",
     "usb": "USB Type-C, USB 3.1 Gen 2",
     "jack": "USB Type-C",
     "nfc": "Supported",
     "gps": "Dual band: GPS (L1 + L5), GLONASS (G1), BDS (B1I + B1C + B2a), Galileo (E1 + E5a), QZSS (L1 + L5)",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.347Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:04.306Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-find-n6",
@@ -25660,7 +25660,7 @@
     "nfc": "Supported",
     "gps": "BDS(B1I+B1C+B2a), GPS(L1+L5), GLONASS(G1), Galileo(E1+E5a), QZSS(L1+L5), NavIC(L5)",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:34.754Z",
+    "verifiedAt": "2026-11-13T07:20:04.451Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -25711,7 +25711,7 @@
     "nfc": "Supported",
     "gps": "GPS(L1+L5), GLONASS(G1), BDS(B1I+B1C+B2a+B2b), Galileo(E1+E5a+E5b), QZSS(L1+L5), NavIC(L5)",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:35.337Z",
+    "verifiedAt": "2026-11-13T07:20:04.280Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -25762,7 +25762,7 @@
     "nfc": "Supported",
     "gps": "GPS(L1+L5), GLONASS(G1), BDS(B1I+B1C+B2a+B2b), Galileo(E1+E5a+E5b), QZSS(L1+L5), NavIC(L5)",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:35.378Z",
+    "verifiedAt": "2026-11-13T07:20:04.236Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -25922,7 +25922,7 @@
     "nfc": "Read and write access to 13.56MHz NFC cardsNFC-SIM (in SIM1 slot) supportedHCE payment supportedHCE Access cards supported (for regions: Thailand, Indonesia, Malaysia, Philippines, Vietnam, Singapore, Mexico)eSE supported",
     "gps": "Dual band: GPS (L1+L5), GLONASS (G1), BDS (B1I+B1C+B2a+B2b), Galileo (E1+E5a+E5b), QZSS (L1+L5), NavIC (L5)",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:32.360Z",
+    "verifiedAt": "2026-11-13T07:20:04.867Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -25962,7 +25962,7 @@
     "nfc": "Read and write access to 13.56MHz NFC cardsNFC-SIM (in SIM1 slot) supportedHCE payment supportedHCE Access cards supported (for regions: Thailand, Indonesia, Malaysia, Philippines, Vietnam, Singapore, Mexico)eSE supported",
     "gps": "Dual band: GPS (L1+L5), GLONASS (G1), BDS (B1I+B1C+B2a+B2b), Galileo (E1+E5a+E5b), QZSS (L1+L5), NavIC (L5)",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:32.051Z",
+    "verifiedAt": "2026-11-13T07:20:04.702Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -26023,7 +26023,7 @@
     "nfc": "Supported",
     "gps": "GPS (L1 + L5), GLONASS (G1), BDS (B1I + B1C + B2a + B2b), Galileo (E1 + E5a + E5b), QZSS (L1 + L5), NavIC (L5)",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:33.748Z",
+    "verifiedAt": "2026-11-13T07:20:04.781Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -26064,7 +26064,7 @@
     "nfc": "Supported",
     "gps": "GPS (L1 + L5), GLONASS (G1), BDS (B1I + B1C + B2a + B2b), Galileo (E1 + E5a + E5b), QZSS (L1 + L5), NavIC (L5)",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:33.785Z",
+    "verifiedAt": "2026-11-13T07:20:04.727Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -26105,7 +26105,7 @@
     "nfc": "Supported",
     "gps": "GPS(L1+L5), GLONASS(G1), BDS(B1I+B1C+B2a), Galileo(E1+E5a), QZSS(L1+L5), NavIC(L5)",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:34.779Z",
+    "verifiedAt": "2026-11-13T07:20:04.807Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -26146,7 +26146,7 @@
     "nfc": "Supported",
     "gps": "GPS(L1+L5), GLONASS(G1), BDS(B1I+B1C+B2a+B2b), Galileo(E1+E5a+E5b), QZSS(L1+L5), NavIC(L5)",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:35.068Z",
+    "verifiedAt": "2026-11-13T07:20:05.344Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -48937,7 +48937,7 @@
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:33.105Z",
+    "verifiedAt": "2026-11-13T07:19:52.761Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -48965,7 +48965,7 @@
     "brand": "OPPO",
     "name": "OPPO A5i",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-a/a5i/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-a/a5i/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2773",
@@ -48984,21 +48984,21 @@
     "chip": "Qualcomm® Snapdragon® 6s 4G Gen1",
     "cpu": "8 cores",
     "gpu": "Adreno 610@1050MHz",
-    "battery": "Typical value: 5100mAh/19.95Wh Rated value: 4970mAh/19.44Wh",
-    "charging": "SUPERVOOCTM 2.0, 45W(11V/4.1A)",
+    "battery": "Typical value: 5100mAh/19.95WhRated value: 4970mAh/19.44Wh",
+    "charging": "SUPERVOOCTM 2.0, 45W(11V/4.1A), PPS, 45W(11V/4.1A) (only supported for EU)",
     "camera": "Main camera: 8MP; f/2; FOV 78°; 4P lens; AF; open-loop focus motor",
     "selfie": "5MP; f/2.2, FOV 78°; 3P lens; FF",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM Card/Nano-USIM Card",
-    "bands": "GSM: 850/900/1800MHz WCDMA: Bands 1/5/8 LTE FDD: Bands 1/3/5/8 LTE TDD: Bands 38/40/41",
-    "wifi": "Wi-Fi 5 (802.11ac), 802.11a/b/g/n WLAN 2.4G/WLAN 5G WLAN Display WLAN network tethering Wi-Fi 5GHz 80MHz",
-    "bluetooth": "Bluetooth® 5.0，BLE",
+    "bands": "[Version 1]GSM: 850/900/1800MHzWCDMA: Bands 1/5/8LTE FDD: Bands 1/3/5/8LTE TDD: Bands 38/40/41[Version 2]GSM: 900/1800MHzWCDMA: 900/2100MHzLTE FDD: Bands 1/3/5/8LTE TDD: Band 40[Version 3]GSM: 850/900/1800MHzWCDMA: Bands 1/5/8LTE FDD: Bands 1/3/5/7/8/20/28LTE TDD: Bands 38/40/41[Version 4]GSM: 900/1800MHzWCDMA: Bands 1/8LTE FDD: Bands 1/3/7/8/20/28LTE TDD: Bands 38/40/41[Version 5]GSM: 900/1800MHzWCDMA: 900/2100MHzLTE FDD: 700/900/1800/2100/2600MHzLTE TDD: 2570-2620/2500-2690MHz",
+    "wifi": "Wi-Fi 5 (802.11ac), 802.11a/b/g/nWLAN 2.4G/WLAN 5GWLAN DisplayWLAN network tetheringWi-Fi 5GHz 80MHz",
+    "bluetooth": "Bluetooth® 5.0, BLE",
     "usb": "USB Type-C",
     "jack": "3.5mm",
     "gps": "BeiDou, GPS, GLONASS, Galileo, and QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.776Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:19:56.291Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-oppo-a5x-5g",
@@ -49078,7 +49078,7 @@
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:33.422Z",
+    "verifiedAt": "2026-11-13T07:19:57.379Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -49299,7 +49299,7 @@
     "nfc": "Supports Android Beam, HCE, and UICCMulti-function NFC: HCE and NFC-SIM",
     "gps": "Built-in GPS, A-GPS, BeiDou, GLONASS, GALILEO and QZSS positioning systems supported.",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:31.155Z",
+    "verifiedAt": "2026-11-13T07:20:10.745Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -49350,7 +49350,7 @@
     "nfc": "Supports Android Beam, HCE, and UICCMulti-function NFC: HCE and NFC-SIM",
     "gps": "Built-in GPS, A-GPS, BeiDou, GLONASS, Galileo, and QZSS positioning systems",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:30.482Z",
+    "verifiedAt": "2026-11-13T07:20:11.905Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -49390,7 +49390,7 @@
     "nfc": "Supports reading from and writing to 13.56MHz NFC cardsSupports NFC-SIM cards (for SIM 1 only) and HCE",
     "gps": "GPS, A-GPS, BeiDou, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:30.841Z",
+    "verifiedAt": "2026-11-13T07:20:11.747Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -49430,7 +49430,7 @@
     "nfc": "Supports reading from and writing to 13.56MHz NFC cardsSupports NFC-SIM card (Only supports SIM 1) and HCE payment",
     "gps": "GPS, A-GPS, BeiDou, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:31.113Z",
+    "verifiedAt": "2026-11-13T07:20:11.694Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -49471,7 +49471,7 @@
     "nfc": "Supported",
     "gps": "GNSS: GPS, BDS, GLONASS, GALILEO, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:30.567Z",
+    "verifiedAt": "2026-11-13T07:20:12.413Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -56069,7 +56069,7 @@
     "nfc": "Supported",
     "gps": "GPS, GLONASS, BDS, Galileo, and QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:31.802Z",
+    "verifiedAt": "2026-11-13T07:20:05.137Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -56119,7 +56119,7 @@
     "nfc": "Supported",
     "gps": "Beidou: B1l; GPS: L1; GLONASS: G1; Galileo: E1; QZSS: L1",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:31.138Z",
+    "verifiedAt": "2026-11-13T07:20:06.153Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -56308,14 +56308,14 @@
     "brand": "OPPO",
     "name": "Reno13",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-reno/reno13/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-reno/reno13/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "pkm110",
     "dimensions": "about 157.90mm × about 74.73mm × about 7.24mm (Plume White)about 7.29mm (Luminous Blue)",
     "weight": "about 181g",
-    "storage": "256 GB (regional configuration)",
-    "ram": "12 GB (regional configuration)",
+    "storage": "128 GB (regional configuration)",
+    "ram": "8 GB (regional configuration)",
     "ramType": "LPDDR5X@3750MHz 4 × 16bits",
     "storageType": "UFS 3.1",
     "screen": "6.59\" AMOLED (Flexible)",
@@ -56331,17 +56331,17 @@
     "camera": "Wide angle: 50 MP; f/1.8; FOV 79°; 5P lens; AF; OIS supported Ultra-wide angle: 8 MP; f/2.2; FOV 116°; 5P lens; AF supported Monochrome: 2 MP; f/2.4; FOV 89°; 3P lens",
     "selfie": "50 MP, f/2.0, FOV 90°; 5P lens; AF supported",
     "biometrics": "Supported; Supported",
-    "sim": "Nano-SIM card, Nano-USIM card",
-    "bands": "2G GSM: 850/900/1800/1900MHz3G WCDMA: Bands 1/2/4/5/6/8/194G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/664G LTE TDD: Bands 38/39/40/415G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n66/n77/n78",
+    "sim": "Nano-SIM card, Nano-USIM card + eSIM",
+    "bands": "[Version 1]2G GSM: 850/900/1800/1900MHz3G WCDMA: Bands 1/2/4/5/6/8/194G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/664G LTE TDD: Bands 38/39/40/415G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n66/n77/n78[Version 2]2G GSM: 900/1800MHz3G WCDMA: Bands 1/5/84G LTE FDD: Bands 1/3/5/7/8/20/284G LTE TDD: Bands 38/40/415G NR: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n77/n78[Version 3]2G GSM: 900/1800MHz3G WCDMA: 900/2100MHz4G LTE FDD: Bands 1/3/5/84G LTE TDD: Band 405G NR: n1/n3/n5/n8/n40[Version 4]2G GSM: 850/900/1800/1900MHz3G WCDMA: Bands 1/2/4/5/6/8/194G LTE FDD: Bands 1/2/3/4/5/7/8/12/17/18/19/20/26/28/32/664G LTE TDD: Bands 38/39/40/415G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n66/n77/n78",
     "wifi": "WiFi 2.4G, WiFi 5G, WiFi 6 (802.11ax) , WiFi 5 (802.11ac) , 802.11b/g/a/nWLAN 2.4G, WLAN 5.1G, WLAN 5G, WLAN 5.4G, WLAN 5.8GWLAN Display, WLAN tetheringWi-Fi 2.4GHz 20M, Wi-Fi 2.4GHz 40M, Wi-Fi 5GHz 20M, Wi-Fi 5GHz 40M, Wi-Fi 5GHz 80M, Wi-Fi 5GHz 160M2 x 2 MIMO",
     "bluetooth": "Bluetooth 5.4, Low Energy",
     "usb": "USB Type-C",
     "jack": "Type-C",
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.076Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:07.998Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-reno13-5g",
@@ -56411,7 +56411,7 @@
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:32.383Z",
+    "verifiedAt": "2026-11-13T07:20:08.404Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -56419,13 +56419,13 @@
     "brand": "OPPO",
     "name": "Reno13 Pro",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-reno/reno13-pro/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-reno/reno13-pro/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "pkk110",
     "dimensions": "about 162.73mm × about 76.55mm × about 7.55mm",
     "weight": "about 195g",
-    "storage": "512 GB (regional configuration)",
+    "storage": "256 GB (regional configuration)",
     "ram": "12 GB (regional configuration)",
     "ramType": "LPDDR5X@4266MHz 4 x 16 bits",
     "storageType": "UFS 3.1",
@@ -56442,7 +56442,7 @@
     "camera": "Wide angle: 50 MP; f/1.8; FOV 84°; 6P lens; AF supported; OIS supported Ultra-wide angle: 8MP; f/2.2; FOV 116°; 5P lens; AF supported Telephoto: 50 MP; f/2.8; 1G3P lens; AF supported; OIS supported",
     "selfie": "50 MP, f/2.0, FOV 90°; 5P lens; AF supported",
     "biometrics": "Supported; Supported",
-    "sim": "Nano-SIM card, Nano-USIM card",
+    "sim": "Nano-SIM card, Nano-USIM card + eSIM",
     "bands": "2G GSM: 850/900/1800/1900MHz 3G WCDMA: Bands 1/2/4/5/6/8/19 4G LTE FDD: Bands 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/32/66 4G LTE TDD：Bands 34/38/39/40/41 5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n66/n38/n40/n41/n77/n78",
     "wifi": "WiFi 2.4G, WiFi 5G, WiFi 6E, WiFi 6 (802.11ax) , WiFi 5 (802.11ac) 802.11b/g/a/n, WLAN 2.4G, WLAN 5G, WLAN 5.1G, WLAN 5.4G, WLAN 5.8G, WLAN 6GWLAN Display, WLAN tetheringWi-Fi 2.4GHz 20M, Wi-Fi 2.4GHz 40M, Wi-Fi 5GHz 20M, Wi-Fi 5GHz 40M, Wi-Fi 5GHz 80M, Wi-Fi 5GHz 160M2 x 2 MIMO",
     "bluetooth": "Bluetooth 5.4, Low Energy",
@@ -56450,9 +56450,9 @@
     "jack": "Type-C * Only digital headphones are supported, analog headphones are not supported.",
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.325Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:07.909Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-reno13-pro-5g",
@@ -56469,7 +56469,7 @@
     "brand": "OPPO",
     "name": "Reno14",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-reno/reno14/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-reno/reno14/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "pla110",
@@ -56494,16 +56494,16 @@
     "selfie": "50MP, f/2.0, FOV 90°, 5P lens; AF supported",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card + eSIM",
-    "bands": "2G GSM: 850/900/1800/1900MHz3G WCDMA: Band 1/2/4/5/6/8/194G LTE FDD: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/32/664G LTE TDD: Band 38/39/40/415G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n66/n77/n78",
+    "bands": "[Version 1] 2G GSM: 850/900/1800/1900MHz 3G WCDMA: Band 1/2/4/5/6/8/19 4G LTE FDD: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/32/66 4G LTE TDD: Band 38/39/40/41 5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n66/n77/n78 [Version 2] 2G GSM: 850/900/1800MHz 3G CDMA: NA 3G WCDMA: Bands 1/5/8 4G LTE FDD: Band 1/3/5/7/8/20/28 4G LTE TDD: Band 38/40/41 5G NR: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n77/n78 [Version 3] 2G GSM: 900/1800MHz 3G WCDMA: 900/2100MHz 4G LTE FDD: Band 1/3/5/8 4G LTE TDD: Band 40 5G NR: n1/n3/n5/n8/n40",
     "wifi": "Wi-Fi 2.4G, Wi-Fi 5G, Wi-Fi 6 (802.11ax), Wi-Fi 5 (802.11ac), 802.11b/g/a/n WLAN 2.4G, WLAN 5.1G, WLAN 5G, WLAN 5.4G, WLAN 5.8G WLAN Display, WLAN tethering, WLAN overlay Wi-Fi 2.4GHz 20M, Wi-Fi 2.4GHz 40M Wi-Fi 5GHz 20M, Wi-Fi 5GHz 40M, Wi-Fi 5GHz 80M, Wi-Fi 5GHz 160M 2 x 2 MIMO, Wi-Fi 6E, WLAN 6G Wi-Fi 6GHz 20M, Wi-Fi 6GHz 40M, Wi-Fi 6GHz 80M, Wi-Fi 6GHz 160M * Note: Egypt, Bangladesh, Indonesia and Turkey do not sorport Wi-Fi 6E and Wi-Fi 6G yet.",
     "bluetooth": "Bluetooth® 5.4, Low Energy",
     "usb": "USB Type-C",
     "jack": "Type-C* Only digital headphones are supported, analog headphones are not supported.",
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.370Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:10.021Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-reno14-5g",
@@ -56520,11 +56520,11 @@
     "brand": "OPPO",
     "name": "Reno14 F 5G",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-reno/reno14-f-5g/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-reno/reno14-f-5g/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2743",
-    "dimensions": "about 158.12mm × about 74.97mm × about 7.78mm (Opal Blue)about 7.74mm (Luminous Green)",
+    "dimensions": "about 158.12mm × about 74.97mm × about 7.78mm (Opal Blue) about 7.69mm (Glossy Pink) about 7.74mm (Luminous Green)",
     "weight": "about 180g",
     "storage": "256 GB (regional configuration)",
     "ram": "8 GB (regional configuration)",
@@ -56545,29 +56545,29 @@
     "selfie": "32MP, f/2.0, FOV 90°, 5P lens; AF supported",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card",
-    "bands": "2G GSM: 850/900/1800/1900MHz3G WCDMA: Band 1/2/4/5/6/8/194G LTE FDD: Band 1/2/3/4/5/7/8/12/17/18/19/20/26/28/66 4G LTE TDD: Band 38/39/40/41/42/485G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n66/n71/n77/n78",
+    "bands": "[Version 1] 2G GSM: 850/900/1800/1900MHz 3G WCDMA: Band 1/2/4/5/6/8/19 4G LTE FDD: Band 1/2/3/4/5/7/8/12/17/18/19/20/26/28/66 4G LTE TDD: Band 38/39/40/41/42/48 5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n66/n71/n77/n78 [Version 2] 2G GSM: 850/900/1800MHz 3G WCDMA: Band 1/5/8 4G LTE FDD: Band 1/3/5/7/8/20/28 4G LTE TDD: Band 38/40/41/42 5G NR: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n71/n77/n78 [Version 3] 2G GSM: 900/1800MHz 3G WCDMA: 900/2100MHz 4G LTE FDD: Band 1/3/5/8 4G LTE TDD: Band 40 5G NR: n1/n3/n5/n8/n40",
     "wifi": "Wi-Fi 2.4G, Wi-Fi 5G, Wi-Fi 5 (802.11ac), 802.11b/g/a/n WLAN 2.4G, WLAN 5.1G, WLAN 5.4G, WLAN 5.8G, WLAN tethering Wi-Fi 2.4GHz 20M, Wi-Fi 2.4GHz 40M, Wi-Fi 5GHz 20M, Wi-Fi 5GHz 40M, Wi-Fi 5GHz 80M 1 x 1 SISO, WLAN Display",
     "bluetooth": "Bluetooth® 5.1, Low Energy",
     "usb": "USB Type-C",
     "jack": "Type-C * Only digital headphones are supported, analog headphones are not supported.",
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.799Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:07.968Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-reno14-pro",
     "brand": "OPPO",
     "name": "Reno14 Pro",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-reno/reno14-pro/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-reno/reno14-pro/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "pkz110",
     "dimensions": "about 163.35mm × about 76.98mm × about 7.48mm (Titanium Grey)about 7.58mm (Opal White)",
     "weight": "about 201g",
-    "storage": "512 GB (regional configuration)",
+    "storage": "256 GB (regional configuration)",
     "ram": "12 GB (regional configuration)",
     "ramType": "LPDDR5X",
     "storageType": "UFS 3.1",
@@ -56586,16 +56586,16 @@
     "selfie": "50MP, f/2.0, FOV 90°, 5P lens; AF supported",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card/Nano-USIM card + eSIM",
-    "bands": "GSM: 850/900/1800/1900MHzWCDMA: Band 1/2/4/5/6/8/19LTE FDD: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66LTE TDD: Band 34/38/39/40/41/42/485G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n77/n78",
+    "bands": "[Version 1] GSM: 850/900/1800/1900MHz WCDMA: Band 1/2/4/5/6/8/19 LTE FDD: Band 1/2/3/4/5/7/8/12/13/17/18/19/20/26/28/66 LTE TDD: Band 34/38/39/40/41/42/48 5G NR: n1/n2/n3/n5/n7/n8/n12/n20/n26/n28/n38/n40/n41/n48/n66/n77/n78 [Version 2] 2G GSM: 900/1800MHz 3G WCDMA: 900/2100MHz 4G LTE FDD: Band 1/3/5/8 4G LTE TDD: Band 40 5G NR: n1/n3/n5/n8/n40",
     "wifi": "Wi-Fi 2.4G, Wi-Fi 5G, Wi-Fi 6 (802.11ax), Wi-Fi 5 (802.11ac), 802.11b/g/a/n WLAN 2.4G, WLAN 5.1G, WLAN 5G, WLAN 5.4G, WLAN 5.8G WLAN Display, WLAN tethering, WLAN overlay Wi-Fi 2.4GHz 20M, Wi-Fi 2.4GHz 40M Wi-Fi 5GHz 20M, Wi-Fi 5GHz 40M, Wi-Fi 5GHz 80M, Wi-Fi 5GHz 160M 2 x 2 MIMO, Wi-Fi 6E, WLAN 6G Wi-Fi 6GHz 20M, Wi-Fi 6GHz 40M, Wi-Fi 6GHz 80M, Wi-Fi 6GHz 160M * Note: Egypt, Bangladesh, Indonesia and Turkey do not sorport Wi-Fi 6E and Wi-Fi 6G yet.",
     "bluetooth": "Bluetooth® 5.4, Low Energy",
     "usb": "USB Type-C",
     "jack": "Type-C* Only digital headphones are supported, analog headphones are not supported.",
     "nfc": "Supported",
     "gps": "Single band: Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:27.483Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:08.703Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-reno14-pro-5g",
@@ -56622,14 +56622,14 @@
     "brand": "OPPO",
     "name": "Reno15 5G",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-reno/reno15/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-reno/reno15/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2825",
-    "dimensions": "about 158.00mm × about 74.83mm × about 7.77mm (Twilight Blue)about 7.89mm (Aurora White)",
+    "dimensions": "about 158.00mm × about 74.83mm × about 7.77mm (Twilight Blue)about 7.89mm (Aurora White, Aurora Blue)",
     "weight": "about 197g",
     "storage": "256 GB (regional configuration)",
-    "ram": "12 GB (regional configuration)",
+    "ram": "8 GB (regional configuration)",
     "ramType": "LPDDR5X",
     "storageType": "UFS 3.1",
     "cardSlot": "Unsupported",
@@ -56647,16 +56647,16 @@
     "selfie": "50MP; f/2.0; FOV 100°; 5P lens; AF supported",
     "biometrics": "Supported; Supported",
     "sim": "Nano-SIM card, Nano-USIM card",
-    "bands": "GSM: 850/900/1800/1900MHzWCDMA: Band 1/2/4/5/8LTE FDD: Band 1/2/3/4/5/7/8/18/19/20/26/28/66/71LTE TDD: Band 38/40/41/42/43/485G NR: n1/n2/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n80/n83",
+    "bands": "[Version 1]GSM: 850/900/1800/1900MHzWCDMA: Band 1/2/4/5/8LTE FDD: Band 1/2/3/4/5/7/8/18/19/20/26/28/66/71LTE TDD: Band 38/40/41/42/43/485G NR: n1/n2/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78/n80/n83[Version 2]GSM: 900/1800MHzWCDMA: Band 900/2100MHzLTE FDD: Band 1/3/5/8LTE TDD: Band 405G NR: n1/n3/n5/n8/n40",
     "wifi": "Wi-Fi 6 (802.11ax) supported Wi-Fi 5 (802.11ac) supported 802.11a/b/g/n supported Wi-Fi Display supported WLAN Tethering supported Wi-Fi 5GHz 160MHz supported 2 × 2 MIMO supported",
     "bluetooth": "Bluetooth® 5.4, Low Energy",
     "usb": "USB Type-C",
     "jack": "Type-C* Only digital headphones are supported, analog headphones are not supported.",
     "nfc": "Supported",
     "gps": "GPS, GLONASS, Beidou, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:28.077Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:10.456Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-reno15-a",
@@ -56723,13 +56723,13 @@
     "brand": "OPPO",
     "name": "Reno15 Pro 5G",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-reno/reno15-pro/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-reno/reno15-pro/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2811, cph2813",
     "dimensions": "about 151.21mm × about 72.42mm × about 7.99mm (Dusk Brown)about 8.13mm (Aurora Blue)",
     "weight": "about 187g (Dusk Brown)about 188g (Aurora Blue)",
-    "storage": "512 GB (regional configuration)",
+    "storage": "256 GB (regional configuration)",
     "ram": "12 GB (regional configuration)",
     "ramType": "LPDDR5X",
     "storageType": "UFS 3.1",
@@ -56755,9 +56755,9 @@
     "jack": "Type-C* Only digital headphones are supported, analog headphones are not supported.",
     "nfc": "Supported",
     "gps": "GPS, GLONASS, BDS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:28.059Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:08.663Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-reno15c",
@@ -56774,14 +56774,14 @@
     "brand": "OPPO",
     "name": "Reno16 5G",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-reno/reno16/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-reno/reno16/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2865",
-    "dimensions": "about 151.21mm × about 72.42mm × about 8.36mm(Pop White)about 8.22mm(Twilight Violet)",
-    "weight": "about 193g(Pop White) about 182g(Twilight Violet)",
+    "dimensions": "about 151.21mm × about 72.42mm × about 8.36mm(Pop White) about 8.22mm(Twilight Violet, Dream Purple)",
+    "weight": "about 193g(Pop White) about 182g(Twilight Violet, Dream Purple)",
     "storage": "256 GB (regional configuration)",
-    "ram": "12 GB (regional configuration)",
+    "ram": "8 GB (regional configuration)",
     "ramType": "LPDDR5X",
     "storageType": "UFS 3.1",
     "cardSlot": "Unsupported",
@@ -56799,29 +56799,29 @@
     "selfie": "50MP; f/2.0; FOV 100°; 5P lens; AF supported",
     "biometrics": "Under-screen fingerprint; Supported",
     "sim": "Nano-SIM card, Nano-USIM card, Some carriers support eSIM.",
-    "bands": "GSM: 850/900/1800/1900MHz WCDMA: Band 1/2/4/5/8/19 LTE FDD: Band 1/2/3/4/5/7/8/18/19/20/26/28/66/71 LTE TDD: Band 38/39/40/41/42/43/48 5G NR: n1/n2/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78",
+    "bands": "[Version 1] GSM: 850/900/1800/1900MHz WCDMA: Band 1/2/4/5/8/19 LTE FDD: Band 1/2/3/4/5/7/8/18/19/20/26/28/66/71 LTE TDD: Band 38/39/40/41/42/43/48 5G NR: n1/n2/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78 [Version 2] GSM: 900/1800MHz WCDMA: Band 900/2100MHz LTE FDD: Band 1/3/5/8 LTE TDD: Band 40 5G NR: n1/n3/n5/n8/n40 [Version 3] GSM: 850/900/1800MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/7/8/20/28/71 LTE TDD: Band 38/40/41/42/43 5G NR: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n71/n77/n78",
     "wifi": "Wi-Fi 6 (802.11ax) supported Wi-Fi 5 (802.11ac) supported 802.11a/b/g/n supported Wi-Fi Display supported WLAN Tethering supported Wi-Fi 5GHz 160MHz supported 2×2 MIMO supported",
     "bluetooth": "Bluetooth® 5.4, Low Energy",
     "usb": "USB Type-C",
     "jack": "Type-C headphones, supported Type-C digital headphones, not supported Type-C analog headphones",
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:28.437Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:10.429Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-reno16-f-5g",
     "brand": "OPPO",
     "name": "Reno16 F 5G",
     "sourceName": "DeviceFarmer open device database / Google Play identifiers",
-    "sourceUrl": "https://www.oppo.com/pk/smartphones/series-reno/reno16-f/specs/",
+    "sourceUrl": "https://www.oppo.com/en/smartphones/series-reno/reno16-f/specs/",
     "dataLicense": "CC BY-SA 4.0",
     "dataQuality": "official-specifications-regional-variant",
     "models": "cph2859, cph2967",
-    "dimensions": "about 158.16mm × about 74.93mm × about 8.58mm(Pop White)about 8.44mm(Twilight Violet)",
-    "weight": "about 197g(Pop White) about 195g(Twilight Violet)",
-    "storage": "256 GB (regional configuration)",
+    "dimensions": "about 158.16mm × about 74.93mm × about 8.58mm(Pop White) about 8.44mm(Twilight Violet, Dream Purple)",
+    "weight": "about 197g(Pop White) about 195g(Twilight Violet, Dream Purple)",
+    "storage": "128 GB (regional configuration)",
     "ram": "8 GB (regional configuration)",
     "ramType": "LPDDR4X",
     "storageType": "UFS 3.1",
@@ -56840,16 +56840,16 @@
     "selfie": "50MP; f/2.0; FOV 100°; 5P lens; AF supported",
     "biometrics": "Under-screen fingerprint; Supported",
     "sim": "Nano-SIM card, Nano-USIM card",
-    "bands": "GSM: 850/900/1800/1900MHz WCDMA: Band 1/2/4/5/6/8/19 LTE FDD: Band 1/2/3/4/5/7/8/18/19/20/26/28/66/71 LTE TDD: Band 38/39/40/41/42/48 5G NR: n1/n2/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78",
+    "bands": "[Version 1] GSM: 850/900/1800/1900MHz WCDMA: Band 1/2/4/5/6/8/19 LTE FDD: Band 1/2/3/4/5/7/8/18/19/20/26/28/66/71 LTE TDD: Band 38/39/40/41/42/48 5G NR: n1/n2/n3/n5/n7/n8/n20/n26/n28/n38/n40/n41/n48/n66/n71/n77/n78 [Version 2] GSM: 900/1800MHz WCDMA: Band 900/2100MHz LTE FDD: Band 1/3/5/8 LTE TDD: Band 40 5G NR: n1/n3/n5/n8/n40 [Version 3] GSM: 850/900/1800MHz WCDMA: Band 1/5/8 LTE FDD: Band 1/3/5/7/8/20/28 LTE TDD: Band 38/40/41 5G NR: n1/n3/n5/n7/n8/n20/n28/n38/n40/n41/n77/n78",
     "wifi": "Wi-Fi 6 (802.11ax) supported Wi-Fi 5 (802.11ac) supported 802.11a/b/g/n supported Wi-Fi Display supported WLAN Tethering supported",
     "bluetooth": "Bluetooth® 5.4, Low Energy",
     "usb": "USB Type-C",
     "jack": "Type-C headphones, supported Type-C digital headphones, not supported Type-C analog headphones",
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
-    "verifiedSource": "OPPO PK",
-    "verifiedAt": "2026-11-11T01:25:28.748Z",
-    "variantDetails": "Specifications from OPPO PK; hardware, memory, networks and software can differ by region."
+    "verifiedSource": "OPPO EN",
+    "verifiedAt": "2026-11-13T07:20:10.267Z",
+    "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
     "id": "open-oppo-reno16-pro",
@@ -56899,7 +56899,7 @@
     "nfc": "Supported",
     "gps": "Beidou, GPS, GLONASS, Galileo, QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:35.086Z",
+    "verifiedAt": "2026-11-13T07:20:10.481Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -57090,7 +57090,7 @@
     "nfc": "Supports Android Beam, HCE, and UICCMulti-function NFC: HCE and NFC-SIM",
     "gps": "Built-in GPS, A-GPS, BeiDou, GLONASS, Galileo, and QZSS positioning systems",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:30.171Z",
+    "verifiedAt": "2026-11-13T07:20:11.717Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -57131,7 +57131,7 @@
     "nfc": "Supports read and write access to 13.56MHz NFC cards Supports an NFC-SIM card (SIM 1 slot only) and HCE payment",
     "gps": "GPS, BDS, GLONASS, Galileo, and QZSS",
     "verifiedSource": "OPPO EN",
-    "verifiedAt": "2026-11-11T01:25:30.525Z",
+    "verifiedAt": "2026-11-13T07:20:12.442Z",
     "variantDetails": "Specifications from OPPO EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -59931,7 +59931,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:03.131Z",
+    "verifiedAt": "2026-11-13T07:20:21.477Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -60242,7 +60242,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:05.971Z",
+    "verifiedAt": "2026-11-13T07:20:21.506Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64185,7 +64185,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:10.194Z",
+    "verifiedAt": "2026-11-13T07:20:23.651Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64222,7 +64222,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:12.316Z",
+    "verifiedAt": "2026-11-13T07:20:24.321Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64258,7 +64258,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:10.385Z",
+    "verifiedAt": "2026-11-13T07:20:24.481Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64295,7 +64295,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:12.212Z",
+    "verifiedAt": "2026-11-13T07:20:24.558Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64331,7 +64331,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:13.009Z",
+    "verifiedAt": "2026-11-13T07:20:24.381Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64369,7 +64369,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:12.259Z",
+    "verifiedAt": "2026-11-13T07:20:24.396Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64406,7 +64406,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:12.959Z",
+    "verifiedAt": "2026-11-13T07:20:25.172Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64443,7 +64443,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:14.258Z",
+    "verifiedAt": "2026-11-13T07:20:25.281Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64563,7 +64563,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:14.316Z",
+    "verifiedAt": "2026-11-13T07:20:25.265Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -64628,7 +64628,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:13.989Z",
+    "verifiedAt": "2026-11-13T07:20:25.126Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -65588,7 +65588,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:16.881Z",
+    "verifiedAt": "2026-11-13T07:20:26.190Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -66872,7 +66872,7 @@
     "gps": "Supported",
     "sensors": "Supported; Physical; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:19.540Z",
+    "verifiedAt": "2026-11-13T07:20:27.816Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -68462,7 +68462,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:16.936Z",
+    "verifiedAt": "2026-11-13T07:20:25.967Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -68509,7 +68509,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:16.145Z",
+    "verifiedAt": "2026-11-13T07:20:26.879Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -69341,7 +69341,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:19.529Z",
+    "verifiedAt": "2026-11-13T07:20:28.473Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -69485,7 +69485,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:21.007Z",
+    "verifiedAt": "2026-11-13T07:20:28.493Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -71491,7 +71491,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:20.896Z",
+    "verifiedAt": "2026-11-13T07:20:29.318Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -71537,7 +71537,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:22.871Z",
+    "verifiedAt": "2026-11-13T07:20:29.353Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -71573,7 +71573,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:23.109Z",
+    "verifiedAt": "2026-11-13T07:20:29.476Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -71768,7 +71768,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:24.634Z",
+    "verifiedAt": "2026-11-13T07:20:30.366Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -71803,7 +71803,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:25.479Z",
+    "verifiedAt": "2026-11-13T07:20:30.116Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -71926,7 +71926,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:24.821Z",
+    "verifiedAt": "2026-11-13T07:20:31.011Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -71962,7 +71962,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:26.921Z",
+    "verifiedAt": "2026-11-13T07:20:31.025Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -71997,7 +71997,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual Gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:27.540Z",
+    "verifiedAt": "2026-11-13T07:20:31.189Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -72422,7 +72422,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:28.953Z",
+    "verifiedAt": "2026-11-13T07:20:32.131Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -72508,7 +72508,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:30.817Z",
+    "verifiedAt": "2026-11-13T07:20:32.916Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -72635,7 +72635,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:31.515Z",
+    "verifiedAt": "2026-11-13T07:20:32.961Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -72672,7 +72672,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:30.726Z",
+    "verifiedAt": "2026-11-13T07:20:32.931Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -72709,7 +72709,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:31.568Z",
+    "verifiedAt": "2026-11-13T07:20:32.855Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -72753,7 +72753,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:31.458Z",
+    "verifiedAt": "2026-11-13T07:20:33.587Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -72937,7 +72937,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual Gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:32.904Z",
+    "verifiedAt": "2026-11-13T07:20:33.628Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -73072,7 +73072,7 @@
     "gps": "Supported",
     "sensors": "Supported; Entity; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:33.804Z",
+    "verifiedAt": "2026-11-13T07:20:33.706Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -73439,7 +73439,7 @@
     "gps": "Supported",
     "sensors": "Supported; Physical gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:32.786Z",
+    "verifiedAt": "2026-11-13T07:20:34.299Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -73485,7 +73485,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:35.695Z",
+    "verifiedAt": "2026-11-13T07:20:34.482Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -73522,7 +73522,7 @@
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:35.116Z",
+    "verifiedAt": "2026-11-13T07:20:34.315Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -73868,7 +73868,7 @@
     "gps": "Supported",
     "sensors": "Supported; Entity; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:35.024Z",
+    "verifiedAt": "2026-11-13T07:20:35.023Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
@@ -74666,7 +74666,7 @@
     "gps": "Supported",
     "sensors": "Supported; Virtual Gyroscope; Supported",
     "verifiedSource": "Vivo EN",
-    "verifiedAt": "2026-11-11T01:26:37.043Z",
+    "verifiedAt": "2026-11-13T07:20:35.113Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   {
