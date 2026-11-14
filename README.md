@@ -391,3 +391,32 @@ The original product photo pipeline, device details, pricing source links,
 40-phone grid, daily imports, games and Google Search verification files
 remain intact. The homepage design is decorative; it does not imply any
 specific benchmark results or automatically guarantee a phone is "better".
+
+
+## Google AdSense ownership verification (site review)
+
+The site owner supplied the publisher ID `ca-pub-1196332171109259`
+through the Google AdSense ownership screen. The matching **Google-supplied
+async verification/ad loader** is installed in the `<head>` of the two
+real public HTML pages (`index.html` and `games/index.html`). The
+recommended seller declaration is published as `public/ads.txt`:
+
+`google.com, pub-1196332171109259, DIRECT, f08c47fec0942fa0`
+
+**After the latest GitHub commit is deployed on Render**, open
+`https://specverse.it.com/` and `https://specverse.it.com/ads.txt`.
+The site must be publicly accessible without a password or captcha and serve
+its actual HTML (not a 404). In Google **AdSense → Sites → specverse.it.com**,
+choose **AdSense code snippet**, tick **I've placed the code**, and click
+**Verify**. Once Google confirms ownership, click **Request review**.
+
+Google may take several days or up to several weeks to approve the site.
+The code and ads.txt establish **setup, not approval**, and do not guarantee
+that any ads are currently displaying or that AdSense policies have been
+satisfied. Do not remove the verification code. No ad placements are
+fabricated in this commit; ad-display controls can be managed in AdSense
+after approval. Google's review can fail if the publicly accessible site
+lacks substantial original content, violates policy, or is unreachable.
+
+This is separate from Google **Search Console** ownership, which uses the
+existing `public/google4cf6fe8e0eed95a5.html` verification file.
