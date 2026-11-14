@@ -2,6 +2,9 @@ name: Check SpecVerse website
 on:
   push:
     paths:
+      - 'index.html'
+      - 'games/index.html'
+      - 'public/ads.txt'
       - 'src.jsx'
       - 'MiniGames.jsx'
       - 'mobile-games.js'
