@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T06:30:19.028Z",
-  "nextOffset": 48,
+  "updatedAt": "2026-11-16T07:17:24.331Z",
+  "nextOffset": 60,
   "devices": {
     "apple-iphone-17e": {
       "id": "apple-iphone-17e",
@@ -618,12 +618,96 @@
       "sourceVerifiedAt": "2026-11-15T06:30:26.995Z",
       "verification": "model-name + manufacturer-source + Commons-license",
       "motion": "gentle-float"
+    },
+    "apple-iphone-6": {
+      "id": "apple-iphone-6",
+      "name": "iPhone 6",
+      "brand": "Apple",
+      "image": "/iphone-images/apple-iphone-6.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_6_Space_Gray.svg",
+      "author": "https://icon-park.com/author/kos/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "manufacturerSource": "https://support.apple.com/en-us/111954",
+      "sourceVerifiedAt": "2026-11-16T07:17:24.480Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "apple-iphone-5c": {
+      "id": "apple-iphone-5c",
+      "name": "iPhone 5c",
+      "brand": "Apple",
+      "image": "/iphone-images/apple-iphone-5c.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_5C_(blue).svg",
+      "author": "Rafael Fernandez",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "manufacturerSource": "https://support.apple.com/en-us/111917",
+      "sourceVerifiedAt": "2026-11-16T07:17:25.790Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "apple-iphone-5s": {
+      "id": "apple-iphone-5s",
+      "name": "iPhone 5s",
+      "brand": "Apple",
+      "image": "/iphone-images/apple-iphone-5s.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_5s_golden.svg",
+      "author": "Rafael Fernandez",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "manufacturerSource": "https://support.apple.com/en-us/111973",
+      "sourceVerifiedAt": "2026-11-16T07:17:26.436Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "apple-iphone-5": {
+      "id": "apple-iphone-5",
+      "name": "iPhone 5",
+      "brand": "Apple",
+      "image": "/iphone-images/apple-iphone-5.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_5.svg",
+      "author": "Dega180",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "manufacturerSource": "https://support.apple.com/en-us/112016",
+      "sourceVerifiedAt": "2026-11-16T07:17:27.099Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "apple-iphone-3gs": {
+      "id": "apple-iphone-3gs",
+      "name": "iPhone 3GS",
+      "brand": "Apple",
+      "image": "/iphone-images/apple-iphone-3gs.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_3GS.jpg",
+      "author": "Nicolas Richoffer",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://support.apple.com/en-us/112307",
+      "sourceVerifiedAt": "2026-11-16T07:17:29.094Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "apple-iphone-3g": {
+      "id": "apple-iphone-3g",
+      "name": "iPhone 3G",
+      "brand": "Apple",
+      "image": "/device-visuals/apple-iphone-3g.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_%26_iPhone_3G.jpg",
+      "author": "Dan Taylor from London, UK",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "manufacturerSource": "https://support.apple.com/en-us/112496",
+      "sourceVerifiedAt": "2026-11-16T07:17:30.149Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
     }
   },
   "statistics": {
     "eligible": 319,
     "checked": 12,
-    "accepted": 12,
-    "skipped": 0
+    "accepted": 6,
+    "skipped": 6
   }
 }
