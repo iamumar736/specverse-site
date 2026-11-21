@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T04:06:56.463Z",
+  "generatedAt": "2026-11-21T04:03:47.777Z",
   "mode": "automatic",
   "catalog": {
     "total": 6795,
@@ -50,7 +50,7 @@
     "tecnoMissing": 223,
     "itelMissing": 176
   },
-  "lastCatalogCheck": "2026-11-20T04:06:56.301Z",
+  "lastCatalogCheck": "2026-11-21T04:03:47.583Z",
   "verifiedFeedConfigured": false,
   "priceNote": "Current market prices require separately licensed retailer sources; no auto-generated exchange-rate prices.",
   "sourceNote": "Manufacturer verified entries and publicly discovered identities have different confidence levels. Missing specs remain unavailable.",
