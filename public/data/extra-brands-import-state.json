@@ -1,22 +1,22 @@
 {
   "Xiaomi": {
-    "offset": 80,
-    "lastChecked": "2026-11-20T08:24:05.433Z",
+    "offset": 88,
+    "lastChecked": "2026-11-21T08:16:48.974Z",
     "attempted": 8
   },
   "Infinix": {
-    "offset": 80,
-    "lastChecked": "2026-11-20T08:24:14.677Z",
+    "offset": 88,
+    "lastChecked": "2026-11-21T08:16:58.348Z",
     "attempted": 8
   },
   "Tecno": {
-    "offset": 80,
-    "lastChecked": "2026-11-20T08:24:19.896Z",
+    "offset": 88,
+    "lastChecked": "2026-11-21T08:17:03.811Z",
     "attempted": 8
   },
   "Itel": {
-    "offset": 80,
-    "lastChecked": "2026-11-20T08:24:37.856Z",
+    "offset": 88,
+    "lastChecked": "2026-11-21T08:17:04.780Z",
     "attempted": 8
   }
 }
