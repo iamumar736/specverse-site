@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T06:36:07.854Z",
-  "nextOffset": 120,
+  "updatedAt": "2026-11-22T06:33:15.956Z",
+  "nextOffset": 132,
   "devices": {
     "apple-iphone-17e": {
       "id": "apple-iphone-17e",
@@ -702,12 +702,26 @@
       "sourceVerifiedAt": "2026-11-16T07:17:30.149Z",
       "verification": "model-name + manufacturer-source + Commons-license",
       "motion": "gentle-float"
+    },
+    "samsung-galaxy-a15": {
+      "id": "samsung-galaxy-a15",
+      "name": "Galaxy A15",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-a15.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A15_50MP_vs_12MP_comparison.png",
+      "author": "JayCubby",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a15-blue-128gb-sm-a155flbgpkd/",
+      "sourceVerifiedAt": "2026-11-22T06:33:23.628Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
     }
   },
   "statistics": {
     "eligible": 319,
     "checked": 12,
-    "accepted": 0,
-    "skipped": 12
+    "accepted": 1,
+    "skipped": 11
   }
 }
