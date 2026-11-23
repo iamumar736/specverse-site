@@ -579,9 +579,9 @@
   },
   "Tecno": {
     "total": 227,
-    "verified": 4,
+    "verified": 6,
     "checkedThisRun": 8,
-    "addedThisRun": 0,
+    "addedThisRun": 2,
     "failedRequests": 0,
     "missing": [
       "CAMON",
@@ -684,10 +684,8 @@
       "TECNO CAMON 16 Premier",
       "TECNO CAMON 18 Premier",
       "TECNO CAMON 19 Neo",
-      "TECNO CAMON 20",
       "TECNO CAMON 20 Premier 5G",
       "TECNO CAMON 20s Pro 5G",
-      "TECNO CAMON 30 Premier 5G",
       "TECNO CAMON 30 Pro 5G",
       "TECNO CAMON 30S",
       "TECNO CAMON 30S Pro",
@@ -815,7 +813,7 @@
     "verified": 4,
     "checkedThisRun": 8,
     "addedThisRun": 0,
-    "failedRequests": 3,
+    "failedRequests": 1,
     "missing": [
       "A05S",
       "A11",

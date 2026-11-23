@@ -70,5 +70,35 @@
     "verifiedSource": "Tecno official product specification page",
     "dataQuality": "official-specifications-launch-reference",
     "variantDetails": "Reference information from Tecno launch/product page. Hardware, storage, memory, networks and specifications can differ by region and revision."
+  },
+  "open-tecno-tecno-camon-20": {
+    "chip": "G85 Octa-Core",
+    "screen": "AMOLED with Fingerprint on Display (6.67\")",
+    "resolution": "1080*2400",
+    "camera": "Front Camera: 32MP Dual Flash",
+    "os": "Android 13",
+    "storage": "256GB",
+    "sourceUrl": "https://www.tecno-mobile.com/pak/phones/tech-specs/techspecs/camon-20/",
+    "verifiedSource": "Tecno official reference",
+    "dataQuality": "official-specifications-regional-variant",
+    "verifiedAt": "2026-11-23T08:42:14.403Z",
+    "variantDetails": "Specifications from Tecno product page. Memory, camera configurations, radio bands and other technical data may differ by region."
+  },
+  "open-tecno-tecno-camon-30-premier-5g": {
+    "chip": "MediaTek Dimensity 8200 Ultimate 5G",
+    "screen": "6.77'' 1.5K+AMOLED 120Hz LTPO",
+    "resolution": "1264*2780",
+    "camera": "Front: 50MP AF",
+    "selfie": "50MP AF",
+    "battery": "5000mAh",
+    "charging": "70W Ultra Charge Type",
+    "dimensions": "162.66*76.23*7.907mm",
+    "os": "Android 14",
+    "storage": "512GB",
+    "sourceUrl": "https://www.tecno-mobile.com/phones/tech-specs/techspecs/camon-30-premier-5g/",
+    "verifiedSource": "Tecno official reference",
+    "dataQuality": "official-specifications-regional-variant",
+    "verifiedAt": "2026-11-23T08:42:15.941Z",
+    "variantDetails": "Specifications from Tecno product page. Memory, camera configurations, radio bands and other technical data may differ by region."
   }
 }
