@@ -580,39 +580,39 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y02",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:29.318Z",
+    "verifiedAt": "2026-11-24T07:24:46.895Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-x90-pro": {
     "colors": "Legendary Black",
+    "build": "Vegan leather",
     "os": "Funtouch OS 13 (Based on Android 13.0)",
-    "chip": "MediaTek Dimensity 9200",
+    "chip": "Dimensity 9200 5G Mobile Platform",
     "ram": "12 GB",
-    "ramType": "LPDDR5X*Actual network functionality is subject to carrier network availability, infrastructure support and software version of the mobile phone.",
-    "storageType": "UFS 4.0",
-    "battery": "Equivalent 4870 mAh (TYP)*The rated battery capacity is 4700 mAh.",
-    "charging": "120W Dual-Cell FlashCharge*X90 Pro is equipped with vivo standard charger (FlashCharge adapter 20V / 6A), and supports up to 120W. The actual charging power is dynamically adjusted as the scene changes, and subject to actual use.",
-    "dimensions": "16.407cm*7.453cm*0.934cm (164.07*74.53*9.34mm)",
+    "storage": "256 GB*Actual available RAM/ROM is less due to the storage of the operating system and pre-installed apps.",
+    "battery": "Typical capacity: 2435 mAh (7.78V), equivalent to 4870 mAh (3.89V). Typical energy: 18.94 Wh. Rated capacity: 2350 mAh (7.78V), equivalent to 4700 mAh (3.89V). Rated energy: 18.47 Wh.*The rated baterry capacity is 4700 mAh.",
+    "charging": "120W FlashCharge, 50W Wireless FlashCharge*X90 Pro is equipped with vivo standard charger (FlashCharge adapter 20V / 6A), and supports up to 120W. The actual charging power is dynamically adjusted as the scene changes, and subject to actual use.",
+    "dimensions": "164.07×74.53×9.34 mm",
     "weight": "214.85g*Actual dimensions and weight may differ due to variations in processes, measurement method, and material supplies.",
-    "screen": "6.78-inch",
+    "screen": "6.78-inch AMOLED",
     "resolution": "2800×1260 (FHD+)",
-    "refreshRate": "120Hz",
-    "camera": "50 MP ,1.638cm (1-inch) sensor (IMX989), OIS + 50 MP Portrait OIS (IMX758) + 12 MP Ultra-Wide (IMX663)",
-    "selfie": "32 MP",
-    "cameraDetails": "Front f/2.45 (32 MP), Rear f/1.75 (50 MP) + f/1.6 (50 MP Portrait) + f/2.0 (12 MP Wide-Angle)",
+    "camera": "50MP + 50MP + 12MP",
+    "selfie": "32MP",
+    "cameraDetails": "Front f/2.45 (32MP), Rear f/1.75 (50MP) + f/1.6 (50MP) + f/2.0 (12MP)",
+    "sim": "Dual Nano SIM (SIM 1 + SIM 2) or Single Nano SIM + eSIM",
     "network": "5G, 4G LTE (regional bands listed)",
-    "bands": "NSA:n1/n2/n3/n5/n7/n8/n20/n28/n66/n38/n40/n41/n77/n78/n79 SA:n1/n2/n3/n5/n7/n8/n20/n28/n66/n71/n38/n40/n41/n75/n77 /n78/n79; B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B18/B19/B20/B25/B26 /B28/B32/B66",
-    "wifi": "Wi-Fi 6, Wi-Fi 5, 2.4GHz,5GHz,Wi-Fi Display, 2×2 MIMO, MU MIMO",
+    "bands": "n1/n2/n3/n5/n7/n8/n20/n28/n66/n38/n40/n41/n71/n75/n77/n78/n79 *n71/n75 only support SA*Actual network functionality is subject to carrier network availability, infrastructure support and software version of the mobile phone.; B1/B2/B3/B4/B5/B7/B8/B12/B13/B17/B18/B19/B20/B25/B26/B28/B32/B66; B38/B39/B40/B41/B42",
+    "wifi": "Wi-Fi 6, Wi-Fi 5, 2.4G/5G, Wi-Fi Display, 2×2 MIMO, MU MIMO",
     "bluetooth": "Bluetooth 5.3",
-    "usb": "USB Type-C, USB3.2 Gen1",
+    "usb": "USB Type-C, USB 3.2 Gen1",
     "nfc": "Supported",
     "gps": "Supported",
     "sensors": "Supported; Supported; Supported",
-    "sourceUrl": "https://www.vivo.com/in/products/param/x90-pro",
-    "verifiedSource": "Vivo IN",
+    "sourceUrl": "https://www.vivo.com/en/products/param/x90-pro",
+    "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-20T07:23:29.415Z",
-    "variantDetails": "Specifications from Vivo IN; hardware, memory, networks and software can differ by region."
+    "verifiedAt": "2026-11-24T07:24:45.298Z",
+    "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-x90": {
     "colors": "Asteroid Black, Breeze Blue",
@@ -672,7 +672,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y02s",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:29.353Z",
+    "verifiedAt": "2026-11-24T07:24:47.514Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y02t": {
@@ -702,7 +702,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y02t",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:29.476Z",
+    "verifiedAt": "2026-11-24T07:24:49.304Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y100a": {
@@ -732,7 +732,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y100a",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:30.366Z",
+    "verifiedAt": "2026-11-24T07:24:52.119Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y15s": {
@@ -762,7 +762,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y15s",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:31.011Z",
+    "verifiedAt": "2026-11-24T07:24:51.874Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y11": {
@@ -791,7 +791,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y11",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:30.116Z",
+    "verifiedAt": "2026-11-24T07:24:51.792Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y16": {
@@ -821,7 +821,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y16",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:31.025Z",
+    "verifiedAt": "2026-11-24T07:24:52.735Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y17s": {
@@ -889,7 +889,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y17",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:31.189Z",
+    "verifiedAt": "2026-11-24T07:24:53.347Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y21": {
@@ -919,7 +919,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y21",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:32.131Z",
+    "verifiedAt": "2026-11-24T07:24:54.498Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y27": {
@@ -950,7 +950,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y27",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:32.931Z",
+    "verifiedAt": "2026-11-24T07:24:55.496Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y22": {
@@ -980,7 +980,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y22",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:32.916Z",
+    "verifiedAt": "2026-11-24T07:24:54.483Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y27s": {
@@ -1018,7 +1018,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y27s",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:33.587Z",
+    "verifiedAt": "2026-11-24T07:24:56.992Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y22s": {
@@ -1049,7 +1049,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y22s",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:32.961Z",
+    "verifiedAt": "2026-11-24T07:24:55.591Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y27-5g": {
@@ -1080,7 +1080,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y27-5g",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:32.855Z",
+    "verifiedAt": "2026-11-24T07:24:56.740Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y35": {
@@ -1111,7 +1111,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y35",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:34.299Z",
+    "verifiedAt": "2026-11-24T07:24:57.593Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y30-5g": {
@@ -1141,7 +1141,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y30-5g",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:33.628Z",
+    "verifiedAt": "2026-11-24T07:24:58.270Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y31": {
@@ -1170,7 +1170,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y31",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:33.706Z",
+    "verifiedAt": "2026-11-24T07:24:57.604Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y51": {
@@ -1198,7 +1198,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y51",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:35.023Z",
+    "verifiedAt": "2026-11-24T07:24:59.368Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y36-5g": {
@@ -1229,7 +1229,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y36-5g",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:34.315Z",
+    "verifiedAt": "2026-11-24T07:24:58.893Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y36": {
@@ -1259,7 +1259,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y36",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:34.482Z",
+    "verifiedAt": "2026-11-24T07:24:57.717Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y71": {
@@ -1287,7 +1287,7 @@
     "sourceUrl": "https://www.vivo.com/en/products/param/y71",
     "verifiedSource": "Vivo EN",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-13T07:20:35.113Z",
+    "verifiedAt": "2026-11-24T07:25:01.221Z",
     "variantDetails": "Specifications from Vivo EN; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-t2-5g": {
@@ -2180,7 +2180,7 @@
     "sourceUrl": "https://www.vivo.com/id/products/param/v50",
     "verifiedSource": "Vivo ID",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-17T07:24:45.708Z",
+    "verifiedAt": "2026-11-24T07:25:21.315Z",
     "variantDetails": "Specifications from Vivo ID; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-vivo-v50-lite-5g": {
@@ -2201,7 +2201,7 @@
     "sourceUrl": "https://www.vivo.com/id/products/param/v50-lite-5g",
     "verifiedSource": "Vivo ID",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-17T07:24:48.260Z",
+    "verifiedAt": "2026-11-24T07:25:23.275Z",
     "variantDetails": "Specifications from Vivo ID; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-vivo-v50-lite": {
@@ -2222,7 +2222,7 @@
     "sourceUrl": "https://www.vivo.com/id/products/param/v50-lite",
     "verifiedSource": "Vivo ID",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-17T07:24:48.295Z",
+    "verifiedAt": "2026-11-24T07:25:23.199Z",
     "variantDetails": "Specifications from Vivo ID; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-v60-lite": {
@@ -2243,7 +2243,7 @@
     "sourceUrl": "https://www.vivo.com/id/products/param/v60-lite",
     "verifiedSource": "Vivo ID",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-17T07:24:47.919Z",
+    "verifiedAt": "2026-11-24T07:25:24.906Z",
     "variantDetails": "Specifications from Vivo ID; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y03": {
@@ -2262,7 +2262,7 @@
     "sourceUrl": "https://www.vivo.com/id/products/param/y03",
     "verifiedSource": "Vivo ID",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-17T07:25:00.291Z",
+    "verifiedAt": "2026-11-24T07:25:47.321Z",
     "variantDetails": "Specifications from Vivo ID; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y03t": {
@@ -2281,7 +2281,7 @@
     "sourceUrl": "https://www.vivo.com/id/products/param/y03t",
     "verifiedSource": "Vivo ID",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-17T07:24:59.284Z",
+    "verifiedAt": "2026-11-24T07:25:42.376Z",
     "variantDetails": "Specifications from Vivo ID; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y05": {
@@ -2300,7 +2300,7 @@
     "sourceUrl": "https://www.vivo.com/id/products/param/y05",
     "verifiedSource": "Vivo ID",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-17T07:25:01.716Z",
+    "verifiedAt": "2026-11-24T07:25:42.393Z",
     "variantDetails": "Specifications from Vivo ID; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y12": {
@@ -2317,7 +2317,7 @@
     "sourceUrl": "https://www.vivo.com/id/products/param/y12",
     "verifiedSource": "Vivo ID",
     "dataQuality": "official-specifications-regional-variant",
-    "verifiedAt": "2026-11-17T07:25:05.023Z",
+    "verifiedAt": "2026-11-24T07:25:49.073Z",
     "variantDetails": "Specifications from Vivo ID; hardware, memory, networks and software can differ by region."
   },
   "open-vivo-y15": {
