@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T06:46:18.078Z",
-  "nextOffset": 144,
+  "updatedAt": "2026-11-24T06:33:11.212Z",
+  "nextOffset": 156,
   "devices": {
     "apple-iphone-17e": {
       "id": "apple-iphone-17e",
@@ -716,12 +716,54 @@
       "sourceVerifiedAt": "2026-11-22T06:33:23.628Z",
       "verification": "model-name + manufacturer-source + Commons-license",
       "motion": "gentle-float"
+    },
+    "samsung-galaxy-a32": {
+      "id": "samsung-galaxy-a32",
+      "name": "Galaxy A32",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-a32.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Samsung-Galaxy-A32-2021.jpg",
+      "author": "OnoMaker 12345",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://www.samsung.com/au/business/smartphones/galaxy-a/galaxy-a32-sm-a325fzkhs03/",
+      "sourceVerifiedAt": "2026-11-24T06:33:11.961Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "samsung-galaxy-a50": {
+      "id": "samsung-galaxy-a50",
+      "name": "Galaxy A50",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-a50.png",
+      "source": "https://commons.wikimedia.org/wiki/File:A_vector_illustration_of_the_front_of_the_Samsung_Galaxy_A50_in_Blue_3.png",
+      "author": "Imamul Ifaz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://news.samsung.com/global/samsung-announces-new-galaxy-a-series-with-upgrades-to-essential-features",
+      "sourceVerifiedAt": "2026-11-24T06:33:18.329Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "samsung-galaxy-a52": {
+      "id": "samsung-galaxy-a52",
+      "name": "Galaxy A52",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-a52.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Samsung-Galaxy-A52-Awesome-White.jpg",
+      "author": "Samsung",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://www.samsung.com/ae/smartphones/galaxy-a/galaxy-a52-awesome-violet-128gb-sm-a525flvhmea/",
+      "sourceVerifiedAt": "2026-11-24T06:33:21.355Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
     }
   },
   "statistics": {
     "eligible": 319,
     "checked": 12,
-    "accepted": 0,
-    "skipped": 12
+    "accepted": 3,
+    "skipped": 9
   }
 }
