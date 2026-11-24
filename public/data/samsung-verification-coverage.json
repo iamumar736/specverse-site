@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T05:45:39.265Z",
+  "checkedAt": "2026-11-24T05:38:47.934Z",
   "total": 184,
   "verified": 94,
   "regionalOfficial": 73,
@@ -462,8 +462,8 @@
   "checkedThisRun": 24,
   "newlyVerified": 0,
   "regionsScanned": [
-    "th",
-    "vn",
-    "za"
+    "pk",
+    "sg",
+    "uk"
   ]
 }
