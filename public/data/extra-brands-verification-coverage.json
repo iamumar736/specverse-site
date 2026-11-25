@@ -581,7 +581,7 @@
     "total": 227,
     "verified": 10,
     "checkedThisRun": 8,
-    "addedThisRun": 4,
+    "addedThisRun": 0,
     "failedRequests": 0,
     "missing": [
       "CAMON",
@@ -809,7 +809,7 @@
     "verified": 4,
     "checkedThisRun": 8,
     "addedThisRun": 0,
-    "failedRequests": 4,
+    "failedRequests": 2,
     "missing": [
       "A05S",
       "A11",
