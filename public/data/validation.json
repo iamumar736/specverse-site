@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T04:14:31.216Z",
+  "checkedAt": "2026-11-25T04:22:56.025Z",
   "deviceCount": 6795,
   "errors": [],
   "warnings": [
@@ -104,5 +104,5 @@
     "Model has no specifications open-itel-a22",
     "Model has no specifications open-itel-a22-pro"
   ],
-  "warningCount": 6049
+  "warningCount": 6045
 }
