@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T06:33:11.212Z",
-  "nextOffset": 156,
+  "updatedAt": "2026-11-25T06:33:27.695Z",
+  "nextOffset": 168,
   "devices": {
     "apple-iphone-17e": {
       "id": "apple-iphone-17e",
@@ -758,12 +758,26 @@
       "sourceVerifiedAt": "2026-11-24T06:33:21.355Z",
       "verification": "model-name + manufacturer-source + Commons-license",
       "motion": "gentle-float"
+    },
+    "samsung-galaxy-m32": {
+      "id": "samsung-galaxy-m32",
+      "name": "Galaxy M32",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-m32.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_M32.jpg",
+      "author": "Blue Mango Juice",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://www.samsung.com/ae/business/smartphones/galaxy-m/galaxy-m32-blue-128gb-sm-m325flbgmea/",
+      "sourceVerifiedAt": "2026-11-25T06:33:41.220Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
     }
   },
   "statistics": {
     "eligible": 319,
     "checked": 12,
-    "accepted": 3,
-    "skipped": 9
+    "accepted": 1,
+    "skipped": 11
   }
 }
