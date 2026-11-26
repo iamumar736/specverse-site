@@ -579,9 +579,9 @@
   },
   "Tecno": {
     "total": 227,
-    "verified": 10,
+    "verified": 13,
     "checkedThisRun": 8,
-    "addedThisRun": 0,
+    "addedThisRun": 3,
     "failedRequests": 0,
     "missing": [
       "CAMON",
@@ -707,9 +707,6 @@
       "TECNO Mobile SPARK 8C",
       "TECNO Mobile SPARK 8T",
       "TECNO Mobile SPARK Go 1",
-      "TECNO PHANTOM V Flip2 5G",
-      "TECNO PHANTOM V Fold",
-      "TECNO PHANTOM V Fold2 5G",
       "TECNO POP 10",
       "TECNO POP 2 Air",
       "TECNO POP 20",
@@ -809,7 +806,7 @@
     "verified": 4,
     "checkedThisRun": 8,
     "addedThisRun": 0,
-    "failedRequests": 2,
+    "failedRequests": 0,
     "missing": [
       "A05S",
       "A11",
