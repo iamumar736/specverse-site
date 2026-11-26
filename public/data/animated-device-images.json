@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T06:33:27.695Z",
-  "nextOffset": 168,
+  "updatedAt": "2026-11-26T06:34:48.165Z",
+  "nextOffset": 180,
   "devices": {
     "apple-iphone-17e": {
       "id": "apple-iphone-17e",
@@ -772,12 +772,40 @@
       "sourceVerifiedAt": "2026-11-25T06:33:41.220Z",
       "verification": "model-name + manufacturer-source + Commons-license",
       "motion": "gentle-float"
+    },
+    "samsung-galaxy-s10": {
+      "id": "samsung-galaxy-s10",
+      "name": "Galaxy S10",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-s10.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S10%2B.png",
+      "author": "TheWikiContributor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://news.samsung.com/global/samsung-raises-the-bar-with-galaxy-s10-more-screen-cameras-and-choices",
+      "sourceVerifiedAt": "2026-11-26T06:34:57.005Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "samsung-galaxy-s20": {
+      "id": "samsung-galaxy-s20",
+      "name": "Galaxy S20",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-s20.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Galaxy_S20.png",
+      "author": "GadgetsGuy",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "manufacturerSource": "https://news.samsung.com/global/introducing-the-samsung-galaxy-s20-change-the-way-you-experience-the-world",
+      "sourceVerifiedAt": "2026-11-26T06:34:58.788Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
     }
   },
   "statistics": {
     "eligible": 319,
     "checked": 12,
-    "accepted": 1,
-    "skipped": 11
+    "accepted": 2,
+    "skipped": 10
   }
 }
