@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-26T04:18:17.831Z",
+  "generatedAt": "2026-11-27T04:21:46.514Z",
   "mode": "automatic",
   "catalog": {
     "total": 6795,
     "brands": 50,
-    "withManufacturerSources": 340,
-    "withoutKnownTechnicalFields": 6045
+    "withManufacturerSources": 343,
+    "withoutKnownTechnicalFields": 6042
   },
   "officialCoverage": {
     "Apple": {
@@ -34,7 +34,7 @@
     },
     "Tecno": {
       "tracked": 227,
-      "sourceVerified": 10
+      "sourceVerified": 13
     },
     "Itel": {
       "tracked": 180,
@@ -47,10 +47,10 @@
     "vivoMissing": 284,
     "xiaomiMissing": 387,
     "infinixMissing": 171,
-    "tecnoMissing": 217,
+    "tecnoMissing": 214,
     "itelMissing": 176
   },
-  "lastCatalogCheck": "2026-11-26T04:18:17.655Z",
+  "lastCatalogCheck": "2026-11-27T04:21:46.360Z",
   "verifiedFeedConfigured": false,
   "priceNote": "Current market prices require separately licensed retailer sources; no auto-generated exchange-rate prices.",
   "sourceNote": "Manufacturer verified entries and publicly discovered identities have different confidence levels. Missing specs remain unavailable.",
