@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T06:34:48.165Z",
-  "nextOffset": 180,
+  "updatedAt": "2026-11-27T06:36:30.386Z",
+  "nextOffset": 192,
   "devices": {
     "apple-iphone-17e": {
       "id": "apple-iphone-17e",
@@ -800,12 +800,68 @@
       "sourceVerifiedAt": "2026-11-26T06:34:58.788Z",
       "verification": "model-name + manufacturer-source + Commons-license",
       "motion": "gentle-float"
+    },
+    "samsung-galaxy-s20-ultra": {
+      "id": "samsung-galaxy-s20-ultra",
+      "name": "Galaxy S20 Ultra",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-s20-ultra.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S20_Ultra.png",
+      "author": "Louis PL",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://news.samsung.com/global/introducing-the-samsung-galaxy-s20-change-the-way-you-experience-the-world",
+      "sourceVerifiedAt": "2026-11-27T06:36:31.220Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "samsung-galaxy-s21": {
+      "id": "samsung-galaxy-s21",
+      "name": "Galaxy S21",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-s21.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Galaxy_S21.jpg",
+      "author": "TGspot.co.il - (Galaxy S21 Review)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://news.samsung.com/uk/make-every-day-epic-with-samsung-galaxy-s21-5g-and-galaxy-s21-5g",
+      "sourceVerifiedAt": "2026-11-27T06:36:32.526Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "samsung-galaxy-s21-ultra": {
+      "id": "samsung-galaxy-s21-ultra",
+      "name": "Galaxy S21 Ultra",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-s21-ultra.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Galaxy_S21_Ultra_vector.png",
+      "author": "User:Marcusph",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "manufacturerSource": "https://news.samsung.com/global/samsung-galaxy-s21-ultra-the-ultimate-smartphone-experience-designed-to-be-epic-in-every-way",
+      "sourceVerifiedAt": "2026-11-27T06:36:33.638Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
+    },
+    "samsung-galaxy-s23": {
+      "id": "samsung-galaxy-s23",
+      "name": "Galaxy S23",
+      "brand": "Samsung",
+      "image": "/device-visuals/samsung-galaxy-s23.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Galaxy_S23_(cropped).png",
+      "author": "Hajoon0102",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "manufacturerSource": "https://www.samsung.com/au/smartphones/galaxy-s/galaxy-s23-lime-128gb-sm-s911blgaats/",
+      "sourceVerifiedAt": "2026-11-27T06:36:36.979Z",
+      "verification": "model-name + manufacturer-source + Commons-license",
+      "motion": "gentle-float"
     }
   },
   "statistics": {
     "eligible": 319,
     "checked": 12,
-    "accepted": 2,
-    "skipped": 10
+    "accepted": 4,
+    "skipped": 8
   }
 }
