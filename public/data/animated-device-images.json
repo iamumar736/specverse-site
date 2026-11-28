@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T06:36:30.386Z",
-  "nextOffset": 192,
+  "updatedAt": "2026-11-28T06:35:35.892Z",
+  "nextOffset": 204,
   "devices": {
     "apple-iphone-17e": {
       "id": "apple-iphone-17e",
@@ -861,7 +861,7 @@
   "statistics": {
     "eligible": 319,
     "checked": 12,
-    "accepted": 4,
-    "skipped": 8
+    "accepted": 0,
+    "skipped": 12
   }
 }
