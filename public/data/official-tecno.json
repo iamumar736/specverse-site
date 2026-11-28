@@ -211,5 +211,22 @@
     "dataQuality": "official-specifications-regional-variant",
     "verifiedAt": "2026-11-26T08:35:11.860Z",
     "variantDetails": "Specifications from Tecno product page. Memory, camera configurations, radio bands and other technical data may differ by region."
+  },
+  "open-tecno-tecno-pop-8": {
+    "chip": "T606",
+    "screen": "6.6\"HD+Hole",
+    "resolution": "720*1612",
+    "camera": "Front: 8MP,",
+    "selfie": "8MP,",
+    "battery": "5000mAh",
+    "charging": "10W Charge Type",
+    "dimensions": "Composite Material: 163.69x75.6x8.55mm Magic Skin: 163.69x75.6x8.75mm",
+    "os": "Android T-Go",
+    "storage": "64GB",
+    "sourceUrl": "https://www.tecno-mobile.com/phones/tech-specs/techspecs/pop-8/",
+    "verifiedSource": "Tecno official reference",
+    "dataQuality": "official-specifications-regional-variant",
+    "verifiedAt": "2026-11-28T08:18:59.836Z",
+    "variantDetails": "Specifications from Tecno product page. Memory, camera configurations, radio bands and other technical data may differ by region."
   }
 }
